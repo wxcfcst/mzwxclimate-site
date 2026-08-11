@@ -1,0 +1,968 @@
+[
+  {
+    "province": "Cabo Delgado",
+    "district": "Ancuabe",
+    "lat": -13.0273,
+    "lon": 39.84144
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Balama",
+    "lat": -13.46224,
+    "lon": 38.40758
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Chiúre",
+    "lat": -13.482,
+    "lon": 39.69157
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Ibo",
+    "lat": -12.35,
+    "lon": 40.6
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Macomia",
+    "lat": -12.09114,
+    "lon": 40.21074
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Mecufi",
+    "lat": -13.32372,
+    "lon": 40.45493
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Meluco",
+    "lat": -12.46381,
+    "lon": 39.62366
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Metuge",
+    "lat": -12.972,
+    "lon": 40.329
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Mocimboa da Praia",
+    "lat": -11.43035,
+    "lon": 40.16611
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Montepuez",
+    "lat": -12.6039,
+    "lon": 38.72935
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Mueda",
+    "lat": -11.58789,
+    "lon": 39.13492
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Muidumbe",
+    "lat": -11.83272,
+    "lon": 39.82639
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Namuno",
+    "lat": -13.74155,
+    "lon": 38.89443
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Nangade",
+    "lat": -11.15287,
+    "lon": 39.77882
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Palma",
+    "lat": -10.86366,
+    "lon": 40.32313
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Pemba",
+    "lat": -12.90271,
+    "lon": 40.326
+  },
+  {
+    "province": "Cabo Delgado",
+    "district": "Quissanga",
+    "lat": -12.61994,
+    "lon": 40.31679
+  },
+  {
+    "province": "Gaza",
+    "district": "Bilene",
+    "lat": -25.02287,
+    "lon": 33.17372
+  },
+  {
+    "province": "Gaza",
+    "district": "Chibuto",
+    "lat": -24.30092,
+    "lon": 33.6115
+  },
+  {
+    "province": "Gaza",
+    "district": "Chicualacuala",
+    "lat": -22.71824,
+    "lon": 32.0331
+  },
+  {
+    "province": "Gaza",
+    "district": "Chigubo",
+    "lat": -22.91664,
+    "lon": 33.25303
+  },
+  {
+    "province": "Gaza",
+    "district": "Chongoene",
+    "lat": -25.033,
+    "lon": 33.654
+  },
+  {
+    "province": "Gaza",
+    "district": "Chókwè",
+    "lat": -24.56221,
+    "lon": 32.95557
+  },
+  {
+    "province": "Gaza",
+    "district": "Guijá",
+    "lat": -24.16777,
+    "lon": 33.12218
+  },
+  {
+    "province": "Gaza",
+    "district": "Limpopo",
+    "lat": -24.997,
+    "lon": 32.842
+  },
+  {
+    "province": "Gaza",
+    "district": "Mabalane",
+    "lat": -23.47947,
+    "lon": 32.73747
+  },
+  {
+    "province": "Gaza",
+    "district": "Mandlakazi",
+    "lat": -24.63165,
+    "lon": 34.0696
+  },
+  {
+    "province": "Gaza",
+    "district": "Mapai",
+    "lat": -22.837,
+    "lon": 31.963
+  },
+  {
+    "province": "Gaza",
+    "district": "Massangena",
+    "lat": -21.74851,
+    "lon": 32.58861
+  },
+  {
+    "province": "Gaza",
+    "district": "Massingir",
+    "lat": -23.86776,
+    "lon": 32.09323
+  },
+  {
+    "province": "Gaza",
+    "district": "Xai-Xai",
+    "lat": -25.01338,
+    "lon": 33.61478
+  },
+  {
+    "province": "Inhambane",
+    "district": "Funhalouro",
+    "lat": -23.05165,
+    "lon": 34.30249
+  },
+  {
+    "province": "Inhambane",
+    "district": "Govuro",
+    "lat": -21.31934,
+    "lon": 34.67313
+  },
+  {
+    "province": "Inhambane",
+    "district": "Homoine",
+    "lat": -23.87304,
+    "lon": 35.07095
+  },
+  {
+    "province": "Inhambane",
+    "district": "Inhambane",
+    "lat": -23.865,
+    "lon": 35.3833
+  },
+  {
+    "province": "Inhambane",
+    "district": "Inharrime",
+    "lat": -24.3987,
+    "lon": 34.77091
+  },
+  {
+    "province": "Inhambane",
+    "district": "Inhassoro",
+    "lat": -21.75018,
+    "lon": 34.8595
+  },
+  {
+    "province": "Inhambane",
+    "district": "Jangamo",
+    "lat": -24.12511,
+    "lon": 35.29666
+  },
+  {
+    "province": "Inhambane",
+    "district": "Mabote",
+    "lat": -22.0042,
+    "lon": 33.80011
+  },
+  {
+    "province": "Inhambane",
+    "district": "Massinga",
+    "lat": -22.83866,
+    "lon": 35.02007
+  },
+  {
+    "province": "Inhambane",
+    "district": "Maxixe",
+    "lat": -23.8597,
+    "lon": 35.3472
+  },
+  {
+    "province": "Inhambane",
+    "district": "Morrumbene",
+    "lat": -23.47299,
+    "lon": 35.09629
+  },
+  {
+    "province": "Inhambane",
+    "district": "Panda",
+    "lat": -24.01268,
+    "lon": 34.40246
+  },
+  {
+    "province": "Inhambane",
+    "district": "Vilanculos",
+    "lat": -22.30025,
+    "lon": 35.12495
+  },
+  {
+    "province": "Inhambane",
+    "district": "Zavala",
+    "lat": -24.64969,
+    "lon": 34.67028
+  },
+  {
+    "province": "Manica",
+    "district": "Barue",
+    "lat": -17.99331,
+    "lon": 33.22229
+  },
+  {
+    "province": "Manica",
+    "district": "Chimoio",
+    "lat": -19.1164,
+    "lon": 33.4833
+  },
+  {
+    "province": "Manica",
+    "district": "Gondola",
+    "lat": -19.15104,
+    "lon": 33.66078
+  },
+  {
+    "province": "Manica",
+    "district": "Guro",
+    "lat": -16.97089,
+    "lon": 33.53721
+  },
+  {
+    "province": "Manica",
+    "district": "Macate",
+    "lat": -19.05,
+    "lon": 33.5
+  },
+  {
+    "province": "Manica",
+    "district": "Machaze",
+    "lat": -21.04375,
+    "lon": 33.27065
+  },
+  {
+    "province": "Manica",
+    "district": "Macossa",
+    "lat": -17.9101,
+    "lon": 33.78782
+  },
+  {
+    "province": "Manica",
+    "district": "Manica",
+    "lat": -18.83044,
+    "lon": 33.10615
+  },
+  {
+    "province": "Manica",
+    "district": "Mossurize",
+    "lat": -20.51424,
+    "lon": 32.94445
+  },
+  {
+    "province": "Manica",
+    "district": "Sussundenga",
+    "lat": -19.6715,
+    "lon": 33.263
+  },
+  {
+    "province": "Manica",
+    "district": "Tambara",
+    "lat": -16.96149,
+    "lon": 34.10581
+  },
+  {
+    "province": "Manica",
+    "district": "Vanduzi",
+    "lat": -18.979,
+    "lon": 33.357
+  },
+  {
+    "province": "Maputo",
+    "district": "Boane",
+    "lat": -26.02887,
+    "lon": 32.35406
+  },
+  {
+    "province": "Maputo",
+    "district": "Magude",
+    "lat": -24.70202,
+    "lon": 32.43947
+  },
+  {
+    "province": "Maputo",
+    "district": "Manhiça",
+    "lat": -25.30921,
+    "lon": 32.82544
+  },
+  {
+    "province": "Maputo",
+    "district": "Marracuene",
+    "lat": -25.65302,
+    "lon": 32.71315
+  },
+  {
+    "province": "Maputo",
+    "district": "Matola",
+    "lat": -25.9622,
+    "lon": 32.4589
+  },
+  {
+    "province": "Maputo",
+    "district": "Matutuíne",
+    "lat": -26.52683,
+    "lon": 32.56176
+  },
+  {
+    "province": "Maputo",
+    "district": "Moamba",
+    "lat": -25.34334,
+    "lon": 32.25305
+  },
+  {
+    "province": "Maputo",
+    "district": "Namaacha",
+    "lat": -26.05949,
+    "lon": 32.1614
+  },
+  {
+    "province": "Maputo City",
+    "district": "Boane",
+    "lat": -25.8283,
+    "lon": 32.4718
+  },
+  {
+    "province": "Maputo City",
+    "district": "KaMavota",
+    "lat": -25.85,
+    "lon": 32.6
+  },
+  {
+    "province": "Maputo City",
+    "district": "KaMaxaquene",
+    "lat": -25.95,
+    "lon": 32.59
+  },
+  {
+    "province": "Maputo City",
+    "district": "KaMpfumo",
+    "lat": -25.968,
+    "lon": 32.573
+  },
+  {
+    "province": "Maputo City",
+    "district": "KaMubukwana",
+    "lat": -25.9,
+    "lon": 32.5
+  },
+  {
+    "province": "Maputo City",
+    "district": "Maputo",
+    "lat": -25.90548,
+    "lon": 32.5871
+  },
+  {
+    "province": "Maputo City",
+    "district": "Nlhamankulu",
+    "lat": -25.965,
+    "lon": 32.55
+  },
+  {
+    "province": "Nampula",
+    "district": "Angoche",
+    "lat": -16.09188,
+    "lon": 39.80431
+  },
+  {
+    "province": "Nampula",
+    "district": "Erati",
+    "lat": -14.33492,
+    "lon": 39.90674
+  },
+  {
+    "province": "Nampula",
+    "district": "Ilha de Moçambique",
+    "lat": -15.0342,
+    "lon": 40.7358
+  },
+  {
+    "province": "Nampula",
+    "district": "Lalaua",
+    "lat": -14.43361,
+    "lon": 38.12796
+  },
+  {
+    "province": "Nampula",
+    "district": "Larde",
+    "lat": -14.99,
+    "lon": 40.62
+  },
+  {
+    "province": "Nampula",
+    "district": "Liupo",
+    "lat": -14.87,
+    "lon": 40.12
+  },
+  {
+    "province": "Nampula",
+    "district": "Malema",
+    "lat": -14.79815,
+    "lon": 37.39235
+  },
+  {
+    "province": "Nampula",
+    "district": "Meconta",
+    "lat": -15.28163,
+    "lon": 39.64681
+  },
+  {
+    "province": "Nampula",
+    "district": "Mecuburi",
+    "lat": -14.47466,
+    "lon": 38.91596
+  },
+  {
+    "province": "Nampula",
+    "district": "Memba",
+    "lat": -14.0385,
+    "lon": 40.38595
+  },
+  {
+    "province": "Nampula",
+    "district": "Mogovolas",
+    "lat": -15.73673,
+    "lon": 39.2598
+  },
+  {
+    "province": "Nampula",
+    "district": "Moma",
+    "lat": -16.35572,
+    "lon": 39.26948
+  },
+  {
+    "province": "Nampula",
+    "district": "Monapo",
+    "lat": -14.79149,
+    "lon": 40.13437
+  },
+  {
+    "province": "Nampula",
+    "district": "Mongincual",
+    "lat": -15.53872,
+    "lon": 40.08603
+  },
+  {
+    "province": "Nampula",
+    "district": "Mossuril",
+    "lat": -15.05963,
+    "lon": 40.51838
+  },
+  {
+    "province": "Nampula",
+    "district": "Muecate",
+    "lat": -14.68084,
+    "lon": 39.53256
+  },
+  {
+    "province": "Nampula",
+    "district": "Murrupula",
+    "lat": -15.3998,
+    "lon": 38.66165
+  },
+  {
+    "province": "Nampula",
+    "district": "Nacala Porto",
+    "lat": -14.5428,
+    "lon": 40.6729
+  },
+  {
+    "province": "Nampula",
+    "district": "Nacala Velha",
+    "lat": -14.55712,
+    "lon": 40.53373
+  },
+  {
+    "province": "Nampula",
+    "district": "Namapa",
+    "lat": -13.88137,
+    "lon": 39.85206
+  },
+  {
+    "province": "Nampula",
+    "district": "Nampula",
+    "lat": -15.12448,
+    "lon": 39.13815
+  },
+  {
+    "province": "Nampula",
+    "district": "Rapale",
+    "lat": -15.06,
+    "lon": 39.23
+  },
+  {
+    "province": "Nampula",
+    "district": "Ribaue",
+    "lat": -15.00598,
+    "lon": 38.19628
+  },
+  {
+    "province": "Niassa",
+    "district": "Chimbonila",
+    "lat": -13.37,
+    "lon": 35.35
+  },
+  {
+    "province": "Niassa",
+    "district": "Cuamba",
+    "lat": -14.74714,
+    "lon": 36.54459
+  },
+  {
+    "province": "Niassa",
+    "district": "Lago",
+    "lat": -12.30563,
+    "lon": 34.83866
+  },
+  {
+    "province": "Niassa",
+    "district": "Lichinga",
+    "lat": -13.3128,
+    "lon": 35.2406
+  },
+  {
+    "province": "Niassa",
+    "district": "Majune",
+    "lat": -13.31889,
+    "lon": 36.37372
+  },
+  {
+    "province": "Niassa",
+    "district": "Mandimba",
+    "lat": -14.14181,
+    "lon": 35.98005
+  },
+  {
+    "province": "Niassa",
+    "district": "Marrupa",
+    "lat": -13.0286,
+    "lon": 37.52022
+  },
+  {
+    "province": "Niassa",
+    "district": "Mavago",
+    "lat": -12.23383,
+    "lon": 36.40543
+  },
+  {
+    "province": "Niassa",
+    "district": "Maúa",
+    "lat": -13.90136,
+    "lon": 37.04244
+  },
+  {
+    "province": "Niassa",
+    "district": "Mecanhelas",
+    "lat": -14.84326,
+    "lon": 35.99436
+  },
+  {
+    "province": "Niassa",
+    "district": "Mecula",
+    "lat": -11.95725,
+    "lon": 37.5663
+  },
+  {
+    "province": "Niassa",
+    "district": "Metarica",
+    "lat": -14.32292,
+    "lon": 36.86237
+  },
+  {
+    "province": "Niassa",
+    "district": "Muembe",
+    "lat": -12.82514,
+    "lon": 35.81271
+  },
+  {
+    "province": "Niassa",
+    "district": "N'gauma",
+    "lat": -13.81955,
+    "lon": 35.57025
+  },
+  {
+    "province": "Niassa",
+    "district": "Nipepe",
+    "lat": -13.98525,
+    "lon": 37.90256
+  },
+  {
+    "province": "Niassa",
+    "district": "Sanga",
+    "lat": -12.18397,
+    "lon": 35.55616
+  },
+  {
+    "province": "Sofala",
+    "district": "Beira",
+    "lat": -19.8436,
+    "lon": 34.8389
+  },
+  {
+    "province": "Sofala",
+    "district": "Buzi",
+    "lat": -20.02675,
+    "lon": 34.35981
+  },
+  {
+    "province": "Sofala",
+    "district": "Caia",
+    "lat": -17.78309,
+    "lon": 35.00439
+  },
+  {
+    "province": "Sofala",
+    "district": "Chemba",
+    "lat": -17.20452,
+    "lon": 34.63
+  },
+  {
+    "province": "Sofala",
+    "district": "Cheringoma",
+    "lat": -18.52858,
+    "lon": 35.22403
+  },
+  {
+    "province": "Sofala",
+    "district": "Chibabava",
+    "lat": -20.3919,
+    "lon": 33.8863
+  },
+  {
+    "province": "Sofala",
+    "district": "Dondo",
+    "lat": -19.54376,
+    "lon": 34.84693
+  },
+  {
+    "province": "Sofala",
+    "district": "Gorongosa",
+    "lat": -18.61312,
+    "lon": 34.21451
+  },
+  {
+    "province": "Sofala",
+    "district": "Machanga",
+    "lat": -20.91345,
+    "lon": 34.51903
+  },
+  {
+    "province": "Sofala",
+    "district": "Maringue",
+    "lat": -17.85833,
+    "lon": 34.48515
+  },
+  {
+    "province": "Sofala",
+    "district": "Marromeu",
+    "lat": -18.43717,
+    "lon": 35.75684
+  },
+  {
+    "province": "Sofala",
+    "district": "Muanza",
+    "lat": -19.08385,
+    "lon": 35.05561
+  },
+  {
+    "province": "Sofala",
+    "district": "Nhamatanda",
+    "lat": -19.33342,
+    "lon": 34.23954
+  },
+  {
+    "province": "Tete",
+    "district": "Angónia",
+    "lat": -14.67292,
+    "lon": 34.16026
+  },
+  {
+    "province": "Tete",
+    "district": "Cahora Bassa",
+    "lat": -16.02602,
+    "lon": 32.50524
+  },
+  {
+    "province": "Tete",
+    "district": "Changara",
+    "lat": -16.41582,
+    "lon": 33.15795
+  },
+  {
+    "province": "Tete",
+    "district": "Chifunde",
+    "lat": -14.61414,
+    "lon": 32.82838
+  },
+  {
+    "province": "Tete",
+    "district": "Chiuta",
+    "lat": -15.45116,
+    "lon": 33.44237
+  },
+  {
+    "province": "Tete",
+    "district": "Doa",
+    "lat": -16.45,
+    "lon": 33.17
+  },
+  {
+    "province": "Tete",
+    "district": "Macanga",
+    "lat": -14.80195,
+    "lon": 33.53507
+  },
+  {
+    "province": "Tete",
+    "district": "Magoe",
+    "lat": -15.90234,
+    "lon": 31.36317
+  },
+  {
+    "province": "Tete",
+    "district": "Marara",
+    "lat": -15.92,
+    "lon": 32.97
+  },
+  {
+    "province": "Tete",
+    "district": "Maravia",
+    "lat": -15.08633,
+    "lon": 32.06495
+  },
+  {
+    "province": "Tete",
+    "district": "Moatize",
+    "lat": -15.96204,
+    "lon": 33.98356
+  },
+  {
+    "province": "Tete",
+    "district": "Mutarara",
+    "lat": -16.87087,
+    "lon": 34.77776
+  },
+  {
+    "province": "Tete",
+    "district": "Tete",
+    "lat": -16.1564,
+    "lon": 33.5867
+  },
+  {
+    "province": "Tete",
+    "district": "Tsangano",
+    "lat": -15.12521,
+    "lon": 34.34323
+  },
+  {
+    "province": "Tete",
+    "district": "Zumbu",
+    "lat": -15.22858,
+    "lon": 30.93337
+  },
+  {
+    "province": "Zambezia",
+    "district": "Alto Molocue",
+    "lat": -15.64845,
+    "lon": 37.66427
+  },
+  {
+    "province": "Zambezia",
+    "district": "Chinde",
+    "lat": -18.37497,
+    "lon": 36.33384
+  },
+  {
+    "province": "Zambezia",
+    "district": "Derre",
+    "lat": -16.37,
+    "lon": 37.85
+  },
+  {
+    "province": "Zambezia",
+    "district": "Gile",
+    "lat": -15.92844,
+    "lon": 38.30647
+  },
+  {
+    "province": "Zambezia",
+    "district": "Gurue",
+    "lat": -15.34827,
+    "lon": 36.94792
+  },
+  {
+    "province": "Zambezia",
+    "district": "Ile",
+    "lat": -16.17758,
+    "lon": 37.46558
+  },
+  {
+    "province": "Zambezia",
+    "district": "Inhassunge",
+    "lat": -18.05179,
+    "lon": 36.80524
+  },
+  {
+    "province": "Zambezia",
+    "district": "Luabo",
+    "lat": -18.12,
+    "lon": 36.45
+  },
+  {
+    "province": "Zambezia",
+    "district": "Lugela",
+    "lat": -16.30433,
+    "lon": 36.65238
+  },
+  {
+    "province": "Zambezia",
+    "district": "Maganja da Costa",
+    "lat": -17.10673,
+    "lon": 37.62566
+  },
+  {
+    "province": "Zambezia",
+    "district": "Milange",
+    "lat": -16.01382,
+    "lon": 35.99001
+  },
+  {
+    "province": "Zambezia",
+    "district": "Mocuba",
+    "lat": -16.85302,
+    "lon": 36.86372
+  },
+  {
+    "province": "Zambezia",
+    "district": "Mocubela",
+    "lat": -16.0833,
+    "lon": 36.9833
+  },
+  {
+    "province": "Zambezia",
+    "district": "Molumbo",
+    "lat": -15.6,
+    "lon": 37.68
+  },
+  {
+    "province": "Zambezia",
+    "district": "Mopeia",
+    "lat": -17.83105,
+    "lon": 36.06015
+  },
+  {
+    "province": "Zambezia",
+    "district": "Morrumbala",
+    "lat": -17.05586,
+    "lon": 35.79024
+  },
+  {
+    "province": "Zambezia",
+    "district": "Mulevala",
+    "lat": -15.7,
+    "lon": 36.85
+  },
+  {
+    "province": "Zambezia",
+    "district": "Namacurra",
+    "lat": -17.48064,
+    "lon": 37.07551
+  },
+  {
+    "province": "Zambezia",
+    "district": "Namarroi",
+    "lat": -15.85397,
+    "lon": 36.80573
+  },
+  {
+    "province": "Zambezia",
+    "district": "Nicoadala",
+    "lat": -17.62341,
+    "lon": 36.74954
+  },
+  {
+    "province": "Zambezia",
+    "district": "Pebane",
+    "lat": -16.71909,
+    "lon": 38.53995
+  },
+  {
+    "province": "Zambezia",
+    "district": "Quelimane",
+    "lat": -17.8786,
+    "lon": 36.8883
+  }
+]

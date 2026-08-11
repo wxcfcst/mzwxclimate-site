@@ -1,0 +1,267 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MZ WX & Climate - Previsão Sazonal</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<main>
+
+    <!-- =========================================================
+         TÍTULO DA PÁGINA
+         ========================================================= -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <h2>Previsão Climática Sazonal</h2>
+
+                <p>
+                    Previsões sazonais de precipitação para Moçambique
+                    baseadas em CCA e sistemas multimodelo.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SELEÇÃO DOS PRODUTOS
+         ========================================================= -->
+
+    <section class="container">
+
+        <h2 class="section-title">
+            Produtos de Previsão
+        </h2>
+
+
+        <!-- Campo de seleção -->
+
+        <div style="max-width:700px; margin:30px auto; text-align:center;">
+
+            <label
+                for="forecast-select"
+                style="display:block; margin-bottom:10px; font-weight:600;"
+            >
+                Selecione o produto de previsão:
+            </label>
+
+
+            <select
+                id="forecast-select"
+                onchange="showForecast(this.value)"
+                style="
+                    width:100%;
+                    padding:12px;
+                    font-size:16px;
+                    border-radius:6px;
+                    border:1px solid #ccc;
+                "
+            >
+
+                <!-- Nenhum produto selecionado inicialmente -->
+
+                <option value="" selected>
+                    -- Selecione um produto --
+                </option>
+
+
+                <!-- Produtos disponíveis -->
+
+                <option value="ensemble_skill">
+                    📊 Destreza do Ensemble
+                </option>
+
+
+                <option value="ensemble_forecast">
+                    🌧️ Previsão do Ensemble
+                </option>
+
+
+                <option value="exceedance">
+                    📈 Probabilidade de Excedência
+                </option>
+
+
+                <option value="models_skill">
+                    🌍 Destreza dos Modelos
+                </option>
+
+
+                <option value="seas5">
+                    🛰️ Previsão SEAS5
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- =====================================================
+             ÁREA ONDE O MAPA SERÁ MOSTRADO
+             Inicialmente permanece escondida.
+             ===================================================== -->
+
+        <div
+            id="forecast-container"
+            style="
+                display:none;
+                text-align:center;
+                margin-top:30px;
+            "
+        >
+
+            <img
+                id="forecast-image"
+                src=""
+                alt="Produto de previsão climática sazonal"
+                style="
+                    max-width:100%;
+                    height:auto;
+                "
+            >
+
+        </div>
+
+
+        <br><br>
+
+    </section>
+
+
+</main>
+
+
+<!-- =============================================================
+     JAVASCRIPT
+     ============================================================= -->
+
+<script>
+
+function showForecast(product) {
+
+    const image =
+        document.getElementById("forecast-image");
+
+    const container =
+        document.getElementById("forecast-container");
+
+
+    /*
+     * Se o usuário voltar para
+     * "-- Selecione um produto --",
+     * remove a imagem e esconde o container.
+     */
+
+    if (product === "") {
+
+        image.src = "";
+
+        container.style.display = "none";
+
+        return;
+    }
+
+
+    /*
+     * Destreza do Ensemble
+     */
+
+    if (product === "ensemble_skill") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_ensemble_forecast_skillMatrices.png";
+
+    }
+
+
+    /*
+     * Previsão do Ensemble
+     */
+
+    else if (product === "ensemble_forecast") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_ensemble_probabilistic-deterministicForecast.png";
+
+    }
+
+
+    /*
+     * Probabilidade de Excedência
+     */
+
+    else if (product === "exceedance") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_flexForecast_probExceedence.png";
+
+    }
+
+
+    /*
+     * Destreza dos Modelos
+     */
+
+    else if (product === "models_skill") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_models_skillMatrices.png";
+
+    }
+
+
+    /*
+     * Previsão SEAS5
+     */
+
+    else if (product === "seas5") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_SEAS51c.PRCP_[determinstic-probabilistic]-Forecast.png";
+
+    }
+
+
+    /*
+     * Depois que o produto foi selecionado,
+     * mostra o container e, consequentemente,
+     * a imagem escolhida.
+     */
+
+    container.style.display = "block";
+
+}
+
+</script>
+
+
+</body>
+
+</html>
+
+

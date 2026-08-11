@@ -1,0 +1,245 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>MZ WX & Climate - Distância Terra-Sol</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#eef3f8;
+    margin:0;
+    padding:30px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    gap:25px;
+}
+
+.left{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 12px rgba(0,0,0,.12);
+}
+
+.right{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 12px rgba(0,0,0,.12);
+}
+
+input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.value{
+    font-size:34px;
+    font-weight:bold;
+    color:#d35400;
+}
+
+.small{
+    color:#666;
+}
+
+.event{
+    margin-top:20px;
+    background:#eef8ff;
+    border-left:5px solid #1565c0;
+    padding:15px;
+    border-radius:8px;
+}
+
+.event h3{
+    margin:0;
+    color:#0b4f9c;
+}
+
+.event p{
+    margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left">
+
+<h2>☀️ Distância Terra–Sol</h2>
+
+<label>Data</label>
+
+<input
+type="date"
+id="date">
+
+</div>
+
+<div class="right">
+
+<div id="result">
+
+Escolha uma data.
+
+</div>
+
+</div>
+
+</div>
+
+<script src="../assets/js/astronomy.js"></script>
+
+<script>
+
+function updateDistance(){
+
+    if(date.value=="") return;
+
+    const p=date.value.split("-");
+
+    const year=parseInt(p[0]);
+
+    const month=parseInt(p[1]);
+
+    const day=parseInt(p[2]);
+
+    const d=earthSunDistance(
+
+        year,
+        month,
+        day
+
+    );
+
+    //--------------------------------------------------------
+    // Evento astronómico
+    //--------------------------------------------------------
+
+    const event=getAstronomicalEvent(
+        month,
+        day
+    );
+
+    let eventHTML="";
+
+    if(event){
+
+        eventHTML=`
+
+<div class="event">
+
+<h3>${event.title}</h3>
+
+<p>${event.description}</p>
+
+</div>
+
+`;
+
+    }
+
+    //--------------------------------------------------------
+
+    result.innerHTML=`
+
+<h2>📅 ${date.value}</h2>
+
+<hr>
+
+<p>
+
+☀️ Distância Terra–Sol
+
+</p>
+
+<p class="value">
+
+${d.distance_km.toLocaleString(
+
+"pt-BR",
+
+{
+
+maximumFractionDigits:0
+
+}
+
+)} km
+
+</p>
+
+<p>
+
+🌍
+
+${d.distance_au.toFixed(6)} UA
+
+</p>
+
+<p>
+
+📅 Dia do ano:
+
+${d.day_of_year}
+
+</p>
+
+${eventHTML}
+
+<hr>
+
+<p>
+
+<b>Distância média:</b>
+149,6 milhões km
+
+</p>
+
+<p>
+
+<b>Excentricidade orbital:</b>
+0,0167
+
+</p>
+
+`;
+
+}
+
+date.valueAsDate=new Date();
+
+updateDistance();
+
+date.onchange=updateDistance;
+
+</script>
+
+</body>
+
+</html>
+
+
+

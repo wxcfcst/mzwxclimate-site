@@ -1,0 +1,96 @@
+[
+    {
+        "id": "ET",
+        "name": "Evapotranspiração",
+        "available": true,
+        "latest": "assets/images/lsasaf/ET/ET_2024-07-01.png",
+        "images": [
+            "assets/images/lsasaf/ET/ET_2023-11-01.png",
+            "assets/images/lsasaf/ET/ET_2024-07-01.png"
+        ]
+    },
+    {
+        "id": "EDLST_DAY",
+        "name": "Temperatura do Solo - Dia",
+        "available": true,
+        "latest": "assets/images/lsasaf/EDLST_DAY/EDLST_DAY_2024-07-01.png",
+        "images": [
+            "assets/images/lsasaf/EDLST_DAY/EDLST_DAY_2023-11-01.png",
+            "assets/images/lsasaf/EDLST_DAY/EDLST_DAY_2024-07-01.png"
+        ]
+    },
+    {
+        "id": "EDLST_NIGHT",
+        "name": "Temperatura do Solo - Noite",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "ETAL",
+        "name": "Albedo da Superfície de 10 dias",
+        "available": true,
+        "latest": "assets/images/lsasaf/ETAL/ETAL_2023-10-25.png",
+        "images": [
+            "assets/images/lsasaf/ETAL/ETAL_2023-10-25.png"
+        ]
+    },
+    {
+        "id": "NDVI",
+        "name": "Vegetação - NDVI",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "FRP",
+        "name": "Potência Radiativa do Fogo",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "FVC",
+        "name": "Fração de Cobertura Vegetal de 10 dias",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "LAI",
+        "name": "Índice de Área Foliar de 10 dias",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "DSSF",
+        "name": "Fluxo Total Descendente de Radiação de Onda Curta na Superfície",
+        "available": true,
+        "latest": "assets/images/lsasaf/DSSF/DSSF_2023-11-01.png",
+        "images": [
+            "assets/images/lsasaf/DSSF/DSSF_2023-11-01.png"
+        ]
+    },
+    {
+        "id": "MDIDSSF",
+        "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "SWI",
+        "name": "Índice do Perfil de Umidade do Solo na Zona Radicular",
+        "available": false,
+        "latest": null,
+        "images": []
+    },
+    {
+        "id": "DIDSSF",
+        "name": "Produto Integrado de Precipitação / Umidade do Solo",
+        "available": false,
+        "latest": null,
+        "images": []
+    }
+]

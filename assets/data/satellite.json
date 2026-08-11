@@ -1,0 +1,62 @@
+
+
+
+{
+    "channels": [
+        {
+            "file": "RGB.png",
+            "name": "Natural Color RGB"
+        },
+        {
+            "file": "HRV.png",
+            "name": "High Resolution Visible"
+        },
+        {
+            "file": "VIS006.png",
+            "name": "Visible 0.6 µm"
+        },
+        {
+            "file": "VIS008.png",
+            "name": "Visible 0.8 µm"
+        },
+        {
+            "file": "IR_016.png",
+            "name": "Infrared 1.6 µm"
+        },
+        {
+            "file": "IR_039.png",
+            "name": "Infrared 3.9 µm"
+        },
+        {
+            "file": "IR_087.png",
+            "name": "Infrared 8.7 µm"
+        },
+        {
+            "file": "IR_097.png",
+            "name": "Infrared 9.7 µm"
+        },
+        {
+            "file": "IR_108.png",
+            "name": "Infrared 10.8 µm"
+        },
+        {
+            "file": "IR_120.png",
+            "name": "Infrared 12.0 µm"
+        },
+        {
+            "file": "IR_134.png",
+            "name": "Infrared 13.4 µm"
+        },
+        {
+            "file": "WV_062.png",
+            "name": "Water Vapour 6.2 µm"
+        },
+        {
+            "file": "WV_073.png",
+            "name": "Water Vapour 7.3 µm"
+        }
+    ]
+}
+
+
+

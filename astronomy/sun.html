@@ -1,0 +1,369 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>MZ WX & Climate - Astronomia</title>
+
+<style>
+
+body{
+
+    margin:0;
+    padding:25px;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#eef3f8;
+
+}
+
+.wrapper{
+
+    display:flex;
+    gap:25px;
+    align-items:flex-start;
+
+}
+
+.panel{
+
+    width:320px;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+
+}
+
+.panel h1{
+
+    margin-top:0;
+    color:#0b4f9c;
+    font-size:24px;
+
+}
+
+label{
+
+    display:block;
+    margin-top:18px;
+    font-weight:bold;
+
+}
+
+select,
+input{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:6px;
+
+    font-size:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    box-sizing:border-box;
+
+}
+
+.result{
+
+    flex:1;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    min-height:320px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+
+}
+
+.result h2{
+
+    margin-top:0;
+    color:#0b4f9c;
+
+}
+
+.big{
+
+    font-size:34px;
+    color:#e67e22;
+    font-weight:bold;
+
+}
+
+.subtitle{
+
+    color:#666;
+
+}
+
+hr{
+
+    border:none;
+    border-top:1px solid #ddd;
+
+    margin:20px 0;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="panel">
+
+<h1>☀️ Astronomia</h1>
+
+<label>Província</label>
+
+<select id="province"></select>
+
+<label>Distrito</label>
+
+<select id="district"></select>
+
+<label>Data</label>
+
+<input type="date" id="date">
+
+</div>
+
+<div
+id="result"
+class="result">
+
+<h2>Nascer e Pôr do Sol</h2>
+
+<p>
+
+Seleccione uma província,
+um distrito
+e uma data.
+
+</p>
+
+</div>
+
+</div>
+
+<script src="../assets/js/astronomy.js"></script>
+
+<script>
+
+let locations=[];
+
+fetch("../data/locations.json")
+
+.then(r=>r.json())
+
+.then(json=>{
+
+    locations=json;
+
+    loadProvinces();
+
+});
+
+function loadProvinces(){
+
+    let provinces=[
+
+        ...new Set(
+
+            locations.map(x=>x.province)
+
+        )
+
+    ];
+
+    provinces.sort();
+
+    province.innerHTML="";
+
+    provinces.forEach(p=>{
+
+        province.innerHTML+=`<option>${p}</option>`;
+
+    });
+
+    loadDistricts();
+
+}
+
+function loadDistricts(){
+
+    let prov=province.value;
+
+    let districts=locations
+
+        .filter(x=>x.province==prov)
+
+        .sort(
+
+            (a,b)=>
+
+            a.district.localeCompare(b.district)
+
+        );
+
+    district.innerHTML="";
+
+    districts.forEach(d=>{
+
+        district.innerHTML+=
+
+`<option value="${d.district}">
+
+${d.district}
+
+</option>`;
+
+    });
+
+    calculate();
+
+}
+
+function calculate(){
+
+    if(date.value=="") return;
+
+    let loc=locations.find(
+
+        x=>
+
+        x.province==province.value &&
+
+        x.district==district.value
+
+    );
+
+    if(!loc) return;
+
+    let p=date.value.split("-");
+
+    let sun=calculateSunTimes(
+
+        loc.lat,
+
+        loc.lon,
+
+        parseInt(p[0]),
+
+        parseInt(p[1]),
+
+        parseInt(p[2])
+
+    );
+
+    result.innerHTML=`
+
+<h2>
+
+${loc.district}
+
+</h2>
+
+<div class="subtitle">
+
+${loc.province}
+
+</div>
+
+<hr>
+
+<p>
+
+📅 ${date.value}
+
+</p>
+
+<p>
+
+🌅 Nascer
+
+</p>
+
+<div class="big">
+
+${sun.sunrise}
+
+</div>
+
+<p>
+
+🌇 Pôr do Sol
+
+</p>
+
+<div class="big">
+
+${sun.sunset}
+
+</div>
+
+<p>
+
+☀️ Duração do dia
+
+<br>
+
+<b>${sun.day_length}</b>
+
+</p>
+
+<hr>
+
+<p class="subtitle">
+
+Latitude:
+${loc.lat.toFixed(4)}
+
+<br>
+
+Longitude:
+${loc.lon.toFixed(4)}
+
+</p>
+
+`;
+
+}
+
+province.onchange=loadDistricts;
+
+district.onchange=calculate;
+
+date.onchange=calculate;
+
+date.valueAsDate=new Date();
+
+</script>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,3287 @@
+[
+  {
+    "date": "2026-01-01",
+    "year": 2026,
+    "month": 1,
+    "day": 1,
+    "day_of_year": 1,
+    "distance_km": 147191408.3,
+    "distance_au": 0.9839
+  },
+  {
+    "date": "2026-01-02",
+    "year": 2026,
+    "month": 1,
+    "day": 2,
+    "day_of_year": 2,
+    "distance_km": 147192453.22,
+    "distance_au": 0.983907
+  },
+  {
+    "date": "2026-01-03",
+    "year": 2026,
+    "month": 1,
+    "day": 3,
+    "day_of_year": 3,
+    "distance_km": 147194194.46,
+    "distance_au": 0.983918
+  },
+  {
+    "date": "2026-01-04",
+    "year": 2026,
+    "month": 1,
+    "day": 4,
+    "day_of_year": 4,
+    "distance_km": 147196631.59,
+    "distance_au": 0.983935
+  },
+  {
+    "date": "2026-01-05",
+    "year": 2026,
+    "month": 1,
+    "day": 5,
+    "day_of_year": 5,
+    "distance_km": 147199763.97,
+    "distance_au": 0.983956
+  },
+  {
+    "date": "2026-01-06",
+    "year": 2026,
+    "month": 1,
+    "day": 6,
+    "day_of_year": 6,
+    "distance_km": 147203590.82,
+    "distance_au": 0.983981
+  },
+  {
+    "date": "2026-01-07",
+    "year": 2026,
+    "month": 1,
+    "day": 7,
+    "day_of_year": 7,
+    "distance_km": 147208111.16,
+    "distance_au": 0.984011
+  },
+  {
+    "date": "2026-01-08",
+    "year": 2026,
+    "month": 1,
+    "day": 8,
+    "day_of_year": 8,
+    "distance_km": 147213323.85,
+    "distance_au": 0.984046
+  },
+  {
+    "date": "2026-01-09",
+    "year": 2026,
+    "month": 1,
+    "day": 9,
+    "day_of_year": 9,
+    "distance_km": 147219227.56,
+    "distance_au": 0.984086
+  },
+  {
+    "date": "2026-01-10",
+    "year": 2026,
+    "month": 1,
+    "day": 10,
+    "day_of_year": 10,
+    "distance_km": 147225820.79,
+    "distance_au": 0.98413
+  },
+  {
+    "date": "2026-01-11",
+    "year": 2026,
+    "month": 1,
+    "day": 11,
+    "day_of_year": 11,
+    "distance_km": 147233101.87,
+    "distance_au": 0.984178
+  },
+  {
+    "date": "2026-01-12",
+    "year": 2026,
+    "month": 1,
+    "day": 12,
+    "day_of_year": 12,
+    "distance_km": 147241068.94,
+    "distance_au": 0.984232
+  },
+  {
+    "date": "2026-01-13",
+    "year": 2026,
+    "month": 1,
+    "day": 13,
+    "day_of_year": 13,
+    "distance_km": 147249719.97,
+    "distance_au": 0.98429
+  },
+  {
+    "date": "2026-01-14",
+    "year": 2026,
+    "month": 1,
+    "day": 14,
+    "day_of_year": 14,
+    "distance_km": 147259052.76,
+    "distance_au": 0.984352
+  },
+  {
+    "date": "2026-01-15",
+    "year": 2026,
+    "month": 1,
+    "day": 15,
+    "day_of_year": 15,
+    "distance_km": 147269064.94,
+    "distance_au": 0.984419
+  },
+  {
+    "date": "2026-01-16",
+    "year": 2026,
+    "month": 1,
+    "day": 16,
+    "day_of_year": 16,
+    "distance_km": 147279753.96,
+    "distance_au": 0.98449
+  },
+  {
+    "date": "2026-01-17",
+    "year": 2026,
+    "month": 1,
+    "day": 17,
+    "day_of_year": 17,
+    "distance_km": 147291117.07,
+    "distance_au": 0.984566
+  },
+  {
+    "date": "2026-01-18",
+    "year": 2026,
+    "month": 1,
+    "day": 18,
+    "day_of_year": 18,
+    "distance_km": 147303151.39,
+    "distance_au": 0.984647
+  },
+  {
+    "date": "2026-01-19",
+    "year": 2026,
+    "month": 1,
+    "day": 19,
+    "day_of_year": 19,
+    "distance_km": 147315853.84,
+    "distance_au": 0.984732
+  },
+  {
+    "date": "2026-01-20",
+    "year": 2026,
+    "month": 1,
+    "day": 20,
+    "day_of_year": 20,
+    "distance_km": 147329221.18,
+    "distance_au": 0.984821
+  },
+  {
+    "date": "2026-01-21",
+    "year": 2026,
+    "month": 1,
+    "day": 21,
+    "day_of_year": 21,
+    "distance_km": 147343249.97,
+    "distance_au": 0.984915
+  },
+  {
+    "date": "2026-01-22",
+    "year": 2026,
+    "month": 1,
+    "day": 22,
+    "day_of_year": 22,
+    "distance_km": 147357936.63,
+    "distance_au": 0.985013
+  },
+  {
+    "date": "2026-01-23",
+    "year": 2026,
+    "month": 1,
+    "day": 23,
+    "day_of_year": 23,
+    "distance_km": 147373277.39,
+    "distance_au": 0.985115
+  },
+  {
+    "date": "2026-01-24",
+    "year": 2026,
+    "month": 1,
+    "day": 24,
+    "day_of_year": 24,
+    "distance_km": 147389268.32,
+    "distance_au": 0.985222
+  },
+  {
+    "date": "2026-01-25",
+    "year": 2026,
+    "month": 1,
+    "day": 25,
+    "day_of_year": 25,
+    "distance_km": 147405905.31,
+    "distance_au": 0.985334
+  },
+  {
+    "date": "2026-01-26",
+    "year": 2026,
+    "month": 1,
+    "day": 26,
+    "day_of_year": 26,
+    "distance_km": 147423184.07,
+    "distance_au": 0.985449
+  },
+  {
+    "date": "2026-01-27",
+    "year": 2026,
+    "month": 1,
+    "day": 27,
+    "day_of_year": 27,
+    "distance_km": 147441100.17,
+    "distance_au": 0.985569
+  },
+  {
+    "date": "2026-01-28",
+    "year": 2026,
+    "month": 1,
+    "day": 28,
+    "day_of_year": 28,
+    "distance_km": 147459648.97,
+    "distance_au": 0.985693
+  },
+  {
+    "date": "2026-01-29",
+    "year": 2026,
+    "month": 1,
+    "day": 29,
+    "day_of_year": 29,
+    "distance_km": 147478825.71,
+    "distance_au": 0.985821
+  },
+  {
+    "date": "2026-01-30",
+    "year": 2026,
+    "month": 1,
+    "day": 30,
+    "day_of_year": 30,
+    "distance_km": 147498625.42,
+    "distance_au": 0.985953
+  },
+  {
+    "date": "2026-01-31",
+    "year": 2026,
+    "month": 1,
+    "day": 31,
+    "day_of_year": 31,
+    "distance_km": 147519042.97,
+    "distance_au": 0.98609
+  },
+  {
+    "date": "2026-02-01",
+    "year": 2026,
+    "month": 2,
+    "day": 1,
+    "day_of_year": 32,
+    "distance_km": 147540073.09,
+    "distance_au": 0.98623
+  },
+  {
+    "date": "2026-02-02",
+    "year": 2026,
+    "month": 2,
+    "day": 2,
+    "day_of_year": 33,
+    "distance_km": 147561710.32,
+    "distance_au": 0.986375
+  },
+  {
+    "date": "2026-02-03",
+    "year": 2026,
+    "month": 2,
+    "day": 3,
+    "day_of_year": 34,
+    "distance_km": 147583949.03,
+    "distance_au": 0.986524
+  },
+  {
+    "date": "2026-02-04",
+    "year": 2026,
+    "month": 2,
+    "day": 4,
+    "day_of_year": 35,
+    "distance_km": 147606783.45,
+    "distance_au": 0.986676
+  },
+  {
+    "date": "2026-02-05",
+    "year": 2026,
+    "month": 2,
+    "day": 5,
+    "day_of_year": 36,
+    "distance_km": 147630207.62,
+    "distance_au": 0.986833
+  },
+  {
+    "date": "2026-02-06",
+    "year": 2026,
+    "month": 2,
+    "day": 6,
+    "day_of_year": 37,
+    "distance_km": 147654215.44,
+    "distance_au": 0.986993
+  },
+  {
+    "date": "2026-02-07",
+    "year": 2026,
+    "month": 2,
+    "day": 7,
+    "day_of_year": 38,
+    "distance_km": 147678800.63,
+    "distance_au": 0.987158
+  },
+  {
+    "date": "2026-02-08",
+    "year": 2026,
+    "month": 2,
+    "day": 8,
+    "day_of_year": 39,
+    "distance_km": 147703956.77,
+    "distance_au": 0.987326
+  },
+  {
+    "date": "2026-02-09",
+    "year": 2026,
+    "month": 2,
+    "day": 9,
+    "day_of_year": 40,
+    "distance_km": 147729677.25,
+    "distance_au": 0.987498
+  },
+  {
+    "date": "2026-02-10",
+    "year": 2026,
+    "month": 2,
+    "day": 10,
+    "day_of_year": 41,
+    "distance_km": 147755955.32,
+    "distance_au": 0.987673
+  },
+  {
+    "date": "2026-02-11",
+    "year": 2026,
+    "month": 2,
+    "day": 11,
+    "day_of_year": 42,
+    "distance_km": 147782784.08,
+    "distance_au": 0.987853
+  },
+  {
+    "date": "2026-02-12",
+    "year": 2026,
+    "month": 2,
+    "day": 12,
+    "day_of_year": 43,
+    "distance_km": 147810156.46,
+    "distance_au": 0.988036
+  },
+  {
+    "date": "2026-02-13",
+    "year": 2026,
+    "month": 2,
+    "day": 13,
+    "day_of_year": 44,
+    "distance_km": 147838065.24,
+    "distance_au": 0.988222
+  },
+  {
+    "date": "2026-02-14",
+    "year": 2026,
+    "month": 2,
+    "day": 14,
+    "day_of_year": 45,
+    "distance_km": 147866503.03,
+    "distance_au": 0.988412
+  },
+  {
+    "date": "2026-02-15",
+    "year": 2026,
+    "month": 2,
+    "day": 15,
+    "day_of_year": 46,
+    "distance_km": 147895462.32,
+    "distance_au": 0.988606
+  },
+  {
+    "date": "2026-02-16",
+    "year": 2026,
+    "month": 2,
+    "day": 16,
+    "day_of_year": 47,
+    "distance_km": 147924935.41,
+    "distance_au": 0.988803
+  },
+  {
+    "date": "2026-02-17",
+    "year": 2026,
+    "month": 2,
+    "day": 17,
+    "day_of_year": 48,
+    "distance_km": 147954914.48,
+    "distance_au": 0.989003
+  },
+  {
+    "date": "2026-02-18",
+    "year": 2026,
+    "month": 2,
+    "day": 18,
+    "day_of_year": 49,
+    "distance_km": 147985391.54,
+    "distance_au": 0.989207
+  },
+  {
+    "date": "2026-02-19",
+    "year": 2026,
+    "month": 2,
+    "day": 19,
+    "day_of_year": 50,
+    "distance_km": 148016358.46,
+    "distance_au": 0.989414
+  },
+  {
+    "date": "2026-02-20",
+    "year": 2026,
+    "month": 2,
+    "day": 20,
+    "day_of_year": 51,
+    "distance_km": 148047806.97,
+    "distance_au": 0.989624
+  },
+  {
+    "date": "2026-02-21",
+    "year": 2026,
+    "month": 2,
+    "day": 21,
+    "day_of_year": 52,
+    "distance_km": 148079728.63,
+    "distance_au": 0.989838
+  },
+  {
+    "date": "2026-02-22",
+    "year": 2026,
+    "month": 2,
+    "day": 22,
+    "day_of_year": 53,
+    "distance_km": 148112114.88,
+    "distance_au": 0.990054
+  },
+  {
+    "date": "2026-02-23",
+    "year": 2026,
+    "month": 2,
+    "day": 23,
+    "day_of_year": 54,
+    "distance_km": 148144957.02,
+    "distance_au": 0.990274
+  },
+  {
+    "date": "2026-02-24",
+    "year": 2026,
+    "month": 2,
+    "day": 24,
+    "day_of_year": 55,
+    "distance_km": 148178246.19,
+    "distance_au": 0.990496
+  },
+  {
+    "date": "2026-02-25",
+    "year": 2026,
+    "month": 2,
+    "day": 25,
+    "day_of_year": 56,
+    "distance_km": 148211973.4,
+    "distance_au": 0.990722
+  },
+  {
+    "date": "2026-02-26",
+    "year": 2026,
+    "month": 2,
+    "day": 26,
+    "day_of_year": 57,
+    "distance_km": 148246129.53,
+    "distance_au": 0.99095
+  },
+  {
+    "date": "2026-02-27",
+    "year": 2026,
+    "month": 2,
+    "day": 27,
+    "day_of_year": 58,
+    "distance_km": 148280705.3,
+    "distance_au": 0.991181
+  },
+  {
+    "date": "2026-02-28",
+    "year": 2026,
+    "month": 2,
+    "day": 28,
+    "day_of_year": 59,
+    "distance_km": 148315691.34,
+    "distance_au": 0.991415
+  },
+  {
+    "date": "2026-03-01",
+    "year": 2026,
+    "month": 3,
+    "day": 1,
+    "day_of_year": 60,
+    "distance_km": 148351078.1,
+    "distance_au": 0.991652
+  },
+  {
+    "date": "2026-03-02",
+    "year": 2026,
+    "month": 3,
+    "day": 2,
+    "day_of_year": 61,
+    "distance_km": 148386855.92,
+    "distance_au": 0.991891
+  },
+  {
+    "date": "2026-03-03",
+    "year": 2026,
+    "month": 3,
+    "day": 3,
+    "day_of_year": 62,
+    "distance_km": 148423015.02,
+    "distance_au": 0.992132
+  },
+  {
+    "date": "2026-03-04",
+    "year": 2026,
+    "month": 3,
+    "day": 4,
+    "day_of_year": 63,
+    "distance_km": 148459545.48,
+    "distance_au": 0.992377
+  },
+  {
+    "date": "2026-03-05",
+    "year": 2026,
+    "month": 3,
+    "day": 5,
+    "day_of_year": 64,
+    "distance_km": 148496437.26,
+    "distance_au": 0.992623
+  },
+  {
+    "date": "2026-03-06",
+    "year": 2026,
+    "month": 3,
+    "day": 6,
+    "day_of_year": 65,
+    "distance_km": 148533680.2,
+    "distance_au": 0.992872
+  },
+  {
+    "date": "2026-03-07",
+    "year": 2026,
+    "month": 3,
+    "day": 7,
+    "day_of_year": 66,
+    "distance_km": 148571264.02,
+    "distance_au": 0.993123
+  },
+  {
+    "date": "2026-03-08",
+    "year": 2026,
+    "month": 3,
+    "day": 8,
+    "day_of_year": 67,
+    "distance_km": 148609178.31,
+    "distance_au": 0.993377
+  },
+  {
+    "date": "2026-03-09",
+    "year": 2026,
+    "month": 3,
+    "day": 9,
+    "day_of_year": 68,
+    "distance_km": 148647412.56,
+    "distance_au": 0.993632
+  },
+  {
+    "date": "2026-03-10",
+    "year": 2026,
+    "month": 3,
+    "day": 10,
+    "day_of_year": 69,
+    "distance_km": 148685956.13,
+    "distance_au": 0.99389
+  },
+  {
+    "date": "2026-03-11",
+    "year": 2026,
+    "month": 3,
+    "day": 11,
+    "day_of_year": 70,
+    "distance_km": 148724798.28,
+    "distance_au": 0.99415
+  },
+  {
+    "date": "2026-03-12",
+    "year": 2026,
+    "month": 3,
+    "day": 12,
+    "day_of_year": 71,
+    "distance_km": 148763928.16,
+    "distance_au": 0.994411
+  },
+  {
+    "date": "2026-03-13",
+    "year": 2026,
+    "month": 3,
+    "day": 13,
+    "day_of_year": 72,
+    "distance_km": 148803334.81,
+    "distance_au": 0.994675
+  },
+  {
+    "date": "2026-03-14",
+    "year": 2026,
+    "month": 3,
+    "day": 14,
+    "day_of_year": 73,
+    "distance_km": 148843007.17,
+    "distance_au": 0.99494
+  },
+  {
+    "date": "2026-03-15",
+    "year": 2026,
+    "month": 3,
+    "day": 15,
+    "day_of_year": 74,
+    "distance_km": 148882934.06,
+    "distance_au": 0.995207
+  },
+  {
+    "date": "2026-03-16",
+    "year": 2026,
+    "month": 3,
+    "day": 16,
+    "day_of_year": 75,
+    "distance_km": 148923104.24,
+    "distance_au": 0.995475
+  },
+  {
+    "date": "2026-03-17",
+    "year": 2026,
+    "month": 3,
+    "day": 17,
+    "day_of_year": 76,
+    "distance_km": 148963506.32,
+    "distance_au": 0.995745
+  },
+  {
+    "date": "2026-03-18",
+    "year": 2026,
+    "month": 3,
+    "day": 18,
+    "day_of_year": 77,
+    "distance_km": 149004128.87,
+    "distance_au": 0.996017
+  },
+  {
+    "date": "2026-03-19",
+    "year": 2026,
+    "month": 3,
+    "day": 19,
+    "day_of_year": 78,
+    "distance_km": 149044960.32,
+    "distance_au": 0.99629
+  },
+  {
+    "date": "2026-03-20",
+    "year": 2026,
+    "month": 3,
+    "day": 20,
+    "day_of_year": 79,
+    "distance_km": 149085989.05,
+    "distance_au": 0.996564
+  },
+  {
+    "date": "2026-03-21",
+    "year": 2026,
+    "month": 3,
+    "day": 21,
+    "day_of_year": 80,
+    "distance_km": 149127203.34,
+    "distance_au": 0.99684
+  },
+  {
+    "date": "2026-03-22",
+    "year": 2026,
+    "month": 3,
+    "day": 22,
+    "day_of_year": 81,
+    "distance_km": 149168591.38,
+    "distance_au": 0.997116
+  },
+  {
+    "date": "2026-03-23",
+    "year": 2026,
+    "month": 3,
+    "day": 23,
+    "day_of_year": 82,
+    "distance_km": 149210141.29,
+    "distance_au": 0.997394
+  },
+  {
+    "date": "2026-03-24",
+    "year": 2026,
+    "month": 3,
+    "day": 24,
+    "day_of_year": 83,
+    "distance_km": 149251841.1,
+    "distance_au": 0.997673
+  },
+  {
+    "date": "2026-03-25",
+    "year": 2026,
+    "month": 3,
+    "day": 25,
+    "day_of_year": 84,
+    "distance_km": 149293678.8,
+    "distance_au": 0.997952
+  },
+  {
+    "date": "2026-03-26",
+    "year": 2026,
+    "month": 3,
+    "day": 26,
+    "day_of_year": 85,
+    "distance_km": 149335642.26,
+    "distance_au": 0.998233
+  },
+  {
+    "date": "2026-03-27",
+    "year": 2026,
+    "month": 3,
+    "day": 27,
+    "day_of_year": 86,
+    "distance_km": 149377719.32,
+    "distance_au": 0.998514
+  },
+  {
+    "date": "2026-03-28",
+    "year": 2026,
+    "month": 3,
+    "day": 28,
+    "day_of_year": 87,
+    "distance_km": 149419897.74,
+    "distance_au": 0.998796
+  },
+  {
+    "date": "2026-03-29",
+    "year": 2026,
+    "month": 3,
+    "day": 29,
+    "day_of_year": 88,
+    "distance_km": 149462165.23,
+    "distance_au": 0.999079
+  },
+  {
+    "date": "2026-03-30",
+    "year": 2026,
+    "month": 3,
+    "day": 30,
+    "day_of_year": 89,
+    "distance_km": 149504509.43,
+    "distance_au": 0.999362
+  },
+  {
+    "date": "2026-03-31",
+    "year": 2026,
+    "month": 3,
+    "day": 31,
+    "day_of_year": 90,
+    "distance_km": 149546917.93,
+    "distance_au": 0.999645
+  },
+  {
+    "date": "2026-04-01",
+    "year": 2026,
+    "month": 4,
+    "day": 1,
+    "day_of_year": 91,
+    "distance_km": 149589378.28,
+    "distance_au": 0.999929
+  },
+  {
+    "date": "2026-04-02",
+    "year": 2026,
+    "month": 4,
+    "day": 2,
+    "day_of_year": 92,
+    "distance_km": 149631877.96,
+    "distance_au": 1.000213
+  },
+  {
+    "date": "2026-04-03",
+    "year": 2026,
+    "month": 4,
+    "day": 3,
+    "day_of_year": 93,
+    "distance_km": 149674404.43,
+    "distance_au": 1.000497
+  },
+  {
+    "date": "2026-04-04",
+    "year": 2026,
+    "month": 4,
+    "day": 4,
+    "day_of_year": 94,
+    "distance_km": 149716945.1,
+    "distance_au": 1.000782
+  },
+  {
+    "date": "2026-04-05",
+    "year": 2026,
+    "month": 4,
+    "day": 5,
+    "day_of_year": 95,
+    "distance_km": 149759487.34,
+    "distance_au": 1.001066
+  },
+  {
+    "date": "2026-04-06",
+    "year": 2026,
+    "month": 4,
+    "day": 6,
+    "day_of_year": 96,
+    "distance_km": 149802018.48,
+    "distance_au": 1.00135
+  },
+  {
+    "date": "2026-04-07",
+    "year": 2026,
+    "month": 4,
+    "day": 7,
+    "day_of_year": 97,
+    "distance_km": 149844525.85,
+    "distance_au": 1.001635
+  },
+  {
+    "date": "2026-04-08",
+    "year": 2026,
+    "month": 4,
+    "day": 8,
+    "day_of_year": 98,
+    "distance_km": 149886996.73,
+    "distance_au": 1.001918
+  },
+  {
+    "date": "2026-04-09",
+    "year": 2026,
+    "month": 4,
+    "day": 9,
+    "day_of_year": 99,
+    "distance_km": 149929418.38,
+    "distance_au": 1.002202
+  },
+  {
+    "date": "2026-04-10",
+    "year": 2026,
+    "month": 4,
+    "day": 10,
+    "day_of_year": 100,
+    "distance_km": 149971778.05,
+    "distance_au": 1.002485
+  },
+  {
+    "date": "2026-04-11",
+    "year": 2026,
+    "month": 4,
+    "day": 11,
+    "day_of_year": 101,
+    "distance_km": 150014062.98,
+    "distance_au": 1.002768
+  },
+  {
+    "date": "2026-04-12",
+    "year": 2026,
+    "month": 4,
+    "day": 12,
+    "day_of_year": 102,
+    "distance_km": 150056260.38,
+    "distance_au": 1.00305
+  },
+  {
+    "date": "2026-04-13",
+    "year": 2026,
+    "month": 4,
+    "day": 13,
+    "day_of_year": 103,
+    "distance_km": 150098357.47,
+    "distance_au": 1.003331
+  },
+  {
+    "date": "2026-04-14",
+    "year": 2026,
+    "month": 4,
+    "day": 14,
+    "day_of_year": 104,
+    "distance_km": 150140341.48,
+    "distance_au": 1.003612
+  },
+  {
+    "date": "2026-04-15",
+    "year": 2026,
+    "month": 4,
+    "day": 15,
+    "day_of_year": 105,
+    "distance_km": 150182199.62,
+    "distance_au": 1.003892
+  },
+  {
+    "date": "2026-04-16",
+    "year": 2026,
+    "month": 4,
+    "day": 16,
+    "day_of_year": 106,
+    "distance_km": 150223919.12,
+    "distance_au": 1.004171
+  },
+  {
+    "date": "2026-04-17",
+    "year": 2026,
+    "month": 4,
+    "day": 17,
+    "day_of_year": 107,
+    "distance_km": 150265487.21,
+    "distance_au": 1.004448
+  },
+  {
+    "date": "2026-04-18",
+    "year": 2026,
+    "month": 4,
+    "day": 18,
+    "day_of_year": 108,
+    "distance_km": 150306891.15,
+    "distance_au": 1.004725
+  },
+  {
+    "date": "2026-04-19",
+    "year": 2026,
+    "month": 4,
+    "day": 19,
+    "day_of_year": 109,
+    "distance_km": 150348118.2,
+    "distance_au": 1.005001
+  },
+  {
+    "date": "2026-04-20",
+    "year": 2026,
+    "month": 4,
+    "day": 20,
+    "day_of_year": 110,
+    "distance_km": 150389155.66,
+    "distance_au": 1.005275
+  },
+  {
+    "date": "2026-04-21",
+    "year": 2026,
+    "month": 4,
+    "day": 21,
+    "day_of_year": 111,
+    "distance_km": 150429990.86,
+    "distance_au": 1.005548
+  },
+  {
+    "date": "2026-04-22",
+    "year": 2026,
+    "month": 4,
+    "day": 22,
+    "day_of_year": 112,
+    "distance_km": 150470611.14,
+    "distance_au": 1.00582
+  },
+  {
+    "date": "2026-04-23",
+    "year": 2026,
+    "month": 4,
+    "day": 23,
+    "day_of_year": 113,
+    "distance_km": 150511003.89,
+    "distance_au": 1.00609
+  },
+  {
+    "date": "2026-04-24",
+    "year": 2026,
+    "month": 4,
+    "day": 24,
+    "day_of_year": 114,
+    "distance_km": 150551156.56,
+    "distance_au": 1.006358
+  },
+  {
+    "date": "2026-04-25",
+    "year": 2026,
+    "month": 4,
+    "day": 25,
+    "day_of_year": 115,
+    "distance_km": 150591056.6,
+    "distance_au": 1.006625
+  },
+  {
+    "date": "2026-04-26",
+    "year": 2026,
+    "month": 4,
+    "day": 26,
+    "day_of_year": 116,
+    "distance_km": 150630691.56,
+    "distance_au": 1.00689
+  },
+  {
+    "date": "2026-04-27",
+    "year": 2026,
+    "month": 4,
+    "day": 27,
+    "day_of_year": 117,
+    "distance_km": 150670049.0,
+    "distance_au": 1.007153
+  },
+  {
+    "date": "2026-04-28",
+    "year": 2026,
+    "month": 4,
+    "day": 28,
+    "day_of_year": 118,
+    "distance_km": 150709116.58,
+    "distance_au": 1.007414
+  },
+  {
+    "date": "2026-04-29",
+    "year": 2026,
+    "month": 4,
+    "day": 29,
+    "day_of_year": 119,
+    "distance_km": 150747881.98,
+    "distance_au": 1.007673
+  },
+  {
+    "date": "2026-04-30",
+    "year": 2026,
+    "month": 4,
+    "day": 30,
+    "day_of_year": 120,
+    "distance_km": 150786332.98,
+    "distance_au": 1.00793
+  },
+  {
+    "date": "2026-05-01",
+    "year": 2026,
+    "month": 5,
+    "day": 1,
+    "day_of_year": 121,
+    "distance_km": 150824457.41,
+    "distance_au": 1.008185
+  },
+  {
+    "date": "2026-05-02",
+    "year": 2026,
+    "month": 5,
+    "day": 2,
+    "day_of_year": 122,
+    "distance_km": 150862243.2,
+    "distance_au": 1.008437
+  },
+  {
+    "date": "2026-05-03",
+    "year": 2026,
+    "month": 5,
+    "day": 3,
+    "day_of_year": 123,
+    "distance_km": 150899678.35,
+    "distance_au": 1.008688
+  },
+  {
+    "date": "2026-05-04",
+    "year": 2026,
+    "month": 5,
+    "day": 4,
+    "day_of_year": 124,
+    "distance_km": 150936750.93,
+    "distance_au": 1.008936
+  },
+  {
+    "date": "2026-05-05",
+    "year": 2026,
+    "month": 5,
+    "day": 5,
+    "day_of_year": 125,
+    "distance_km": 150973449.12,
+    "distance_au": 1.009181
+  },
+  {
+    "date": "2026-05-06",
+    "year": 2026,
+    "month": 5,
+    "day": 6,
+    "day_of_year": 126,
+    "distance_km": 151009761.19,
+    "distance_au": 1.009424
+  },
+  {
+    "date": "2026-05-07",
+    "year": 2026,
+    "month": 5,
+    "day": 7,
+    "day_of_year": 127,
+    "distance_km": 151045675.5,
+    "distance_au": 1.009664
+  },
+  {
+    "date": "2026-05-08",
+    "year": 2026,
+    "month": 5,
+    "day": 8,
+    "day_of_year": 128,
+    "distance_km": 151081180.52,
+    "distance_au": 1.009901
+  },
+  {
+    "date": "2026-05-09",
+    "year": 2026,
+    "month": 5,
+    "day": 9,
+    "day_of_year": 129,
+    "distance_km": 151116264.84,
+    "distance_au": 1.010135
+  },
+  {
+    "date": "2026-05-10",
+    "year": 2026,
+    "month": 5,
+    "day": 10,
+    "day_of_year": 130,
+    "distance_km": 151150917.14,
+    "distance_au": 1.010367
+  },
+  {
+    "date": "2026-05-11",
+    "year": 2026,
+    "month": 5,
+    "day": 11,
+    "day_of_year": 131,
+    "distance_km": 151185126.22,
+    "distance_au": 1.010596
+  },
+  {
+    "date": "2026-05-12",
+    "year": 2026,
+    "month": 5,
+    "day": 12,
+    "day_of_year": 132,
+    "distance_km": 151218881.03,
+    "distance_au": 1.010821
+  },
+  {
+    "date": "2026-05-13",
+    "year": 2026,
+    "month": 5,
+    "day": 13,
+    "day_of_year": 133,
+    "distance_km": 151252170.6,
+    "distance_au": 1.011044
+  },
+  {
+    "date": "2026-05-14",
+    "year": 2026,
+    "month": 5,
+    "day": 14,
+    "day_of_year": 134,
+    "distance_km": 151284984.13,
+    "distance_au": 1.011263
+  },
+  {
+    "date": "2026-05-15",
+    "year": 2026,
+    "month": 5,
+    "day": 15,
+    "day_of_year": 135,
+    "distance_km": 151317310.93,
+    "distance_au": 1.011479
+  },
+  {
+    "date": "2026-05-16",
+    "year": 2026,
+    "month": 5,
+    "day": 16,
+    "day_of_year": 136,
+    "distance_km": 151349140.46,
+    "distance_au": 1.011692
+  },
+  {
+    "date": "2026-05-17",
+    "year": 2026,
+    "month": 5,
+    "day": 17,
+    "day_of_year": 137,
+    "distance_km": 151380462.32,
+    "distance_au": 1.011901
+  },
+  {
+    "date": "2026-05-18",
+    "year": 2026,
+    "month": 5,
+    "day": 18,
+    "day_of_year": 138,
+    "distance_km": 151411266.26,
+    "distance_au": 1.012107
+  },
+  {
+    "date": "2026-05-19",
+    "year": 2026,
+    "month": 5,
+    "day": 19,
+    "day_of_year": 139,
+    "distance_km": 151441542.18,
+    "distance_au": 1.01231
+  },
+  {
+    "date": "2026-05-20",
+    "year": 2026,
+    "month": 5,
+    "day": 20,
+    "day_of_year": 140,
+    "distance_km": 151471280.13,
+    "distance_au": 1.012509
+  },
+  {
+    "date": "2026-05-21",
+    "year": 2026,
+    "month": 5,
+    "day": 21,
+    "day_of_year": 141,
+    "distance_km": 151500470.33,
+    "distance_au": 1.012704
+  },
+  {
+    "date": "2026-05-22",
+    "year": 2026,
+    "month": 5,
+    "day": 22,
+    "day_of_year": 142,
+    "distance_km": 151529103.15,
+    "distance_au": 1.012895
+  },
+  {
+    "date": "2026-05-23",
+    "year": 2026,
+    "month": 5,
+    "day": 23,
+    "day_of_year": 143,
+    "distance_km": 151557169.15,
+    "distance_au": 1.013083
+  },
+  {
+    "date": "2026-05-24",
+    "year": 2026,
+    "month": 5,
+    "day": 24,
+    "day_of_year": 144,
+    "distance_km": 151584659.04,
+    "distance_au": 1.013266
+  },
+  {
+    "date": "2026-05-25",
+    "year": 2026,
+    "month": 5,
+    "day": 25,
+    "day_of_year": 145,
+    "distance_km": 151611563.72,
+    "distance_au": 1.013446
+  },
+  {
+    "date": "2026-05-26",
+    "year": 2026,
+    "month": 5,
+    "day": 26,
+    "day_of_year": 146,
+    "distance_km": 151637874.27,
+    "distance_au": 1.013622
+  },
+  {
+    "date": "2026-05-27",
+    "year": 2026,
+    "month": 5,
+    "day": 27,
+    "day_of_year": 147,
+    "distance_km": 151663581.94,
+    "distance_au": 1.013794
+  },
+  {
+    "date": "2026-05-28",
+    "year": 2026,
+    "month": 5,
+    "day": 28,
+    "day_of_year": 148,
+    "distance_km": 151688678.18,
+    "distance_au": 1.013962
+  },
+  {
+    "date": "2026-05-29",
+    "year": 2026,
+    "month": 5,
+    "day": 29,
+    "day_of_year": 149,
+    "distance_km": 151713154.63,
+    "distance_au": 1.014125
+  },
+  {
+    "date": "2026-05-30",
+    "year": 2026,
+    "month": 5,
+    "day": 30,
+    "day_of_year": 150,
+    "distance_km": 151737003.12,
+    "distance_au": 1.014285
+  },
+  {
+    "date": "2026-05-31",
+    "year": 2026,
+    "month": 5,
+    "day": 31,
+    "day_of_year": 151,
+    "distance_km": 151760215.69,
+    "distance_au": 1.01444
+  },
+  {
+    "date": "2026-06-01",
+    "year": 2026,
+    "month": 6,
+    "day": 1,
+    "day_of_year": 152,
+    "distance_km": 151782784.57,
+    "distance_au": 1.014591
+  },
+  {
+    "date": "2026-06-02",
+    "year": 2026,
+    "month": 6,
+    "day": 2,
+    "day_of_year": 153,
+    "distance_km": 151804702.2,
+    "distance_au": 1.014737
+  },
+  {
+    "date": "2026-06-03",
+    "year": 2026,
+    "month": 6,
+    "day": 3,
+    "day_of_year": 154,
+    "distance_km": 151825961.23,
+    "distance_au": 1.014879
+  },
+  {
+    "date": "2026-06-04",
+    "year": 2026,
+    "month": 6,
+    "day": 4,
+    "day_of_year": 155,
+    "distance_km": 151846554.52,
+    "distance_au": 1.015017
+  },
+  {
+    "date": "2026-06-05",
+    "year": 2026,
+    "month": 6,
+    "day": 5,
+    "day_of_year": 156,
+    "distance_km": 151866475.14,
+    "distance_au": 1.01515
+  },
+  {
+    "date": "2026-06-06",
+    "year": 2026,
+    "month": 6,
+    "day": 6,
+    "day_of_year": 157,
+    "distance_km": 151885716.4,
+    "distance_au": 1.015279
+  },
+  {
+    "date": "2026-06-07",
+    "year": 2026,
+    "month": 6,
+    "day": 7,
+    "day_of_year": 158,
+    "distance_km": 151904271.81,
+    "distance_au": 1.015403
+  },
+  {
+    "date": "2026-06-08",
+    "year": 2026,
+    "month": 6,
+    "day": 8,
+    "day_of_year": 159,
+    "distance_km": 151922135.1,
+    "distance_au": 1.015522
+  },
+  {
+    "date": "2026-06-09",
+    "year": 2026,
+    "month": 6,
+    "day": 9,
+    "day_of_year": 160,
+    "distance_km": 151939300.25,
+    "distance_au": 1.015637
+  },
+  {
+    "date": "2026-06-10",
+    "year": 2026,
+    "month": 6,
+    "day": 10,
+    "day_of_year": 161,
+    "distance_km": 151955761.45,
+    "distance_au": 1.015747
+  },
+  {
+    "date": "2026-06-11",
+    "year": 2026,
+    "month": 6,
+    "day": 11,
+    "day_of_year": 162,
+    "distance_km": 151971513.14,
+    "distance_au": 1.015852
+  },
+  {
+    "date": "2026-06-12",
+    "year": 2026,
+    "month": 6,
+    "day": 12,
+    "day_of_year": 163,
+    "distance_km": 151986549.99,
+    "distance_au": 1.015953
+  },
+  {
+    "date": "2026-06-13",
+    "year": 2026,
+    "month": 6,
+    "day": 13,
+    "day_of_year": 164,
+    "distance_km": 152000866.88,
+    "distance_au": 1.016049
+  },
+  {
+    "date": "2026-06-14",
+    "year": 2026,
+    "month": 6,
+    "day": 14,
+    "day_of_year": 165,
+    "distance_km": 152014458.98,
+    "distance_au": 1.016139
+  },
+  {
+    "date": "2026-06-15",
+    "year": 2026,
+    "month": 6,
+    "day": 15,
+    "day_of_year": 166,
+    "distance_km": 152027321.67,
+    "distance_au": 1.016225
+  },
+  {
+    "date": "2026-06-16",
+    "year": 2026,
+    "month": 6,
+    "day": 16,
+    "day_of_year": 167,
+    "distance_km": 152039450.57,
+    "distance_au": 1.016306
+  },
+  {
+    "date": "2026-06-17",
+    "year": 2026,
+    "month": 6,
+    "day": 17,
+    "day_of_year": 168,
+    "distance_km": 152050841.56,
+    "distance_au": 1.016383
+  },
+  {
+    "date": "2026-06-18",
+    "year": 2026,
+    "month": 6,
+    "day": 18,
+    "day_of_year": 169,
+    "distance_km": 152061490.77,
+    "distance_au": 1.016454
+  },
+  {
+    "date": "2026-06-19",
+    "year": 2026,
+    "month": 6,
+    "day": 19,
+    "day_of_year": 170,
+    "distance_km": 152071394.57,
+    "distance_au": 1.01652
+  },
+  {
+    "date": "2026-06-20",
+    "year": 2026,
+    "month": 6,
+    "day": 20,
+    "day_of_year": 171,
+    "distance_km": 152080549.59,
+    "distance_au": 1.016581
+  },
+  {
+    "date": "2026-06-21",
+    "year": 2026,
+    "month": 6,
+    "day": 21,
+    "day_of_year": 172,
+    "distance_km": 152088952.71,
+    "distance_au": 1.016637
+  },
+  {
+    "date": "2026-06-22",
+    "year": 2026,
+    "month": 6,
+    "day": 22,
+    "day_of_year": 173,
+    "distance_km": 152096601.07,
+    "distance_au": 1.016689
+  },
+  {
+    "date": "2026-06-23",
+    "year": 2026,
+    "month": 6,
+    "day": 23,
+    "day_of_year": 174,
+    "distance_km": 152103492.05,
+    "distance_au": 1.016735
+  },
+  {
+    "date": "2026-06-24",
+    "year": 2026,
+    "month": 6,
+    "day": 24,
+    "day_of_year": 175,
+    "distance_km": 152109623.31,
+    "distance_au": 1.016776
+  },
+  {
+    "date": "2026-06-25",
+    "year": 2026,
+    "month": 6,
+    "day": 25,
+    "day_of_year": 176,
+    "distance_km": 152114992.75,
+    "distance_au": 1.016811
+  },
+  {
+    "date": "2026-06-26",
+    "year": 2026,
+    "month": 6,
+    "day": 26,
+    "day_of_year": 177,
+    "distance_km": 152119598.54,
+    "distance_au": 1.016842
+  },
+  {
+    "date": "2026-06-27",
+    "year": 2026,
+    "month": 6,
+    "day": 27,
+    "day_of_year": 178,
+    "distance_km": 152123439.1,
+    "distance_au": 1.016868
+  },
+  {
+    "date": "2026-06-28",
+    "year": 2026,
+    "month": 6,
+    "day": 28,
+    "day_of_year": 179,
+    "distance_km": 152126513.13,
+    "distance_au": 1.016888
+  },
+  {
+    "date": "2026-06-29",
+    "year": 2026,
+    "month": 6,
+    "day": 29,
+    "day_of_year": 180,
+    "distance_km": 152128819.57,
+    "distance_au": 1.016904
+  },
+  {
+    "date": "2026-06-30",
+    "year": 2026,
+    "month": 6,
+    "day": 30,
+    "day_of_year": 181,
+    "distance_km": 152130357.64,
+    "distance_au": 1.016914
+  },
+  {
+    "date": "2026-07-01",
+    "year": 2026,
+    "month": 7,
+    "day": 1,
+    "day_of_year": 182,
+    "distance_km": 152131126.8,
+    "distance_au": 1.016919
+  },
+  {
+    "date": "2026-07-02",
+    "year": 2026,
+    "month": 7,
+    "day": 2,
+    "day_of_year": 183,
+    "distance_km": 152131126.8,
+    "distance_au": 1.016919
+  },
+  {
+    "date": "2026-07-03",
+    "year": 2026,
+    "month": 7,
+    "day": 3,
+    "day_of_year": 184,
+    "distance_km": 152130357.64,
+    "distance_au": 1.016914
+  },
+  {
+    "date": "2026-07-04",
+    "year": 2026,
+    "month": 7,
+    "day": 4,
+    "day_of_year": 185,
+    "distance_km": 152128819.57,
+    "distance_au": 1.016904
+  },
+  {
+    "date": "2026-07-05",
+    "year": 2026,
+    "month": 7,
+    "day": 5,
+    "day_of_year": 186,
+    "distance_km": 152126513.13,
+    "distance_au": 1.016888
+  },
+  {
+    "date": "2026-07-06",
+    "year": 2026,
+    "month": 7,
+    "day": 6,
+    "day_of_year": 187,
+    "distance_km": 152123439.1,
+    "distance_au": 1.016868
+  },
+  {
+    "date": "2026-07-07",
+    "year": 2026,
+    "month": 7,
+    "day": 7,
+    "day_of_year": 188,
+    "distance_km": 152119598.54,
+    "distance_au": 1.016842
+  },
+  {
+    "date": "2026-07-08",
+    "year": 2026,
+    "month": 7,
+    "day": 8,
+    "day_of_year": 189,
+    "distance_km": 152114992.75,
+    "distance_au": 1.016811
+  },
+  {
+    "date": "2026-07-09",
+    "year": 2026,
+    "month": 7,
+    "day": 9,
+    "day_of_year": 190,
+    "distance_km": 152109623.31,
+    "distance_au": 1.016776
+  },
+  {
+    "date": "2026-07-10",
+    "year": 2026,
+    "month": 7,
+    "day": 10,
+    "day_of_year": 191,
+    "distance_km": 152103492.05,
+    "distance_au": 1.016735
+  },
+  {
+    "date": "2026-07-11",
+    "year": 2026,
+    "month": 7,
+    "day": 11,
+    "day_of_year": 192,
+    "distance_km": 152096601.07,
+    "distance_au": 1.016689
+  },
+  {
+    "date": "2026-07-12",
+    "year": 2026,
+    "month": 7,
+    "day": 12,
+    "day_of_year": 193,
+    "distance_km": 152088952.71,
+    "distance_au": 1.016637
+  },
+  {
+    "date": "2026-07-13",
+    "year": 2026,
+    "month": 7,
+    "day": 13,
+    "day_of_year": 194,
+    "distance_km": 152080549.59,
+    "distance_au": 1.016581
+  },
+  {
+    "date": "2026-07-14",
+    "year": 2026,
+    "month": 7,
+    "day": 14,
+    "day_of_year": 195,
+    "distance_km": 152071394.57,
+    "distance_au": 1.01652
+  },
+  {
+    "date": "2026-07-15",
+    "year": 2026,
+    "month": 7,
+    "day": 15,
+    "day_of_year": 196,
+    "distance_km": 152061490.77,
+    "distance_au": 1.016454
+  },
+  {
+    "date": "2026-07-16",
+    "year": 2026,
+    "month": 7,
+    "day": 16,
+    "day_of_year": 197,
+    "distance_km": 152050841.56,
+    "distance_au": 1.016383
+  },
+  {
+    "date": "2026-07-17",
+    "year": 2026,
+    "month": 7,
+    "day": 17,
+    "day_of_year": 198,
+    "distance_km": 152039450.57,
+    "distance_au": 1.016306
+  },
+  {
+    "date": "2026-07-18",
+    "year": 2026,
+    "month": 7,
+    "day": 18,
+    "day_of_year": 199,
+    "distance_km": 152027321.67,
+    "distance_au": 1.016225
+  },
+  {
+    "date": "2026-07-19",
+    "year": 2026,
+    "month": 7,
+    "day": 19,
+    "day_of_year": 200,
+    "distance_km": 152014458.98,
+    "distance_au": 1.016139
+  },
+  {
+    "date": "2026-07-20",
+    "year": 2026,
+    "month": 7,
+    "day": 20,
+    "day_of_year": 201,
+    "distance_km": 152000866.88,
+    "distance_au": 1.016049
+  },
+  {
+    "date": "2026-07-21",
+    "year": 2026,
+    "month": 7,
+    "day": 21,
+    "day_of_year": 202,
+    "distance_km": 151986549.99,
+    "distance_au": 1.015953
+  },
+  {
+    "date": "2026-07-22",
+    "year": 2026,
+    "month": 7,
+    "day": 22,
+    "day_of_year": 203,
+    "distance_km": 151971513.14,
+    "distance_au": 1.015852
+  },
+  {
+    "date": "2026-07-23",
+    "year": 2026,
+    "month": 7,
+    "day": 23,
+    "day_of_year": 204,
+    "distance_km": 151955761.45,
+    "distance_au": 1.015747
+  },
+  {
+    "date": "2026-07-24",
+    "year": 2026,
+    "month": 7,
+    "day": 24,
+    "day_of_year": 205,
+    "distance_km": 151939300.25,
+    "distance_au": 1.015637
+  },
+  {
+    "date": "2026-07-25",
+    "year": 2026,
+    "month": 7,
+    "day": 25,
+    "day_of_year": 206,
+    "distance_km": 151922135.1,
+    "distance_au": 1.015522
+  },
+  {
+    "date": "2026-07-26",
+    "year": 2026,
+    "month": 7,
+    "day": 26,
+    "day_of_year": 207,
+    "distance_km": 151904271.81,
+    "distance_au": 1.015403
+  },
+  {
+    "date": "2026-07-27",
+    "year": 2026,
+    "month": 7,
+    "day": 27,
+    "day_of_year": 208,
+    "distance_km": 151885716.4,
+    "distance_au": 1.015279
+  },
+  {
+    "date": "2026-07-28",
+    "year": 2026,
+    "month": 7,
+    "day": 28,
+    "day_of_year": 209,
+    "distance_km": 151866475.14,
+    "distance_au": 1.01515
+  },
+  {
+    "date": "2026-07-29",
+    "year": 2026,
+    "month": 7,
+    "day": 29,
+    "day_of_year": 210,
+    "distance_km": 151846554.52,
+    "distance_au": 1.015017
+  },
+  {
+    "date": "2026-07-30",
+    "year": 2026,
+    "month": 7,
+    "day": 30,
+    "day_of_year": 211,
+    "distance_km": 151825961.23,
+    "distance_au": 1.014879
+  },
+  {
+    "date": "2026-07-31",
+    "year": 2026,
+    "month": 7,
+    "day": 31,
+    "day_of_year": 212,
+    "distance_km": 151804702.2,
+    "distance_au": 1.014737
+  },
+  {
+    "date": "2026-08-01",
+    "year": 2026,
+    "month": 8,
+    "day": 1,
+    "day_of_year": 213,
+    "distance_km": 151782784.57,
+    "distance_au": 1.014591
+  },
+  {
+    "date": "2026-08-02",
+    "year": 2026,
+    "month": 8,
+    "day": 2,
+    "day_of_year": 214,
+    "distance_km": 151760215.69,
+    "distance_au": 1.01444
+  },
+  {
+    "date": "2026-08-03",
+    "year": 2026,
+    "month": 8,
+    "day": 3,
+    "day_of_year": 215,
+    "distance_km": 151737003.12,
+    "distance_au": 1.014285
+  },
+  {
+    "date": "2026-08-04",
+    "year": 2026,
+    "month": 8,
+    "day": 4,
+    "day_of_year": 216,
+    "distance_km": 151713154.63,
+    "distance_au": 1.014125
+  },
+  {
+    "date": "2026-08-05",
+    "year": 2026,
+    "month": 8,
+    "day": 5,
+    "day_of_year": 217,
+    "distance_km": 151688678.18,
+    "distance_au": 1.013962
+  },
+  {
+    "date": "2026-08-06",
+    "year": 2026,
+    "month": 8,
+    "day": 6,
+    "day_of_year": 218,
+    "distance_km": 151663581.94,
+    "distance_au": 1.013794
+  },
+  {
+    "date": "2026-08-07",
+    "year": 2026,
+    "month": 8,
+    "day": 7,
+    "day_of_year": 219,
+    "distance_km": 151637874.27,
+    "distance_au": 1.013622
+  },
+  {
+    "date": "2026-08-08",
+    "year": 2026,
+    "month": 8,
+    "day": 8,
+    "day_of_year": 220,
+    "distance_km": 151611563.72,
+    "distance_au": 1.013446
+  },
+  {
+    "date": "2026-08-09",
+    "year": 2026,
+    "month": 8,
+    "day": 9,
+    "day_of_year": 221,
+    "distance_km": 151584659.04,
+    "distance_au": 1.013266
+  },
+  {
+    "date": "2026-08-10",
+    "year": 2026,
+    "month": 8,
+    "day": 10,
+    "day_of_year": 222,
+    "distance_km": 151557169.15,
+    "distance_au": 1.013083
+  },
+  {
+    "date": "2026-08-11",
+    "year": 2026,
+    "month": 8,
+    "day": 11,
+    "day_of_year": 223,
+    "distance_km": 151529103.15,
+    "distance_au": 1.012895
+  },
+  {
+    "date": "2026-08-12",
+    "year": 2026,
+    "month": 8,
+    "day": 12,
+    "day_of_year": 224,
+    "distance_km": 151500470.33,
+    "distance_au": 1.012704
+  },
+  {
+    "date": "2026-08-13",
+    "year": 2026,
+    "month": 8,
+    "day": 13,
+    "day_of_year": 225,
+    "distance_km": 151471280.13,
+    "distance_au": 1.012509
+  },
+  {
+    "date": "2026-08-14",
+    "year": 2026,
+    "month": 8,
+    "day": 14,
+    "day_of_year": 226,
+    "distance_km": 151441542.18,
+    "distance_au": 1.01231
+  },
+  {
+    "date": "2026-08-15",
+    "year": 2026,
+    "month": 8,
+    "day": 15,
+    "day_of_year": 227,
+    "distance_km": 151411266.26,
+    "distance_au": 1.012107
+  },
+  {
+    "date": "2026-08-16",
+    "year": 2026,
+    "month": 8,
+    "day": 16,
+    "day_of_year": 228,
+    "distance_km": 151380462.32,
+    "distance_au": 1.011901
+  },
+  {
+    "date": "2026-08-17",
+    "year": 2026,
+    "month": 8,
+    "day": 17,
+    "day_of_year": 229,
+    "distance_km": 151349140.46,
+    "distance_au": 1.011692
+  },
+  {
+    "date": "2026-08-18",
+    "year": 2026,
+    "month": 8,
+    "day": 18,
+    "day_of_year": 230,
+    "distance_km": 151317310.93,
+    "distance_au": 1.011479
+  },
+  {
+    "date": "2026-08-19",
+    "year": 2026,
+    "month": 8,
+    "day": 19,
+    "day_of_year": 231,
+    "distance_km": 151284984.13,
+    "distance_au": 1.011263
+  },
+  {
+    "date": "2026-08-20",
+    "year": 2026,
+    "month": 8,
+    "day": 20,
+    "day_of_year": 232,
+    "distance_km": 151252170.6,
+    "distance_au": 1.011044
+  },
+  {
+    "date": "2026-08-21",
+    "year": 2026,
+    "month": 8,
+    "day": 21,
+    "day_of_year": 233,
+    "distance_km": 151218881.03,
+    "distance_au": 1.010821
+  },
+  {
+    "date": "2026-08-22",
+    "year": 2026,
+    "month": 8,
+    "day": 22,
+    "day_of_year": 234,
+    "distance_km": 151185126.22,
+    "distance_au": 1.010596
+  },
+  {
+    "date": "2026-08-23",
+    "year": 2026,
+    "month": 8,
+    "day": 23,
+    "day_of_year": 235,
+    "distance_km": 151150917.14,
+    "distance_au": 1.010367
+  },
+  {
+    "date": "2026-08-24",
+    "year": 2026,
+    "month": 8,
+    "day": 24,
+    "day_of_year": 236,
+    "distance_km": 151116264.84,
+    "distance_au": 1.010135
+  },
+  {
+    "date": "2026-08-25",
+    "year": 2026,
+    "month": 8,
+    "day": 25,
+    "day_of_year": 237,
+    "distance_km": 151081180.52,
+    "distance_au": 1.009901
+  },
+  {
+    "date": "2026-08-26",
+    "year": 2026,
+    "month": 8,
+    "day": 26,
+    "day_of_year": 238,
+    "distance_km": 151045675.5,
+    "distance_au": 1.009664
+  },
+  {
+    "date": "2026-08-27",
+    "year": 2026,
+    "month": 8,
+    "day": 27,
+    "day_of_year": 239,
+    "distance_km": 151009761.19,
+    "distance_au": 1.009424
+  },
+  {
+    "date": "2026-08-28",
+    "year": 2026,
+    "month": 8,
+    "day": 28,
+    "day_of_year": 240,
+    "distance_km": 150973449.12,
+    "distance_au": 1.009181
+  },
+  {
+    "date": "2026-08-29",
+    "year": 2026,
+    "month": 8,
+    "day": 29,
+    "day_of_year": 241,
+    "distance_km": 150936750.93,
+    "distance_au": 1.008936
+  },
+  {
+    "date": "2026-08-30",
+    "year": 2026,
+    "month": 8,
+    "day": 30,
+    "day_of_year": 242,
+    "distance_km": 150899678.35,
+    "distance_au": 1.008688
+  },
+  {
+    "date": "2026-08-31",
+    "year": 2026,
+    "month": 8,
+    "day": 31,
+    "day_of_year": 243,
+    "distance_km": 150862243.2,
+    "distance_au": 1.008437
+  },
+  {
+    "date": "2026-09-01",
+    "year": 2026,
+    "month": 9,
+    "day": 1,
+    "day_of_year": 244,
+    "distance_km": 150824457.41,
+    "distance_au": 1.008185
+  },
+  {
+    "date": "2026-09-02",
+    "year": 2026,
+    "month": 9,
+    "day": 2,
+    "day_of_year": 245,
+    "distance_km": 150786332.98,
+    "distance_au": 1.00793
+  },
+  {
+    "date": "2026-09-03",
+    "year": 2026,
+    "month": 9,
+    "day": 3,
+    "day_of_year": 246,
+    "distance_km": 150747881.98,
+    "distance_au": 1.007673
+  },
+  {
+    "date": "2026-09-04",
+    "year": 2026,
+    "month": 9,
+    "day": 4,
+    "day_of_year": 247,
+    "distance_km": 150709116.58,
+    "distance_au": 1.007414
+  },
+  {
+    "date": "2026-09-05",
+    "year": 2026,
+    "month": 9,
+    "day": 5,
+    "day_of_year": 248,
+    "distance_km": 150670049.0,
+    "distance_au": 1.007153
+  },
+  {
+    "date": "2026-09-06",
+    "year": 2026,
+    "month": 9,
+    "day": 6,
+    "day_of_year": 249,
+    "distance_km": 150630691.56,
+    "distance_au": 1.00689
+  },
+  {
+    "date": "2026-09-07",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "day_of_year": 250,
+    "distance_km": 150591056.6,
+    "distance_au": 1.006625
+  },
+  {
+    "date": "2026-09-08",
+    "year": 2026,
+    "month": 9,
+    "day": 8,
+    "day_of_year": 251,
+    "distance_km": 150551156.56,
+    "distance_au": 1.006358
+  },
+  {
+    "date": "2026-09-09",
+    "year": 2026,
+    "month": 9,
+    "day": 9,
+    "day_of_year": 252,
+    "distance_km": 150511003.89,
+    "distance_au": 1.00609
+  },
+  {
+    "date": "2026-09-10",
+    "year": 2026,
+    "month": 9,
+    "day": 10,
+    "day_of_year": 253,
+    "distance_km": 150470611.14,
+    "distance_au": 1.00582
+  },
+  {
+    "date": "2026-09-11",
+    "year": 2026,
+    "month": 9,
+    "day": 11,
+    "day_of_year": 254,
+    "distance_km": 150429990.86,
+    "distance_au": 1.005548
+  },
+  {
+    "date": "2026-09-12",
+    "year": 2026,
+    "month": 9,
+    "day": 12,
+    "day_of_year": 255,
+    "distance_km": 150389155.66,
+    "distance_au": 1.005275
+  },
+  {
+    "date": "2026-09-13",
+    "year": 2026,
+    "month": 9,
+    "day": 13,
+    "day_of_year": 256,
+    "distance_km": 150348118.2,
+    "distance_au": 1.005001
+  },
+  {
+    "date": "2026-09-14",
+    "year": 2026,
+    "month": 9,
+    "day": 14,
+    "day_of_year": 257,
+    "distance_km": 150306891.15,
+    "distance_au": 1.004725
+  },
+  {
+    "date": "2026-09-15",
+    "year": 2026,
+    "month": 9,
+    "day": 15,
+    "day_of_year": 258,
+    "distance_km": 150265487.21,
+    "distance_au": 1.004448
+  },
+  {
+    "date": "2026-09-16",
+    "year": 2026,
+    "month": 9,
+    "day": 16,
+    "day_of_year": 259,
+    "distance_km": 150223919.12,
+    "distance_au": 1.004171
+  },
+  {
+    "date": "2026-09-17",
+    "year": 2026,
+    "month": 9,
+    "day": 17,
+    "day_of_year": 260,
+    "distance_km": 150182199.62,
+    "distance_au": 1.003892
+  },
+  {
+    "date": "2026-09-18",
+    "year": 2026,
+    "month": 9,
+    "day": 18,
+    "day_of_year": 261,
+    "distance_km": 150140341.48,
+    "distance_au": 1.003612
+  },
+  {
+    "date": "2026-09-19",
+    "year": 2026,
+    "month": 9,
+    "day": 19,
+    "day_of_year": 262,
+    "distance_km": 150098357.47,
+    "distance_au": 1.003331
+  },
+  {
+    "date": "2026-09-20",
+    "year": 2026,
+    "month": 9,
+    "day": 20,
+    "day_of_year": 263,
+    "distance_km": 150056260.38,
+    "distance_au": 1.00305
+  },
+  {
+    "date": "2026-09-21",
+    "year": 2026,
+    "month": 9,
+    "day": 21,
+    "day_of_year": 264,
+    "distance_km": 150014062.98,
+    "distance_au": 1.002768
+  },
+  {
+    "date": "2026-09-22",
+    "year": 2026,
+    "month": 9,
+    "day": 22,
+    "day_of_year": 265,
+    "distance_km": 149971778.05,
+    "distance_au": 1.002485
+  },
+  {
+    "date": "2026-09-23",
+    "year": 2026,
+    "month": 9,
+    "day": 23,
+    "day_of_year": 266,
+    "distance_km": 149929418.38,
+    "distance_au": 1.002202
+  },
+  {
+    "date": "2026-09-24",
+    "year": 2026,
+    "month": 9,
+    "day": 24,
+    "day_of_year": 267,
+    "distance_km": 149886996.73,
+    "distance_au": 1.001918
+  },
+  {
+    "date": "2026-09-25",
+    "year": 2026,
+    "month": 9,
+    "day": 25,
+    "day_of_year": 268,
+    "distance_km": 149844525.85,
+    "distance_au": 1.001635
+  },
+  {
+    "date": "2026-09-26",
+    "year": 2026,
+    "month": 9,
+    "day": 26,
+    "day_of_year": 269,
+    "distance_km": 149802018.48,
+    "distance_au": 1.00135
+  },
+  {
+    "date": "2026-09-27",
+    "year": 2026,
+    "month": 9,
+    "day": 27,
+    "day_of_year": 270,
+    "distance_km": 149759487.34,
+    "distance_au": 1.001066
+  },
+  {
+    "date": "2026-09-28",
+    "year": 2026,
+    "month": 9,
+    "day": 28,
+    "day_of_year": 271,
+    "distance_km": 149716945.1,
+    "distance_au": 1.000782
+  },
+  {
+    "date": "2026-09-29",
+    "year": 2026,
+    "month": 9,
+    "day": 29,
+    "day_of_year": 272,
+    "distance_km": 149674404.43,
+    "distance_au": 1.000497
+  },
+  {
+    "date": "2026-09-30",
+    "year": 2026,
+    "month": 9,
+    "day": 30,
+    "day_of_year": 273,
+    "distance_km": 149631877.96,
+    "distance_au": 1.000213
+  },
+  {
+    "date": "2026-10-01",
+    "year": 2026,
+    "month": 10,
+    "day": 1,
+    "day_of_year": 274,
+    "distance_km": 149589378.28,
+    "distance_au": 0.999929
+  },
+  {
+    "date": "2026-10-02",
+    "year": 2026,
+    "month": 10,
+    "day": 2,
+    "day_of_year": 275,
+    "distance_km": 149546917.93,
+    "distance_au": 0.999645
+  },
+  {
+    "date": "2026-10-03",
+    "year": 2026,
+    "month": 10,
+    "day": 3,
+    "day_of_year": 276,
+    "distance_km": 149504509.43,
+    "distance_au": 0.999362
+  },
+  {
+    "date": "2026-10-04",
+    "year": 2026,
+    "month": 10,
+    "day": 4,
+    "day_of_year": 277,
+    "distance_km": 149462165.23,
+    "distance_au": 0.999079
+  },
+  {
+    "date": "2026-10-05",
+    "year": 2026,
+    "month": 10,
+    "day": 5,
+    "day_of_year": 278,
+    "distance_km": 149419897.74,
+    "distance_au": 0.998796
+  },
+  {
+    "date": "2026-10-06",
+    "year": 2026,
+    "month": 10,
+    "day": 6,
+    "day_of_year": 279,
+    "distance_km": 149377719.32,
+    "distance_au": 0.998514
+  },
+  {
+    "date": "2026-10-07",
+    "year": 2026,
+    "month": 10,
+    "day": 7,
+    "day_of_year": 280,
+    "distance_km": 149335642.26,
+    "distance_au": 0.998233
+  },
+  {
+    "date": "2026-10-08",
+    "year": 2026,
+    "month": 10,
+    "day": 8,
+    "day_of_year": 281,
+    "distance_km": 149293678.8,
+    "distance_au": 0.997952
+  },
+  {
+    "date": "2026-10-09",
+    "year": 2026,
+    "month": 10,
+    "day": 9,
+    "day_of_year": 282,
+    "distance_km": 149251841.1,
+    "distance_au": 0.997673
+  },
+  {
+    "date": "2026-10-10",
+    "year": 2026,
+    "month": 10,
+    "day": 10,
+    "day_of_year": 283,
+    "distance_km": 149210141.29,
+    "distance_au": 0.997394
+  },
+  {
+    "date": "2026-10-11",
+    "year": 2026,
+    "month": 10,
+    "day": 11,
+    "day_of_year": 284,
+    "distance_km": 149168591.38,
+    "distance_au": 0.997116
+  },
+  {
+    "date": "2026-10-12",
+    "year": 2026,
+    "month": 10,
+    "day": 12,
+    "day_of_year": 285,
+    "distance_km": 149127203.34,
+    "distance_au": 0.99684
+  },
+  {
+    "date": "2026-10-13",
+    "year": 2026,
+    "month": 10,
+    "day": 13,
+    "day_of_year": 286,
+    "distance_km": 149085989.05,
+    "distance_au": 0.996564
+  },
+  {
+    "date": "2026-10-14",
+    "year": 2026,
+    "month": 10,
+    "day": 14,
+    "day_of_year": 287,
+    "distance_km": 149044960.32,
+    "distance_au": 0.99629
+  },
+  {
+    "date": "2026-10-15",
+    "year": 2026,
+    "month": 10,
+    "day": 15,
+    "day_of_year": 288,
+    "distance_km": 149004128.87,
+    "distance_au": 0.996017
+  },
+  {
+    "date": "2026-10-16",
+    "year": 2026,
+    "month": 10,
+    "day": 16,
+    "day_of_year": 289,
+    "distance_km": 148963506.32,
+    "distance_au": 0.995745
+  },
+  {
+    "date": "2026-10-17",
+    "year": 2026,
+    "month": 10,
+    "day": 17,
+    "day_of_year": 290,
+    "distance_km": 148923104.24,
+    "distance_au": 0.995475
+  },
+  {
+    "date": "2026-10-18",
+    "year": 2026,
+    "month": 10,
+    "day": 18,
+    "day_of_year": 291,
+    "distance_km": 148882934.06,
+    "distance_au": 0.995207
+  },
+  {
+    "date": "2026-10-19",
+    "year": 2026,
+    "month": 10,
+    "day": 19,
+    "day_of_year": 292,
+    "distance_km": 148843007.17,
+    "distance_au": 0.99494
+  },
+  {
+    "date": "2026-10-20",
+    "year": 2026,
+    "month": 10,
+    "day": 20,
+    "day_of_year": 293,
+    "distance_km": 148803334.81,
+    "distance_au": 0.994675
+  },
+  {
+    "date": "2026-10-21",
+    "year": 2026,
+    "month": 10,
+    "day": 21,
+    "day_of_year": 294,
+    "distance_km": 148763928.16,
+    "distance_au": 0.994411
+  },
+  {
+    "date": "2026-10-22",
+    "year": 2026,
+    "month": 10,
+    "day": 22,
+    "day_of_year": 295,
+    "distance_km": 148724798.28,
+    "distance_au": 0.99415
+  },
+  {
+    "date": "2026-10-23",
+    "year": 2026,
+    "month": 10,
+    "day": 23,
+    "day_of_year": 296,
+    "distance_km": 148685956.13,
+    "distance_au": 0.99389
+  },
+  {
+    "date": "2026-10-24",
+    "year": 2026,
+    "month": 10,
+    "day": 24,
+    "day_of_year": 297,
+    "distance_km": 148647412.56,
+    "distance_au": 0.993632
+  },
+  {
+    "date": "2026-10-25",
+    "year": 2026,
+    "month": 10,
+    "day": 25,
+    "day_of_year": 298,
+    "distance_km": 148609178.31,
+    "distance_au": 0.993377
+  },
+  {
+    "date": "2026-10-26",
+    "year": 2026,
+    "month": 10,
+    "day": 26,
+    "day_of_year": 299,
+    "distance_km": 148571264.02,
+    "distance_au": 0.993123
+  },
+  {
+    "date": "2026-10-27",
+    "year": 2026,
+    "month": 10,
+    "day": 27,
+    "day_of_year": 300,
+    "distance_km": 148533680.2,
+    "distance_au": 0.992872
+  },
+  {
+    "date": "2026-10-28",
+    "year": 2026,
+    "month": 10,
+    "day": 28,
+    "day_of_year": 301,
+    "distance_km": 148496437.26,
+    "distance_au": 0.992623
+  },
+  {
+    "date": "2026-10-29",
+    "year": 2026,
+    "month": 10,
+    "day": 29,
+    "day_of_year": 302,
+    "distance_km": 148459545.48,
+    "distance_au": 0.992377
+  },
+  {
+    "date": "2026-10-30",
+    "year": 2026,
+    "month": 10,
+    "day": 30,
+    "day_of_year": 303,
+    "distance_km": 148423015.02,
+    "distance_au": 0.992132
+  },
+  {
+    "date": "2026-10-31",
+    "year": 2026,
+    "month": 10,
+    "day": 31,
+    "day_of_year": 304,
+    "distance_km": 148386855.92,
+    "distance_au": 0.991891
+  },
+  {
+    "date": "2026-11-01",
+    "year": 2026,
+    "month": 11,
+    "day": 1,
+    "day_of_year": 305,
+    "distance_km": 148351078.1,
+    "distance_au": 0.991652
+  },
+  {
+    "date": "2026-11-02",
+    "year": 2026,
+    "month": 11,
+    "day": 2,
+    "day_of_year": 306,
+    "distance_km": 148315691.34,
+    "distance_au": 0.991415
+  },
+  {
+    "date": "2026-11-03",
+    "year": 2026,
+    "month": 11,
+    "day": 3,
+    "day_of_year": 307,
+    "distance_km": 148280705.3,
+    "distance_au": 0.991181
+  },
+  {
+    "date": "2026-11-04",
+    "year": 2026,
+    "month": 11,
+    "day": 4,
+    "day_of_year": 308,
+    "distance_km": 148246129.53,
+    "distance_au": 0.99095
+  },
+  {
+    "date": "2026-11-05",
+    "year": 2026,
+    "month": 11,
+    "day": 5,
+    "day_of_year": 309,
+    "distance_km": 148211973.4,
+    "distance_au": 0.990722
+  },
+  {
+    "date": "2026-11-06",
+    "year": 2026,
+    "month": 11,
+    "day": 6,
+    "day_of_year": 310,
+    "distance_km": 148178246.19,
+    "distance_au": 0.990496
+  },
+  {
+    "date": "2026-11-07",
+    "year": 2026,
+    "month": 11,
+    "day": 7,
+    "day_of_year": 311,
+    "distance_km": 148144957.02,
+    "distance_au": 0.990274
+  },
+  {
+    "date": "2026-11-08",
+    "year": 2026,
+    "month": 11,
+    "day": 8,
+    "day_of_year": 312,
+    "distance_km": 148112114.88,
+    "distance_au": 0.990054
+  },
+  {
+    "date": "2026-11-09",
+    "year": 2026,
+    "month": 11,
+    "day": 9,
+    "day_of_year": 313,
+    "distance_km": 148079728.63,
+    "distance_au": 0.989838
+  },
+  {
+    "date": "2026-11-10",
+    "year": 2026,
+    "month": 11,
+    "day": 10,
+    "day_of_year": 314,
+    "distance_km": 148047806.97,
+    "distance_au": 0.989624
+  },
+  {
+    "date": "2026-11-11",
+    "year": 2026,
+    "month": 11,
+    "day": 11,
+    "day_of_year": 315,
+    "distance_km": 148016358.46,
+    "distance_au": 0.989414
+  },
+  {
+    "date": "2026-11-12",
+    "year": 2026,
+    "month": 11,
+    "day": 12,
+    "day_of_year": 316,
+    "distance_km": 147985391.54,
+    "distance_au": 0.989207
+  },
+  {
+    "date": "2026-11-13",
+    "year": 2026,
+    "month": 11,
+    "day": 13,
+    "day_of_year": 317,
+    "distance_km": 147954914.48,
+    "distance_au": 0.989003
+  },
+  {
+    "date": "2026-11-14",
+    "year": 2026,
+    "month": 11,
+    "day": 14,
+    "day_of_year": 318,
+    "distance_km": 147924935.41,
+    "distance_au": 0.988803
+  },
+  {
+    "date": "2026-11-15",
+    "year": 2026,
+    "month": 11,
+    "day": 15,
+    "day_of_year": 319,
+    "distance_km": 147895462.32,
+    "distance_au": 0.988606
+  },
+  {
+    "date": "2026-11-16",
+    "year": 2026,
+    "month": 11,
+    "day": 16,
+    "day_of_year": 320,
+    "distance_km": 147866503.03,
+    "distance_au": 0.988412
+  },
+  {
+    "date": "2026-11-17",
+    "year": 2026,
+    "month": 11,
+    "day": 17,
+    "day_of_year": 321,
+    "distance_km": 147838065.24,
+    "distance_au": 0.988222
+  },
+  {
+    "date": "2026-11-18",
+    "year": 2026,
+    "month": 11,
+    "day": 18,
+    "day_of_year": 322,
+    "distance_km": 147810156.46,
+    "distance_au": 0.988036
+  },
+  {
+    "date": "2026-11-19",
+    "year": 2026,
+    "month": 11,
+    "day": 19,
+    "day_of_year": 323,
+    "distance_km": 147782784.08,
+    "distance_au": 0.987853
+  },
+  {
+    "date": "2026-11-20",
+    "year": 2026,
+    "month": 11,
+    "day": 20,
+    "day_of_year": 324,
+    "distance_km": 147755955.32,
+    "distance_au": 0.987673
+  },
+  {
+    "date": "2026-11-21",
+    "year": 2026,
+    "month": 11,
+    "day": 21,
+    "day_of_year": 325,
+    "distance_km": 147729677.25,
+    "distance_au": 0.987498
+  },
+  {
+    "date": "2026-11-22",
+    "year": 2026,
+    "month": 11,
+    "day": 22,
+    "day_of_year": 326,
+    "distance_km": 147703956.77,
+    "distance_au": 0.987326
+  },
+  {
+    "date": "2026-11-23",
+    "year": 2026,
+    "month": 11,
+    "day": 23,
+    "day_of_year": 327,
+    "distance_km": 147678800.63,
+    "distance_au": 0.987158
+  },
+  {
+    "date": "2026-11-24",
+    "year": 2026,
+    "month": 11,
+    "day": 24,
+    "day_of_year": 328,
+    "distance_km": 147654215.44,
+    "distance_au": 0.986993
+  },
+  {
+    "date": "2026-11-25",
+    "year": 2026,
+    "month": 11,
+    "day": 25,
+    "day_of_year": 329,
+    "distance_km": 147630207.62,
+    "distance_au": 0.986833
+  },
+  {
+    "date": "2026-11-26",
+    "year": 2026,
+    "month": 11,
+    "day": 26,
+    "day_of_year": 330,
+    "distance_km": 147606783.45,
+    "distance_au": 0.986676
+  },
+  {
+    "date": "2026-11-27",
+    "year": 2026,
+    "month": 11,
+    "day": 27,
+    "day_of_year": 331,
+    "distance_km": 147583949.03,
+    "distance_au": 0.986524
+  },
+  {
+    "date": "2026-11-28",
+    "year": 2026,
+    "month": 11,
+    "day": 28,
+    "day_of_year": 332,
+    "distance_km": 147561710.32,
+    "distance_au": 0.986375
+  },
+  {
+    "date": "2026-11-29",
+    "year": 2026,
+    "month": 11,
+    "day": 29,
+    "day_of_year": 333,
+    "distance_km": 147540073.09,
+    "distance_au": 0.98623
+  },
+  {
+    "date": "2026-11-30",
+    "year": 2026,
+    "month": 11,
+    "day": 30,
+    "day_of_year": 334,
+    "distance_km": 147519042.97,
+    "distance_au": 0.98609
+  },
+  {
+    "date": "2026-12-01",
+    "year": 2026,
+    "month": 12,
+    "day": 1,
+    "day_of_year": 335,
+    "distance_km": 147498625.42,
+    "distance_au": 0.985953
+  },
+  {
+    "date": "2026-12-02",
+    "year": 2026,
+    "month": 12,
+    "day": 2,
+    "day_of_year": 336,
+    "distance_km": 147478825.71,
+    "distance_au": 0.985821
+  },
+  {
+    "date": "2026-12-03",
+    "year": 2026,
+    "month": 12,
+    "day": 3,
+    "day_of_year": 337,
+    "distance_km": 147459648.97,
+    "distance_au": 0.985693
+  },
+  {
+    "date": "2026-12-04",
+    "year": 2026,
+    "month": 12,
+    "day": 4,
+    "day_of_year": 338,
+    "distance_km": 147441100.17,
+    "distance_au": 0.985569
+  },
+  {
+    "date": "2026-12-05",
+    "year": 2026,
+    "month": 12,
+    "day": 5,
+    "day_of_year": 339,
+    "distance_km": 147423184.07,
+    "distance_au": 0.985449
+  },
+  {
+    "date": "2026-12-06",
+    "year": 2026,
+    "month": 12,
+    "day": 6,
+    "day_of_year": 340,
+    "distance_km": 147405905.31,
+    "distance_au": 0.985334
+  },
+  {
+    "date": "2026-12-07",
+    "year": 2026,
+    "month": 12,
+    "day": 7,
+    "day_of_year": 341,
+    "distance_km": 147389268.32,
+    "distance_au": 0.985222
+  },
+  {
+    "date": "2026-12-08",
+    "year": 2026,
+    "month": 12,
+    "day": 8,
+    "day_of_year": 342,
+    "distance_km": 147373277.39,
+    "distance_au": 0.985115
+  },
+  {
+    "date": "2026-12-09",
+    "year": 2026,
+    "month": 12,
+    "day": 9,
+    "day_of_year": 343,
+    "distance_km": 147357936.63,
+    "distance_au": 0.985013
+  },
+  {
+    "date": "2026-12-10",
+    "year": 2026,
+    "month": 12,
+    "day": 10,
+    "day_of_year": 344,
+    "distance_km": 147343249.97,
+    "distance_au": 0.984915
+  },
+  {
+    "date": "2026-12-11",
+    "year": 2026,
+    "month": 12,
+    "day": 11,
+    "day_of_year": 345,
+    "distance_km": 147329221.18,
+    "distance_au": 0.984821
+  },
+  {
+    "date": "2026-12-12",
+    "year": 2026,
+    "month": 12,
+    "day": 12,
+    "day_of_year": 346,
+    "distance_km": 147315853.84,
+    "distance_au": 0.984732
+  },
+  {
+    "date": "2026-12-13",
+    "year": 2026,
+    "month": 12,
+    "day": 13,
+    "day_of_year": 347,
+    "distance_km": 147303151.39,
+    "distance_au": 0.984647
+  },
+  {
+    "date": "2026-12-14",
+    "year": 2026,
+    "month": 12,
+    "day": 14,
+    "day_of_year": 348,
+    "distance_km": 147291117.07,
+    "distance_au": 0.984566
+  },
+  {
+    "date": "2026-12-15",
+    "year": 2026,
+    "month": 12,
+    "day": 15,
+    "day_of_year": 349,
+    "distance_km": 147279753.96,
+    "distance_au": 0.98449
+  },
+  {
+    "date": "2026-12-16",
+    "year": 2026,
+    "month": 12,
+    "day": 16,
+    "day_of_year": 350,
+    "distance_km": 147269064.94,
+    "distance_au": 0.984419
+  },
+  {
+    "date": "2026-12-17",
+    "year": 2026,
+    "month": 12,
+    "day": 17,
+    "day_of_year": 351,
+    "distance_km": 147259052.76,
+    "distance_au": 0.984352
+  },
+  {
+    "date": "2026-12-18",
+    "year": 2026,
+    "month": 12,
+    "day": 18,
+    "day_of_year": 352,
+    "distance_km": 147249719.97,
+    "distance_au": 0.98429
+  },
+  {
+    "date": "2026-12-19",
+    "year": 2026,
+    "month": 12,
+    "day": 19,
+    "day_of_year": 353,
+    "distance_km": 147241068.94,
+    "distance_au": 0.984232
+  },
+  {
+    "date": "2026-12-20",
+    "year": 2026,
+    "month": 12,
+    "day": 20,
+    "day_of_year": 354,
+    "distance_km": 147233101.87,
+    "distance_au": 0.984178
+  },
+  {
+    "date": "2026-12-21",
+    "year": 2026,
+    "month": 12,
+    "day": 21,
+    "day_of_year": 355,
+    "distance_km": 147225820.79,
+    "distance_au": 0.98413
+  },
+  {
+    "date": "2026-12-22",
+    "year": 2026,
+    "month": 12,
+    "day": 22,
+    "day_of_year": 356,
+    "distance_km": 147219227.56,
+    "distance_au": 0.984086
+  },
+  {
+    "date": "2026-12-23",
+    "year": 2026,
+    "month": 12,
+    "day": 23,
+    "day_of_year": 357,
+    "distance_km": 147213323.85,
+    "distance_au": 0.984046
+  },
+  {
+    "date": "2026-12-24",
+    "year": 2026,
+    "month": 12,
+    "day": 24,
+    "day_of_year": 358,
+    "distance_km": 147208111.16,
+    "distance_au": 0.984011
+  },
+  {
+    "date": "2026-12-25",
+    "year": 2026,
+    "month": 12,
+    "day": 25,
+    "day_of_year": 359,
+    "distance_km": 147203590.82,
+    "distance_au": 0.983981
+  },
+  {
+    "date": "2026-12-26",
+    "year": 2026,
+    "month": 12,
+    "day": 26,
+    "day_of_year": 360,
+    "distance_km": 147199763.97,
+    "distance_au": 0.983956
+  },
+  {
+    "date": "2026-12-27",
+    "year": 2026,
+    "month": 12,
+    "day": 27,
+    "day_of_year": 361,
+    "distance_km": 147196631.59,
+    "distance_au": 0.983935
+  },
+  {
+    "date": "2026-12-28",
+    "year": 2026,
+    "month": 12,
+    "day": 28,
+    "day_of_year": 362,
+    "distance_km": 147194194.46,
+    "distance_au": 0.983918
+  },
+  {
+    "date": "2026-12-29",
+    "year": 2026,
+    "month": 12,
+    "day": 29,
+    "day_of_year": 363,
+    "distance_km": 147192453.22,
+    "distance_au": 0.983907
+  },
+  {
+    "date": "2026-12-30",
+    "year": 2026,
+    "month": 12,
+    "day": 30,
+    "day_of_year": 364,
+    "distance_km": 147191408.3,
+    "distance_au": 0.9839
+  },
+  {
+    "date": "2026-12-31",
+    "year": 2026,
+    "month": 12,
+    "day": 31,
+    "day_of_year": 365,
+    "distance_km": 147191059.96,
+    "distance_au": 0.983897
+  }
+]

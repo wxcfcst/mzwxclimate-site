@@ -1,0 +1,282 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MZ WX & Climate - Previsão Numérica ETA</title>
+
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/eta.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<main>
+
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<h2>Previsão Numérica do Modelo ETA</h2>
+
+<p>
+
+Visualize mapas meteorológicos, consulte tabelas por distrito,
+leia a previsão em texto e acesse o boletim completo produzido
+automaticamente pelo modelo ETA para Moçambique.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2 class="section-title">
+
+Produtos Disponíveis
+
+</h2>
+
+
+
+<div class="features-grid">
+
+<!-- ===================================================== -->
+
+<div class="feature-card">
+
+<h3>🗺️ Mapas</h3>
+
+<label>Variável</label>
+
+<select id="map-variable">
+
+<option value="RAIN_PRES_24H">Precipitação (24 h)</option>
+
+<option value="TMAX_24H">Temperatura Máxima</option>
+
+<option value="TMEAN_24H">Temperatura Média</option>
+
+<option value="TMIN_24H">Temperatura Mínima</option>
+
+<option value="WIND_24H">Vento</option>
+
+</select>
+
+<br><br>
+
+<label>Tempo</label>
+
+<select id="map-day">
+
+<option value="1">Dia 1</option>
+
+<option value="2">Dia 2</option>
+
+<option value="3">Dia 3</option>
+
+</select>
+
+<br><br>
+
+<button onclick="showMap()">
+
+Ver mapa
+
+</button>
+
+</div>
+
+<!-- ===================================================== -->
+
+<div class="feature-card">
+
+<h3>📊 Tabelas</h3>
+
+<label>Província</label>
+
+<select id="table-province"></select>
+
+<br><br>
+
+<label>Distrito</label>
+
+<select id="table-district"></select>
+
+<br><br>
+
+<label>Tempo</label>
+
+<select id="table-day">
+
+<option value="1">Dia 1</option>
+
+<option value="2">Dia 2</option>
+
+<option value="3">Dia 3</option>
+
+</select>
+
+<br><br>
+
+<button onclick="showTable()">
+
+Ver tabela
+
+</button>
+
+</div>
+
+<!-- ===================================================== -->
+
+<div class="feature-card">
+
+<h3>📝 Previsão em Texto</h3>
+
+<label>Província</label>
+
+<select id="text-province"></select>
+
+<br><br>
+
+<label>Distrito</label>
+
+<select id="text-district"></select>
+
+<br><br>
+
+<label>Tempo</label>
+
+<select id="text-day">
+
+<option value="1">Dia 1</option>
+
+<option value="2">Dia 2</option>
+
+<option value="3">Dia 3</option>
+
+</select>
+
+<br><br>
+
+<button onclick="showText()">
+
+Ver previsão
+
+</button>
+
+</div>
+
+<!-- ===================================================== -->
+
+<div class="feature-card">
+
+<h3>📄 Boletim</h3>
+
+<p>
+
+Faça o download do boletim meteorológico diário completo
+produzido pelo modelo ETA.
+
+</p>
+
+<br>
+
+<button onclick="openPDF()">
+
+Abrir PDF
+
+</button>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="viewer">
+
+<h2>
+
+Mapa
+
+</h2>
+
+<img
+
+id="map-image"
+
+src="../assets/images/placeholder.png"
+
+alt="Mapa ETA">
+
+</div>
+
+<br><br>
+
+<div class="viewer">
+
+<h2>
+
+Tabela
+
+</h2>
+
+<div id="table-container">
+
+Selecione uma província.
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="viewer">
+
+<h2>
+
+Previsão em Texto
+
+</h2>
+
+<pre id="forecast-text">
+
+Selecione um distrito.
+
+</pre>
+
+</div>
+
+</section>
+
+</main>
+
+<script src="../assets/js/eta.js"></script>
+
+</body>
+
+</html>
+
+
+
