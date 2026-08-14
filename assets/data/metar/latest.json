@@ -6,7 +6,7 @@
     "product": "METAR",
     "search_hours": 48
   },
-  "updated": "2026-08-14T11:37:17.436275+00:00",
+  "updated": "2026-08-14T12:50:32.501304+00:00",
   "stations": [
     {
       "city": "Maputo",
@@ -21,7 +21,7 @@
       "wind_direction": 240,
       "wind_speed_kt": 8,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1031,
       "weather": null,
       "clouds": [
@@ -50,7 +50,7 @@
       "wind_direction": 230,
       "wind_speed_kt": 10,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1028,
       "weather": null,
       "clouds": [
@@ -79,7 +79,7 @@
       "wind_direction": 200,
       "wind_speed_kt": 10,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1024,
       "weather": null,
       "clouds": [
@@ -112,7 +112,7 @@
       "wind_direction": null,
       "wind_speed_kt": null,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1021,
       "weather": null,
       "clouds": [
@@ -137,25 +137,25 @@
       "icao": "FQVL",
       "iata": "VNX",
       "available": true,
-      "observation_time": "2026-08-14T10:00:00.000Z",
-      "observation_timestamp": 1786701600,
-      "temp_c": 23,
-      "dewpoint_c": 11,
+      "observation_time": "2026-08-14T12:00:00.000Z",
+      "observation_timestamp": 1786708800,
+      "temp_c": 21,
+      "dewpoint_c": 12,
       "relative_humidity": null,
-      "wind_direction": 170,
+      "wind_direction": 160,
       "wind_speed_kt": 11,
       "wind_gust_kt": null,
-      "visibility": "6+",
-      "altimeter_hpa": 1027,
+      "visibility": "≥ 10 km",
+      "altimeter_hpa": 1025,
       "weather": null,
       "clouds": [
         {
-          "cover": "FEW",
+          "cover": "BKN",
           "base": 2000
         }
       ],
-      "flight_category": "VFR",
-      "raw_metar": "METAR FQVL 141000Z 17011KT 9999 FEW020 23/11 Q1027",
+      "flight_category": "MVFR",
+      "raw_metar": "METAR FQVL 141200Z 16011KT 9999 BKN020 21/12 Q1025",
       "station_name": "Vilankulo Arpt, IN, MZ",
       "latitude": -22.017,
       "longitude": 35.313,
@@ -174,7 +174,7 @@
       "wind_direction": 120,
       "wind_speed_kt": 6,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1028,
       "weather": null,
       "clouds": [
@@ -203,7 +203,7 @@
       "wind_direction": 190,
       "wind_speed_kt": 10,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1029,
       "weather": null,
       "clouds": [
@@ -240,7 +240,7 @@
       "wind_direction": null,
       "wind_speed_kt": null,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1022,
       "weather": null,
       "clouds": [
@@ -292,7 +292,7 @@
       "wind_direction": 250,
       "wind_speed_kt": 8,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1026,
       "weather": null,
       "clouds": [
@@ -321,7 +321,7 @@
       "wind_direction": null,
       "wind_speed_kt": null,
       "wind_gust_kt": null,
-      "visibility": "6+",
+      "visibility": "≥ 10 km",
       "altimeter_hpa": 1031,
       "weather": null,
       "clouds": [

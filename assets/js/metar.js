@@ -163,11 +163,28 @@ function createMetarCard(station) {
             : "—";
 
 
-    const visibility =
-        station.visibility_sm !== null &&
-        station.visibility_sm !== undefined
-            ? `${station.visibility_sm} SM`
-            : "—";
+    let visibility = "—";
+
+    if (
+        station.visibility !== null &&
+        station.visibility !== undefined &&
+        station.visibility !== ""
+    ) {
+        const value = String(station.visibility).trim();
+
+        if (value === "9999") {
+            visibility = "≥ 10 km";
+        } else {
+            const meters = Number(value);
+
+            if (!Number.isNaN(meters) && meters > 0) {
+                const km = meters / 1000;
+                visibility = `${km % 1 === 0 ? km.toFixed(0) : km.toFixed(1)} km`;
+            } else {
+                visibility = value;
+            }
+        }
+    }
 
 
     const icon = weatherIcon(

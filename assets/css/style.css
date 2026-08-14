@@ -472,43 +472,79 @@ a {
 
 .metar-section {
     width: 100%;
+    max-width: 1200px;
     margin: 30px auto;
+    padding: 25px 20px;
+
+    /*
+       Fundo translúcido para permitir ver a imagem
+       carregada diretamente no background do site.
+    */
+    background: rgba(0, 0, 0, 0.28);
+
+    border-radius: 18px;
+
+    /*
+       Efeito de vidro sobre a imagem de fundo.
+    */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.20);
+
+    color: white;
 }
+
 
 .metar-section h2 {
     margin-bottom: 5px;
+    color: white;
 }
+
 
 #metar-updated {
     font-size: 0.85rem;
-    opacity: 0.75;
     margin-bottom: 18px;
+    color: white;
+    opacity: 0.9;
 }
 
 
+/* ============================================================
+   CONTAINER DOS AEROPORTOS
+   ============================================================ */
+
 .metar-grid {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(220px, 1fr)
-    );
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
 
     gap: 14px;
 }
 
 
+/* ============================================================
+   CARTÃO METAR
+   ============================================================ */
+
 .metar-card {
     border-radius: 12px;
     padding: 16px;
 
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.90);
+
+    color: #1a202c;
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.10);
+        0 2px 8px rgba(0, 0, 0, 0.15);
 
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
+
+    animation: metarFadeIn 0.4s ease-out;
 }
 
 
@@ -516,7 +552,7 @@ a {
     transform: translateY(-3px);
 
     box-shadow:
-        0 5px 15px rgba(0, 0, 0, 0.15);
+        0 5px 15px rgba(0, 0, 0, 0.20);
 }
 
 
@@ -606,12 +642,71 @@ a {
 }
 
 
+/* ============================================================
+   FONTE
+   ============================================================ */
+
 .metar-source {
     margin-top: 12px;
 
     font-size: 0.75rem;
-    opacity: 0.7;
+    opacity: 0.85;
+
+    color: white;
 }
+
+
+.metar-source a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .metar-section {
+        margin: 20px auto;
+        padding: 20px 12px;
+        border-radius: 14px;
+    }
+
+    .metar-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .metar-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/*==============================================================*/
+
+/* ============================================================
+   ANIMAÇÃO DAS CARTAS METAR
+   ============================================================ */
+
+@keyframes metarFadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/*===============================================================*/
+
+
 
 
 
