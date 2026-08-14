@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>METAR - Página Inicial</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+        }
+
+        #metar-home-container {
+            width: 100%;
+        }
+
+        .metar-home-card {
+
+            width: 100%;
+            max-width: 360px;
+
+            padding: 16px 18px;
+
+            background: rgba(0, 0, 0, 0.55);
+
+            border-radius: 14px;
+
+            color: white;
+
+            box-shadow:
+                0 4px 18px rgba(0, 0, 0, 0.30);
+
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+
+            animation:
+                metarHomeFade 0.6s ease;
+        }
+
+        .metar-home-title {
+
+            font-size: 1.15rem;
+            font-weight: 700;
+
+            margin-bottom: 5px;
+        }
+
+        .metar-home-temp {
+
+            font-size: 2.2rem;
+            font-weight: 700;
+
+            margin-bottom: 10px;
+        }
+
+        .metar-home-details {
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 12px;
+        }
+
+        .metar-home-details span {
+
+            display: block;
+
+            font-size: 0.72rem;
+
+            opacity: 0.75;
+
+            margin-bottom: 2px;
+        }
+
+        .metar-home-details strong {
+
+            display: block;
+
+            font-size: 0.9rem;
+        }
+
+        .metar-home-time {
+
+            margin-top: 12px;
+
+            padding-top: 8px;
+
+            border-top:
+                1px solid
+                rgba(255,255,255,0.20);
+
+            font-size: 0.7rem;
+
+            opacity: 0.75;
+        }
+
+        @keyframes metarHomeFade {
+
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="metar-home-container"></div>
+
+    <script src="../assets/js/metar-home.js"></script>
+
+</body>
+</html>
