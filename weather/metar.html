@@ -518,8 +518,28 @@
             return "—";
         }
 
+        // METAR: 9999 = visibilidade horizontal ≥ 10 km
+        if (String(value).trim() === "9999") {
+
+            return "≥ 10 km";
+        }
+
+        // Outros valores METAR são normalmente expressos em metros
+        const meters = Number(value);
+
+        if (!Number.isNaN(meters)) {
+
+            const kilometers = meters / 1000;
+
+            return `${kilometers % 1 === 0
+                ? kilometers.toFixed(0)
+                : kilometers.toFixed(1)
+            } km`;
+        }
+
         return value;
     }
+
 
 
     /* =========================================================
@@ -681,7 +701,7 @@
 
             <td>
                 ${formatVisibility(
-                    station.visibility
+                    station.visibility_sm
                 )}
             </td>
 
