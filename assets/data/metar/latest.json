@@ -1,0 +1,345 @@
+{
+  "source": {
+    "name": "AviationWeather.gov",
+    "url": "https://aviationweather.gov/data/metar/",
+    "api": "https://aviationweather.gov/api/data/metar",
+    "product": "METAR",
+    "search_hours": 48
+  },
+  "updated": "2026-08-14T11:09:21.896547+00:00",
+  "stations": [
+    {
+      "city": "Maputo",
+      "icao": "FQMA",
+      "iata": "MPM",
+      "available": true,
+      "observation_time": "2026-08-14T04:00:00.000Z",
+      "observation_timestamp": 1786680000,
+      "temp_c": 14,
+      "dewpoint_c": 9,
+      "relative_humidity": null,
+      "wind_direction": 240,
+      "wind_speed_kt": 8,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1031,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 2500
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQMA 140400Z 24008KT 9999 FEW025 14/09 Q1031 NOSIG",
+      "station_name": "Maputo Intl, MP, MZ",
+      "latitude": -25.921,
+      "longitude": 32.573,
+      "elevation_m": 34
+    },
+    {
+      "city": "Beira",
+      "icao": "FQBR",
+      "iata": "BEW",
+      "available": true,
+      "observation_time": "2026-08-14T05:00:00.000Z",
+      "observation_timestamp": 1786683600,
+      "temp_c": 16,
+      "dewpoint_c": 13,
+      "relative_humidity": null,
+      "wind_direction": 230,
+      "wind_speed_kt": 10,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1028,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 1800
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQBR 140500Z 23010KT 9999 FEW018 16/13 Q1028",
+      "station_name": "Beira Intl, SO, MZ",
+      "latitude": -19.796,
+      "longitude": 34.908,
+      "elevation_m": 14
+    },
+    {
+      "city": "Nampula",
+      "icao": "FQNP",
+      "iata": "APL",
+      "available": true,
+      "observation_time": "2026-08-14T04:00:00.000Z",
+      "observation_timestamp": 1786680000,
+      "temp_c": 17,
+      "dewpoint_c": 16,
+      "relative_humidity": null,
+      "wind_direction": 200,
+      "wind_speed_kt": 10,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1024,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "SCT",
+          "base": 2000
+        },
+        {
+          "cover": "SCT",
+          "base": 10000
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQNP 140400Z 20010KT 9999 SCT020 SCT100 17/16 Q1024",
+      "station_name": "Nampula Arpt, NA, MZ",
+      "latitude": -15.106,
+      "longitude": 39.282,
+      "elevation_m": 434
+    },
+    {
+      "city": "Pemba",
+      "icao": "FQPB",
+      "iata": "POL",
+      "available": true,
+      "observation_time": "2026-08-14T04:00:00.000Z",
+      "observation_timestamp": 1786680000,
+      "temp_c": 22,
+      "dewpoint_c": 19,
+      "relative_humidity": null,
+      "wind_direction": null,
+      "wind_speed_kt": null,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1021,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 2000
+        },
+        {
+          "cover": "BKN",
+          "base": 10000
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQPB 140400Z /////KT 9999 FEW020 BKN100 22/19 Q1021",
+      "station_name": "Pemba Arpt, CD, MZ",
+      "latitude": -12.989,
+      "longitude": 40.525,
+      "elevation_m": 101
+    },
+    {
+      "city": "Vilanculos",
+      "icao": "FQVL",
+      "iata": "VNX",
+      "available": true,
+      "observation_time": "2026-08-14T10:00:00.000Z",
+      "observation_timestamp": 1786701600,
+      "temp_c": 23,
+      "dewpoint_c": 11,
+      "relative_humidity": null,
+      "wind_direction": 170,
+      "wind_speed_kt": 11,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1027,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 2000
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQVL 141000Z 17011KT 9999 FEW020 23/11 Q1027",
+      "station_name": "Vilankulo Arpt, IN, MZ",
+      "latitude": -22.017,
+      "longitude": 35.313,
+      "elevation_m": 15
+    },
+    {
+      "city": "Tete",
+      "icao": "FQTT",
+      "iata": "TET",
+      "available": true,
+      "observation_time": "2026-08-14T05:00:00.000Z",
+      "observation_timestamp": 1786683600,
+      "temp_c": 19,
+      "dewpoint_c": 15,
+      "relative_humidity": null,
+      "wind_direction": 120,
+      "wind_speed_kt": 6,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1028,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "BKN",
+          "base": 1800
+        }
+      ],
+      "flight_category": "MVFR",
+      "raw_metar": "METAR FQTT 140500Z 12006KT 9999 BKN018 19/15 Q1028",
+      "station_name": "Tete Arpt, TE, MZ",
+      "latitude": -16.108,
+      "longitude": 33.64,
+      "elevation_m": 146
+    },
+    {
+      "city": "Inhambane",
+      "icao": "FQIN",
+      "iata": "INH",
+      "available": true,
+      "observation_time": "2026-08-14T04:00:00.000Z",
+      "observation_timestamp": 1786680000,
+      "temp_c": 16,
+      "dewpoint_c": 15,
+      "relative_humidity": null,
+      "wind_direction": 190,
+      "wind_speed_kt": 10,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1029,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 1500
+        },
+        {
+          "cover": "SCT",
+          "base": 2000
+        },
+        {
+          "cover": "BKN",
+          "base": 2500
+        }
+      ],
+      "flight_category": "MVFR",
+      "raw_metar": "METAR FQIN 140400Z 19010KT 9999 FEW015 SCT020 BKN025 16/15 Q1029",
+      "station_name": "Inhambane Arpt, IN, MZ",
+      "latitude": -23.876,
+      "longitude": 35.407,
+      "elevation_m": 10
+    },
+    {
+      "city": "Nacala",
+      "icao": "FQNC",
+      "iata": "MNC",
+      "available": true,
+      "observation_time": "2026-08-14T06:00:00.000Z",
+      "observation_timestamp": 1786687200,
+      "temp_c": null,
+      "dewpoint_c": null,
+      "relative_humidity": null,
+      "wind_direction": null,
+      "wind_speed_kt": null,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1022,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 1500
+        },
+        {
+          "cover": "BKN",
+          "base": 2000
+        }
+      ],
+      "flight_category": "MVFR",
+      "raw_metar": "METAR FQNC 140600Z /////KT 9999 FEW015 BKN020 24/// Q1022",
+      "station_name": "Nacala Arpt, N, MZ",
+      "latitude": -14.488,
+      "longitude": 40.712,
+      "elevation_m": 112
+    },
+    {
+      "city": "Lichinga",
+      "icao": "FQLC",
+      "iata": "VXC",
+      "available": false,
+      "observation_time": null,
+      "temp_c": null,
+      "dewpoint_c": null,
+      "relative_humidity": null,
+      "wind_direction": null,
+      "wind_speed_kt": null,
+      "wind_gust_kt": null,
+      "visibility": null,
+      "altimeter_hpa": null,
+      "weather": null,
+      "clouds": [],
+      "flight_category": null,
+      "raw_metar": null
+    },
+    {
+      "city": "Quelimane",
+      "icao": "FQQL",
+      "iata": "UEL",
+      "available": true,
+      "observation_time": "2026-08-14T05:00:00.000Z",
+      "observation_timestamp": 1786683600,
+      "temp_c": 18,
+      "dewpoint_c": 17,
+      "relative_humidity": null,
+      "wind_direction": 250,
+      "wind_speed_kt": 8,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1026,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "SCT",
+          "base": 2000
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQQL 140500Z 25008KT 9999 SCT020 18/17 Q1026",
+      "station_name": "Quelimane Arpt, ZA, MZ",
+      "latitude": -17.858,
+      "longitude": 36.869,
+      "elevation_m": 5
+    },
+    {
+      "city": "Chimoio",
+      "icao": "FQCH",
+      "iata": "VPY",
+      "available": true,
+      "observation_time": "2026-08-14T05:00:00.000Z",
+      "observation_timestamp": 1786683600,
+      "temp_c": 12,
+      "dewpoint_c": 12,
+      "relative_humidity": null,
+      "wind_direction": null,
+      "wind_speed_kt": null,
+      "wind_gust_kt": null,
+      "visibility": "6+",
+      "altimeter_hpa": 1031,
+      "weather": null,
+      "clouds": [
+        {
+          "cover": "FEW",
+          "base": 1000
+        },
+        {
+          "cover": "SCT",
+          "base": 1800
+        }
+      ],
+      "flight_category": "VFR",
+      "raw_metar": "METAR FQCH 140500Z /////KT 9999 FEW010 SCT018 12/12 Q1031",
+      "station_name": "Chimoio Arpt, MN, MZ",
+      "latitude": -19.148,
+      "longitude": 33.428,
+      "elevation_m": 695
+    }
+  ]
+}

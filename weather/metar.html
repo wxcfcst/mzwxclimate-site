@@ -1,0 +1,901 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tempo nos principais aeroportos de Moçambique | MZ WX & Climate</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <style>
+
+        /* =====================================================
+           METAR PAGE
+           ===================================================== */
+
+        .metar-page {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px 20px 50px;
+        }
+
+        .metar-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .metar-header h1 {
+            margin-bottom: 10px;
+        }
+
+        .metar-header p {
+            margin: 5px 0;
+        }
+
+        .metar-source {
+            font-size: 0.9rem;
+            opacity: 0.75;
+        }
+
+        .metar-source a {
+            color: inherit;
+        }
+
+        /* =====================================================
+           STATUS
+           ===================================================== */
+
+        .metar-status {
+            margin: 20px auto;
+            padding: 12px 18px;
+            border-radius: 8px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        .metar-status.loading {
+            opacity: 0.75;
+        }
+
+        .metar-status.error {
+            background: #f8d7da;
+            color: #842029;
+        }
+
+        /* =====================================================
+           TABLE
+           ===================================================== */
+
+        .metar-table-container {
+            width: 100%;
+            overflow-x: auto;
+            margin-top: 25px;
+        }
+
+        .metar-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1050px;
+            background: rgba(255, 255, 255, 0.96);
+        }
+
+        .metar-table th,
+        .metar-table td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .metar-table th {
+            background: #1d4f73;
+            color: white;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .metar-table tbody tr:hover {
+            background: #f1f7fb;
+        }
+
+        .metar-city {
+            font-weight: 600;
+            text-align: left !important;
+        }
+
+        .metar-icao {
+            font-family: monospace;
+            font-weight: 600;
+        }
+
+        .metar-time {
+            white-space: nowrap;
+        }
+
+        .metar-temp {
+            font-weight: 600;
+        }
+
+        .metar-wind {
+            white-space: nowrap;
+        }
+
+        .metar-pressure {
+            white-space: nowrap;
+        }
+
+        .metar-clouds {
+            text-align: left !important;
+            min-width: 160px;
+        }
+
+        .metar-raw {
+            margin-top: 4px;
+            font-family: monospace;
+            font-size: 0.78rem;
+            color: #555;
+            max-width: 300px;
+        }
+
+        /* =====================================================
+           FLIGHT CATEGORY
+           ===================================================== */
+
+        .flight-category {
+            display: inline-block;
+            padding: 4px 9px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            min-width: 45px;
+        }
+
+        .flight-VFR {
+            background: #b7e4c7;
+            color: #14532d;
+        }
+
+        .flight-MVFR {
+            background: #a9d6e5;
+            color: #164e63;
+        }
+
+        .flight-IFR {
+            background: #f7c59f;
+            color: #7c2d12;
+        }
+
+        .flight-LIFR {
+            background: #f3a6a6;
+            color: #7f1d1d;
+        }
+
+        .flight-NA {
+            background: #e5e7eb;
+            color: #374151;
+        }
+
+        /* =====================================================
+           NO DATA
+           ===================================================== */
+
+        .no-data {
+            color: #777;
+            font-style: italic;
+        }
+
+        /* =====================================================
+           RAW METAR
+           ===================================================== */
+
+        .raw-section {
+            margin-top: 35px;
+        }
+
+        .raw-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .raw-note {
+            font-size: 0.9rem;
+            opacity: 0.75;
+            margin-bottom: 15px;
+        }
+
+        .raw-metar {
+            padding: 12px;
+            margin-bottom: 8px;
+            background: #f5f5f5;
+            border-left: 4px solid #1d4f73;
+            font-family: monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+        }
+
+        /* =====================================================
+           FOOTER INFORMATION
+           ===================================================== */
+
+        .metar-footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.85rem;
+            opacity: 0.75;
+        }
+
+        /* =====================================================
+           MOBILE
+           ===================================================== */
+
+        @media (max-width: 700px) {
+
+            .metar-page {
+                padding: 20px 10px 40px;
+            }
+
+            .metar-header h1 {
+                font-size: 1.6rem;
+            }
+
+            .metar-table th,
+            .metar-table td {
+                padding: 9px 7px;
+                font-size: 0.85rem;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="metar-page">
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="metar-header">
+
+        <h1>
+            Tempo nos principais aeroportos de Moçambique
+        </h1>
+
+        <p>
+            Observações meteorológicas METAR
+        </p>
+
+        <p class="metar-source">
+            Fonte:
+            <a
+                href="https://aviationweather.gov/data/metar/"
+                target="_blank"
+                rel="noopener"
+            >
+                AviationWeather.gov
+            </a>
+        </p>
+
+    </header>
+
+
+    <!-- =====================================================
+         STATUS
+         ===================================================== -->
+
+    <div
+        id="metar-status"
+        class="metar-status loading"
+    >
+        Carregando observações meteorológicas...
+    </div>
+
+
+    <!-- =====================================================
+         TABLE
+         ===================================================== -->
+
+    <div class="metar-table-container">
+
+        <table
+            id="metar-table"
+            class="metar-table"
+        >
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Aeroporto
+                    </th>
+
+                    <th>
+                        ICAO
+                    </th>
+
+                    <th>
+                        Observação
+                    </th>
+
+                    <th>
+                        Temperatura
+                    </th>
+
+                    <th>
+                        Vento
+                    </th>
+
+                    <th>
+                        Visibilidade
+                    </th>
+
+                    <th>
+                        Pressão
+                    </th>
+
+                    <th>
+                        Nebulosidade
+                    </th>
+
+                    <th>
+                        Categoria
+                    </th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="metar-body">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =====================================================
+         RAW METAR
+         ===================================================== -->
+
+    <section class="raw-section">
+
+        <h2>
+            Mensagens METAR
+        </h2>
+
+        <p class="raw-note">
+            Mensagem METAR original recebida da fonte.
+        </p>
+
+        <div id="raw-metars">
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <div
+        id="metar-updated"
+        class="metar-footer"
+    >
+
+    </div>
+
+</div>
+
+
+<script>
+
+    /* =========================================================
+       CONFIGURATION
+       ========================================================= */
+
+    const METAR_JSON =
+        "../assets/data/metar/latest.json";
+
+
+    /* =========================================================
+       ELEMENTS
+       ========================================================= */
+
+    const statusElement =
+        document.getElementById("metar-status");
+
+    const tableBody =
+        document.getElementById("metar-body");
+
+    const rawMetars =
+        document.getElementById("raw-metars");
+
+    const updatedElement =
+        document.getElementById("metar-updated");
+
+
+    /* =========================================================
+       FORMAT TIME
+       ========================================================= */
+
+    function formatObservationTime(value) {
+
+        if (!value) {
+            return "—";
+        }
+
+        const date = new Date(value);
+
+        if (Number.isNaN(date.getTime())) {
+            return value;
+        }
+
+        const day =
+            String(date.getUTCDate()).padStart(2, "0");
+
+        const month =
+            String(date.getUTCMonth() + 1).padStart(2, "0");
+
+        const year =
+            date.getUTCFullYear();
+
+        const hour =
+            String(date.getUTCHours()).padStart(2, "0");
+
+        const minute =
+            String(date.getUTCMinutes()).padStart(2, "0");
+
+        return `${day}/${month}/${year} ${hour}:${minute} UTC`;
+    }
+
+
+    /* =========================================================
+       FORMAT WIND
+       ========================================================= */
+
+    function formatWind(station) {
+
+        const direction =
+            station.wind_direction;
+
+        const speed =
+            station.wind_speed_kt;
+
+        const gust =
+            station.wind_gust_kt;
+
+
+        if (
+            direction === null ||
+            direction === undefined ||
+            speed === null ||
+            speed === undefined
+        ) {
+
+            return "Variável / não disponível";
+        }
+
+
+        let result =
+            `${direction}° / ${speed} kt`;
+
+
+        if (
+            gust !== null &&
+            gust !== undefined
+        ) {
+
+            result +=
+                ` (rajada ${gust} kt)`;
+        }
+
+
+        return result;
+    }
+
+
+    /* =========================================================
+       FORMAT VISIBILITY
+       ========================================================= */
+
+    function formatVisibility(value) {
+
+        if (
+            value === null ||
+            value === undefined ||
+            value === ""
+        ) {
+
+            return "—";
+        }
+
+        return value;
+    }
+
+
+    /* =========================================================
+       FORMAT CLOUDS
+       ========================================================= */
+
+    function formatClouds(clouds) {
+
+        if (
+            !clouds ||
+            !Array.isArray(clouds) ||
+            clouds.length === 0
+        ) {
+
+            return "Sem informação";
+        }
+
+
+        return clouds
+            .map(cloud => {
+
+                const amount =
+                    cloud.cover ||
+                    cloud.coverage ||
+                    "";
+
+                const altitude =
+                    cloud.base;
+
+                if (altitude !== undefined) {
+
+                    return `${amount} ${altitude} ft`;
+                }
+
+                return amount;
+
+            })
+            .join("<br>");
+    }
+
+
+    /* =========================================================
+       FLIGHT CATEGORY
+       ========================================================= */
+
+    function flightCategory(value) {
+
+        if (!value) {
+
+            return `
+                <span class="flight-category flight-NA">
+                    —
+                </span>
+            `;
+        }
+
+
+        const category =
+            String(value).toUpperCase();
+
+
+        return `
+            <span
+                class="flight-category flight-${category}"
+            >
+                ${category}
+            </span>
+        `;
+    }
+
+
+    /* =========================================================
+       CREATE TABLE ROW
+       ========================================================= */
+
+    function createRow(station) {
+
+        const row =
+            document.createElement("tr");
+
+
+        const city =
+            station.city || "—";
+
+        const icao =
+            station.icao || "—";
+
+
+        /* -----------------------------------------------------
+           No observation
+           ----------------------------------------------------- */
+
+        if (!station.available) {
+
+            row.innerHTML = `
+
+                <td class="metar-city">
+                    ${city}
+                </td>
+
+                <td class="metar-icao">
+                    ${icao}
+                </td>
+
+                <td
+                    colspan="7"
+                    class="no-data"
+                >
+                    Sem METAR disponível
+                </td>
+
+            `;
+
+            return row;
+        }
+
+
+        /* -----------------------------------------------------
+           Observation available
+           ----------------------------------------------------- */
+
+        const temperature =
+            station.temp_c !== null &&
+            station.temp_c !== undefined
+                ? `${station.temp_c} °C`
+                : "—";
+
+
+        const pressure =
+            station.altimeter_hpa !== null &&
+            station.altimeter_hpa !== undefined
+                ? `${station.altimeter_hpa} hPa`
+                : "—";
+
+
+        row.innerHTML = `
+
+            <td class="metar-city">
+                ${city}
+            </td>
+
+            <td class="metar-icao">
+                ${icao}
+            </td>
+
+            <td class="metar-time">
+                ${formatObservationTime(
+                    station.observation_time
+                )}
+            </td>
+
+            <td class="metar-temp">
+                ${temperature}
+            </td>
+
+            <td class="metar-wind">
+                ${formatWind(station)}
+            </td>
+
+            <td>
+                ${formatVisibility(
+                    station.visibility
+                )}
+            </td>
+
+            <td class="metar-pressure">
+                ${pressure}
+            </td>
+
+            <td class="metar-clouds">
+                ${formatClouds(
+                    station.clouds
+                )}
+            </td>
+
+            <td>
+                ${flightCategory(
+                    station.flight_category
+                )}
+            </td>
+
+        `;
+
+
+        return row;
+    }
+
+
+    /* =========================================================
+       RAW METAR
+       ========================================================= */
+
+    function createRawMetar(station) {
+
+        if (
+            !station.available ||
+            !station.raw_metar
+        ) {
+
+            return null;
+        }
+
+
+        const div =
+            document.createElement("div");
+
+
+        div.className =
+            "raw-metar";
+
+
+        div.textContent =
+            `${station.city} (${station.icao}) — ` +
+            station.raw_metar;
+
+
+        return div;
+    }
+
+
+    /* =========================================================
+       LOAD DATA
+       ========================================================= */
+
+    async function loadMetar() {
+
+        try {
+
+            const response =
+                await fetch(
+                    METAR_JSON +
+                    "?t=" +
+                    Date.now()
+                );
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    `HTTP ${response.status}`
+                );
+            }
+
+
+            const data =
+                await response.json();
+
+
+            /* -------------------------------------------------
+               Clear existing content
+               ------------------------------------------------- */
+
+            tableBody.innerHTML = "";
+
+            rawMetars.innerHTML = "";
+
+
+            /* -------------------------------------------------
+               Stations
+               ------------------------------------------------- */
+
+            if (
+                !data.stations ||
+                !Array.isArray(data.stations)
+            ) {
+
+                throw new Error(
+                    "JSON não contém a lista de estações."
+                );
+            }
+
+
+            let availableCount = 0;
+
+
+            data.stations.forEach(station => {
+
+                const row =
+                    createRow(station);
+
+                tableBody.appendChild(row);
+
+
+                if (station.available) {
+
+                    availableCount++;
+
+                    const raw =
+                        createRawMetar(
+                            station
+                        );
+
+                    if (raw) {
+
+                        rawMetars.appendChild(
+                            raw
+                        );
+                    }
+                }
+
+            });
+
+
+            /* -------------------------------------------------
+               Status
+               ------------------------------------------------- */
+
+            statusElement.className =
+                "metar-status";
+
+
+            statusElement.textContent =
+                `${availableCount} de ` +
+                `${data.stations.length} ` +
+                `aeroportos com METAR disponível ` +
+                `na última janela de observação.`;
+
+
+            /* -------------------------------------------------
+               Updated
+               ------------------------------------------------- */
+
+            if (data.updated) {
+
+                updatedElement.textContent =
+                    "Dados atualizados pelo sistema em " +
+                    formatObservationTime(
+                        data.updated
+                    );
+            }
+
+
+        } catch (error) {
+
+            console.error(
+                "Erro ao carregar METAR:",
+                error
+            );
+
+
+            statusElement.className =
+                "metar-status error";
+
+
+            statusElement.textContent =
+                "Não foi possível carregar os dados METAR.";
+
+
+            tableBody.innerHTML = `
+
+                <tr>
+
+                    <td
+                        colspan="9"
+                        class="no-data"
+                    >
+                        Dados temporariamente indisponíveis.
+                    </td>
+
+                </tr>
+
+            `;
+        }
+    }
+
+
+    /* =========================================================
+       START
+       ========================================================= */
+
+    loadMetar();
+
+</script>
+
+</body>
+</html>
+
+
+

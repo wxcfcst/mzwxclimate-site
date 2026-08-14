@@ -464,3 +464,154 @@ a {
         font-size: 0.9rem;
     }
 }
+
+
+/* ============================================================
+   METAR - Principais aeroportos de Moçambique
+   ============================================================ */
+
+.metar-section {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.metar-section h2 {
+    margin-bottom: 5px;
+}
+
+#metar-updated {
+    font-size: 0.85rem;
+    opacity: 0.75;
+    margin-bottom: 18px;
+}
+
+
+.metar-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+
+    gap: 14px;
+}
+
+
+.metar-card {
+    border-radius: 12px;
+    padding: 16px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.10);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.metar-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.metar-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+
+.metar-card-header strong {
+    display: block;
+    font-size: 1.05rem;
+}
+
+
+.metar-card-header small {
+    display: block;
+    font-size: 0.75rem;
+    opacity: 0.65;
+}
+
+
+.metar-icon {
+    font-size: 2rem;
+}
+
+
+.metar-main {
+    margin-bottom: 12px;
+}
+
+
+.metar-temperature {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.metar-condition {
+    font-size: 0.9rem;
+    margin-top: 3px;
+}
+
+
+.metar-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+
+    margin-top: 12px;
+}
+
+
+.metar-details span {
+    display: block;
+
+    font-size: 0.7rem;
+    opacity: 0.65;
+}
+
+
+.metar-details strong {
+    display: block;
+
+    font-size: 0.9rem;
+}
+
+
+.metar-time {
+    margin-top: 12px;
+
+    font-size: 0.7rem;
+    opacity: 0.6;
+}
+
+
+.metar-unavailable,
+.metar-error {
+    padding: 12px;
+
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+
+.metar-source {
+    margin-top: 12px;
+
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+
+
