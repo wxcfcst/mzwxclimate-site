@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>METAR - Página Inicial</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>MZ WX & Climate - METAR</title>
 
     <style>
 
@@ -16,55 +21,107 @@
         body {
             margin: 0;
             padding: 0;
-            background: transparent;
+
+            width: 100%;
+            height: 100%;
+
+            overflow: hidden;
+
             font-family:
                 Arial,
                 Helvetica,
                 sans-serif;
         }
 
-        #metar-home-container {
+
+        /* =====================================================
+           BACKGROUND
+           ===================================================== */
+
+        .metar-home {
+
+            position: relative;
+
             width: 100%;
+            height: 100vh;
+
+            min-height: 300px;
+
+            background-image:
+                url("../assets/images/home/thunderstorm.gif");
+
+            background-size: cover;
+
+            background-position: center center;
+
+            background-repeat: no-repeat;
         }
+
+
+        /* =====================================================
+           METAR
+           ===================================================== */
+
+        #metar-home-container {
+
+            position: absolute;
+
+            top: 25px;
+            left: 25px;
+
+            width: 360px;
+
+            z-index: 10;
+        }
+
 
         .metar-home-card {
 
             width: 100%;
-            max-width: 360px;
 
-            padding: 16px 18px;
+            padding: 18px 20px;
 
-            background: rgba(0, 0, 0, 0.55);
+            background:
+                rgba(0, 0, 0, 0.52);
 
             border-radius: 14px;
 
             color: white;
 
             box-shadow:
-                0 4px 18px rgba(0, 0, 0, 0.30);
+                0 5px 20px
+                rgba(0, 0, 0, 0.35);
 
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
+            backdrop-filter:
+                blur(5px);
+
+            -webkit-backdrop-filter:
+                blur(5px);
 
             animation:
                 metarHomeFade 0.6s ease;
         }
 
+
         .metar-home-title {
 
-            font-size: 1.15rem;
+            font-size: 1.2rem;
+
             font-weight: 700;
 
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
+
 
         .metar-home-temp {
 
-            font-size: 2.2rem;
+            font-size: 2.3rem;
+
             font-weight: 700;
 
             margin-bottom: 10px;
         }
+
 
         .metar-home-details {
 
@@ -73,8 +130,9 @@
             grid-template-columns:
                 1fr 1fr;
 
-            gap: 12px;
+            gap: 15px;
         }
+
 
         .metar-home-details span {
 
@@ -87,12 +145,14 @@
             margin-bottom: 2px;
         }
 
+
         .metar-home-details strong {
 
             display: block;
 
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
+
 
         .metar-home-time {
 
@@ -109,28 +169,70 @@
             opacity: 0.75;
         }
 
+
+        /* =====================================================
+           ANIMAÇÃO
+           ===================================================== */
+
         @keyframes metarHomeFade {
 
             from {
+
                 opacity: 0;
-                transform: translateY(8px);
+
+                transform:
+                    translateY(8px);
             }
 
             to {
+
                 opacity: 1;
-                transform: translateY(0);
+
+                transform:
+                    translateY(0);
+            }
+
+        }
+
+
+        /* =====================================================
+           MOBILE
+           ===================================================== */
+
+        @media (max-width: 600px) {
+
+            #metar-home-container {
+
+                top: 15px;
+
+                left: 15px;
+
+                width:
+                    calc(100% - 30px);
+
+                max-width: 340px;
             }
 
         }
 
     </style>
+
 </head>
+
 
 <body>
 
-    <div id="metar-home-container"></div>
+    <div class="metar-home">
 
-    <script src="../assets/js/metar-home.js"></script>
+        <div id="metar-home-container"></div>
+
+    </div>
+
+
+    <script
+        src="../assets/js/metar-home.js">
+    </script>
 
 </body>
+
 </html>
