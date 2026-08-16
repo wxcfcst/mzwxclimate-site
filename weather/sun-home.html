@@ -39,7 +39,17 @@
 
         #sun-home-container {
 
-            width: 100%;
+            opacity: 0;
+
+            transition:
+                opacity 0.5s ease;
+
+        }
+
+
+        #sun-home-container.sun-home-visible {
+
+            opacity: 1;
 
         }
 
