@@ -1,6 +1,3 @@
-
-
-
 {
     "channels": [
         {
@@ -8,55 +5,52 @@
             "name": "Natural Color RGB"
         },
         {
-            "file": "HRV.png",
+            "file": "MSG_HRV_20260818_1857.png",
             "name": "High Resolution Visible"
         },
         {
-            "file": "VIS006.png",
+            "file": "MSG_VIS006_20260818_1857.png",
             "name": "Visible 0.6 µm"
         },
         {
-            "file": "VIS008.png",
+            "file": "MSG_VIS008_20260818_1857.png",
             "name": "Visible 0.8 µm"
         },
         {
-            "file": "IR_016.png",
+            "file": "MSG_IR_016_20260818_1857.png",
             "name": "Infrared 1.6 µm"
         },
         {
-            "file": "IR_039.png",
+            "file": "MSG_IR_039_20260818_1857.png",
             "name": "Infrared 3.9 µm"
         },
         {
-            "file": "IR_087.png",
+            "file": "MSG_IR_087_20260818_1857.png",
             "name": "Infrared 8.7 µm"
         },
         {
-            "file": "IR_097.png",
+            "file": "MSG_IR_097_20260818_1857.png",
             "name": "Infrared 9.7 µm"
         },
         {
-            "file": "IR_108.png",
+            "file": "MSG_IR_108_20260818_1857.png",
             "name": "Infrared 10.8 µm"
         },
         {
-            "file": "IR_120.png",
+            "file": "MSG_IR_120_20260818_1857.png",
             "name": "Infrared 12.0 µm"
         },
         {
-            "file": "IR_134.png",
+            "file": "MSG_IR_134_20260818_1857.png",
             "name": "Infrared 13.4 µm"
         },
         {
-            "file": "WV_062.png",
+            "file": "MSG_WV_062_20260818_1857.png",
             "name": "Water Vapour 6.2 µm"
         },
         {
-            "file": "WV_073.png",
+            "file": "MSG_WV_073_20260818_1857.png",
             "name": "Water Vapour 7.3 µm"
         }
     ]
 }
-
-
-
