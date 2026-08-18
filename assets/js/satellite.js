@@ -1,5 +1,6 @@
 
 
+
 /**
  * MZ WX & Climate - Imagens de Satélite
  */
@@ -22,177 +23,47 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         const data = await response.json();
 
-        // ---------------------------------------------------------------------
-        // Caixa de seleção
-        // ---------------------------------------------------------------------
+        container.innerHTML = `
+            <div style="text-align:center; margin:20px 0;">
+                <select id="satellite-channel">
+                    <option value="">Selecione o canal desejado</option>
+                </select>
+            </div>
 
-        const select = document.createElement("select");
+            <div id="satellite-image-container"></div>
+        `;
 
-        select.id = "satellite-channel-select";
-
-        const defaultOption = document.createElement("option");
-
-        defaultOption.value = "";
-
-        defaultOption.textContent = "Selecione o canal desejado";
-
-        defaultOption.selected = true;
-
-        select.appendChild(defaultOption);
-
-        // ---------------------------------------------------------------------
-        // Adicionar os canais
-        // ---------------------------------------------------------------------
+        const select = document.getElementById("satellite-channel");
+        const imageContainer = document.getElementById("satellite-image-container");
 
         data.channels.forEach(channel => {
 
             const option = document.createElement("option");
 
             option.value = channel.file;
-
             option.textContent = channel.name;
 
             select.appendChild(option);
 
         });
 
-        container.innerHTML = "";
+        select.addEventListener("change", function () {
 
-        container.appendChild(select);
+            const file = this.value;
 
-        // ---------------------------------------------------------------------
-        // Área da imagem
-        // ---------------------------------------------------------------------
+            imageContainer.innerHTML = "";
 
-        const imageContainer = document.createElement("div");
-
-        imageContainer.id = "satellite-image-container";
-
-        container.appendChild(imageContainer);
-
-        // ---------------------------------------------------------------------
-        // Quando o usuário escolher um canal
-        // ---------------------------------------------------------------------
-
-        select.addEventListener("change", async function () {
-
-            const channel = data.channels.find(
-                item => item.file === select.value
-            );
-
-            if (!channel) {
-
-                imageContainer.innerHTML = "";
-
+            if (!file) {
                 return;
-
             }
 
-            imageContainer.innerHTML =
-                "<p>Carregando imagem...</p>";
+            const image = document.createElement("img");
 
-            try {
+            image.src = `../assets/images/satellite/${file}`;
 
-                const imageFiles = await fetch(
-                    "../assets/images/satellite/"
-                );
+            image.alt = "Imagem de satélite";
 
-                if (!imageFiles.ok) {
-                    throw new Error(
-                        "Erro ao acessar imagens de satélite"
-                    );
-                }
-
-                const html = await imageFiles.text();
-
-                const parser = new DOMParser();
-
-                const doc = parser.parseFromString(
-                    html,
-                    "text/html"
-                );
-
-                const links = Array.from(
-                    doc.querySelectorAll("a")
-                );
-
-                const files = links
-                    .map(link => link.getAttribute("href"))
-                    .filter(
-                        file =>
-                            file &&
-                            file.endsWith(".png")
-                    );
-
-                // -------------------------------------------------------------
-                // RGB
-                // -------------------------------------------------------------
-
-                if (channel.file === "RGB") {
-
-                    if (!files.includes("RGB.png")) {
-
-                        throw new Error(
-                            "Imagem RGB.png não encontrada"
-                        );
-
-                    }
-
-                    imageContainer.innerHTML = `
-                        <h2>${channel.name}</h2>
-
-                        <img
-                            src="../assets/images/satellite/RGB.png"
-                            alt="${channel.name}"
-                        >
-                    `;
-
-                    return;
-                }
-
-                // -------------------------------------------------------------
-                // Canais MSG
-                // -------------------------------------------------------------
-
-                const matches = files
-                    .filter(
-                        file =>
-                            file.includes(
-                                `MSG_${channel.file}_`
-                            )
-                    )
-                    .sort()
-                    .reverse();
-
-                if (matches.length === 0) {
-
-                    imageContainer.innerHTML =
-                        "<p>Imagem não encontrada.</p>";
-
-                    return;
-                }
-
-                const latest = matches[0];
-
-                imageContainer.innerHTML = `
-                    <h2>${channel.name}</h2>
-
-                    <img
-                        src="../assets/images/satellite/${latest}"
-                        alt="${channel.name}"
-                    >
-
-                    <p>${latest}</p>
-                `;
-
-            } catch (error) {
-
-                console.error(error);
-
-                imageContainer.innerHTML =
-                    "<p>Não foi possível carregar a imagem.</p>";
-
-            }
+            imageContainer.appendChild(image);
 
         });
 
@@ -204,10 +75,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         );
 
         container.innerHTML =
-            "<p>Não foi possível carregar os canais de satélite.</p>";
-
+            "<p>Não foi possível carregar as imagens de satélite.</p>";
     }
 
 });
-
 
