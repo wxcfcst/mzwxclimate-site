@@ -706,7 +706,31 @@ a {
 
 /*===============================================================*/
 
+/* ============================================================
+   Imagens de satélite
+   ============================================================ */
 
+#satellite-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
+#satellite-image-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
+#satellite-image-container img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+/*==========================================================================*/
 
