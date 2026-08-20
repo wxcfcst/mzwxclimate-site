@@ -5,51 +5,51 @@
             "name": "Natural Color RGB"
         },
         {
-            "file": "MSG_HRV_20260820_0942.png",
+            "file": "MSG_HRV_20260820_1212.png",
             "name": "High Resolution Visible"
         },
         {
-            "file": "MSG_VIS006_20260820_0942.png",
+            "file": "MSG_VIS006_20260820_1212.png",
             "name": "Visible 0.6 µm"
         },
         {
-            "file": "MSG_VIS008_20260820_0942.png",
+            "file": "MSG_VIS008_20260820_1212.png",
             "name": "Visible 0.8 µm"
         },
         {
-            "file": "MSG_IR_016_20260820_0942.png",
+            "file": "MSG_IR_016_20260820_1212.png",
             "name": "Infrared 1.6 µm"
         },
         {
-            "file": "MSG_IR_039_20260820_0942.png",
+            "file": "MSG_IR_039_20260820_1212.png",
             "name": "Infrared 3.9 µm"
         },
         {
-            "file": "MSG_IR_087_20260820_0942.png",
+            "file": "MSG_IR_087_20260820_1212.png",
             "name": "Infrared 8.7 µm"
         },
         {
-            "file": "MSG_IR_097_20260820_0942.png",
+            "file": "MSG_IR_097_20260820_1212.png",
             "name": "Infrared 9.7 µm"
         },
         {
-            "file": "MSG_IR_108_20260820_0942.png",
+            "file": "MSG_IR_108_20260820_1212.png",
             "name": "Infrared 10.8 µm"
         },
         {
-            "file": "MSG_IR_120_20260820_0942.png",
+            "file": "MSG_IR_120_20260820_1212.png",
             "name": "Infrared 12.0 µm"
         },
         {
-            "file": "MSG_IR_134_20260820_0942.png",
+            "file": "MSG_IR_134_20260820_1212.png",
             "name": "Infrared 13.4 µm"
         },
         {
-            "file": "MSG_WV_062_20260820_0942.png",
+            "file": "MSG_WV_062_20260820_1212.png",
             "name": "Water Vapour 6.2 µm"
         },
         {
-            "file": "MSG_WV_073_20260820_0942.png",
+            "file": "MSG_WV_073_20260820_1212.png",
             "name": "Water Vapour 7.3 µm"
         }
     ]
