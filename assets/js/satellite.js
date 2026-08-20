@@ -196,21 +196,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             /*
              * =====================================================
-             * MOSTRAR PRIMEIRO PRODUTO AUTOMATICAMENTE
-             * =====================================================
-             */
-
-            const firstProduct =
-                availableProducts[0];
-
-            select.value =
-                firstProduct.id;
-
-            showProduct(firstProduct);
-
-
-            /*
-             * =====================================================
              * INFORMAÇÃO NO CONSOLE
              * =====================================================
              */
