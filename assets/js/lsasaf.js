@@ -1,139 +1,435 @@
+document.addEventListener("DOMContentLoaded", function () {
 
 
+    // =========================================================
+    // ELEMENTOS DA PÁGINA
+    // =========================================================
 
-document.addEventListener("DOMContentLoaded", function(){
+    const select =
+        document.getElementById("product-select");
 
-
-let products=[];
-
-
-const select =
-document.getElementById("product-select");
-
-
-const view =
-document.getElementById("product-view");
+    const view =
+        document.getElementById("product-view");
 
 
+    // =========================================================
+    // CAMINHO DO PRODUCTS.JSON
+    // =========================================================
 
-fetch("../assets/data/lsasaf/products.json")
-
-.then(response => response.json())
-
-.then(data=>{
-
-
-products=data;
+    const productsURL =
+        "../assets/data/lsasaf/products.json";
 
 
-data.forEach(product=>{
+    // =========================================================
+    // FUNÇÃO PARA ESCAPAR HTML
+    // =========================================================
+
+    function escapeHTML(value) {
+
+        if (value === null || value === undefined) {
+            return "";
+        }
+
+        return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
 
 
-if(product.available){
+    // =========================================================
+    // FORMATAR DATA/HORA
+    // =========================================================
+
+    function formatDateTime(datetime) {
+
+        if (!datetime) {
+            return "";
+        }
+
+        const date = new Date(datetime);
+
+        if (Number.isNaN(date.getTime())) {
+            return datetime;
+        }
+
+        return date.toLocaleString(
+            "pt-PT",
+            {
+                dateStyle: "medium",
+                timeStyle: "short"
+            }
+        );
+    }
 
 
-let option =
-document.createElement("option");
+    // =========================================================
+    // MOSTRAR PRODUTO
+    // =========================================================
+
+    function showProduct(product) {
 
 
-option.value=product.id;
+        if (!product) {
 
-option.textContent=product.name;
+            view.innerHTML = `
+
+                <div class="message">
+
+                    Seleccione um produto LSASAF para visualizar.
+
+                </div>
+
+            `;
+
+            return;
+        }
 
 
-select.appendChild(option);
+        const name =
+            escapeHTML(product.name);
 
 
-}
+        const description =
+            escapeHTML(product.description || "");
+
+
+        const datetime =
+            formatDateTime(product.datetime);
+
+
+        const latest =
+            product.latest;
+
+
+        // =====================================================
+        // GALERIA
+        // =====================================================
+
+        let galleryHTML = "";
+
+
+        if (
+            Array.isArray(product.images) &&
+            product.images.length > 0
+        ) {
+
+
+            product.images.forEach(function (image) {
+
+
+                const safeImage =
+                    escapeHTML(image);
+
+
+                const filename =
+                    image.split("/").pop();
+
+
+                galleryHTML += `
+
+                    <a
+                        href="../${safeImage}"
+                        target="_blank"
+                        rel="noopener"
+                        class="gallery-item"
+                        title="Abrir imagem em tamanho original"
+                    >
+
+                        <img
+                            src="../${safeImage}"
+                            alt="${escapeHTML(filename)}"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                `;
+
+            });
+
+
+        } else {
+
+
+            galleryHTML = `
+
+                <div class="message">
+
+                    Não existem imagens históricas disponíveis.
+
+                </div>
+
+            `;
+
+        }
+
+
+        // =====================================================
+        // CONTEÚDO PRINCIPAL
+        // =====================================================
+
+        view.innerHTML = `
+
+            <h2 class="product-title">
+
+                ${name}
+
+            </h2>
+
+
+            ${
+                description
+                    ?
+                    `<p class="product-description">
+                        ${description}
+                    </p>`
+                    :
+                    ""
+            }
+
+
+            ${
+                datetime
+                    ?
+                    `<div class="product-datetime">
+                        <strong>Data:</strong>
+                        ${escapeHTML(datetime)}
+                    </div>`
+                    :
+                    ""
+            }
+
+
+            <div class="map-container">
+
+                <a
+                    href="../${escapeHTML(latest)}"
+                    target="_blank"
+                    rel="noopener"
+                    title="Abrir imagem em tamanho original"
+                >
+
+                    <img
+                        src="../${escapeHTML(latest)}"
+                        alt="${name}"
+                        class="map-image"
+                    >
+
+                </a>
+
+            </div>
+
+
+            <h3 class="history-title">
+
+                Histórico
+
+            </h3>
+
+
+            <div class="gallery">
+
+                ${galleryHTML}
+
+            </div>
+
+        `;
+
+    }
+
+
+    // =========================================================
+    // CARREGAR PRODUCTS.JSON
+    // =========================================================
+
+    fetch(productsURL, {
+        cache: "no-cache"
+    })
+
+    .then(function (response) {
+
+        if (!response.ok) {
+
+            throw new Error(
+                "HTTP " + response.status
+            );
+
+        }
+
+        return response.json();
+
+    })
+
+    .then(function (products) {
+
+
+        // =====================================================
+        // VALIDAR DADOS
+        // =====================================================
+
+        if (!Array.isArray(products)) {
+
+            throw new Error(
+                "products.json não contém uma lista válida."
+            );
+
+        }
+
+
+        // =====================================================
+        // LIMPAR SELECT
+        // =====================================================
+
+        select.innerHTML = `
+
+            <option value="">
+                Escolha o Produto
+            </option>
+
+        `;
+
+
+        // =====================================================
+        // ADICIONAR PRODUTOS DISPONÍVEIS
+        // =====================================================
+
+        products
+
+            .filter(function (product) {
+
+                return product.available === true;
+
+            })
+
+            .forEach(function (product) {
+
+
+                const option =
+                    document.createElement("option");
+
+
+                option.value =
+                    product.id;
+
+
+                option.textContent =
+                    product.name;
+
+
+                select.appendChild(option);
+
+            });
+
+
+        // =====================================================
+        // MOSTRAR PRIMEIRO PRODUTO AUTOMATICAMENTE
+        // =====================================================
+
+        const availableProducts =
+            products.filter(function (product) {
+
+                return product.available === true;
+
+            });
+
+
+        if (availableProducts.length > 0) {
+
+            select.value =
+                availableProducts[0].id;
+
+            showProduct(
+                availableProducts[0]
+            );
+
+        }
+
+
+        // =====================================================
+        // GUARDAR PRODUTOS
+        // =====================================================
+
+        select._lsasafProducts =
+            products;
+
+
+    })
+
+    .catch(function (error) {
+
+
+        console.error(
+            "Erro ao carregar produtos LSASAF:",
+            error
+        );
+
+
+        view.innerHTML = `
+
+            <div class="error-message">
+
+                <strong>
+                    Não foi possível carregar os produtos LSASAF.
+                </strong>
+
+                <br><br>
+
+                Verifique a disponibilidade do
+                <code>products.json</code>.
+
+            </div>
+
+        `;
+
+    });
+
+
+    // =========================================================
+    // MUDANÇA DO PRODUTO
+    // =========================================================
+
+    select.addEventListener(
+        "change",
+        function () {
+
+
+            const products =
+                select._lsasafProducts;
+
+
+            if (!products) {
+                return;
+            }
+
+
+            const id =
+                this.value;
+
+
+            if (!id) {
+
+                showProduct(null);
+
+                return;
+
+            }
+
+
+            const product =
+                products.find(function (item) {
+
+                    return item.id === id;
+
+                });
+
+
+            showProduct(product);
+
+        }
+    );
 
 
 });
-
-
-});
-
-
-
-
-select.addEventListener("change",function(){
-
-
-let id=this.value;
-
-
-let product =
-products.find(p=>p.id===id);
-
-
-
-if(!product){
-
-view.innerHTML="";
-
-return;
-
-}
-
-
-
-let html=`
-
-
-<h2>
-${product.name}
-</h2>
-
-
-<img 
-src="../${product.latest}"
-class="map-image">
-
-
-<h3>
-Histórico
-</h3>
-
-
-<div class="gallery">
-
-`;
-
-
-
-product.images.forEach(img=>{
-
-
-html += `
-
-<a href="../${img}" target="_blank">
-
-<img src="../${img}">
-
-</a>
-
-`;
-
-
-});
-
-
-
-html +=`
-
-</div>
-
-`;
-
-
-
-view.innerHTML=html;
-
-
-
-});
-
-
-});
-
-
-

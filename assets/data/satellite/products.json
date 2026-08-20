@@ -1,0 +1,68 @@
+
+
+
+[
+    {
+        "id": "ET",
+        "source": "LSA SAF",
+        "name": "Evapotranspiração",
+        "available": true,
+        "latest": "assets/images/lsasaf/ET/ET_2024-07-01.png"
+    },
+    {
+        "id": "EDLST_DAY",
+        "source": "LSA SAF",
+        "name": "Temperatura da Superfície Terrestre - Dia",
+        "available": true,
+        "latest": "assets/images/satellite/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2023-11-01_00:00.png"
+    },
+    {
+        "id": "EDLST_NIGHT",
+        "source": "LSA SAF",
+        "name": "Temperatura da Superfície Terrestre - Noite",
+        "available": true,
+        "latest": "assets/images/satellite/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2023-11-01_00:00.png"
+    },
+    {
+        "id": "DLST_MAX10D",
+        "source": "LSA SAF",
+        "name": "Temperatura Máxima da Superfície - 10 dias",
+        "available": true,
+        "latest": "assets/images/satellite/LSASAF_MSG_DLST-MAX10D_2023-10-21_23:45.png"
+    },
+    {
+        "id": "ETAL",
+        "source": "LSA SAF",
+        "name": "Albedo da Superfície - 10 dias",
+        "available": true,
+        "latest": "assets/images/lsasaf/ETAL/ETAL_2023-10-25.png"
+    },
+    {
+        "id": "DSSF",
+        "source": "LSA SAF",
+        "name": "Fluxo Total Descendente de Radiação de Onda Curta",
+        "available": true,
+        "latest": "assets/images/lsasaf/DSSF/DSSF_2023-11-01.png"
+    },
+    {
+        "id": "FRP",
+        "source": "LSA SAF",
+        "name": "Potência Radiativa do Fogo",
+        "available": true,
+        "latest": "assets/images/satellite/LSASAF_MSG_FRP-PIXEL_2023-11-01_23:45.png"
+    },
+    {
+        "id": "NDVI",
+        "source": "METOP / AVHRR",
+        "name": "Índice de Vegetação por Diferença Normalizada (NDVI)",
+        "available": true,
+        "latest": "assets/images/satellite/METOP_AVHRR_S10_AFR_NDV_2026-08-01_00:00.png"
+    },
+    {
+        "id": "TPW",
+        "source": "MIMIC",
+        "name": "Água Precipitável Total (TPW)",
+        "available": true,
+        "latest": "assets/images/satellite/mimic_tpw_2026-08-19_13:00.png"
+    }
+]

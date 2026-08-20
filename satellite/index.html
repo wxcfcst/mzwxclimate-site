@@ -1,30 +1,167 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ WX & Climate - Satellite</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+Produtos de Satélite - MZ WX & Climate
+</title>
+
+<link rel="stylesheet"
+      href="../assets/css/style.css">
+
 </head>
+
+
 <body>
-    <main>
-        <div class="container">
-            <div class="page-header">
-                <h1>Imagens de Satélite</h1>
-            </div>
-            <div id="satellite-container">
-                <p style="text-align:center; padding:40px;">Carregando imagens de satélite...</p>
-            </div>
+
+
+<header class="site-header">
+
+    <div class="container header-content">
+
+        <div class="logo">
+
+            <h1>
+                MZ WX & Climate
+            </h1>
+
+            <span class="tagline">
+                Meteorologia e Climatologia de Moçambique
+            </span>
+
         </div>
-    </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 MZ WX & Climate.</p>
-            </div>
+
+
+        <nav class="main-nav">
+
+            <ul>
+
+                <li>
+                    <a href="../">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../weather/">
+                        Weather
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../climate/">
+                        Climate
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../satellite/"
+                       class="active">
+                        Satellite
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main class="container">
+
+
+    <section class="page-header">
+
+        <h1>
+            Produtos de Satélite
+        </h1>
+
+        <p>
+            Produtos de observação da Terra para análise
+            meteorológica e ambiental.
+        </p>
+
+    </section>
+
+
+
+    <section class="satellite-viewer">
+
+
+        <div class="satellite-selector">
+
+            <label for="product-select">
+
+                Seleccione o produto:
+
+            </label>
+
+
+            <select id="product-select">
+
+                <option value="">
+
+                    Escolha o Produto
+
+                </option>
+
+            </select>
+
         </div>
-    </footer>
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/satellite.js"></script>
+
+
+
+        <div id="product-view">
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-bottom">
+
+            <p>
+                MZ WX & Climate
+            </p>
+
+            <p>
+                Produtos de Satélite
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<script src="../assets/js/satellite.js"></script>
+
+
 </body>
+
 </html>

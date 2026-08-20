@@ -1,78 +1,252 @@
-/**
- * MZ WX & Climate - Imagens de Satélite
- */
+document.addEventListener("DOMContentLoaded", function () {
 
-document.addEventListener("DOMContentLoaded", async function () {
+    const select = document.getElementById("product-select");
+    const view = document.getElementById("product-view");
 
-    const container = document.getElementById("satellite-container");
-
-    if (!container) {
+    if (!select || !view) {
+        console.error(
+            "Elementos do visualizador de satélite não encontrados."
+        );
         return;
     }
 
-    try {
+    fetch("../assets/data/satellite/products.json")
 
-        const response = await fetch("../assets/data/satellite.json");
+        .then(response => {
 
-        if (!response.ok) {
-            throw new Error("Erro ao carregar satellite.json");
-        }
+            if (!response.ok) {
+                throw new Error(
+                    "Erro ao carregar assets/data/satellite/products.json"
+                );
+            }
 
-        const data = await response.json();
+            return response.json();
 
-        container.innerHTML = `
-            <select id="satellite-channel">
-                <option value="">Selecione o canal desejado</option>
-            </select>
+        })
 
-            <div id="satellite-image-container"></div>
-        `;
+        .then(products => {
 
-        const select = document.getElementById("satellite-channel");
+            /*
+             * =====================================================
+             * PRODUTOS DISPONÍVEIS
+             * =====================================================
+             */
 
-        const imageContainer =
-            document.getElementById("satellite-image-container");
+            const availableProducts =
+                products.filter(product =>
+                    product.available === true &&
+                    product.latest
+                );
 
-        data.channels.forEach(channel => {
 
-            const option = document.createElement("option");
+            if (availableProducts.length === 0) {
 
-            option.value = channel.file;
-            option.textContent = channel.name;
+                view.innerHTML = `
+                    <div class="satellite-error">
+                        Nenhum produto de satélite disponível.
+                    </div>
+                `;
 
-            select.appendChild(option);
-
-        });
-
-        select.addEventListener("change", function () {
-
-            imageContainer.innerHTML = "";
-
-            if (!this.value) {
                 return;
             }
 
-            const image = document.createElement("img");
 
-            image.src =
-                `../assets/images/satellite/${this.value}`;
+            /*
+             * =====================================================
+             * AGRUPAR POR FONTE
+             * =====================================================
+             */
 
-            image.alt = "Imagem de satélite";
+            const groups = {};
 
-            imageContainer.appendChild(image);
+            availableProducts.forEach(product => {
+
+                const source =
+                    product.source || "Outros";
+
+                if (!groups[source]) {
+                    groups[source] = [];
+                }
+
+                groups[source].push(product);
+
+            });
+
+
+            /*
+             * =====================================================
+             * LIMPAR SELECT
+             * =====================================================
+             */
+
+            select.innerHTML = `
+                <option value="">
+                    Escolha o produto
+                </option>
+            `;
+
+
+            /*
+             * =====================================================
+             * CRIAR GRUPOS NO SELECT
+             * =====================================================
+             */
+
+            Object.keys(groups)
+                .sort()
+                .forEach(source => {
+
+                    const optgroup =
+                        document.createElement("optgroup");
+
+                    optgroup.label = source;
+
+                    groups[source].forEach(product => {
+
+                        const option =
+                            document.createElement("option");
+
+                        option.value = product.id;
+
+                        option.textContent =
+                            product.name;
+
+                        optgroup.appendChild(option);
+
+                    });
+
+                    select.appendChild(optgroup);
+
+                });
+
+
+            /*
+             * =====================================================
+             * FUNÇÃO PARA MOSTRAR PRODUTO
+             * =====================================================
+             */
+
+            function showProduct(product) {
+
+                if (!product) {
+
+                    view.innerHTML = "";
+
+                    return;
+
+                }
+
+
+                view.innerHTML = `
+
+                    <div class="satellite-product">
+
+                        <div class="satellite-product-header">
+
+                            <div class="satellite-source">
+                                ${product.source}
+                            </div>
+
+                            <h2>
+                                ${product.name}
+                            </h2>
+
+                        </div>
+
+
+                        <div class="satellite-map">
+
+                            <img
+                                src="../${product.latest}"
+                                alt="${product.name}"
+                                title="${product.name}"
+                            >
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+            /*
+             * =====================================================
+             * ALTERAÇÃO DO PRODUTO
+             * =====================================================
+             */
+
+            select.addEventListener(
+                "change",
+                function () {
+
+                    const id = this.value;
+
+                    const product =
+                        availableProducts.find(
+                            p => p.id === id
+                        );
+
+                    showProduct(product);
+
+                }
+            );
+
+
+            /*
+             * =====================================================
+             * MOSTRAR PRIMEIRO PRODUTO AUTOMATICAMENTE
+             * =====================================================
+             */
+
+            const firstProduct =
+                availableProducts[0];
+
+            select.value =
+                firstProduct.id;
+
+            showProduct(firstProduct);
+
+
+            /*
+             * =====================================================
+             * INFORMAÇÃO NO CONSOLE
+             * =====================================================
+             */
+
+            console.log(
+                `Produtos de satélite carregados: ${availableProducts.length}`
+            );
+
+            availableProducts.forEach(product => {
+
+                console.log(
+                    `${product.id} | ${product.source} | ${product.latest}`
+                );
+
+            });
+
+        })
+
+        .catch(error => {
+
+            console.error(
+                "Erro no visualizador de satélite:",
+                error
+            );
+
+            view.innerHTML = `
+
+                <div class="satellite-error">
+
+                    Não foi possível carregar
+                    os produtos de satélite.
+
+                </div>
+
+            `;
 
         });
 
-    } catch (error) {
-
-        console.error(
-            "Erro ao carregar imagens de satélite:",
-            error
-        );
-
-        container.innerHTML =
-            "<p>Não foi possível carregar as imagens de satélite.</p>";
-    }
-
 });
-
