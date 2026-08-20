@@ -4,13 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const view = document.getElementById("product-view");
 
     if (!select || !view) {
-        console.error(
-            "Elementos do visualizador de satélite não encontrados."
-        );
+        console.error("Elementos do visualizador de satélite não encontrados.");
         return;
     }
 
-    fetch("../assets/data/satellite.json")
+    fetch("../assets/data/satellite.json?v=" + Date.now())
 
         .then(response => {
 
@@ -26,15 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         .then(data => {
 
-            /*
-             * =====================================================
-             * PRODUTOS DE SATÉLITE
-             * =====================================================
-             */
+            const channels = data.channels || [];
 
-            const products = data.channels || [];
-
-            if (products.length === 0) {
+            if (channels.length === 0) {
 
                 view.innerHTML = `
                     <div class="satellite-error">
@@ -44,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 return;
             }
-
 
             /*
              * =====================================================
@@ -65,15 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
              * =====================================================
              */
 
-            products.forEach((product, index) => {
+            channels.forEach(channel => {
 
-                const option =
-                    document.createElement("option");
+                const option = document.createElement("option");
 
-                option.value = index;
+                option.value = channel.file;
 
-                option.textContent =
-                    product.name;
+                option.textContent = channel.name;
 
                 select.appendChild(option);
 
@@ -82,13 +71,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             /*
              * =====================================================
-             * FUNÇÃO PARA MOSTRAR PRODUTO
+             * MOSTRAR IMAGEM
              * =====================================================
              */
 
-            function showProduct(product) {
+            function showChannel(channel) {
 
-                if (!product) {
+                if (!channel) {
 
                     view.innerHTML = "";
 
@@ -104,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="satellite-product-header">
 
                             <h2>
-                                ${product.name}
+                                ${channel.name}
                             </h2>
 
                         </div>
@@ -113,9 +102,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="satellite-map">
 
                             <img
-                                src="../assets/images/satellite/${product.file}"
-                                alt="${product.name}"
-                                title="${product.name}"
+                                src="../assets/images/satellite/${channel.file}"
+                                alt="${channel.name}"
+                                title="${channel.name}"
                             >
 
                         </div>
@@ -137,13 +126,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "change",
                 function () {
 
-                    const index =
-                        Number(this.value);
+                    const filename = this.value;
 
-                    const product =
-                        products[index];
+                    const channel =
+                        channels.find(
+                            item => item.file === filename
+                        );
 
-                    showProduct(product);
+                    showChannel(channel);
 
                 }
             );
@@ -156,13 +146,13 @@ document.addEventListener("DOMContentLoaded", function () {
              */
 
             console.log(
-                `Imagens de satélite carregadas: ${products.length}`
+                `Canais MSG/SEVIRI carregados: ${channels.length}`
             );
 
-            products.forEach(product => {
+            channels.forEach(channel => {
 
                 console.log(
-                    `${product.name} | ${product.file}`
+                    `${channel.name} | ${channel.file}`
                 );
 
             });
@@ -190,5 +180,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 });
-
-
