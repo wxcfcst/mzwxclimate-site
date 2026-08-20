@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    fetch("../assets/data/satellite/products.json")
+    fetch("../assets/data/satellite.json")
 
         .then(response => {
 
             if (!response.ok) {
                 throw new Error(
-                    "Erro ao carregar assets/data/satellite/products.json"
+                    "Erro ao carregar assets/data/satellite.json"
                 );
             }
 
@@ -24,26 +24,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
         })
 
-        .then(products => {
+        .then(data => {
 
             /*
              * =====================================================
-             * PRODUTOS DISPONÍVEIS
+             * PRODUTOS DE SATÉLITE
              * =====================================================
              */
 
-            const availableProducts =
-                products.filter(product =>
-                    product.available === true &&
-                    product.latest
-                );
+            const products = data.channels || [];
 
-
-            if (availableProducts.length === 0) {
+            if (products.length === 0) {
 
                 view.innerHTML = `
                     <div class="satellite-error">
-                        Nenhum produto de satélite disponível.
+                        Nenhuma imagem de satélite disponível.
                     </div>
                 `;
 
@@ -53,34 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             /*
              * =====================================================
-             * AGRUPAR POR FONTE
-             * =====================================================
-             */
-
-            const groups = {};
-
-            availableProducts.forEach(product => {
-
-                const source =
-                    product.source || "Outros";
-
-                if (!groups[source]) {
-                    groups[source] = [];
-                }
-
-                groups[source].push(product);
-
-            });
-
-
-            /*
-             * =====================================================
              * LIMPAR SELECT
              * =====================================================
              */
 
             select.innerHTML = `
-                <option value="">
+                <option value="" selected disabled>
                     Escolha o produto
                 </option>
             `;
@@ -88,36 +61,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
             /*
              * =====================================================
-             * CRIAR GRUPOS NO SELECT
+             * CRIAR OPÇÕES
              * =====================================================
              */
 
-            Object.keys(groups)
-                .sort()
-                .forEach(source => {
+            products.forEach((product, index) => {
 
-                    const optgroup =
-                        document.createElement("optgroup");
+                const option =
+                    document.createElement("option");
 
-                    optgroup.label = source;
+                option.value = index;
 
-                    groups[source].forEach(product => {
+                option.textContent =
+                    product.name;
 
-                        const option =
-                            document.createElement("option");
+                select.appendChild(option);
 
-                        option.value = product.id;
-
-                        option.textContent =
-                            product.name;
-
-                        optgroup.appendChild(option);
-
-                    });
-
-                    select.appendChild(optgroup);
-
-                });
+            });
 
 
             /*
@@ -143,10 +103,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <div class="satellite-product-header">
 
-                            <div class="satellite-source">
-                                ${product.source}
-                            </div>
-
                             <h2>
                                 ${product.name}
                             </h2>
@@ -157,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="satellite-map">
 
                             <img
-                                src="../${product.latest}"
+                                src="../assets/images/satellite/${product.file}"
                                 alt="${product.name}"
                                 title="${product.name}"
                             >
@@ -181,12 +137,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "change",
                 function () {
 
-                    const id = this.value;
+                    const index =
+                        Number(this.value);
 
                     const product =
-                        availableProducts.find(
-                            p => p.id === id
-                        );
+                        products[index];
 
                     showProduct(product);
 
@@ -201,13 +156,13 @@ document.addEventListener("DOMContentLoaded", function () {
              */
 
             console.log(
-                `Produtos de satélite carregados: ${availableProducts.length}`
+                `Imagens de satélite carregadas: ${products.length}`
             );
 
-            availableProducts.forEach(product => {
+            products.forEach(product => {
 
                 console.log(
-                    `${product.id} | ${product.source} | ${product.latest}`
+                    `${product.name} | ${product.file}`
                 );
 
             });
@@ -226,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="satellite-error">
 
                     Não foi possível carregar
-                    os produtos de satélite.
+                    as imagens de satélite.
 
                 </div>
 
@@ -235,3 +190,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 });
+
+
