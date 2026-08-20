@@ -64,5 +64,48 @@
         "name": "Água Precipitável Total (TPW)",
         "available": true,
         "latest": "assets/images/satellite/mimic_tpw_2026-08-19_13:00.png"
+    },
+    {
+        "id": "ETFAPAR",
+        "source": "LSA SAF",
+        "name": "Fração Absorvida da Radiação Fotossinteticamente Ativa",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202310250000.nc_2023-10-25_00:00.png"
+    },
+    {
+        "id": "ETFVC",
+        "source": "LSA SAF",
+        "name": "Fração de Cobertura Vegetal",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202310250000.nc_2023-10-25_00:00.png"
+    },
+    {
+        "id": "ETLAI",
+        "source": "LSA SAF",
+        "name": "Índice de Área Foliar",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202310250000.nc_2023-10-25_00:00.png"
+    },
+    {
+        "id": "DIDSSF",
+        "source": "LSA SAF",
+        "name": "Radiação Solar de Onda Curta Descendente - Instantânea",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png"
+    },
+    {
+        "id": "ETV3",
+        "source": "LSA SAF",
+        "name": "Evapotranspiração - Versão 3",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202311011500.nc_2023-11-01_15:00.png"
+    },
+    {
+        "id": "MDSSFTD",
+        "source": "LSA SAF",
+        "name": "Radiação Solar de Onda Curta Descendente - Diária",
+        "available": true,
+        "latest": "assets/images/satellite/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202311011500.nc_2023-11-01_15:00.png"
     }
+
 ]
