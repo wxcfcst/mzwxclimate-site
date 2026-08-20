@@ -1,4 +1,39 @@
 {
-    "generated": "2026-08-02T22:33:58.880781+00:00",
-    "products": 12
+  "source": "LSASAF",
+  "generated": "2026-08-19T22:45:08.127941-03:00",
+  "total": 4,
+  "products": [
+    {
+      "product": "FRP-PIXEL",
+      "name": "Potência Radiativa do Fogo",
+      "description": "Potência Radiativa do Fogo (FRP) por pixel.",
+      "datetime": "2023-11-01T23:45:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2023-11-01_23:45.png",
+      "image": "assets/images/lsasaf/LSASAF_MSG_FRP-PIXEL_2023-11-01_23:45.png"
+    },
+    {
+      "product": "EDLST-DAY",
+      "name": "Temperatura do Solo - Dia",
+      "description": "Temperatura da superfície terrestre (LST) durante o dia.",
+      "datetime": "2023-11-01T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2023-11-01_00:00.png",
+      "image": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2023-11-01_00:00.png"
+    },
+    {
+      "product": "EDLST-NIGHT",
+      "name": "Temperatura do Solo - Noite",
+      "description": "Temperatura da superfície terrestre (LST) durante a noite.",
+      "datetime": "2023-11-01T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2023-11-01_00:00.png",
+      "image": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2023-11-01_00:00.png"
+    },
+    {
+      "product": "DLST-MAX10D",
+      "name": "Temperatura Máxima da Superfície - 10 dias",
+      "description": "Temperatura máxima da superfície terrestre acumulada em um período de 10 dias.",
+      "datetime": "2023-10-21T23:45:00",
+      "filename": "LSASAF_MSG_DLST-MAX10D_2023-10-21_23:45.png",
+      "image": "assets/images/lsasaf/LSASAF_MSG_DLST-MAX10D_2023-10-21_23:45.png"
+    }
+  ]
 }
