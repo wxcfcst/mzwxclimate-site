@@ -944,35 +944,6 @@ a {
 }
 
 
-/* ============================================================
-   SELECTOR DE PRODUTOS DE SATÉLITE
-   ============================================================ */
-
-.satellite-selector {
-    width: 100%;
-    max-width: 700px;
-    margin: 25px auto;
-    text-align: center;
-}
-
-
-.satellite-selector label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-
-#product-select {
-    width: 100%;
-    max-width: 600px;
-    padding: 12px 15px;
-    font-size: 17px;
-    border: 1px solid #cbd5e0;
-    border-radius: 10px;
-    background: white;
-    cursor: pointer;
-}
 
 
 /* ============================================================
