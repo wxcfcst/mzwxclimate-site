@@ -85,35 +85,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 }
 
-
                 view.innerHTML = `
 
-                    <div class="satellite-product">
+                    <div class="satellite-product-header">
 
-                        <div class="satellite-product-header">
+                        <h2>
+                            ${channel.name}
+                        </h2>
 
-                            <h2>
-                                ${channel.name}
-                            </h2>
+                    </div>
 
-                        </div>
+                    <div class="satellite-map">
 
-
-                        <div class="satellite-map">
-
-                            <img
-                                src="../assets/images/satellite/${channel.file}"
-                                alt="${channel.name}"
-                                title="${channel.name}"
-                            >
-
-                        </div>
+                        <img
+                            src="../assets/images/satellite/${channel.file}"
+                            alt="${channel.name}"
+                            title="${channel.name}"
+                        >
 
                     </div>
 
                 `;
 
             }
+
 
 
             /*
