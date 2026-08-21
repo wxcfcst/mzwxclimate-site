@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <div class="message">
 
-                    Seleccione um produto LSASAF para visualizar.
+                    Seleccione um produto para visualizar.
 
                 </div>
 
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
         select.innerHTML = `
 
             <option value="">
-                Escolha o Produto
+                Seleccione um produto
             </option>
 
         `;
