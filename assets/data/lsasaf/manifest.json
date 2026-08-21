@@ -1,6 +1,6 @@
 {
-  "source": "LSASAF / METOP / MIMIC",
-  "generated": "2026-08-21T17:09:25.012860-03:00",
+  "source": "LSASAF / METOP",
+  "generated": "2026-08-21T17:50:06.536613-03:00",
   "image_directory": "assets/images/lsasaf/",
   "total": 12,
   "products": [
@@ -23,7 +23,7 @@
       "image": "assets/images/lsasaf/LSASAF_MSG_FRP-PIXEL_2023-11-01_23:45.png"
     },
     {
-      "product": "ETv3",
+      "product": "ET",
       "id": "ET",
       "name": "Evapotranspiração",
       "description": "Evapotranspiração derivada de observações de satélite.",
@@ -39,15 +39,6 @@
       "datetime": "2023-11-01T15:00:00",
       "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202311011500.nc_2023-11-01_15:00.png",
       "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202311011500.nc_2023-11-01_15:00.png"
-    },
-    {
-      "product": "DIDSSF",
-      "id": "DSSF",
-      "name": "Fluxo Total Descendente de Radiação de Onda Curta na Superfície",
-      "description": "Fluxo descendente de radiação de onda curta na superfície.",
-      "datetime": "2023-11-01T00:00:00",
-      "filename": "NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png"
     },
     {
       "product": "EDLST-DAY",
@@ -66,6 +57,15 @@
       "datetime": "2023-11-01T00:00:00",
       "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2023-11-01_00:00.png",
       "image": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2023-11-01_00:00.png"
+    },
+    {
+      "product": "DIDSSF",
+      "id": "DIDSSF",
+      "name": "Produto Integrado de Precipitação / Umidade do Solo",
+      "description": "Produto integrado relacionado à precipitação e à umidade do solo.",
+      "datetime": "2023-11-01T00:00:00",
+      "filename": "NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png",
+      "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png"
     },
     {
       "product": "ETAL",

@@ -2,9 +2,11 @@
     {
         "id": "DIDSSF",
         "name": "Produto Integrado de Precipitação / Umidade do Solo",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png",
+        "images": [
+            "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202311010000.nc_2023-11-01_00:00.png"
+        ]
     },
     {
         "id": "DLST_MAX10D",
