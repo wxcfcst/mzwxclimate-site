@@ -298,12 +298,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         products
 
-            .filter(function (product) {
-
-                return product.available === true;
-
-            })
-
             .forEach(function (product) {
 
 
@@ -325,27 +319,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         // =====================================================
-        // MOSTRAR PRIMEIRO PRODUTO AUTOMATICAMENTE
+        // NÃO SELECIONAR PRODUTO AUTOMATICAMENTE
         // =====================================================
-
-        const availableProducts =
-            products.filter(function (product) {
-
-                return product.available === true;
-
-            });
-
-
-        if (availableProducts.length > 0) {
-
-            select.value =
-                availableProducts[0].id;
-
-            showProduct(
-                availableProducts[0]
-            );
-
-        }
+        //
+        // "Seleccione um produto" permanece selecionado
+        // até o utilizador escolher um produto.
+        // =====================================================
 
 
         // =====================================================
