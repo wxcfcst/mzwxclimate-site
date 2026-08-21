@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
 
 
@@ -13,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // =========================================================
-    // CAMINHO DO PRODUCTS.JSON
+    // PRODUCTS.JSON
     // =========================================================
 
     const productsURL =
@@ -21,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // =========================================================
-    // FUNÇÃO PARA ESCAPAR HTML
+    // ESCAPAR HTML
     // =========================================================
 
     function escapeHTML(value) {
@@ -40,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // =========================================================
-    // FORMATAR DATA/HORA
+    // DATA/HORA
     // =========================================================
 
     function formatDateTime(datetime) {
@@ -65,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
+
     // =========================================================
     // MOSTRAR PRODUTO
     // =========================================================
@@ -76,16 +80,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
             view.innerHTML = `
 
-                <div class="message">
-
-                    Seleccione um produto para visualizar.
-
-                </div>
+            <div class="message">
+                Seleccione um produto para visualizar.
+            </div>
 
             `;
 
             return;
         }
+
 
 
         const name =
@@ -100,295 +103,409 @@ document.addEventListener("DOMContentLoaded", function () {
             formatDateTime(product.datetime);
 
 
-        const latest =
-            product.latest;
-
 
         // =====================================================
-        // GALERIA
+        // IMAGEM PRINCIPAL
         // =====================================================
 
-        let galleryHTML = "";
+        let mainImageHTML = "";
+
 
 
         if (
-            Array.isArray(product.images) &&
-            product.images.length > 0
+            product.latest &&
+            product.latest.trim() !== ""
         ) {
 
 
-            product.images.forEach(function (image) {
+            const image =
+                escapeHTML(product.latest);
 
 
-                const safeImage =
-                    escapeHTML(image);
+
+            mainImageHTML = `
 
 
-                const filename =
-                    image.split("/").pop();
+            <div class="map-container">
 
 
-                galleryHTML += `
+                <a
+                    href="../${image}"
+                    target="_blank"
+                    rel="noopener"
+                    title="Abrir imagem original"
+                >
 
-                    <a
-                        href="../${safeImage}"
-                        target="_blank"
-                        rel="noopener"
-                        class="gallery-item"
-                        title="Abrir imagem em tamanho original"
+
+                    <img
+                        src="../${image}"
+                        alt="${name}"
+                        class="map-image"
                     >
 
-                        <img
-                            src="../${safeImage}"
-                            alt="${escapeHTML(filename)}"
-                            loading="lazy"
-                        >
 
-                    </a>
-
-                `;
-
-            });
+                </a>
 
 
-        } else {
+            </div>
 
 
-            galleryHTML = `
+            `;
 
-                <div class="message">
 
-                    Não existem imagens históricas disponíveis.
+        }
 
-                </div>
+        else {
+
+
+            mainImageHTML = `
+
+
+            <div class="message">
+
+                Imagem indisponível.
+
+            </div>
+
 
             `;
 
         }
 
 
+
+
+
         // =====================================================
-        // CONTEÚDO PRINCIPAL
+        // HISTÓRICO
         // =====================================================
 
-        view.innerHTML = `
 
-            <h2 class="product-title">
-
-                ${name}
-
-            </h2>
+        let galleryHTML = "";
 
 
-            ${
-                description
-                    ?
-                    `<p class="product-description">
-                        ${description}
-                    </p>`
-                    :
-                    ""
-            }
+
+        if (
+
+            Array.isArray(product.images)
+
+            &&
+
+            product.images.length > 0
+
+        ) {
 
 
-            ${
-                datetime
-                    ?
-                    `<div class="product-datetime">
-                        <strong>Data:</strong>
-                        ${escapeHTML(datetime)}
-                    </div>`
-                    :
-                    ""
-            }
+
+            product.images.forEach(function(image){
 
 
-            <div class="map-container">
+
+                const safeImage =
+                    escapeHTML(image);
+
+
+
+                const filename =
+                    image.split("/").pop();
+
+
+
+                galleryHTML += `
+
 
                 <a
-                    href="../${escapeHTML(latest)}"
+                    href="../${safeImage}"
                     target="_blank"
                     rel="noopener"
-                    title="Abrir imagem em tamanho original"
+                    class="gallery-item"
+                    title="Abrir imagem original"
                 >
 
+
                     <img
-                        src="../${escapeHTML(latest)}"
-                        alt="${name}"
-                        class="map-image"
+
+                        src="../${safeImage}"
+
+                        alt="${escapeHTML(filename)}"
+
+                        loading="lazy"
+
                     >
+
 
                 </a>
 
-            </div>
 
+                `;
 
-            <h3 class="history-title">
-
-                Histórico
-
-            </h3>
-
-
-            <div class="gallery">
-
-                ${galleryHTML}
-
-            </div>
-
-        `;
-
-    }
-
-
-    // =========================================================
-    // CARREGAR PRODUCTS.JSON
-    // =========================================================
-
-    fetch(productsURL, {
-        cache: "no-cache"
-    })
-
-    .then(function (response) {
-
-        if (!response.ok) {
-
-            throw new Error(
-                "HTTP " + response.status
-            );
-
-        }
-
-        return response.json();
-
-    })
-
-    .then(function (products) {
-
-
-        // =====================================================
-        // VALIDAR DADOS
-        // =====================================================
-
-        if (!Array.isArray(products)) {
-
-            throw new Error(
-                "products.json não contém uma lista válida."
-            );
-
-        }
-
-
-        // =====================================================
-        // LIMPAR SELECT
-        // =====================================================
-
-        select.innerHTML = `
-
-            <option value="">
-                Seleccione um produto
-            </option>
-
-        `;
-
-
-        // =====================================================
-        // ADICIONAR PRODUTOS DISPONÍVEIS
-        // =====================================================
-
-        products
-
-            .forEach(function (product) {
-
-
-                const option =
-                    document.createElement("option");
-
-
-                option.value =
-                    product.id;
-
-
-                option.textContent =
-                    product.name;
-
-
-                select.appendChild(option);
 
             });
 
 
+
+        }
+
+        else {
+
+
+            galleryHTML = `
+
+
+            <div class="message">
+
+                Não existem imagens históricas disponíveis.
+
+            </div>
+
+
+            `;
+
+
+        }
+
+
+
+
+
         // =====================================================
-        // NÃO SELECIONAR PRODUTO AUTOMATICAMENTE
-        // =====================================================
-        //
-        // "Seleccione um produto" permanece selecionado
-        // até o utilizador escolher um produto.
+        // CONTEÚDO
         // =====================================================
 
 
-        // =====================================================
-        // GUARDAR PRODUTOS
-        // =====================================================
+        view.innerHTML = `
+
+
+        <h2 class="product-title">
+
+            ${name}
+
+        </h2>
+
+
+
+        ${
+            description
+            ?
+
+            `<p class="product-description">
+
+                ${description}
+
+            </p>`
+
+            :
+
+            ""
+
+        }
+
+
+
+
+        ${
+            datetime
+
+            ?
+
+            `<div class="product-datetime">
+
+                <strong>Data:</strong>
+
+                ${escapeHTML(datetime)}
+
+            </div>`
+
+            :
+
+            ""
+
+        }
+
+
+
+
+        ${mainImageHTML}
+
+
+
+        <h3 class="history-title">
+
+            Histórico
+
+        </h3>
+
+
+
+        <div class="gallery">
+
+            ${galleryHTML}
+
+        </div>
+
+
+        `;
+
+
+
+    }
+
+
+
+
+
+    // =========================================================
+    // CARREGAR JSON
+    // =========================================================
+
+
+    fetch(productsURL, {
+        cache:"no-cache"
+    })
+
+
+    .then(response=>{
+
+
+        if(!response.ok){
+
+            throw new Error(
+                "HTTP "+response.status
+            );
+
+        }
+
+
+        return response.json();
+
+
+    })
+
+
+    .then(products=>{
+
+
+        if(!Array.isArray(products)){
+
+
+            throw new Error(
+                "products.json inválido"
+            );
+
+
+        }
+
+
+
+        select.innerHTML = `
+
+
+        <option value="">
+
+            Seleccione um produto
+
+        </option>
+
+
+        `;
+
+
+
+        products.forEach(product=>{
+
+
+            const option =
+                document.createElement("option");
+
+
+            option.value =
+                product.id;
+
+
+            option.textContent =
+                product.name;
+
+
+            select.appendChild(option);
+
+
+        });
+
+
 
         select._lsasafProducts =
             products;
 
 
+
     })
 
-    .catch(function (error) {
+
+    .catch(error=>{
 
 
         console.error(
-            "Erro ao carregar produtos LSASAF:",
+            "Erro LSASAF:",
             error
         );
 
 
         view.innerHTML = `
 
-            <div class="error-message">
 
-                <strong>
-                    Não foi possível carregar os produtos LSASAF.
-                </strong>
+        <div class="error-message">
 
-                <br><br>
 
-                Verifique a disponibilidade do
-                <code>products.json</code>.
+        <strong>
 
-            </div>
+        Não foi possível carregar os produtos LSASAF.
+
+        </strong>
+
+
+        </div>
+
 
         `;
+
+
 
     });
 
 
+
+
+
     // =========================================================
-    // MUDANÇA DO PRODUTO
+    // SELEÇÃO DO PRODUTO
     // =========================================================
+
 
     select.addEventListener(
         "change",
-        function () {
+        function(){
 
 
             const products =
                 select._lsasafProducts;
 
 
-            if (!products) {
+
+            if(!products){
+
                 return;
+
             }
+
 
 
             const id =
                 this.value;
 
 
-            if (!id) {
+
+            if(!id){
+
 
                 showProduct(null);
 
@@ -397,18 +514,24 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
 
+
             const product =
-                products.find(function (item) {
+                products.find(
+                    item=>item.id===id
+                );
 
-                    return item.id === id;
-
-                });
 
 
             showProduct(product);
 
+
+
         }
+
     );
 
 
+
 });
+
+
