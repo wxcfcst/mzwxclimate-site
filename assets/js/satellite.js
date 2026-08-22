@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     console.log("SATELLITE.JS v3 CARREGADO");
 
 
@@ -148,9 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
             customSelect.innerHTML = `
 
                 <option value="" selected disabled>
-
                     Escolha o produto
-
                 </option>
 
             `;
@@ -333,15 +332,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
             // =================================================
-            // LIMPAR SELECT
+            // LIMPAR SELECT GEORING
             // =================================================
 
             georingSelect.innerHTML = `
 
                 <option value="" selected disabled>
-
                     Escolha o produto
-
                 </option>
 
             `;
@@ -368,7 +365,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
             // =================================================
-            // MOSTRAR IMAGEM GEORING
+            // MOSTRAR SOMENTE A IMAGEM GEORING
             // =================================================
 
             function showGeoRing(item) {
@@ -386,88 +383,29 @@ document.addEventListener("DOMContentLoaded", function () {
                     escapeHTML(item.name);
 
 
-                const description =
-                    escapeHTML(
-                        item.description || ""
-                    );
-
-
-                const datetime =
-                    formatDateTime(item.datetime);
-
-
                 const imagePath =
-                    item.image;
-
-
-                // =================================================
-                // VERIFICAR CAMINHO DA IMAGEM
-                //
-                // Não criamos link se a imagem não existir.
-                // A verificação real de existência será feita
-                // pelo navegador através do evento onerror.
-                // =================================================
-
-                const safeImagePath =
-                    escapeHTML(imagePath);
+                    escapeHTML(item.image);
 
 
                 georingView.innerHTML = `
 
-                    <div class="satellite-product-header">
-
-                        <h2>
-                            ${name}
-                        </h2>
-
-                    </div>
-
-
-                    ${
-                        description
-                            ?
-                            `<div class="satellite-description">
-                                ${description}
-                            </div>`
-                            :
-                            ""
-                    }
-
-
-                    ${
-                        datetime
-                            ?
-                            `<div class="satellite-datetime">
-                                <strong>Data:</strong>
-                                ${escapeHTML(datetime)}
-                            </div>`
-                            :
-                            ""
-                    }
-
-
                     <div class="satellite-map"
                          id="georing-map">
 
-
                         <img
-                            src="../${safeImagePath}"
+                            src="../${imagePath}"
                             alt="${name}"
                             title="${name}"
                             id="georing-image"
                         >
-
 
                         <div
                             class="satellite-unavailable"
                             id="georing-unavailable"
                             style="display: none;"
                         >
-
                             Imagem indisponível
-
                         </div>
-
 
                     </div>
 
