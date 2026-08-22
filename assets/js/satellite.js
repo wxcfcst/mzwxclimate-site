@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("SATELLITE.JS v3 CARREGADO");
 
 
     // =========================================================
