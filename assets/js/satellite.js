@@ -1,106 +1,220 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const select = document.getElementById("product-select");
-    const view = document.getElementById("product-view");
 
-    if (!select || !view) {
-        console.error("Elementos do visualizador de satélite não encontrados.");
-        return;
+    // =========================================================
+    // ELEMENTOS — CUSTOM
+    // =========================================================
+
+    const customSelect =
+        document.getElementById("product-select");
+
+    const customView =
+        document.getElementById("product-view");
+
+
+    // =========================================================
+    // ELEMENTOS — GEORING
+    // =========================================================
+
+    const georingSelect =
+        document.getElementById("georing-product");
+
+    const georingView =
+        document.getElementById("georing-view");
+
+
+    // =========================================================
+    // VERIFICAR ELEMENTOS
+    // =========================================================
+
+    if (!customSelect || !customView) {
+
+        console.error(
+            "Elementos do visualizador Custom não encontrados."
+        );
+
     }
 
-    fetch("../assets/data/satellite.json?v=" + Date.now())
 
-        .then(response => {
+    if (!georingSelect || !georingView) {
+
+        console.error(
+            "Elementos do visualizador GeoRing não encontrados."
+        );
+
+    }
+
+
+    // =========================================================
+    // FUNÇÃO PARA ESCAPAR HTML
+    // =========================================================
+
+    function escapeHTML(value) {
+
+        if (value === null || value === undefined) {
+            return "";
+        }
+
+        return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+
+    }
+
+
+    // =========================================================
+    // FORMATAR DATA/HORA
+    // =========================================================
+
+    function formatDateTime(datetime) {
+
+        if (!datetime) {
+            return "";
+        }
+
+        const date = new Date(datetime);
+
+        if (Number.isNaN(date.getTime())) {
+            return datetime;
+        }
+
+        return date.toLocaleString(
+            "pt-PT",
+            {
+                dateStyle: "medium",
+                timeStyle: "short"
+            }
+        );
+
+    }
+
+
+    // =========================================================
+    // CARREGAR CUSTOM
+    // =========================================================
+
+    if (customSelect && customView) {
+
+        fetch(
+            "../assets/data/satellite.json?v=" +
+            Date.now()
+        )
+
+        .then(function (response) {
 
             if (!response.ok) {
+
                 throw new Error(
                     "Erro ao carregar assets/data/satellite.json"
                 );
+
             }
 
             return response.json();
 
         })
 
-        .then(data => {
+        .then(function (data) {
 
-            const channels = data.channels || [];
+            const channels =
+                data.channels || [];
+
 
             if (channels.length === 0) {
 
-                view.innerHTML = `
+                customView.innerHTML = `
+
                     <div class="satellite-error">
+
                         Nenhuma imagem de satélite disponível.
+
                     </div>
+
                 `;
 
                 return;
+
             }
 
-            /*
-             * =====================================================
-             * LIMPAR SELECT
-             * =====================================================
-             */
 
-            select.innerHTML = `
+            // =================================================
+            // LIMPAR SELECT
+            // =================================================
+
+            customSelect.innerHTML = `
+
                 <option value="" selected disabled>
+
                     Escolha o produto
+
                 </option>
+
             `;
 
 
-            /*
-             * =====================================================
-             * CRIAR OPÇÕES
-             * =====================================================
-             */
+            // =================================================
+            // CRIAR OPÇÕES
+            // =================================================
 
-            channels.forEach(channel => {
+            channels.forEach(function (channel) {
 
-                const option = document.createElement("option");
+                const option =
+                    document.createElement("option");
 
-                option.value = channel.file;
+                option.value =
+                    channel.file;
 
-                option.textContent = channel.name;
+                option.textContent =
+                    channel.name;
 
-                select.appendChild(option);
+                customSelect.appendChild(option);
 
             });
 
 
-            /*
-             * =====================================================
-             * MOSTRAR IMAGEM
-             * =====================================================
-             */
+            // =================================================
+            // MOSTRAR IMAGEM CUSTOM
+            // =================================================
 
-            function showChannel(channel) {
+            function showCustomChannel(channel) {
 
                 if (!channel) {
 
-                    view.innerHTML = "";
+                    customView.innerHTML = "";
 
                     return;
 
                 }
 
-                view.innerHTML = `
+
+                const filename =
+                    escapeHTML(channel.file);
+
+
+                const name =
+                    escapeHTML(channel.name);
+
+
+                customView.innerHTML = `
 
                     <div class="satellite-product-header">
 
                         <h2>
-                            ${channel.name}
+                            ${name}
                         </h2>
 
                     </div>
 
+
                     <div class="satellite-map">
 
                         <img
-                            src="../assets/images/satellite/${channel.file}"
-                            alt="${channel.name}"
-                            title="${channel.name}"
+                            src="../assets/images/satellite/${filename}"
+                            alt="${name}"
+                            title="${name}"
                         >
 
                     </div>
@@ -110,58 +224,50 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
 
+            // =================================================
+            // ALTERAÇÃO DO PRODUTO CUSTOM
+            // =================================================
 
-            /*
-             * =====================================================
-             * ALTERAÇÃO DO PRODUTO
-             * =====================================================
-             */
-
-            select.addEventListener(
+            customSelect.addEventListener(
                 "change",
                 function () {
 
-                    const filename = this.value;
+                    const filename =
+                        this.value;
+
 
                     const channel =
                         channels.find(
-                            item => item.file === filename
+                            function (item) {
+
+                                return item.file === filename;
+
+                            }
                         );
 
-                    showChannel(channel);
+
+                    showCustomChannel(channel);
 
                 }
             );
 
 
-            /*
-             * =====================================================
-             * INFORMAÇÃO NO CONSOLE
-             * =====================================================
-             */
-
             console.log(
-                `Canais MSG/SEVIRI carregados: ${channels.length}`
+                "Canais MSG/SEVIRI carregados:",
+                channels.length
             );
-
-            channels.forEach(channel => {
-
-                console.log(
-                    `${channel.name} | ${channel.file}`
-                );
-
-            });
 
         })
 
-        .catch(error => {
+        .catch(function (error) {
 
             console.error(
-                "Erro no visualizador de satélite:",
+                "Erro no visualizador Custom:",
                 error
             );
 
-            view.innerHTML = `
+
+            customView.innerHTML = `
 
                 <div class="satellite-error">
 
@@ -173,5 +279,307 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
 
         });
+
+    }
+
+
+    // =========================================================
+    // CARREGAR GEORING
+    // =========================================================
+
+    if (georingSelect && georingView) {
+
+        fetch(
+            "../assets/data/georing.json?v=" +
+            Date.now()
+        )
+
+        .then(function (response) {
+
+            if (!response.ok) {
+
+                throw new Error(
+                    "Erro ao carregar assets/data/georing.json"
+                );
+
+            }
+
+            return response.json();
+
+        })
+
+        .then(function (data) {
+
+            const images =
+                data.images || [];
+
+
+            if (images.length === 0) {
+
+                georingView.innerHTML = `
+
+                    <div class="satellite-error">
+
+                        Nenhuma imagem GeoRing disponível.
+
+                    </div>
+
+                `;
+
+                return;
+
+            }
+
+
+            // =================================================
+            // LIMPAR SELECT
+            // =================================================
+
+            georingSelect.innerHTML = `
+
+                <option value="" selected disabled>
+
+                    Escolha o produto
+
+                </option>
+
+            `;
+
+
+            // =================================================
+            // CRIAR OPÇÕES GEORING
+            // =================================================
+
+            images.forEach(function (item) {
+
+                const option =
+                    document.createElement("option");
+
+                option.value =
+                    item.id;
+
+                option.textContent =
+                    item.name;
+
+                georingSelect.appendChild(option);
+
+            });
+
+
+            // =================================================
+            // MOSTRAR IMAGEM GEORING
+            // =================================================
+
+            function showGeoRing(item) {
+
+                if (!item) {
+
+                    georingView.innerHTML = "";
+
+                    return;
+
+                }
+
+
+                const name =
+                    escapeHTML(item.name);
+
+
+                const description =
+                    escapeHTML(
+                        item.description || ""
+                    );
+
+
+                const datetime =
+                    formatDateTime(item.datetime);
+
+
+                const imagePath =
+                    item.image;
+
+
+                // =================================================
+                // VERIFICAR CAMINHO DA IMAGEM
+                //
+                // Não criamos link se a imagem não existir.
+                // A verificação real de existência será feita
+                // pelo navegador através do evento onerror.
+                // =================================================
+
+                const safeImagePath =
+                    escapeHTML(imagePath);
+
+
+                georingView.innerHTML = `
+
+                    <div class="satellite-product-header">
+
+                        <h2>
+                            ${name}
+                        </h2>
+
+                    </div>
+
+
+                    ${
+                        description
+                            ?
+                            `<div class="satellite-description">
+                                ${description}
+                            </div>`
+                            :
+                            ""
+                    }
+
+
+                    ${
+                        datetime
+                            ?
+                            `<div class="satellite-datetime">
+                                <strong>Data:</strong>
+                                ${escapeHTML(datetime)}
+                            </div>`
+                            :
+                            ""
+                    }
+
+
+                    <div class="satellite-map"
+                         id="georing-map">
+
+
+                        <img
+                            src="../${safeImagePath}"
+                            alt="${name}"
+                            title="${name}"
+                            id="georing-image"
+                        >
+
+
+                        <div
+                            class="satellite-unavailable"
+                            id="georing-unavailable"
+                            style="display: none;"
+                        >
+
+                            Imagem indisponível
+
+                        </div>
+
+
+                    </div>
+
+                `;
+
+
+                // =================================================
+                // DETECTAR IMAGEM AUSENTE
+                // =================================================
+
+                const image =
+                    document.getElementById(
+                        "georing-image"
+                    );
+
+
+                const unavailable =
+                    document.getElementById(
+                        "georing-unavailable"
+                    );
+
+
+                if (image && unavailable) {
+
+                    image.addEventListener(
+                        "error",
+                        function () {
+
+                            image.style.display =
+                                "none";
+
+                            unavailable.style.display =
+                                "block";
+
+                        }
+                    );
+
+                }
+
+            }
+
+
+            // =================================================
+            // ALTERAÇÃO DO PRODUTO GEORING
+            // =================================================
+
+            georingSelect.addEventListener(
+                "change",
+                function () {
+
+                    const id =
+                        this.value;
+
+
+                    const item =
+                        images.find(
+                            function (product) {
+
+                                return product.id === id;
+
+                            }
+                        );
+
+
+                    showGeoRing(item);
+
+                }
+            );
+
+
+            // =================================================
+            // INFORMAÇÃO NO CONSOLE
+            // =================================================
+
+            console.log(
+                "Produtos GeoRing carregados:",
+                images.length
+            );
+
+
+            images.forEach(function (item) {
+
+                console.log(
+                    item.name +
+                    " | " +
+                    item.filename
+                );
+
+            });
+
+        })
+
+        .catch(function (error) {
+
+            console.error(
+                "Erro no visualizador GeoRing:",
+                error
+            );
+
+
+            georingView.innerHTML = `
+
+                <div class="satellite-error">
+
+                    Não foi possível carregar
+                    as imagens GeoRing.
+
+                </div>
+
+            `;
+
+        });
+
+    }
 
 });
