@@ -7,7 +7,7 @@
         "source": "LSA SAF",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/lsasaf/ET/ET_2024-07-01.png"
+        "latest": "assets/images/satellite/lsasaf/ET/ET_2024-07-01.png"
     },
     {
         "id": "EDLST_DAY",
@@ -35,14 +35,14 @@
         "source": "LSA SAF",
         "name": "Albedo da Superfície - 10 dias",
         "available": true,
-        "latest": "assets/images/lsasaf/ETAL/ETAL_2023-10-25.png"
+        "latest": "assets/images/satellite/lsasaf/ETAL/ETAL_2023-10-25.png"
     },
     {
         "id": "DSSF",
         "source": "LSA SAF",
         "name": "Fluxo Total Descendente de Radiação de Onda Curta",
         "available": true,
-        "latest": "assets/images/lsasaf/DSSF/DSSF_2023-11-01.png"
+        "latest": "assets/images/satellite/lsasaf/DSSF/DSSF_2023-11-01.png"
     },
     {
         "id": "FRP",

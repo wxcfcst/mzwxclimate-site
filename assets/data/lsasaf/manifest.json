@@ -1,7 +1,7 @@
 {
   "source": "LSASAF / METOP",
   "generated": "2026-08-26T22:44:28.532858-03:00",
-  "image_directory": "assets/images/lsasaf/",
+  "image_directory": "assets/images/satellite/lsasaf/",
   "total": 12,
   "products": [
     {
@@ -11,7 +11,7 @@
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
       "datetime": "2026-08-26T23:00:00",
       "filename": "LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png",
-      "image": "assets/images/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png"
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png"
     },
     {
       "product": "MDSSFTD",
@@ -20,7 +20,7 @@
       "description": "Fluxo diário descendente de radiação de onda curta na superfície.",
       "datetime": "2026-08-26T23:00:00",
       "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png"
     },
     {
       "product": "ET",
@@ -29,7 +29,7 @@
       "description": "Evapotranspiração derivada de observações de satélite.",
       "datetime": "2026-08-26T22:30:00",
       "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png"
     },
     {
       "product": "EDLST-DAY",
@@ -38,7 +38,7 @@
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
@@ -47,7 +47,7 @@
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png"
     },
     {
       "product": "ETAL",
@@ -56,7 +56,7 @@
       "description": "Albedo da superfície terrestre em um período de 10 dias.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png"
     },
     {
       "product": "ETFAPAR",
@@ -65,7 +65,7 @@
       "description": "Fração da radiação fotossinteticamente ativa absorvida pela vegetação.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png"
     },
     {
       "product": "ETFVC",
@@ -74,7 +74,7 @@
       "description": "Fração de cobertura vegetal em um período de 10 dias.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png"
     },
     {
       "product": "ETLAI",
@@ -83,7 +83,7 @@
       "description": "Índice de Área Foliar (LAI) em um período de 10 dias.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png"
     },
     {
       "product": "DIDSSF",
@@ -92,7 +92,7 @@
       "description": "Produto integrado relacionado à precipitação e à umidade do solo.",
       "datetime": "2026-08-25T00:00:00",
       "filename": "NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png",
-      "image": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png"
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png"
     },
     {
       "product": "DLST-MAX10D",
@@ -101,7 +101,7 @@
       "description": "Temperatura máxima da superfície terrestre acumulada em um período de 10 dias.",
       "datetime": "2026-06-11T23:45:00",
       "filename": "LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
-      "image": "assets/images/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
     },
     {
       "product": "S10_AFR_NDV",
@@ -110,7 +110,7 @@
       "description": "Índice de Vegetação por Diferença Normalizada (NDVI) derivado do sensor AVHRR.",
       "datetime": "2026-06-11T23:45:00",
       "filename": "METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
-      "image": "assets/images/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
+      "image": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
     }
   ]
 }

@@ -3,18 +3,18 @@
         "id": "DIDSSF",
         "name": "Produto Integrado de Precipitação / Umidade do Solo",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608250000.nc_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "DLST_MAX10D",
         "name": "Temperatura Máxima da Superfície - 10 dias",
         "available": true,
-        "latest": "assets/images/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
         "images": [
-            "assets/images/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
         ]
     },
     {
@@ -28,90 +28,90 @@
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
         "available": true,
-        "latest": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
         "available": true,
-        "latest": "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "ET",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608262230.nc_2026-08-26_22:30.png"
         ]
     },
     {
         "id": "ETAL",
         "name": "Albedo da Superfície de 10 dias",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202608250000.nc_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202608250000.nc_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png",
         "images": [
-            "assets/images/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-26_23:00.png"
         ]
     },
     {
         "id": "FVC",
         "name": "Fração de Cobertura Vegetal de 10 dias",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202608250000.nc_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "LAI",
         "name": "Índice de Área Foliar de 10 dias",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202608250000.nc_2026-08-25_00:00.png"
         ]
     },
     {
         "id": "MDIDSSF",
         "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
         "available": true,
-        "latest": "assets/images/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png",
         "images": [
-            "assets/images/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608262300.nc_2026-08-26_23:00.png"
         ]
     },
     {
         "id": "NDVI",
         "name": "Vegetação - NDVI",
         "available": true,
-        "latest": "assets/images/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
+        "latest": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
         "images": [
-            "assets/images/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
+            "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
         ]
     },
     {
