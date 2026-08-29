@@ -7,24 +7,24 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>EUMETSAT | GOES16 | MSG | MTG - MZ WX & Climate</title>
+<title>Satélite - MZ WX & Climate</title>
 
 <link rel="stylesheet" href="../assets/css/style.css">
 
 <style>
 
 /* ============================================================
-   PÁGINA DE SATÉLITE
+   PÁGINA PRINCIPAL DE SATÉLITE
    ============================================================ */
 
 .satellite-page {
 
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
 
     margin: 0 auto;
 
-    padding: 20px;
+    padding: 30px;
 
     box-sizing: border-box;
 
@@ -34,7 +34,7 @@
 
 
 /* ============================================================
-   TÍTULO PRINCIPAL
+   TÍTULO
    ============================================================ */
 
 .satellite-title {
@@ -45,56 +45,16 @@
 
     font-weight: bold;
 
-    margin: 10px 0 30px 0;
+    margin: 20px 0 40px 0;
 
 }
 
 
 /* ============================================================
-   SUBTÍTULOS
+   OPÇÕES
    ============================================================ */
 
-.satellite-subtitles {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 30px;
-
-    margin-bottom: 10px;
-
-}
-
-
-.satellite-subtitle {
-
-    font-size: 22px;
-
-    font-weight: bold;
-
-}
-
-
-.satellite-subtitle.custom {
-
-    text-align: left;
-
-}
-
-
-.satellite-subtitle.georing {
-
-    text-align: right;
-
-}
-
-
-/* ============================================================
-   DUAS CAIXAS
-   ============================================================ */
-
-.satellite-columns {
+.satellite-options {
 
     display: grid;
 
@@ -111,222 +71,73 @@
    CAIXAS
    ============================================================ */
 
-.satellite-box {
+.satellite-option {
+
+    display: block;
+
+    padding: 40px 30px;
 
     border: 1px solid #cccccc;
 
-    border-radius: 8px;
+    border-radius: 10px;
 
     background: #ffffff;
 
-    padding: 20px;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #222222;
 
     box-sizing: border-box;
 
-    min-height: 500px;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-}
-
-
-/* ============================================================
-   SELECTOR
-   ============================================================ */
-
-.satellite-selector {
-
-    width: 100%;
-
-    margin-bottom: 20px;
-
-}
-
-
-.satellite-selector label {
-
-    display: block;
-
-    font-size: 18px;
-
-    font-weight: bold;
-
-    margin-bottom: 8px;
-
-}
-
-
-.satellite-selector select {
-
-    width: 100%;
-
-    padding: 10px;
-
-    font-size: 16px;
-
-    border: 1px solid #bbbbbb;
-
-    border-radius: 5px;
-
-    background: #ffffff;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
 
 }
 
 
 /* ============================================================
-   VISUALIZADOR
+   EFEITO AO PASSAR O RATO
    ============================================================ */
 
-#product-view {
+.satellite-option:hover {
 
-    width: 100%;
+    transform: translateY(-3px);
 
-    text-align: center;
-
-    margin: 0;
-
-    padding: 0;
-
-    border: none;
-
-    background: transparent;
-
-    box-shadow: none;
-
-}
-
-
-.satellite-product {
-
-    width: 100%;
-
-    margin: 0;
-
-    padding: 0;
-
-    border: none;
-
-    background: transparent;
-
-    box-shadow: none;
-
-}
-
-
-.satellite-product-header {
-
-    margin-bottom: 15px;
-
-}
-
-
-.satellite-product-header h2 {
-
-    margin: 0;
-
-    font-size: 20px;
-
-}
-
-
-.satellite-map {
-
-    width: 100%;
-
-    text-align: center;
-
-}
-
-
-.satellite-map img {
-
-    display: block;
-
-    width: 100%;
-
-    height: auto;
-
-    margin: 0 auto;
-
-    border-radius: 5px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
 
 }
 
 
 /* ============================================================
-   GEORING
+   TÍTULO DAS OPÇÕES
    ============================================================ */
 
-.georing-content {
+.satellite-option h2 {
 
-    width: 100%;
+    margin: 0 0 15px 0;
 
-    text-align: center;
-
-}
-
-
-.georing-selector {
-
-    width: 100%;
-
-    margin-bottom: 20px;
+    font-size: 24px;
 
 }
 
 
-.georing-selector label {
+/* ============================================================
+   DESCRIÇÃO
+   ============================================================ */
 
-    display: block;
+.satellite-option p {
 
-    font-size: 18px;
-
-    font-weight: bold;
-
-    margin-bottom: 8px;
-
-}
-
-
-.georing-selector select {
-
-    width: 100%;
-
-    padding: 10px;
-
-    font-size: 16px;
-
-    border: 1px solid #bbbbbb;
-
-    border-radius: 5px;
-
-    background: #ffffff;
-
-}
-
-
-#georing-view {
-
-    width: 100%;
-
-    min-height: 350px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-}
-
-
-.georing-placeholder {
+    margin: 0;
 
     font-size: 17px;
 
-    color: #666666;
+    line-height: 1.5;
 
-    padding: 40px 20px;
+    color: #555555;
 
 }
 
@@ -335,58 +146,40 @@
    RESPONSIVIDADE
    ============================================================ */
 
-@media (max-width: 900px) {
-
-    .satellite-columns {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .satellite-subtitles {
-
-        grid-template-columns: 1fr;
-
-        gap: 5px;
-
-    }
-
-
-    .satellite-subtitle.custom,
-    .satellite-subtitle.georing {
-
-        text-align: center;
-
-    }
-
-}
-
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     .satellite-page {
 
-        padding: 10px;
+        padding: 15px;
 
     }
 
 
     .satellite-title {
 
-        font-size: 24px;
+        font-size: 25px;
+
+        margin-bottom: 30px;
 
     }
 
 
-    .satellite-box {
+    .satellite-options {
 
-        padding: 12px;
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+    }
+
+
+    .satellite-option {
+
+        padding: 30px 20px;
 
     }
 
 }
-
 
 </style>
 
@@ -405,105 +198,66 @@
 
     <div class="satellite-title">
 
-        EUMETSAT | GOES16 | MSG | MTG
+        Satélite
 
     </div>
 
 
     <!-- ======================================================
-         SUBTÍTULOS
+         OPÇÕES
          ====================================================== -->
 
-    <div class="satellite-subtitles">
-
-        <div class="satellite-subtitle custom">
-
-            Custom
-
-        </div>
-
-
-        <div class="satellite-subtitle georing">
-
-            GeoRing
-
-        </div>
-
-    </div>
-
-
-    <!-- ======================================================
-         DUAS APRESENTAÇÕES
-         ====================================================== -->
-
-    <div class="satellite-columns">
+    <div class="satellite-options">
 
 
         <!-- ==================================================
              CUSTOM
              ================================================== -->
 
-<!-- ==================================================
-     CUSTOM
-     ================================================== -->
+        <a
+            class="satellite-option"
+            href="custom/"
+        >
 
-        <div class="satellite-box">
+            <h2>
 
-            <div class="georing-selector">
+                Custom
 
-                <select id="product-select">
+            </h2>
 
-                    <option value="" selected disabled>
-                        Escolha o produto
-                    </option>
+            <p>
 
-                </select>
+                Produtos de satélite MSG/SEVIRI
+                personalizados para análise meteorológica.
 
-            </div>
+            </p>
 
-            <div id="product-view">
-            </div>
-
-        </div>
-
+        </a>
 
 
         <!-- ==================================================
              GEORING
              ================================================== -->
 
-        <div class="satellite-box">
+        <a
+            class="satellite-option"
+            href="georing/"
+        >
 
+            <h2>
 
-            <div class="georing-selector">
+                GeoRing
 
+            </h2>
 
+            <p>
 
-                <select id="georing-product">
+                Produtos de satélite GeoRing
+                para monitorização meteorológica.
 
-                    <option value="" selected disabled>
+            </p>
 
-                        Escolha o produto
-
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div id="georing-view">
-
-                <div class="georing-placeholder">
-
-                    Produtos GeoRing
-
-                </div>
-
-            </div>
-
-
-        </div>
+        </a>
 
 
     </div>
@@ -512,14 +266,6 @@
 </div>
 
 
-<!-- ==========================================================
-     CUSTOM — IMAGENS MSG/SEVIRI
-     ========================================================== -->
-
-<script src="../assets/js/satellite.js?v=3"></script>
-
-
 </body>
 
 </html>
-

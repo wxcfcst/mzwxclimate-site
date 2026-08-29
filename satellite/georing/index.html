@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GeoRing - MZ WX & Climate</title>
+
+<link rel="stylesheet" href="../../assets/css/style.css">
+
+<style>
+
+.satellite-page {
+
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.satellite-title {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+
+}
+
+.satellite-subtitle {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.satellite-box {
+
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+.georing-selector {
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.georing-selector select {
+
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    background: #ffffff;
+
+}
+
+#georing-view {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.satellite-map {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.satellite-map img {
+
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.satellite-error {
+
+    padding: 20px;
+    color: #c53030;
+
+}
+
+@media (max-width: 600px) {
+
+    .satellite-page {
+        padding: 10px;
+    }
+
+    .satellite-title {
+        font-size: 24px;
+    }
+
+    .satellite-box {
+        padding: 12px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="satellite-page">
+
+    <div class="satellite-title">
+
+        EUMETSAT | GOES16 | MSG | MTG
+
+    </div>
+
+    <div class="satellite-subtitle">
+
+        GeoRing
+
+    </div>
+
+    <div class="satellite-box">
+
+        <div class="georing-selector">
+
+            <select id="georing-product">
+
+                <option value="" selected disabled>
+                    Escolha o produto
+                </option>
+
+            </select>
+
+        </div>
+
+        <div id="georing-view">
+
+            <div class="georing-placeholder">
+
+                Produtos GeoRing
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../../assets/js/satellite-georing.js?v=1"></script>
+
+</body>
+
+</html>

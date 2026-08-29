@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // =========================================================
 
     const productsURL =
-        "../assets/data/lsasaf/products.json";
+        "../assets/data/satellite/lsasaf/products.json";
 
 
     // =========================================================
