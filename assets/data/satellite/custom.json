@@ -1,75 +1,79 @@
 {
+    "source": "Custom",
+    "generated": "2026-08-29T15:47:50.287786-03:00",
+    "latest": "2026-08-29T11:00:00",
+    "total": 18,
     "channels": [
         {
-            "file": "custom/cu_msg45_airmass_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_airmass_2026-08-29_11:00.png",
             "name": "Airmass"
         },
         {
-            "file": "custom/cu_msg45_cloudtop_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_cloudtop_2026-08-29_11:00.png",
             "name": "Cloud Top"
         },
         {
-            "file": "custom/cu_msg45_dust_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_dust_2026-08-29_11:00.png",
             "name": "Dust"
         },
         {
-            "file": "custom/cu_msg45_fog_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_fog_2026-08-29_11:00.png",
             "name": "Fog"
         },
         {
-            "file": "custom/cu_msg45_IR_016_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_016_2026-08-29_11:00.png",
             "name": "IR 016"
         },
         {
-            "file": "custom/cu_msg45_IR_039_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_039_2026-08-29_11:00.png",
             "name": "IR 039"
         },
         {
-            "file": "custom/cu_msg45_IR_087_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_087_2026-08-29_11:00.png",
             "name": "IR 087"
         },
         {
-            "file": "custom/cu_msg45_IR_097_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_097_2026-08-29_11:00.png",
             "name": "IR 097"
         },
         {
-            "file": "custom/cu_msg45_IR_108_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_108_2026-08-29_11:00.png",
             "name": "IR 108"
         },
         {
-            "file": "custom/cu_msg45_IR_120_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_120_2026-08-29_11:00.png",
             "name": "IR 120"
         },
         {
-            "file": "custom/cu_msg45_IR_134_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_IR_134_2026-08-29_11:00.png",
             "name": "IR 134"
         },
         {
-            "file": "custom/cu_msg45_natural_color_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_natural_color_2026-08-29_11:00.png",
             "name": "Natural Color"
         },
         {
-            "file": "custom/cu_msg45_night_fog_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_night_fog_2026-08-29_11:00.png",
             "name": "Night Fog"
         },
         {
-            "file": "custom/cu_msg45_overview_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_overview_2026-08-29_11:00.png",
             "name": "Overview"
         },
         {
-            "file": "custom/cu_msg45_VIS006_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_VIS006_2026-08-29_11:00.png",
             "name": "VIS006"
         },
         {
-            "file": "custom/cu_msg45_VIS008_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_VIS008_2026-08-29_11:00.png",
             "name": "VIS008"
         },
         {
-            "file": "custom/cu_msg45_WV_062_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_WV_062_2026-08-29_11:00.png",
             "name": "WV 062"
         },
         {
-            "file": "custom/cu_msg45_WV_073_2026-08-28_00:45.png",
+            "file": "custom/cu_msg45_WV_073_2026-08-29_11:00.png",
             "name": "WV 073"
         }
     ]
