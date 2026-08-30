@@ -1,6 +1,6 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-08-29T11:57:32.753126-03:00",
+  "generated": "2026-08-30T20:40:39.265147-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
   "total": 15,
   "products": [
@@ -9,81 +9,81 @@
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-08-29T11:00:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-08-29_11:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-29_11:00.png"
+      "datetime": "2026-08-30T20:45:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-08-30_20:45.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-30_20:45.png"
     },
     {
       "product": "MDSSFTD",
       "id": "MDIDSSF",
       "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
       "description": "Fluxo diário descendente de radiação de onda curta na superfície.",
-      "datetime": "2026-08-29T11:00:00",
-      "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608291100.nc_2026-08-29_11:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608291100.nc_2026-08-29_11:00.png"
+      "datetime": "2026-08-30T20:45:00",
+      "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608302045.nc_2026-08-30_20:45.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608302045.nc_2026-08-30_20:45.png"
     },
     {
       "product": "ET",
       "id": "ET",
       "name": "Evapotranspiração",
       "description": "Evapotranspiração derivada de observações de satélite.",
-      "datetime": "2026-08-29T10:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608291030.nc_2026-08-29_10:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608291030.nc_2026-08-29_10:30.png"
+      "datetime": "2026-08-30T19:30:00",
+      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608301930.nc_2026-08-30_19:30.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608301930.nc_2026-08-30_19:30.png"
     },
     {
       "product": "MIMIC_TPW",
       "id": "MIMIC_TPW",
       "name": "Água Total Precipitável - TPW",
       "description": "Água Total Precipitável (TPW) derivada de observações de micro-ondas por satélite.",
-      "datetime": "2026-08-29T09:00:00",
-      "filename": "mimic_tpw_2026-08-29_09:00.png",
-      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-08-29_09:00.png"
+      "datetime": "2026-08-30T19:00:00",
+      "filename": "mimic_tpw_2026-08-30_19:00.png",
+      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-08-30_19:00.png"
     },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-08-28T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-28_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-28_00:00.png"
+      "datetime": "2026-08-29T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-29_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-29_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
       "id": "EDLST_NIGHT",
       "name": "Temperatura do Solo - Noite",
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-08-28T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-28_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-28_00:00.png"
+      "datetime": "2026-08-29T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-29_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-29_00:00.png"
     },
     {
       "product": "DIDSSF",
       "id": "DIDSSF",
       "name": "Produto Integrado de Precipitação / Umidade do Solo",
       "description": "Produto integrado relacionado à precipitação e à umidade do solo.",
-      "datetime": "2026-08-28T00:00:00",
-      "filename": "NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608280000.nc_2026-08-28_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608280000.nc_2026-08-28_00:00.png"
+      "datetime": "2026-08-29T00:00:00",
+      "filename": "NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608290000.nc_2026-08-29_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608290000.nc_2026-08-29_00:00.png"
     },
     {
       "product": "H26",
       "id": "H26",
       "name": "Produto Integrado de Precipitação / Umidade do Solo",
       "description": "Produto integrado de precipitação e umidade do solo.",
-      "datetime": "2026-08-28T00:00:00",
-      "filename": "h26_cur_mon_nc_2026-08-28_00:00.png",
-      "image": "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-28_00:00.png"
+      "datetime": "2026-08-29T00:00:00",
+      "filename": "h26_cur_mon_nc_2026-08-29_00:00.png",
+      "image": "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-29_00:00.png"
     },
     {
       "product": "H64",
       "id": "H64",
       "name": "Produto Integrado de Precipitação / Umidade do Solo (Multimissão)",
       "description": "Produto integrado de precipitação e umidade do solo proveniente de múltiplas missões de satélite.",
-      "datetime": "2026-08-28T00:00:00",
-      "filename": "h64_cur_mon_data_2026-08-28_00:00.png",
-      "image": "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-28_00:00.png"
+      "datetime": "2026-08-29T00:00:00",
+      "filename": "h64_cur_mon_data_2026-08-29_00:00.png",
+      "image": "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-29_00:00.png"
     },
     {
       "product": "ETAL",
