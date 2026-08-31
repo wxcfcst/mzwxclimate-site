@@ -3,9 +3,9 @@
         "id": "DIDSSF",
         "name": "Produto Integrado de Precipitação / Umidade do Solo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608290000.nc_2026-08-29_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608300000.nc_2026-08-30_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608290000.nc_2026-08-29_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_DIDSSF_MSG-Disk_202608300000.nc_2026-08-30_00:00.png"
         ]
     },
     {
@@ -28,27 +28,27 @@
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-29_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-30_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-29_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-08-30_00:00.png"
         ]
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-29_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-30_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-29_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-08-30_00:00.png"
         ]
     },
     {
         "id": "ET",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608301930.nc_2026-08-30_19:30.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608311630.nc_2026-08-31_16:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608301930.nc_2026-08-30_19:30.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202608311630.nc_2026-08-31_16:30.png"
         ]
     },
     {
@@ -73,9 +73,9 @@
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-30_20:45.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-31_17:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-30_20:45.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-08-31_17:00.png"
         ]
     },
     {
@@ -91,18 +91,18 @@
         "id": "H26",
         "name": "Produto Integrado de Precipitação / Umidade do Solo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-29_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-30_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-29_00:00.png"
+            "assets/images/satellite/lsasaf/h26_cur_mon_nc_2026-08-30_00:00.png"
         ]
     },
     {
         "id": "H64",
         "name": "Produto Integrado de Precipitação / Umidade do Solo (Multimissão)",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-29_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-30_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-29_00:00.png"
+            "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-08-30_00:00.png"
         ]
     },
     {
@@ -118,18 +118,18 @@
         "id": "MDIDSSF",
         "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608302045.nc_2026-08-30_20:45.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608311700.nc_2026-08-31_17:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608302045.nc_2026-08-30_20:45.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202608311700.nc_2026-08-31_17:00.png"
         ]
     },
     {
         "id": "MIMIC_TPW",
         "name": "Água Total Precipitável - TPW",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-08-30_19:00.png",
+        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-08-31_15:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/mimic_tpw_2026-08-30_19:00.png"
+            "assets/images/satellite/lsasaf/mimic_tpw_2026-08-31_15:00.png"
         ]
     },
     {
