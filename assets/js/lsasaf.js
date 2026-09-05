@@ -176,6 +176,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+        view.innerHTML = `
+
         ${mainImageHTML}
 
 
