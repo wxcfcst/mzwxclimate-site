@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Produtos NWP - MZ WX & Climate</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: #f0f4f8;
+
+    color: #1a202c;
+}
+
+
+/* ============================================================
+   CONTAINER PRINCIPAL
+   ============================================================ */
+
+.nwp-container {
+
+    width: 100%;
+
+    max-width: none;
+
+    margin: 0;
+
+    padding: 20px 10px 40px;
+}
+
+
+/* ============================================================
+   CABEÇALHO
+   ============================================================ */
+
+.nwp-header {
+
+    text-align: center;
+
+    margin-bottom: 18px;
+}
+
+
+.nwp-header h1 {
+
+    margin: 0 0 6px;
+
+    color: #2d3748;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+}
+
+
+.nwp-header p {
+
+    margin: 0 auto;
+
+    color: #718096;
+
+    font-size: 0.95rem;
+
+    line-height: 1.4;
+}
+
+
+/* ============================================================
+   SELETORES
+   ============================================================ */
+
+.selectors {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin: 18px auto 20px;
+
+    width: 100%;
+}
+
+
+.selector {
+
+    flex: 1 1 300px;
+
+    max-width: 450px;
+}
+
+
+.selector label {
+
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #2d3748;
+
+    font-weight: 600;
+
+    font-size: 0.95rem;
+
+}
+
+
+select {
+
+    width: 100%;
+
+    padding: 11px 14px;
+
+    font-size: 16px;
+
+    border: 1px solid #cbd5e0;
+
+    border-radius: 8px;
+
+    background: white;
+
+    color: #2d3748;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+select:focus {
+
+    outline: none;
+
+    border-color: #667eea;
+
+    box-shadow:
+        0 0 0 3px rgba(102,126,234,0.15);
+}
+
+
+/* ============================================================
+   ÁREA DO PRODUTO
+   ============================================================ */
+
+#product-view {
+
+    width: 100%;
+
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 2px 12px rgba(0,0,0,0.06);
+
+    margin: 0 auto;
+}
+
+
+/* ============================================================
+   INFORMAÇÕES DO PRODUTO
+   ============================================================ */
+
+.product-title {
+
+    text-align: center;
+
+    color: #2d3748;
+
+    margin: 0 0 5px;
+
+    font-size: 1.45rem;
+}
+
+
+.product-description {
+
+    text-align: center;
+
+    color: #718096;
+
+    margin: 0 auto 8px;
+
+    line-height: 1.4;
+
+    font-size: 0.9rem;
+}
+
+
+.product-datetime {
+
+    text-align: center;
+
+    margin: 0 auto 12px;
+
+    font-size: 0.85rem;
+
+    color: #4a5568;
+
+    background: #f7fafc;
+
+    padding: 6px 10px;
+
+    border-radius: 7px;
+
+    display: block;
+
+    width: fit-content;
+}
+
+
+/* ============================================================
+   IMAGEM PRINCIPAL
+   ============================================================ */
+
+.map-container {
+
+    width: 100%;
+
+    margin: 0;
+
+    text-align: center;
+}
+
+
+.map-image {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: none;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 15px rgba(0,0,0,0.12);
+}
+
+
+/* ============================================================
+   MENSAGENS
+   ============================================================ */
+
+.message {
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    color: #718096;
+
+    font-size: 1rem;
+}
+
+
+.error-message {
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    color: #c53030;
+
+}
+
+
+/* ============================================================
+   RESPONSIVIDADE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .nwp-container {
+
+        padding: 15px 5px 30px;
+    }
+
+
+    .nwp-header h1 {
+
+        font-size: 1.6rem;
+    }
+
+
+    #product-view {
+
+        padding: 8px;
+
+        border-radius: 8px;
+    }
+
+
+    .product-title {
+
+        font-size: 1.25rem;
+    }
+
+
+    .map-image {
+
+        border-radius: 5px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="nwp-container">
+
+
+    <!-- =====================================================
+         CABEÇALHO
+         ===================================================== -->
+
+    <header class="nwp-header">
+
+        <h1>Produtos NWP</h1>
+
+        <p>
+            Previsão numérica do tempo — GFS e ECMWF
+        </p>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         SELETORES
+         ===================================================== -->
+
+    <div class="selectors">
+
+
+        <div class="selector">
+
+            <label for="model-select">
+                Modelo
+            </label>
+
+            <select id="model-select">
+
+                <option value="">
+                    Seleccione um modelo
+                </option>
+
+            </select>
+
+        </div>
+
+
+
+        <div class="selector">
+
+            <label for="product-select">
+                Produto
+            </label>
+
+            <select id="product-select" disabled>
+
+                <option value="">
+                    Seleccione um produto
+                </option>
+
+            </select>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PRODUTO
+         ===================================================== -->
+
+    <main id="product-view">
+
+        <div class="message">
+
+            Seleccione um modelo e um produto
+            para visualizar a previsão.
+
+        </div>
+
+    </main>
+
+
+</div>
+
+
+
+<script src="../assets/js/nwp.js"></script>
+
+
+</body>
+
+</html>
