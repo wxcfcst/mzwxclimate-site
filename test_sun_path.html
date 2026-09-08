@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Teste posição solar</title>
+</head>
+<body>
+
+<script src="file:///home/alberto/mzwxclimate-site/assets/js/astronomy.js"></script>
+
+<script>
+
+console.log("Teste da biblioteca astronómica");
+
+const n = dayOfYear(2026, 9, 7);
+
+console.log("Dia do ano:", n);
+
+console.log(
+    "Declinação:",
+    solarDeclination(n) * 180 / Math.PI
+);
+
+</script>
+
+</body>
+</html>
