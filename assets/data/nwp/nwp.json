@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T09:56:52",
+  "generated": "2026-09-09T20:15:38",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -20,22 +20,6 @@
           "file": "gfs_PWAT_2026-09-09_12:00.png",
           "path": "assets/images/nwp/gfs/gfs_PWAT_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
-        },
-        {
-          "id": "lcc",
-          "name": "Nebulosidade Baixa",
-          "description": "Cobertura de nuvens baixas.",
-          "file": "gfs_lcc_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/gfs/gfs_lcc_2026-09-09_12:00.png",
-          "datetime": "2026-09-09T12:00:00"
-        },
-        {
-          "id": "synoptic",
-          "name": "synoptic",
-          "description": "",
-          "file": "gfs_synoptic_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/gfs/gfs_synoptic_2026-09-09_12:00.png",
-          "datetime": "2026-09-09T12:00:00"
         }
       ]
     },
@@ -44,11 +28,11 @@
       "description": "European Centre for Medium-Range Weather Forecasts",
       "products": [
         {
-          "id": "gh",
-          "name": "Altura Geopotencial",
+          "id": "gh_500hPa",
+          "name": "Altura Geopotencial (500 hPa)",
           "description": "Altura geopotencial.",
-          "file": "ecmwf_gh_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_2026-09-09_12:00.png",
+          "file": "ecmwf_gh_500hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         },
         {
@@ -60,27 +44,11 @@
           "datetime": "2026-09-09T12:00:00"
         },
         {
-          "id": "q",
-          "name": "Umidade Específica",
+          "id": "q_850hPa",
+          "name": "Umidade Específica (850 hPa)",
           "description": "Umidade específica do ar.",
-          "file": "ecmwf_q_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_q_2026-09-09_12:00.png",
-          "datetime": "2026-09-09T12:00:00"
-        },
-        {
-          "id": "synoptic",
-          "name": "Análise Sinótica",
-          "description": "Pressão ao nível médio do mar, espessura e vento.",
-          "file": "ecmwf_synoptic_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_synoptic_2026-09-09_12:00.png",
-          "datetime": "2026-09-09T12:00:00"
-        },
-        {
-          "id": "t",
-          "name": "Temperatura",
-          "description": "Temperatura atmosférica.",
-          "file": "ecmwf_t_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_2026-09-09_12:00.png",
+          "file": "ecmwf_q_850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_q_850hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         },
         {
@@ -92,11 +60,27 @@
           "datetime": "2026-09-09T12:00:00"
         },
         {
-          "id": "thickness",
-          "name": "Espessura Atmosférica",
+          "id": "t_1000hPa",
+          "name": "Temperatura (1000 hPa)",
+          "description": "Temperatura atmosférica.",
+          "file": "ecmwf_t_1000hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_t_1000hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "t_925hPa",
+          "name": "Temperatura (925 hPa)",
+          "description": "Temperatura atmosférica.",
+          "file": "ecmwf_t_925hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_t_925hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "thickness_1000-850hPa",
+          "name": "Espessura Atmosférica (1000–850 hPa)",
           "description": "Espessura da camada atmosférica.",
-          "file": "ecmwf_thickness_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_thickness_2026-09-09_12:00.png",
+          "file": "ecmwf_thickness_1000-850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_thickness_1000-850hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         },
         {
@@ -108,27 +92,171 @@
           "datetime": "2026-09-09T12:00:00"
         },
         {
-          "id": "vo",
-          "name": "Vorticidade",
+          "id": "vo_1000hPa",
+          "name": "Vorticidade (1000 hPa)",
           "description": "Vorticidade atmosférica.",
-          "file": "ecmwf_vo_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_2026-09-09_12:00.png",
+          "file": "ecmwf_vo_1000hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_1000hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         },
         {
-          "id": "winds",
-          "name": "Ventos",
-          "description": "Campo de vento.",
-          "file": "ecmwf_winds_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_winds_2026-09-09_12:00.png",
+          "id": "vo_200hPa",
+          "name": "Vorticidade (200 hPa)",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_200hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_200hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         },
         {
-          "id": "windspeed",
-          "name": "Velocidade do Vento",
+          "id": "vo_300hPa",
+          "name": "Vorticidade (300 hPa)",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_300hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_300hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "vo_500hPa",
+          "name": "Vorticidade (500 hPa)",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_500hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_500hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "vo_700hPa",
+          "name": "Vorticidade (700 hPa)",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_700hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_700hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "vo_850hPa",
+          "name": "Vorticidade (850 hPa)",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_850hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_barbs_250hPa",
+          "name": "Ventos — Barbelas (250 hPa)",
+          "description": "Barbelas de vento em 500 hPa.",
+          "file": "ecmwf_winds_barbs_250hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_250hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_barbs_300hPa",
+          "name": "Ventos — Barbelas (300 hPa)",
+          "description": "Barbelas de vento em 500 hPa.",
+          "file": "ecmwf_winds_barbs_300hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_300hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_barbs_500hPa",
+          "name": "Ventos — Barbelas (500 hPa)",
+          "description": "Barbelas de vento em 500 hPa.",
+          "file": "ecmwf_winds_barbs_500hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_500hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_barbs_700hPa",
+          "name": "Ventos — Barbelas (700 hPa)",
+          "description": "Barbelas de vento em 500 hPa.",
+          "file": "ecmwf_winds_barbs_700hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_700hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_barbs_850hPa",
+          "name": "Ventos — Barbelas (850 hPa)",
+          "description": "Barbelas de vento em 500 hPa.",
+          "file": "ecmwf_winds_barbs_850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_850hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_200hPa",
+          "name": "Ventos — Linhas de corrente (200 hPa)",
+          "description": "Linhas de corrente do vento em 500 hPa.",
+          "file": "ecmwf_winds_streamlines_200hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_200hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_500hPa",
+          "name": "Ventos — Linhas de corrente (500 hPa)",
+          "description": "Linhas de corrente do vento em 500 hPa.",
+          "file": "ecmwf_winds_streamlines_500hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_500hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_700hPa",
+          "name": "Ventos — Linhas de corrente (700 hPa)",
+          "description": "Linhas de corrente do vento em 500 hPa.",
+          "file": "ecmwf_winds_streamlines_700hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_700hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_850hPa",
+          "name": "Ventos — Linhas de corrente (850 hPa)",
+          "description": "Linhas de corrente do vento em 500 hPa.",
+          "file": "ecmwf_winds_streamlines_850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_850hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_vectors_250hPa",
+          "name": "Ventos — Vetores (250 hPa)",
+          "description": "Vetores de vento em 500 hPa.",
+          "file": "ecmwf_winds_vectors_250hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_vectors_250hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_vectors_300hPa",
+          "name": "Ventos — Vetores (300 hPa)",
+          "description": "Vetores de vento em 500 hPa.",
+          "file": "ecmwf_winds_vectors_300hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_vectors_300hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_vectors_500hPa",
+          "name": "Ventos — Vetores (500 hPa)",
+          "description": "Vetores de vento em 500 hPa.",
+          "file": "ecmwf_winds_vectors_500hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_vectors_500hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_vectors_700hPa",
+          "name": "Ventos — Vetores (700 hPa)",
+          "description": "Vetores de vento em 500 hPa.",
+          "file": "ecmwf_winds_vectors_700hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_vectors_700hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "winds_vectors_850hPa",
+          "name": "Ventos — Vetores (850 hPa)",
+          "description": "Vetores de vento em 500 hPa.",
+          "file": "ecmwf_winds_vectors_850hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_vectors_850hPa_2026-09-09_12:00.png",
+          "datetime": "2026-09-09T12:00:00"
+        },
+        {
+          "id": "windspeed_200hPa",
+          "name": "Velocidade do Vento (200 hPa)",
           "description": "Velocidade do vento em 200 hPa.",
-          "file": "ecmwf_windspeed_2026-09-09_12:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_windspeed_2026-09-09_12:00.png",
+          "file": "ecmwf_windspeed_200hPa_2026-09-09_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_windspeed_200hPa_2026-09-09_12:00.png",
           "datetime": "2026-09-09T12:00:00"
         }
       ]
