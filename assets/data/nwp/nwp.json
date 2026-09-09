@@ -1,15 +1,89 @@
 {
-  "generated": "2026-09-08T10:15:34",
+  "generated": "2026-09-09T07:54:14",
   "models": {
     "gfs": {
       "name": "GFS",
       "description": "Global Forecast System",
-      "products": []
+      "products": [
+        {
+          "id": "PWAT",
+          "name": "Água Precipitável",
+          "description": "Água precipitável na coluna atmosférica.",
+          "file": "gfs_PWAT_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/gfs/gfs_PWAT_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        }
+      ]
     },
     "ecmwf": {
       "name": "ECMWF",
       "description": "European Centre for Medium-Range Weather Forecasts",
-      "products": []
+      "products": [
+        {
+          "id": "gh",
+          "name": "Altura Geopotencial",
+          "description": "Altura geopotencial.",
+          "file": "ecmwf_gh_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "msl",
+          "name": "Pressão ao Nível Médio do Mar",
+          "description": "Pressão atmosférica reduzida ao nível médio do mar.",
+          "file": "ecmwf_msl_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "q",
+          "name": "Umidade Específica",
+          "description": "Umidade específica do ar.",
+          "file": "ecmwf_q_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_q_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "thickness",
+          "name": "Espessura Atmosférica",
+          "description": "Espessura da camada atmosférica.",
+          "file": "ecmwf_thickness_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_thickness_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "tp",
+          "name": "Precipitação Total",
+          "description": "Precipitação total.",
+          "file": "ecmwf_tp_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "vo",
+          "name": "Vorticidade",
+          "description": "Vorticidade atmosférica.",
+          "file": "ecmwf_vo_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "winds",
+          "name": "Ventos",
+          "description": "Campo de vento.",
+          "file": "ecmwf_winds_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        },
+        {
+          "id": "windspeed",
+          "name": "Velocidade do Vento",
+          "description": "Velocidade do vento.",
+          "file": "ecmwf_windspeed_2026-09-09_00:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_windspeed_2026-09-09_00:00.png",
+          "datetime": "2026-09-09T00:00:00"
+        }
+      ]
     }
   }
 }
