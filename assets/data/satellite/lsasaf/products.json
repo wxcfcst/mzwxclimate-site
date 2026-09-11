@@ -9,9 +9,11 @@
     {
         "id": "DLST_MAX10D",
         "name": "Temperatura Máxima da Superfície - 10 dias",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
+        ]
     },
     {
         "id": "DSSF",
@@ -23,16 +25,20 @@
     {
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-10_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-10_00:00.png"
+        ]
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-10_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-10_00:00.png"
+        ]
     },
     {
         "id": "ET",
@@ -44,30 +50,38 @@
     {
         "id": "ETAL",
         "name": "Albedo da Superfície de 10 dias",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609050000.nc_2026-09-05_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609050000.nc_2026-09-05_00:00.png"
+        ]
     },
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609050000.nc_2026-09-05_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609050000.nc_2026-09-05_00:00.png"
+        ]
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_10:15.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_10:15.png"
+        ]
     },
     {
         "id": "FVC",
         "name": "Fração de Cobertura Vegetal de 10 dias",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609050000.nc_2026-09-05_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609050000.nc_2026-09-05_00:00.png"
+        ]
     },
     {
         "id": "H26",
@@ -107,9 +121,11 @@
     {
         "id": "NDVI",
         "name": "Vegetação - NDVI",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
+        "images": [
+            "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
+        ]
     },
     {
         "id": "SWI",
