@@ -59,29 +59,25 @@
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609050000.nc_2026-09-05_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609050000.nc_2026-09-05_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_10:15.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_21:15.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_10:15.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-11_21:15.png"
         ]
     },
     {
         "id": "FVC",
         "name": "Fração de Cobertura Vegetal de 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609050000.nc_2026-09-05_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609050000.nc_2026-09-05_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "H26",

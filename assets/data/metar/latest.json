@@ -6,7 +6,7 @@
     "product": "METAR",
     "search_hours": 48
   },
-  "updated": "2026-09-11T10:45:35.072682+00:00",
+  "updated": "2026-09-11T21:38:32.102568+00:00",
   "stations": [
     {
       "city": "Maputo",
@@ -124,16 +124,16 @@
       "icao": "FQVL",
       "iata": "VNX",
       "available": true,
-      "observation_time": "2026-09-11T09:00:00.000Z",
-      "observation_timestamp": 1789117200,
-      "temp_c": 26,
-      "dewpoint_c": 20,
+      "observation_time": "2026-09-11T11:00:00.000Z",
+      "observation_timestamp": 1789124400,
+      "temp_c": 27,
+      "dewpoint_c": 19,
       "relative_humidity": null,
       "wind_direction": 90,
-      "wind_speed_kt": 6,
+      "wind_speed_kt": 5,
       "wind_gust_kt": null,
       "visibility": "≥ 10 km",
-      "altimeter_hpa": 1021,
+      "altimeter_hpa": 1019,
       "weather": null,
       "clouds": [
         {
@@ -142,7 +142,7 @@
         }
       ],
       "flight_category": "VFR",
-      "raw_metar": "METAR FQVL 110900Z 09006KT 9999 FEW020 26/20 Q1021",
+      "raw_metar": "METAR FQVL 111100Z 09005KT 9999 FEW020 27/19 Q1019",
       "station_name": "Vilankulo Arpt, IN, MZ",
       "latitude": -22.017,
       "longitude": 35.313,
@@ -205,34 +205,20 @@
       "city": "Nacala",
       "icao": "FQNC",
       "iata": "MNC",
-      "available": true,
-      "observation_time": "2026-09-09T12:00:00.000Z",
-      "observation_timestamp": 1788955200,
+      "available": false,
+      "observation_time": null,
       "temp_c": null,
       "dewpoint_c": null,
       "relative_humidity": null,
       "wind_direction": null,
       "wind_speed_kt": null,
       "wind_gust_kt": null,
-      "visibility": "≥ 10 km",
-      "altimeter_hpa": 1019,
+      "visibility": null,
+      "altimeter_hpa": null,
       "weather": null,
-      "clouds": [
-        {
-          "cover": "BKN",
-          "base": 2000
-        },
-        {
-          "cover": "SCT",
-          "base": 10000
-        }
-      ],
-      "flight_category": "MVFR",
-      "raw_metar": "METAR FQNC 091200Z /////KT 9999 BKN020 SCT100 29/// Q1019",
-      "station_name": "Nacala Arpt, N, MZ",
-      "latitude": -14.488,
-      "longitude": 40.712,
-      "elevation_m": 112
+      "clouds": [],
+      "flight_category": null,
+      "raw_metar": null
     },
     {
       "city": "Lichinga",
