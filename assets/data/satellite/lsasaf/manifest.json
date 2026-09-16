@@ -1,35 +1,7 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-15T16:25:23.984731-03:00",
+  "generated": "2026-09-16T08:52:54.688580-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 3,
-  "products": [
-    {
-      "product": "EDLST-DAY",
-      "id": "EDLST_DAY",
-      "name": "Temperatura do Solo - Dia",
-      "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-09-14T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-14_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-14_00:00.png"
-    },
-    {
-      "product": "EDLST-NIGHT",
-      "id": "EDLST_NIGHT",
-      "name": "Temperatura do Solo - Noite",
-      "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-09-14T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-14_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-14_00:00.png"
-    },
-    {
-      "product": "DLST-MAX10D",
-      "id": "DLST_MAX10D",
-      "name": "Temperatura Máxima da Superfície - 10 dias",
-      "description": "Temperatura máxima da superfície terrestre acumulada em um período de 10 dias.",
-      "datetime": "2026-06-11T23:45:00",
-      "filename": "LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
-    }
-  ]
+  "total": 0,
+  "products": []
 }

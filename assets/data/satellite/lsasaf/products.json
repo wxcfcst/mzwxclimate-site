@@ -9,11 +9,9 @@
     {
         "id": "DLST_MAX10D",
         "name": "Temperatura Máxima da Superfície - 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "DSSF",
@@ -25,20 +23,16 @@
     {
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-14_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-14_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-14_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-14_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "ET",

@@ -6,7 +6,7 @@
     "product": "METAR",
     "search_hours": 48
   },
-  "updated": "2026-09-15T18:34:36.772787+00:00",
+  "updated": "2026-09-16T11:20:23.307574+00:00",
   "stations": [
     {
       "city": "Maputo",
@@ -129,16 +129,16 @@
       "icao": "FQVL",
       "iata": "VNX",
       "available": true,
-      "observation_time": "2026-09-15T16:00:00.000Z",
-      "observation_timestamp": 1789488000,
-      "temp_c": 25,
+      "observation_time": "2026-09-16T11:00:00.000Z",
+      "observation_timestamp": 1789556400,
+      "temp_c": 28,
       "dewpoint_c": 22,
       "relative_humidity": null,
-      "wind_direction": 70,
-      "wind_speed_kt": 5,
+      "wind_direction": 20,
+      "wind_speed_kt": 7,
       "wind_gust_kt": null,
       "visibility": "≥ 10 km",
-      "altimeter_hpa": 1018,
+      "altimeter_hpa": 1020,
       "weather": null,
       "clouds": [
         {
@@ -147,7 +147,7 @@
         }
       ],
       "flight_category": "VFR",
-      "raw_metar": "METAR FQVL 151600Z 07005KT 9999 FEW020 25/22 Q1018",
+      "raw_metar": "METAR FQVL 161100Z 02007KT 9999 FEW020 28/22 Q1020",
       "station_name": "Vilankulo Arpt, IN, MZ",
       "latitude": -22.017,
       "longitude": 35.313,
