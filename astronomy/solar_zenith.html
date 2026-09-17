@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ângulo Solar Zenital | MZ WX & Climate</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f7fa;
+        color: #222;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 25px 20px 40px;
+    }
+
+    h1 {
+        margin: 0 0 8px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .subtitle {
+        text-align: center;
+        color: #555;
+        margin-bottom: 25px;
+    }
+
+    .description {
+        max-width: 1100px;
+        margin: 0 auto 25px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .selector {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 auto 25px;
+    }
+
+    .season-button {
+        border: none;
+        padding: 12px 20px;
+        border-radius: 6px;
+        background: #e1e5ea;
+        color: #222;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .season-button:hover {
+        background: #d1d6dc;
+    }
+
+    .season-button.active {
+        background: #333;
+        color: white;
+    }
+
+    .map-card {
+        width: 100%;
+        max-width: 1250px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    }
+
+    .map-card h2 {
+        margin: 5px 0 15px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .map-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .map-info {
+        margin-top: 12px;
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+    }
+
+    .footer-note {
+        margin-top: 25px;
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+
+        .container {
+            padding: 18px 10px 30px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        .season-button {
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .map-card {
+            padding: 8px;
+        }
+
+        .map-card h2 {
+            font-size: 19px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>☀️ Ângulo Solar Zenital</h1>
+
+    <div class="subtitle">
+        Eventos astronômicos de 2026 — 10:00 UTC (12:00 CAT)
+    </div>
+
+    <div class="description">
+
+        <p>
+            Distribuição global do ângulo solar zenital nos quatro principais
+            eventos astronômicos de 2026.
+        </p>
+
+        <p>
+            O ângulo solar zenital é o ângulo entre a direção do Sol e a
+            vertical local. Valores próximos de <strong>0°</strong> indicam
+            o Sol próximo do zênite, enquanto <strong>90°</strong> corresponde
+            aproximadamente ao horizonte. Valores superiores a 90° indicam
+            que o Sol está abaixo do horizonte.
+        </p>
+
+    </div>
+
+    <div class="selector">
+
+        <button
+            class="season-button active"
+            onclick="showSeason('autumn', this)">
+            Equinócio de Outono
+        </button>
+
+        <button
+            class="season-button"
+            onclick="showSeason('winter', this)">
+            Solstício de Inverno
+        </button>
+
+        <button
+            class="season-button"
+            onclick="showSeason('spring', this)">
+            Equinócio de Primavera
+        </button>
+
+        <button
+            class="season-button"
+            onclick="showSeason('summer', this)">
+            Solstício de Verão
+        </button>
+
+    </div>
+
+    <div class="map-card">
+
+        <h2 id="map-title">
+            Equinócio de Outono
+        </h2>
+
+        <img
+            id="season-map"
+            src="../assets/images/astronomy/radiation/solar_zenith/solar_zenith_angle_autumn_equinox_2026_10UTC.png"
+            alt="Ângulo Solar Zenital no Equinócio de Outono de 2026">
+
+        <div class="map-info">
+            2026 — 10:00 UTC (12:00 CAT)
+        </div>
+
+    </div>
+
+    <div class="footer-note">
+        MZ WX & Climate — Produtos de radiação solar
+    </div>
+
+</div>
+
+
+<script>
+
+const seasons = {
+
+    autumn: {
+        title: "Equinócio de Outono",
+        image: "../assets/images/astronomy/radiation/solar_zenith/solar_zenith_angle_autumn_equinox_2026_10UTC.png",
+        alt: "Ângulo Solar Zenital no Equinócio de Outono de 2026"
+    },
+
+    winter: {
+        title: "Solstício de Inverno",
+        image: "../assets/images/astronomy/radiation/solar_zenith/solar_zenith_angle_winter_solstice_2026_10UTC.png",
+        alt: "Ângulo Solar Zenital no Solstício de Inverno de 2026"
+    },
+
+    spring: {
+        title: "Equinócio de Primavera",
+        image: "../assets/images/astronomy/radiation/solar_zenith/solar_zenith_angle_spring_equinox_2026_10UTC.png",
+        alt: "Ângulo Solar Zenital no Equinócio de Primavera de 2026"
+    },
+
+    summer: {
+        title: "Solstício de Verão",
+        image: "../assets/images/astronomy/radiation/solar_zenith/solar_zenith_angle_summer_solstice_2026_10UTC.png",
+        alt: "Ângulo Solar Zenital no Solstício de Verão de 2026"
+    }
+
+};
+
+
+function showSeason(season, button) {
+
+    const selected = seasons[season];
+
+    document.getElementById("map-title").textContent =
+        selected.title;
+
+    document.getElementById("season-map").src =
+        selected.image;
+
+    document.getElementById("season-map").alt =
+        selected.alt;
+
+
+    document
+        .querySelectorAll(".season-button")
+        .forEach(function(btn) {
+
+            btn.classList.remove("active");
+
+        });
+
+
+    button.classList.add("active");
+
+}
+
+</script>
+
+</body>
+</html>

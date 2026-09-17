@@ -1,0 +1,32 @@
+{
+  "product": "Ângulo Solar Zenital",
+  "product_id": "solar_zenith",
+  "category": "radiation",
+  "year": 2026,
+  "time_utc": "10:00",
+  "time_local": "12:00 CAT",
+  "resolution": "0.25°",
+  "projection": "Orthographic",
+  "events": [
+    {
+      "id": "autumn_equinox",
+      "name": "Equinócio de Outono",
+      "image": "../../../images/astronomy/radiation/solar_zenith/solar_zenith_angle_autumn_equinox_2026_10UTC.png"
+    },
+    {
+      "id": "winter_solstice",
+      "name": "Solstício de Inverno",
+      "image": "../../../images/astronomy/radiation/solar_zenith/solar_zenith_angle_winter_solstice_2026_10UTC.png"
+    },
+    {
+      "id": "spring_equinox",
+      "name": "Equinócio de Primavera",
+      "image": "../../../images/astronomy/radiation/solar_zenith/solar_zenith_angle_spring_equinox_2026_10UTC.png"
+    },
+    {
+      "id": "summer_solstice",
+      "name": "Solstício de Verão",
+      "image": "../../../images/astronomy/radiation/solar_zenith/solar_zenith_angle_summer_solstice_2026_10UTC.png"
+    }
+  ]
+}
