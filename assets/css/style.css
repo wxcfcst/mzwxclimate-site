@@ -91,7 +91,7 @@ a {
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 80px 20px;
+    padding: 5px 20px;
     text-align: center;
     border-radius: 0 0 30px 30px;
     margin-bottom: 40px;
@@ -106,7 +106,7 @@ a {
 .hero-content p {
     font-size: 1.2rem;
     opacity: 0.9;
-    max-width: 600px;
+    max-width: none;
     margin: 0 auto 30px;
 }
 
