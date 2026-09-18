@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Irradiância Solar no Topo da Atmosfera</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+#chart-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+#chart {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.controls label {
+    font-weight: bold;
+}
+
+#date {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background: white;
+}
+
+#result {
+    display: none;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+#selected-date {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.value {
+    min-width: 180px;
+}
+
+.value-label {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.value-number {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#error {
+    display: none;
+    text-align: center;
+    color: #b00020;
+    margin: 20px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 id="title">
+        Irradiância Solar no Topo da Atmosfera
+    </h1>
+
+    <div
+        class="subtitle"
+        id="subtitle"
+    >
+        Moçambique
+    </div>
+
+
+    <div id="error"></div>
+
+
+    <div id="chart-container">
+
+        <img
+            id="chart"
+            alt="Irradiância Solar no Topo da Atmosfera"
+        >
+
+    </div>
+
+
+    <div class="controls">
+
+        <label for="date">
+            Escolha uma data:
+        </label>
+
+        <input
+            type="date"
+            id="date"
+        >
+
+    </div>
+
+
+    <div id="result">
+
+        <div id="selected-date"></div>
+
+        <div class="values">
+
+            <div class="value">
+
+                <div class="value-label">
+                    Dia do ano
+                </div>
+
+                <div
+                    class="value-number"
+                    id="day-of-year"
+                ></div>
+
+            </div>
+
+
+            <div class="value">
+
+                <div class="value-label">
+                    Distância Terra–Sol
+                </div>
+
+                <div
+                    class="value-number"
+                    id="distance"
+                ></div>
+
+            </div>
+
+
+            <div class="value">
+
+                <div class="value-label">
+                    Irradiância solar
+                </div>
+
+                <div
+                    class="value-number"
+                    id="irradiance"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+const YEAR =
+    new Date().getFullYear();
+
+const JSON_FILE =
+    `../assets/data/astronomy/radiation/solar_irradiance_toa/irradiancia_solar_TOA_${YEAR}.json`;
+
+const IMAGE_FILE =
+    `../assets/images/astronomy/radiation/solar_irradiance_toa/irradiancia_solar_TOA_${YEAR}.png`;
+
+
+document.getElementById("title").textContent =
+    `Irradiância Solar no Topo da Atmosfera — ${YEAR}`;
+
+document.getElementById("subtitle").textContent =
+    `Moçambique — ${YEAR}`;
+
+
+const dateInput =
+    document.getElementById("date");
+
+const chart =
+    document.getElementById("chart");
+
+const result =
+    document.getElementById("result");
+
+const selectedDate =
+    document.getElementById("selected-date");
+
+const dayOfYear =
+    document.getElementById("day-of-year");
+
+const distance =
+    document.getElementById("distance");
+
+const irradiance =
+    document.getElementById("irradiance");
+
+const error =
+    document.getElementById("error");
+
+
+dateInput.min =
+    `${YEAR}-01-01`;
+
+dateInput.max =
+    `${YEAR}-12-31`;
+
+chart.src =
+    IMAGE_FILE;
+
+
+let data = [];
+
+
+fetch(JSON_FILE)
+
+    .then(response => {
+
+        if (!response.ok) {
+
+            throw new Error(
+                `Dados de ${YEAR} não encontrados.`
+            );
+
+        }
+
+        return response.json();
+
+    })
+
+    .then(json => {
+
+        data = json;
+
+    })
+
+    .catch(err => {
+
+        error.textContent =
+            err.message;
+
+        error.style.display =
+            "block";
+
+        chart.style.display =
+            "none";
+
+        console.error(err);
+
+    });
+
+
+dateInput.addEventListener(
+    "change",
+    function() {
+
+        const selected =
+            this.value;
+
+        if (!selected) {
+
+            result.style.display =
+                "none";
+
+            return;
+        }
+
+
+        const item =
+            data.find(
+                entry =>
+                    entry.date === selected
+            );
+
+
+        if (!item) {
+
+            result.style.display =
+                "none";
+
+            return;
+        }
+
+
+        const date =
+            new Date(
+                selected + "T00:00:00"
+            );
+
+
+        selectedDate.textContent =
+            date.toLocaleDateString(
+                "pt-BR",
+                {
+                    day: "2-digit",
+                    month: "2-digit",
+                    year: "numeric"
+                }
+            );
+
+
+        dayOfYear.textContent =
+            item.day_of_year;
+
+
+        distance.textContent =
+            item.distance_km.toLocaleString(
+                "pt-BR",
+                {
+                    maximumFractionDigits: 0
+                }
+            ) + " km";
+
+
+        irradiance.textContent =
+            item.irradiance_W_m2.toLocaleString(
+                "pt-BR",
+                {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }
+            ) + " W/m²";
+
+
+        result.style.display =
+            "block";
+
+    }
+);
+
+</script>
+
+</body>
+</html>
