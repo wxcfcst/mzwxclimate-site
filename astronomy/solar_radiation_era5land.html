@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Irradiação Solar Média Diária na Superfície</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.map-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.map-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.controls {
+    background: white;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+.controls label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+select {
+    padding: 8px 12px;
+    margin-right: 20px;
+    min-width: 220px;
+    font-size: 15px;
+}
+
+.result {
+    margin-top: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+.result h2 {
+    margin-top: 0;
+}
+
+.value {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #444;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+    Irradiação Solar Média Diária na Superfície
+</h1>
+
+<div class="subtitle">
+    ERA5-Land — Média anual dos valores diários — 2024
+</div>
+
+<div class="map-container">
+
+    <img
+        src="../assets/images/astronomy/radiation/solar_radiation_era5land/mapa_irradiacao_solar_distritos_Mocambique_2024.png"
+        alt="Mapa da irradiação solar média diária na superfície dos distritos de Moçambique em 2024"
+    >
+
+</div>
+
+<div class="controls">
+
+    <label for="province">
+        Província:
+    </label>
+
+    <select id="province">
+        <option value="">
+            Selecionar província
+        </option>
+    </select>
+
+    <label for="district">
+        Distrito:
+    </label>
+
+    <select id="district" disabled>
+        <option value="">
+            Selecionar distrito
+        </option>
+    </select>
+
+</div>
+
+<div class="result">
+
+    <h2 id="location">
+        Selecione um distrito
+    </h2>
+
+    <div
+        id="value"
+        class="value"
+    >
+        —
+    </div>
+
+    <div
+        id="details"
+        class="description"
+    >
+    </div>
+
+</div>
+
+<div class="description">
+
+    <strong>Descrição:</strong><br>
+
+    Este produto apresenta a média anual da irradiação solar diária
+    na superfície para os distritos de Moçambique, calculada a partir
+    dos dados ERA5-Land para 2024.
+
+    <br><br>
+
+    A variável principal é expressa em
+    <strong>kWh m⁻² dia⁻¹</strong>, representando a quantidade média
+    de energia solar recebida por unidade de área durante um dia.
+
+    <br><br>
+
+    O valor apresentado para cada distrito corresponde à média dos
+    valores diários ao longo do ano de 2024.
+
+</div>
+
+</div>
+
+<script>
+
+const JSON_FILE =
+    "../assets/data/astronomy/radiation/solar_radiation_era5land/"
+    + "radiacao_solar_media_anual_distritos_Mocambique_2024.json";
+
+const provinceSelect =
+    document.getElementById("province");
+
+const districtSelect =
+    document.getElementById("district");
+
+const locationElement =
+    document.getElementById("location");
+
+const valueElement =
+    document.getElementById("value");
+
+const detailsElement =
+    document.getElementById("details");
+
+let data = [];
+
+fetch(JSON_FILE)
+    .then(response => response.json())
+    .then(json => {
+
+        data = json;
+
+        const provinces =
+            [...new Set(
+                data.map(item => item.Provincia)
+            )].sort();
+
+        provinces.forEach(province => {
+
+            const option =
+                document.createElement("option");
+
+            option.value = province;
+            option.textContent = province;
+
+            provinceSelect.appendChild(option);
+
+        });
+
+    })
+    .catch(error => {
+
+        console.error(
+            "Erro ao carregar os dados:",
+            error
+        );
+
+    });
+
+
+provinceSelect.addEventListener(
+    "change",
+    function() {
+
+        districtSelect.innerHTML =
+            '<option value="">Selecionar distrito</option>';
+
+        districtSelect.disabled =
+            true;
+
+        valueElement.textContent =
+            "—";
+
+        locationElement.textContent =
+            "Selecione um distrito";
+
+        detailsElement.textContent =
+            "";
+
+        if (!this.value) {
+            return;
+        }
+
+        const districts =
+            data
+                .filter(
+                    item =>
+                        item.Provincia === this.value
+                )
+                .map(item => {
+                    if (item.Provincia === "Maputo City") {
+                        return {
+                            ...item,
+                            Distrito: "Maputo City"
+                        };
+                    }
+                    return item;
+                })
+                .sort(
+                    (a, b) =>
+                        a.Distrito.localeCompare(
+                            b.Distrito
+                        )
+                );
+
+        districts.forEach(item => {
+
+            const option =
+                document.createElement("option");
+
+            option.value =
+                item.Distrito;
+
+            option.textContent =
+                item.Distrito;
+
+            districtSelect.appendChild(option);
+
+        });
+
+        districtSelect.disabled =
+            false;
+
+    }
+);
+
+
+districtSelect.addEventListener(
+    "change",
+    function() {
+
+        if (!this.value) {
+            return;
+        }
+
+        const item =
+            data.find(
+                record =>
+                    record.Provincia ===
+                    provinceSelect.value
+                    &&
+                    record.Distrito ===
+                    this.value
+            );
+
+        if (!item) {
+            return;
+        }
+
+        locationElement.textContent =
+            `${item.Distrito} — ${item.Provincia}`;
+
+        valueElement.textContent =
+            `${item.Irradiacao_media_kWh_m2_dia.toFixed(2)} kWh m⁻² dia⁻¹`;
+
+        detailsElement.innerHTML =
+
+            `<strong>Número de dias:</strong> `
+            + `${item.Numero_dias}<br>`
+
+            + `<strong>Média:</strong> `
+            + `${item.Irradiacao_media_MJ_m2_dia.toFixed(2)} MJ m⁻² dia⁻¹<br>`
+
+            + `<strong>Mínima:</strong> `
+            + `${item.Irradiacao_minima_MJ_m2_dia.toFixed(2)} MJ m⁻² dia⁻¹<br>`
+
+            + `<strong>Máxima:</strong> `
+            + `${item.Irradiacao_maxima_MJ_m2_dia.toFixed(2)} MJ m⁻² dia⁻¹<br>`
+
+            + `<strong>Desvio padrão:</strong> `
+            + `${item.Desvio_padrao_MJ_m2_dia.toFixed(2)} MJ m⁻² dia⁻¹<br>`
+
+            + `<strong>Irradiância média em 24 h:</strong> `
+            + `${item.Irradiancia_media_24h_W_m2.toFixed(2)} W m⁻²`;
+
+    }
+);
+
+</script>
+
+</body>
+</html>
