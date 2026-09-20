@@ -35,6 +35,13 @@ h1 {
     margin-bottom: 25px;
 }
 
+.content-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
 .map-container {
     background: white;
     padding: 15px;
@@ -50,30 +57,38 @@ h1 {
     margin: 0 auto;
 }
 
-.controls {
-    background: white;
-    margin-top: 25px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+.info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 20px;
 }
 
 .controls label {
+    display: block;
     font-weight: bold;
-    margin-right: 8px;
+    margin: 0;
 }
 
-select {
+.controls select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     padding: 8px 12px;
-    margin-right: 20px;
-    min-width: 220px;
+    margin: 0;
+    min-width: 0;
     font-size: 15px;
 }
 
 .result {
-    margin-top: 25px;
+    margin-top: 0;
     background: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0,0,0,0.15);
 }
@@ -88,9 +103,20 @@ select {
 }
 
 .description {
-    margin-top: 20px;
-    line-height: 1.6;
+    margin-top: 10px;
+    line-height: 1.3;
     color: #444;
+}
+
+
+@media (max-width: 900px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container img {
+        width: 100%;
+    }
 }
 
 </style>
@@ -109,6 +135,8 @@ select {
     ERA5-Land — Média anual dos valores diários — 2024
 </div>
 
+<div class="content-grid">
+
 <div class="map-container">
 
     <img
@@ -118,27 +146,33 @@ select {
 
 </div>
 
+<div class="info-column">
+
 <div class="controls">
 
-    <label for="province">
-        Província:
-    </label>
+    <div class="control-group">
+        <label for="province">
+            Província:
+        </label>
 
-    <select id="province">
-        <option value="">
-            Selecionar província
-        </option>
-    </select>
+        <select id="province">
+            <option value="">
+                Selecionar província
+            </option>
+        </select>
+    </div>
 
-    <label for="district">
-        Distrito:
-    </label>
+    <div class="control-group">
+        <label for="district">
+            Distrito:
+        </label>
 
-    <select id="district" disabled>
-        <option value="">
-            Selecionar distrito
-        </option>
-    </select>
+        <select id="district" disabled>
+            <option value="">
+                Selecionar distrito
+            </option>
+        </select>
+    </div>
 
 </div>
 
@@ -186,6 +220,10 @@ select {
 
 </div>
 
+</div>
+
+</div>
+
 <script>
 
 const JSON_FILE =
@@ -213,7 +251,22 @@ fetch(JSON_FILE)
     .then(response => response.json())
     .then(json => {
 
-        data = json;
+        data = json.map(item => ({
+            ...item,
+            Numero_dias: Number(item.Numero_dias),
+            Irradiacao_media_MJ_m2_dia:
+                Number(item.Irradiacao_media_MJ_m2_dia.replace(",", ".")),
+            Irradiacao_media_kWh_m2_dia:
+                Number(item.Irradiacao_media_kWh_m2_dia.replace(",", ".")),
+            Irradiacao_minima_MJ_m2_dia:
+                Number(item.Irradiacao_minima_MJ_m2_dia.replace(",", ".")),
+            Irradiacao_maxima_MJ_m2_dia:
+                Number(item.Irradiacao_maxima_MJ_m2_dia.replace(",", ".")),
+            Desvio_padrao_MJ_m2_dia:
+                Number(item.Desvio_padrao_MJ_m2_dia.replace(",", ".")),
+            Irradiancia_media_24h_W_m2:
+                Number(item.Irradiancia_media_24h_W_m2.replace(",", "."))
+        }));
 
         const provinces =
             [...new Set(
@@ -273,11 +326,8 @@ provinceSelect.addEventListener(
                         item.Provincia === this.value
                 )
                 .map(item => {
-                    if (item.Provincia === "Maputo City") {
-                        return {
-                            ...item,
-                            Distrito: "Maputo City"
-                        };
+                    if (item.Provincia === "Cidade de Maputo") {
+                        return item;
                     }
                     return item;
                 })

@@ -1,1784 +1,1946 @@
 [
   {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Ancuabe;Cabo Delgado;Ancuabe;366;18",
-    "null": [
-      "973499399716736;5",
-      "270416508281166;2",
-      "892496109008789;27",
-      "70901107788086;4",
-      "372387929496838;219",
-      "6006876314924"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Balama;Cabo Delgado;Balama;366;19",
-    "null": [
-      "937923358437793;5",
-      "538312021826134;4",
-      "888495922088623;29",
-      "202451705932617;4",
-      "572917376108237;230",
-      "76300078011602"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Chiúre;Cabo Delgado;Chiúre;366;19",
-    "null": [
-      "20354512415297;5",
-      "334318093344813;1",
-      "6709120273590088;27",
-      "832752227783203;4",
-      "443927570341464;222",
-      "26325401973205"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Ibo;Cabo Delgado;Ibo;366;19",
-    "null": [
-      "688309195914556;5",
-      "468974773512512;3",
-      "3854119777679443;27",
-      "524892807006836;4",
-      "658736280638622;227",
-      "87394859230582"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Macomia;Cabo Delgado;Macomia;366;19",
-    "null": [
-      "06028417094809;5",
-      "294523376584705;3",
-      "3924219608306885;27",
-      "620637893676758;4",
-      "456628767065491;220",
-      "60514113420996"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Mecufi;Cabo Delgado;Mecufi;366;20",
-    "null": [
-      "28504701520576;5",
-      "634735287538643;3",
-      "2437219619750977;28",
-      "011611938476562;4",
-      "659272923871716;234",
-      "78063712615133"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Meluco;Cabo Delgado;Meluco;366;19",
-    "null": [
-      "04598680220015;5",
-      "290551892720936;4",
-      "1071600914001465;28",
-      "60419464111328;4",
-      "482275260585706;220",
-      "43966239137077"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Metuge;Cabo Delgado;Metuge;366;19",
-    "null": [
-      "594748153061165;5",
-      "442985593946905;3",
-      "118259906768799;27",
-      "436267852783203;4",
-      "430752674612406;226",
-      "79106719637178"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Mocimboa da Praia;Cabo Delgado;Mocimboa da Praia;366;19",
-    "null": [
-      "075671167321545;5",
-      "298797543094458;3",
-      "388482093811035;27",
-      "70064353942871;4",
-      "638296757949924;220",
-      "78323087014786"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Montepuez;Cabo Delgado;Montepuez;366;19",
-    "null": [
-      "86402020688917;5",
-      "517783378642765;2",
-      "8668129444122314;28",
-      "686630249023438;4",
-      "733309118011467;229",
-      "90764076983342"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Mueda;Cabo Delgado;Mueda;366;19",
-    "null": [
-      "179832245482775;5",
-      "327731166706711;3",
-      "927820920944214;27",
-      "56154441833496;4",
-      "620452487685308;221",
-      "98879837077823"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Muidumbe;Cabo Delgado;Muidumbe;366;18",
-    "null": [
-      "79549903296382;5",
-      "220971969958863;3",
-      "995450019836426;27",
-      "74761962890625;4",
-      "453069356688688;217",
-      "54049839999507"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Namuno;Cabo Delgado;Namuno;366;19",
-    "null": [
-      "93031993003491;5",
-      "53619997993193;2",
-      "469640016555786;29",
-      "150907516479492;4",
-      "546652690427447;230",
-      "6749992005812"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Nangade;Cabo Delgado;Nangade;366;18",
-    "null": [
-      "481703898294377;5",
-      "133806636424664;3",
-      "343981981277466;26",
-      "877227783203125;4",
-      "472820982240018;213",
-      "90860961955752"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Palma;Cabo Delgado;Palma;366;18",
-    "null": [
-      "989247757229;5",
-      "274791042498552;3",
-      "120556116104126;26",
-      "53584861755371;4",
-      "673444831562008;219",
-      "78296049566217"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Pemba;Cabo Delgado;Pemba;366;19",
-    "null": [
-      "545282330017923;5",
-      "429245111395101;2",
-      "7362639904022217;27",
-      "464637756347656;4",
-      "409437468597834;226",
-      "21854525185674"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cabo Delgado_Quissanga;Cabo Delgado;Quissanga;366;19",
-    "null": [
-      "376515935678952;5",
-      "38236552867733;2",
-      "0958399772644043;27",
-      "651994705200195;4",
-      "399293306245801;224",
-      "26523060616248"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaMavota;Cidade de Maputo;KaMavota;366;17",
-    "null": [
-      "859465243386442;4",
-      "960962563753128;2",
-      "8782858848571777;30",
-      "664663314819336;6",
-      "341490836999561;206",
-      "7067739872333"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaMaxaquene;Cidade de Maputo;KaMaxaquene;366;17",
-    "null": [
-      "836734220629832;4",
-      "954648401242136;2",
-      "864109992980957;30",
-      "653032302856445;6",
-      "3241055862842;206",
-      "44368398906104"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaMpfumo;Cidade de Maputo;KaMpfumo;366;17",
-    "null": [
-      "740433921579456;4",
-      "927898320832539;2",
-      "838236093521118;30",
-      "63450050354004;6",
-      "302463168555923;205",
-      "3290962260929"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaMubukwana;Cidade de Maputo;KaMubukwana;366;17",
-    "null": [
-      "62847788542346;4",
-      "89679940802152;2",
-      "7372679710388184;30",
-      "631160736083984;6",
-      "321943461143794;204",
-      "0333082063602"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaNyaka;Cidade de Maputo;KaNyaka;366;17",
-    "null": [
-      "791965300268163;4",
-      "942212577563166;2",
-      "892688035964966;30",
-      "584951400756836;6",
-      "2906673112477405;205",
-      "92552316384237"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_KaTembe;Cidade de Maputo;KaTembe;366;17",
-    "null": [
-      "584357336570655;4",
-      "884543691665097;2",
-      "743391990661621;30",
-      "625959396362305;6",
-      "306808050726853;203",
-      "52265421028346"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Cidade de Maputo_Nlhamankulu;Cidade de Maputo;Nlhamankulu;366;17",
-    "null": [
-      "584357336570655;4",
-      "884543691665097;2",
-      "743391990661621;30",
-      "625959396362305;6",
-      "306808050726853;203",
-      "52265421028346"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Bilene;Gaza;Bilene;366;18",
-    "null": [
-      "01825528327233;5",
-      "005070915639075;2",
-      "991107940673828;31",
-      "24334716796875;6",
-      "307766496528789;208",
-      "54462185844045"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Chibuto;Gaza;Chibuto;366;18",
-    "null": [
-      "580620224358604;5",
-      "161283394026626;2",
-      "1070120334625244;31",
-      "0786075592041;6",
-      "289609532382091;215",
-      "05347460866625"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Chicualacuala;Gaza;Chicualacuala;366;19",
-    "null": [
-      "193463475977786;5",
-      "331517633030323;2",
-      "590224027633667;31",
-      "272327423095703;6",
-      "267403780992819;222",
-      "14656822016983"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Chigubo;Gaza;Chigubo;366;19",
-    "null": [
-      "61598125214134;5",
-      "448883673532413;1",
-      "7129780054092407;31",
-      "106143951416016;5",
-      "991351253383941;227",
-      "0368193225131"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Chongoene;Gaza;Chongoene;366;18",
-    "null": [
-      "454840693968894;5",
-      "12634463746691;2",
-      "143939971923828;31",
-      "214048385620117;6",
-      "291648790198977;213",
-      "597693375551"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Chókwè;Gaza;Chókwè;366;17",
-    "null": [
-      "95503085297965;4",
-      "987508567467414;2",
-      "7330169677734375;30",
-      "955528259277344;6",
-      "36165983907256;207",
-      "81285715363717"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Guijá;Gaza;Guijá;366;18",
-    "null": [
-      "424087540699485;5",
-      "1178020926121155;2",
-      "3958659172058105;31",
-      "013051986694336;6",
-      "379142519284723;213",
-      "24175337494395"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Limpopo;Gaza;Limpopo;366;17",
-    "null": [
-      "814718807981315;4",
-      "94853298699921;2",
-      "8677139282226562;30",
-      "90944480895996;6",
-      "376076509997139;206",
-      "18887453131336"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Mabalane;Gaza;Mabalane;366;18",
-    "null": [
-      "771410248318656;5",
-      "21428062567294;2",
-      "2918128967285156;31",
-      "057371139526367;6",
-      "353352991965163;217",
-      "2616927089587"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Mandlakazi;Gaza;Mandlakazi;366;18",
-    "null": [
-      "780669448805636;5",
-      "216852620162599;2",
-      "206629991531372;31",
-      "18985939025879;6",
-      "239419780156905;217",
-      "36885954643208"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Mapai;Gaza;Mapai;366;19",
-    "null": [
-      "110639099866315;5",
-      "308510860784458;2",
-      "587873935699463;31",
-      "228708267211914;6",
-      "276053815451842;221",
-      "18795224486806"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Massangena;Gaza;Massangena;366;19",
-    "null": [
-      "976468751339315;5",
-      "549019090302004;2",
-      "3725850582122803;31",
-      "427059173583984;6",
-      "131054023610218;231",
-      "20912884884194"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Massingir;Gaza;Massingir;366;18",
-    "null": [
-      "230373475069555;5",
-      "063992622608695;2",
-      "788472890853882;31",
-      "107959747314453;6",
-      "518094464060038;210",
-      "99969308363285"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Gaza_Xai-Xai;Gaza;Xai-Xai;366;18",
-    "null": [
-      "324981905072114;5",
-      "090272750033707;2",
-      "153978109359741;31",
-      "22328758239746;6",
-      "2934899492445675;212",
-      "09469818156924"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Funhalouro;Inhambane;Funhalouro;366;19",
-    "null": [
-      "367653130833567;5",
-      "379903644811912;1",
-      "8552839756011963;31",
-      "509319305419922;5",
-      "918683612770638;224",
-      "16265111412508"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Govuro;Inhambane;Govuro;366;19",
-    "null": [
-      "750208867052212;5",
-      "4861691217930595;3",
-      "3618080615997314;30",
-      "71955680847168;5",
-      "439717338626357;228",
-      "59038041328472"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Homoine;Inhambane;Homoine;366;19",
-    "null": [
-      "296315135851582;5",
-      "360087545680218;2",
-      "977962017059326;31",
-      "712604522705078;5",
-      "914146849381829;223",
-      "33698056955808"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Inhambane;Inhambane;Inhambane;366;19",
-    "null": [
-      "927407491402548;5",
-      "535390971462583;4",
-      "272554874420166;31",
-      "66238021850586;6",
-      "0002168305774735;230",
-      "64129021649805"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Inharrime;Inhambane;Inharrime;366;19",
-    "null": [
-      "097736898015757;5",
-      "304926920132559;3",
-      "2085061073303223;31",
-      "528675079345703;6",
-      "086788221398574;221",
-      "03862176697112"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Inhassoro;Inhambane;Inhassoro;366;19",
-    "null": [
-      "850591392464978;5",
-      "514053172752505;3",
-      "3348350524902344;30",
-      "807632446289062;5",
-      "567901350591419;229",
-      "75221528642166"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Jangamo;Inhambane;Jangamo;366;19",
-    "null": [
-      "780639525971125;5",
-      "49462208330957;4",
-      "164958953857422;31",
-      "833147048950195;6",
-      "017247236826399;228",
-      "942586763309"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Mabote;Inhambane;Mabote;366;19",
-    "null": [
-      "963848607787668;5",
-      "54551349523289;3",
-      "0870699882507324;31",
-      "166772842407227;5",
-      "683809696568693;231",
-      "0630621362905"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Massinga;Inhambane;Massinga;366;19",
-    "null": [
-      "05368163742003;5",
-      "29268935534472;1",
-      "9212620258331299;30",
-      "981884002685547;5",
-      "8047692688696255;220",
-      "52872311743232"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Maxixe;Inhambane;Maxixe;366;19",
-    "null": [
-      "75296699935621;5",
-      "486935276477063;3",
-      "838409900665283;31",
-      "607027053833008;5",
-      "952927644242463;228",
-      "62230350932137"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Morrumbene;Inhambane;Morrumbene;366;19",
-    "null": [
-      "36200769872613;5",
-      "3783354824358;2",
-      "8271799087524414;31",
-      "58447265625;5",
-      "8232536407742845;224",
-      "09731168694836"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Panda;Inhambane;Panda;366;18",
-    "null": [
-      "694813934180253;5",
-      "193003876450283;1",
-      "8057379722595215;31",
-      "460487365722656;6",
-      "037541035316501;216",
-      "37516126997483"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Vilanculos;Inhambane;Vilanculos;366;19",
-    "null": [
-      "258479875293585;5",
-      "349577736984837;2",
-      "651731014251709;30",
-      "892803192138672;5",
-      "675597570747548;222",
-      "89907276695544"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Inhambane_Zavala;Inhambane;Zavala;366;19",
-    "null": [
-      "53177057459055;5",
-      "425491801050843;3",
-      "0139999389648438;31",
-      "716819763183594;6",
-      "1405664950467544;226",
-      "0621583136053"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Barue;Manica;Barue;366;20",
-    "null": [
-      "605608903645166;5",
-      "723780239214663;3",
-      "398102045059204;32",
-      "24677658081055;5",
-      "5302877068595935;238",
-      "49084375725417"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Chimoio;Manica;Chimoio;366;20",
-    "null": [
-      "37687680369518;5",
-      "660243555822007;3",
-      "1485280990600586;32",
-      "195648193359375;5",
-      "898249956602787;235",
-      "84348111595614"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Gondola;Manica;Gondola;366;20",
-    "null": [
-      "226981188430162;5",
-      "618605890886379;2",
-      "7859559059143066;32",
-      "089881896972656;5",
-      "879101915388219;234",
-      "10857829109568"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Guro;Manica;Guro;366;20",
-    "null": [
-      "870112852972063;5",
-      "797253575481352;4",
-      "03671407699585;31",
-      "707839965820312;5",
-      "200022309103699;241",
-      "55223204399067"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Macate;Manica;Macate;366;20",
-    "null": [
-      "30725050233101;5",
-      "640902920010311;3",
-      "0070600509643555;32",
-      "13614273071289;5",
-      "94429325475387;235",
-      "03762160754596"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Machaze;Manica;Machaze;366;20",
-    "null": [
-      "054193398340153;5",
-      "570609281460444;3",
-      "0203349590301514;31",
-      "612939834594727;5",
-      "935645311946871;232",
-      "10871907010105"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Macossa;Manica;Macossa;366;20",
-    "null": [
-      "072633859238337;5",
-      "575731639816461;2",
-      "32928204536438;31",
-      "662723541259766;5",
-      "874712968118984;232",
-      "32215104858733"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Manica;Manica;Manica;366;20",
-    "null": [
-      "43318786321442;5",
-      "67588550845782;3",
-      "056368112564087;32",
-      "271690368652344;5",
-      "9683201951770695;236",
-      "49522972106934"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Mossurize;Manica;Mossurize;366;20",
-    "null": [
-      "29556351672105;5",
-      "637656525835965;4",
-      "206783771514893;32",
-      "00315475463867;6",
-      "177366727240886;234",
-      "9023552983185"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Sussundenga;Manica;Sussundenga;366;20",
-    "null": [
-      "434461893279696;5",
-      "676239395727877;3",
-      "940000057220459;32",
-      "27113342285156;5",
-      "926925204118955;236",
-      "50997533954558"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Tambara;Manica;Tambara;366;20",
-    "null": [
-      "451267646961526;5",
-      "680907685085724;3",
-      "1679859161376953;31",
-      "58620834350586;5",
-      "375372651419585;236",
-      "70448665931576"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Manica_Vanduzi;Manica;Vanduzi;366;20",
-    "null": [
-      "371674574789452;5",
-      "658798499999802;3",
-      "1500439643859863;32",
-      "20237731933594;5",
-      "948491216501698;235",
-      "78327063263438"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Boane;Maputo;Boane;366;17",
-    "null": [
-      "37636512094508;4",
-      "826768086907642;2",
-      "622107982635498;30",
-      "69481658935547;6",
-      "328797208409682;201",
-      "11533708520275"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Magude;Maputo;Magude;366;17",
-    "null": [
-      "696445955604805;4",
-      "915679432818147;2",
-      "5504980087280273;31",
-      "108264923095703;6",
-      "536864900601717;204",
-      "81997661903256"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Manhiça;Maputo;Manhiça;366;18",
-    "null": [
-      "02990110584947;5",
-      "0083058650702075;3",
-      "042695999145508;30",
-      "917987823486328;6",
-      "344658520823171;208",
-      "67941075726284"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Maputo;Maputo;Maputo;366;17",
-    "null": [
-      "836734220629832;4",
-      "954648401242136;2",
-      "864109992980957;30",
-      "653032302856445;6",
-      "3241055862842;206",
-      "44368398906104"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Marracuene;Maputo;Marracuene;366;18",
-    "null": [
-      "06394120448274;5",
-      "0177614548818665;3",
-      "0331358909606934;30",
-      "75501251220703;6",
-      "382665490570043;209",
-      "07339364974226"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Matola;Maputo;Matola;366;17",
-    "null": [
-      "584357336570655;4",
-      "884543691665097;2",
-      "743391990661621;30",
-      "625959396362305;6",
-      "306808050726853;203",
-      "52265421028346"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Matutuíne;Maputo;Matutuíne;366;17",
-    "null": [
-      "884238183172673;4",
-      "9678439398606615;3",
-      "1579179763793945;30",
-      "671085357666016;6",
-      "246870341463727;206",
-      "99349769217068"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Moamba;Maputo;Moamba;366;17",
-    "null": [
-      "38053141461044;4",
-      "827925392187359;2",
-      "4238879680633545;30",
-      "84800148010254;6",
-      "432800660149464;201",
-      "16355810009065"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Maputo_Namaacha;Maputo;Namaacha;366;16",
-    "null": [
-      "96266253984691;4",
-      "711850711393877;2",
-      "4240341186523438;31",
-      "101913452148438;6",
-      "363429952962468;196",
-      "3271123802727"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Angoche;Nampula;Angoche;366;20",
-    "null": [
-      "4396206094919;5",
-      "67767240375769;8",
-      "899027824401855;29",
-      "3018798828125;4",
-      "592208828150712;236",
-      "56968280396174"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Erati;Nampula;Erati;366;19",
-    "null": [
-      "386087270382323;5",
-      "385024254439307;2",
-      "834775924682617;29",
-      "239063262939453;4",
-      "2825194133901725;224",
-      "3760103319512"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Ilha de Moçambique;Nampula;Ilha de Moçambique;366;21",
-    "null": [
-      "039673398752683;5",
-      "844353717207257;4",
-      "117949962615967;29",
-      "121976852416992;4",
-      "614593868255827;243",
-      "51473777020564"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Lalaua;Nampula;Lalaua;366;20",
-    "null": [
-      "259790017956593;5",
-      "6277194583350845;7",
-      "494200229644775;29",
-      "83625602722168;4",
-      "31934926941389;234",
-      "48830991234286"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Larde;Nampula;Larde;366;20",
-    "null": [
-      "891739995101762;5",
-      "80326111785701;4",
-      "3267998695373535;29",
-      "038904190063477;4",
-      "553982982651678;241",
-      "80254682947378"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Liupo;Nampula;Liupo;366;19",
-    "null": [
-      "5495849131235;5",
-      "430440240218991;3",
-      "445552110671997;28",
-      "51799201965332;4",
-      "343570773739458;226",
-      "26834312814182"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Malema;Nampula;Malema;366;20",
-    "null": [
-      "301212469736736;5",
-      "6392256900912425;6",
-      "800337791442871;31",
-      "335535049438477;4",
-      "352051536060318;234",
-      "9677369373092"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Meconta;Nampula;Meconta;366;19",
-    "null": [
-      "509982129915166;5",
-      "419439483210037;4",
-      "096928119659424;28",
-      "862951278686523;4",
-      "564538747387918;225",
-      "80997881863286"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Mecuburi;Nampula;Mecuburi;366;20",
-    "null": [
-      "195676120252557;5",
-      "609910026599801;3",
-      "815563917160034;30",
-      "15471649169922;4",
-      "281755968738352;233",
-      "74625096555616"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Memba;Nampula;Memba;366;20",
-    "null": [
-      "31961475955984;5",
-      "644337439146198;4",
-      "176509857177734;29",
-      "26173210144043;4",
-      "4354504990466115;235",
-      "18072669232478"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Mogovolas;Nampula;Mogovolas;366;19",
-    "null": [
-      "641809902555956;5",
-      "4560583119835355;4",
-      "6518120765686035;29",
-      "50374412536621;4",
-      "775251019868829;227",
-      "33576306619278"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Moma;Nampula;Moma;366;19",
-    "null": [
-      "319884034453846;5",
-      "366634454232096;9",
-      "211883544921875;29",
-      "60513687133789;4",
-      "66878894535622;223",
-      "60976833072516"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Monapo;Nampula;Monapo;366;19",
-    "null": [
-      "5684641671311;5",
-      "435684500821953;3",
-      "4168519973754883;28",
-      "65399932861328;4",
-      "314868005245761;226",
-      "4868534275743"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Mongincual;Nampula;Mongincual;366;19",
-    "null": [
-      "964711775545215;5",
-      "5457532640363345;5",
-      "706399917602539;28",
-      "823780059814453;4",
-      "437066338305969;231",
-      "07305197377022"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Mossuril;Nampula;Mossuril;366;20",
-    "null": [
-      "66446753798938;5",
-      "740129870143744;5",
-      "031970024108887;28",
-      "837324142456055;4",
-      "502190001397122;239",
-      "1720773457178"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Muecate;Nampula;Muecate;366;19",
-    "null": [
-      "668116614466808;5",
-      "463365722549417;2",
-      "631903886795044;29",
-      "735992431640625;4",
-      "3091812596581835;227",
-      "64023887655122"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Murrupula;Nampula;Murrupula;366;19",
-    "null": [
-      "742549965290426;5",
-      "4840416449015255;6",
-      "1567559242248535;30",
-      "93360710144043;4",
-      "75833296673274;228",
-      "50173558302916"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Nacala Porto;Nampula;Nacala Porto;366;21",
-    "null": [
-      "24257622585922;5",
-      "900715619325638;2",
-      "8307740688323975;29",
-      "473247528076172;4",
-      "534972022045638;245",
-      "86315083112873"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Nacala Velha;Nampula;Nacala Velha;366;20",
-    "null": [
-      "818357704767113;5",
-      "782877134820803;4",
-      "032586097717285;29",
-      "38490867614746;4",
-      "410396685781112;240",
-      "95321402002554"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Namapa;Nampula;Namapa;366;19",
-    "null": [
-      "254268005246022;5",
-      "348407785912029;2",
-      "1998119354248047;28",
-      "956012725830078;4",
-      "38899779682475;222",
-      "85032420861916"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Nampula;Nampula;Nampula;366;19",
-    "null": [
-      "805436295889766;5",
-      "501510081395425;4",
-      "694863796234131;30",
-      "425228118896484;4",
-      "59251772613536;229",
-      "22958696083944"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Rapale;Nampula;Rapale;366;19",
-    "null": [
-      "803986077751617;5",
-      "5011072487779;4",
-      "436140060424805;30",
-      "263587951660156;4",
-      "585709763827418;229",
-      "21280181342786"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Nampula_Ribaue;Nampula;Ribaue;366;19",
-    "null": [
-      "768161844034665;5",
-      "491156059536126;6",
-      "327216148376465;31",
-      "09977149963379;4",
-      "592019900851364;228",
-      "79816930802141"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Chimbonila;Niassa;Chimbonila;366;19",
-    "null": [
-      "41589775502356;5",
-      "393304938012785;3",
-      "2786059379577637;28",
-      "89740753173828;4",
-      "884616189205756;224",
-      "7210392248435"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Cuamba;Niassa;Cuamba;366;20",
-    "null": [
-      "396602977169017;5",
-      "665723058369641;6",
-      "167362213134766;31",
-      "24360466003418;4",
-      "667671370239371;236",
-      "07179424932093"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Lago;Niassa;Lago;366;20",
-    "null": [
-      "631919079139585;5",
-      "731088629511536;4",
-      "765944004058838;28",
-      "400711059570312;5",
-      "022558308057812;238",
-      "79535928319712"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Lichinga;Niassa;Lichinga;366;19",
-    "null": [
-      "39076286196057;5",
-      "386323022060707;3",
-      "4336280822753906;29",
-      "188636779785156;4",
-      "88789227675896;224",
-      "43012539806261"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Majune;Niassa;Majune;366;19",
-    "null": [
-      "24539717559606;5",
-      "345943676643684;4",
-      "4216718673706055;28",
-      "39948844909668;4",
-      "921677380355523;222",
-      "7476528251106"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Mandimba;Niassa;Mandimba;366;19",
-    "null": [
-      "960654697783006;5",
-      "544626307617771;4",
-      "564943790435791;28",
-      "852439880371094;4",
-      "826564522454865;231",
-      "02609598962334"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Marrupa;Niassa;Marrupa;366;19",
-    "null": [
-      "946515863059;5",
-      "540698861815239;3",
-      "881645917892456;28",
-      "84158706665039;4",
-      "6533237649733445;230",
-      "8624527206838"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Mavago;Niassa;Mavago;366;19",
-    "null": [
-      "136061099057642;5",
-      "315572516188595;4",
-      "170380115509033;28",
-      "322668075561523;4",
-      "910653702507165;221",
-      "4821881987358"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Maúa;Niassa;Maúa;366;19",
-    "null": [
-      "560229249339287;5",
-      "433397011353018;4",
-      "6999640464782715;28",
-      "719100952148438;4",
-      "646141461595807;226",
-      "39154248680575"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Mecanhelas;Niassa;Mecanhelas;366;20",
-    "null": [
-      "516720001163378;5",
-      "6990888933015;3",
-      "732342004776001;30",
-      "850919723510742;4",
-      "760229966019788;237",
-      "46203709169816"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Mecula;Niassa;Mecula;366;19",
-    "null": [
-      "981667220918208;5",
-      "550463118351223;3",
-      "209731101989746;28",
-      "409032821655273;4",
-      "781198503820414;231",
-      "2692967399222"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Metarica;Niassa;Metarica;366;20",
-    "null": [
-      "0674234035888;5",
-      "574284282538409;4",
-      "574059963226318;29",
-      "929092407226562;4",
-      "638292463528538;232",
-      "26184543755537"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Muembe;Niassa;Muembe;366;19",
-    "null": [
-      "12318914249295;5",
-      "311996978977339;3",
-      "2157280445098877;28",
-      "094486236572266;5",
-      "143888851997273;221",
-      "33320774015834"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_N'gauma;Niassa;N'gauma;366;19",
-    "null": [
-      "827343802634484;5",
-      "507595505545048;4",
-      "511072158813477;28",
-      "839719772338867;4",
-      "861272057117066;229",
-      "48314636522304"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Nipepe;Niassa;Nipepe;366;20",
-    "null": [
-      "062170109462215;5",
-      "572825029248097;6",
-      "262832164764404;29",
-      "131540298461914;4",
-      "430338969817125;232",
-      "2010427589625"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Niassa_Sanga;Niassa;Sanga;366;19",
-    "null": [
-      "332775812982863;5",
-      "370215486307613;3",
-      "88729190826416;28",
-      "548860549926758;5",
-      "093682333262175;223",
-      "75897909904438"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Beira;Sofala;Beira;366;19",
-    "null": [
-      "587355994135955;5",
-      "4409322289169815;3",
-      "1549758911132812;30",
-      "24335289001465;5",
-      "427761609070213;226",
-      "70550902945095"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Buzi;Sofala;Buzi;366;19",
-    "null": [
-      "353461816662648;5",
-      "375961615088207;4",
-      "351572036743164;30",
-      "632299423217773;5",
-      "510871177855911;223",
-      "99840032858927"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Caia;Sofala;Caia;366;19",
-    "null": [
-      "67830569236005;5",
-      "46619602028138;2",
-      "5671238899230957;30",
-      "86981964111328;5",
-      "464645374729403;227",
-      "75816798079862"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Chemba;Sofala;Chemba;366;20",
-    "null": [
-      "179827600228982;5",
-      "6055076638531816;2",
-      "9757978916168213;31",
-      "364971160888672;5",
-      "4186531642040565;233",
-      "56281962160205"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Cheringoma;Sofala;Cheringoma;366;19",
-    "null": [
-      "271994087865444;5",
-      "3533316917432465;2",
-      "3452401161193848;30",
-      "423995971679688;5",
-      "34415751625609;223",
-      "05548622047965"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Chibabava;Sofala;Chibabava;366;19",
-    "null": [
-      "736779650703806;5",
-      "482438809884702;4",
-      "525832176208496;31",
-      "197763442993164;5",
-      "6357098707242415;228",
-      "43495106306233"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Dondo;Sofala;Dondo;366;19",
-    "null": [
-      "3194843302659;5",
-      "366523442861161;2",
-      "3801679611206055;30",
-      "29163932800293;5",
-      "42220037734844;223",
-      "60514392748556"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Gorongosa;Sofala;Gorongosa;366;19",
-    "null": [
-      "67832255233181;5",
-      "466200710971499;2",
-      "171380043029785;31",
-      "239639282226562;5",
-      "705480841138427;227",
-      "75836371333222"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Machanga;Sofala;Machanga;366;19",
-    "null": [
-      "409833203247988;5",
-      "3916203324260605;3",
-      "652340888977051;30",
-      "608179092407227;5",
-      "414838401650048;224",
-      "65084740894088"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Maringue;Sofala;Maringue;366;19",
-    "null": [
-      "86950557609725;5",
-      "519307095007818;2",
-      "144256114959717;31",
-      "112943649291992;5",
-      "5287764406439885;229",
-      "97112899008997"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Marromeu;Sofala;Marromeu;366;19",
-    "null": [
-      "164631571274636;5",
-      "323508795167579;3",
-      "0109190940856934;29",
-      "685867309570312;5",
-      "179280205930396;221",
-      "81286567938133"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Muanza;Sofala;Muanza;366;19",
-    "null": [
-      "087498101380355;5",
-      "30208283662796;2",
-      "176326036453247;30",
-      "14519691467285;5",
-      "381823800876251;220",
-      "92011843092453"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Sofala_Nhamatanda;Sofala;Nhamatanda;366;19",
-    "null": [
-      "566264004003806;5",
-      "435073332871244;2",
-      "772387981414795;31",
-      "60166358947754;5",
-      "663624754896828;226",
-      "46138856189498"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Angónia;Tete;Angónia;366;20",
-    "null": [
-      "219900512955878;5",
-      "616639023758674;2",
-      "999919891357422;31",
-      "898752212524414;5",
-      "130020923366462;234",
-      "02662633677"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Cahora Bassa;Tete;Cahora Bassa;366;21",
-    "null": [
-      "192098341352953;5",
-      "886693972381738;6",
-      "322132110595703;31",
-      "148723602294922;5",
-      "1251064644060085;245",
-      "2789156971082"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Changara;Tete;Changara;366;20",
-    "null": [
-      "822109038712547;5",
-      "783919150874914;2",
-      "942068099975586;31",
-      "503400802612305;5",
-      "47936699989831;240",
-      "9966318516132"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Chifunde;Tete;Chifunde;366;20",
-    "null": [
-      "279608310246076;5",
-      "633224516129885;2",
-      "8217599391937256;31",
-      "589740753173828;5",
-      "409981842924133;234",
-      "717689013872"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Chiuta;Tete;Chiuta;366;20",
-    "null": [
-      "1404313936911;5",
-      "594564265240737;4",
-      "250611782073975;31",
-      "513324737548828;5",
-      "5984456678912915;233",
-      "1068445945698"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Doa;Tete;Doa;366;20",
-    "null": [
-      "885844895097076;5",
-      "801623587562738;2",
-      "9155759811401367;31",
-      "576400756835938;5",
-      "410472775699873;241",
-      "73431619529515"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Macanga;Tete;Macanga;366;20",
-    "null": [
-      "06212646453107;5",
-      "572812925108144;3",
-      "2325780391693115;31",
-      "681915283203125;5",
-      "357272358513217;232",
-      "20053885412997"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Magoe;Tete;Magoe;366;21",
-    "null": [
-      "49948667698219;5",
-      "972079597209972;6",
-      "544392108917236;31",
-      "1501522064209;4",
-      "905231693527209;248",
-      "83665032725517"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Marara;Tete;Marara;366;20",
-    "null": [
-      "6613107496272;5",
-      "739252976706771;4",
-      "840144157409668;31",
-      "204740524291992;5",
-      "54415090866383;239",
-      "1355415198321"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Maravia;Tete;Maravia;366;20",
-    "null": [
-      "51473488182318;5",
-      "698537465001716;4",
-      "0093278884887695;31",
-      "62895965576172;5",
-      "485202471943172;237",
-      "43906076358317"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Moatize;Tete;Moatize;366;20",
-    "null": [
-      "26096976650217;5",
-      "628047152946555;4",
-      "277040004730225;31",
-      "236284255981445;5",
-      "693965304537418;234",
-      "5019649130399"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Mutarara;Tete;Mutarara;366;20",
-    "null": [
-      "024700498971782;5",
-      "562416773350512;3",
-      "326993942260742;30",
-      "9616756439209;5",
-      "567846416918549;231",
-      "76736669071386"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Tete;Tete;Tete;366;20",
-    "null": [
-      "568092480383285;5",
-      "713359005138522;3",
-      "2271718978881836;31",
-      "16752052307129;5",
-      "515530343643472;238",
-      "0566250326855"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Tsangano;Tete;Tsangano;366;19",
-    "null": [
-      "884137089135216;5",
-      "523371419945701;2",
-      "897481918334961;32",
-      "015159606933594;5",
-      "300365137055343;230",
-      "1404755806011"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Tete_Zumbu;Tete;Zumbu;366;21",
-    "null": [
-      "049265280447372;5",
-      "84701813830704;4",
-      "299764156341553;31",
-      "607271194458008;4",
-      "957779893386288;243",
-      "62575560189336"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Alto Molocue;Zambezia;Alto Molocue;366;19",
-    "null": [
-      "539494576349934;5",
-      "427637370232024;3",
-      "950186014175415;31",
-      "763504028320312;4",
-      "821474596936501;226",
-      "15155766179652"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Chinde;Zambezia;Chinde;366;19",
-    "null": [
-      "906123170435755;5",
-      "529478678937818;5",
-      "021222114562988;30",
-      "233356475830078;5",
-      "084154746278293;230",
-      "39494360209815"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Derre;Zambezia;Derre;366;19",
-    "null": [
-      "382481095569382;5",
-      "384022525750874;5",
-      "8318681716918945;29",
-      "4528751373291;5",
-      "089351033236847;224",
-      "33427218661282"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Gile;Zambezia;Gile;366;19",
-    "null": [
-      "59544382720697;5",
-      "443178833182392;4",
-      "397747993469238;29",
-      "650320053100586;4",
-      "892512432156791;226",
-      "7991185318577"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Gurue;Zambezia;Gurue;366;20",
-    "null": [
-      "112272625412444;5",
-      "586742389397543;3",
-      "7801520824432373;31",
-      "88610076904297;4",
-      "52116770693379;232",
-      "78093251504532"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Ile;Zambezia;Ile;366;19",
-    "null": [
-      "345462207585737;5",
-      "373739491720668;5",
-      "546209812164307;30",
-      "231647491455078;5",
-      "185603289995613;223",
-      "90581210193739"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Inhassunge;Zambezia;Inhassunge;366;20",
-    "null": [
-      "446097931575252;5",
-      "679471644547467;6",
-      "348884105682373;30",
-      "529476165771484;5",
-      "104386954252846;236",
-      "6446519653654"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Luabo;Zambezia;Luabo;366;19",
-    "null": [
-      "578038581733495;5",
-      "438344045089242;4",
-      "739786148071289;30",
-      "361600875854492;5",
-      "078512914017296;226",
-      "59766881974016"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Lugela;Zambezia;Lugela;366;19",
-    "null": [
-      "45627812479363;5",
-      "404521693297423;5",
-      "8188557624816895;31",
-      "250728607177734;5",
-      "194616267868931;225",
-      "18840437508672"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Maganja da Costa;Zambezia;Maganja da Costa;366;19",
-    "null": [
-      "326291439963168;5",
-      "368414291267187;5",
-      "406898021697998;29",
-      "198692321777344;4",
-      "987819491019802;223",
-      "68392843236037"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Milange;Zambezia;Milange;366;19",
-    "null": [
-      "734391228097383;5",
-      "48177533950962;6",
-      "107560157775879;32",
-      "10861587524414;4",
-      "964560814297017;228",
-      "40730577479295"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Mocuba;Zambezia;Mocuba;366;19",
-    "null": [
-      "146190761868418;5",
-      "318386340076155;3",
-      "7501440048217773;28",
-      "79688262939453;5",
-      "085693538267514;221",
-      "59943036564061"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Mocubela;Zambezia;Mocubela;366;19",
-    "null": [
-      "421167785352697;5",
-      "394768834114075;4",
-      "621004104614258;31",
-      "439067840576172;5",
-      "219139724989958;224",
-      "78203443099892"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Molumbo;Zambezia;Molumbo;366;19",
-    "null": [
-      "539494576349934;5",
-      "427637370232024;3",
-      "950186014175415;31",
-      "763504028320312;4",
-      "821474596936501;226",
-      "15155766179652"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Mopeia;Zambezia;Mopeia;366;19",
-    "null": [
-      "26669807968244;5",
-      "351860597485402;3",
-      "8278920650482178;29",
-      "932403564453125;5",
-      "194792634921174;222",
-      "99419084142465"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Morrumbala;Zambezia;Morrumbala;366;19",
-    "null": [
-      "616690210957344;5",
-      "449080596530372;4",
-      "127655982971191;29",
-      "865747451782227;5",
-      "325481874090316;227",
-      "04502571606244"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Mulevala;Zambezia;Mulevala;366;19",
-    "null": [
-      "651081687114278;5",
-      "458633816633069;5",
-      "026611804962158;31",
-      "967435836791992;4",
-      "933820324605368;227",
-      "443075075827"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Namacurra;Zambezia;Namacurra;366;20",
-    "null": [
-      "0773981959442;5",
-      "577055059821228;4",
-      "611914157867432;29",
-      "860876083374023;4",
-      "918892778679073;232",
-      "37729399842644"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Namarroi;Zambezia;Namarroi;366;19",
-    "null": [
-      "478153949226837;5",
-      "4105983138735825;4",
-      "748439788818359;31",
-      "889564514160156;5",
-      "115350303763471;225",
-      "44159641161642"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Nicoadala;Zambezia;Nicoadala;366;19",
-    "null": [
-      "410787663173153;5",
-      "391885473428528;3",
-      "99862003326416;29",
-      "87804412841797;5",
-      "028298032539543;224",
-      "6618944074287"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Pebane;Zambezia;Pebane;366;19",
-    "null": [
-      "867835859131944;5",
-      "518843307195465;6",
-      "817860126495361;29",
-      "793188095092773;4",
-      "782166817749703;229",
-      "9518040307884"
-    ]
-  },
-  {
-    "GID_2;Provincia;Distrito;Numero_dias;Irradiacao_media_MJ_m2_dia;Irradiacao_media_kWh_m2_dia;Irradiacao_minima_MJ_m2_dia;Irradiacao_maxima_MJ_m2_dia;Desvio_padrao_MJ_m2_dia;Irradiancia_media_24h_W_m2": "Zambezia_Quelimane;Zambezia;Quelimane;366;20",
-    "null": [
-      "41943839990376;5",
-      "672066239385657;5",
-      "704793930053711;30",
-      "40140724182129;5",
-      "059583458039787;236",
-      "3360928603209"
-    ]
+    "GID_2": "Cabo Delgado_Ancuabe",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Ancuabe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,973499399716736",
+    "Irradiacao_media_kWh_m2_dia": "5,270416508281166",
+    "Irradiacao_minima_MJ_m2_dia": "2,892496109008789",
+    "Irradiacao_maxima_MJ_m2_dia": "27,70901107788086",
+    "Desvio_padrao_MJ_m2_dia": "4,372387929496838",
+    "Irradiancia_media_24h_W_m2": "219,6006876314924"
+  },
+  {
+    "GID_2": "Cabo Delgado_Balama",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Balama",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,937923358437793",
+    "Irradiacao_media_kWh_m2_dia": "5,538312021826134",
+    "Irradiacao_minima_MJ_m2_dia": "4,888495922088623",
+    "Irradiacao_maxima_MJ_m2_dia": "29,202451705932617",
+    "Desvio_padrao_MJ_m2_dia": "4,572917376108237",
+    "Irradiancia_media_24h_W_m2": "230,76300078011602"
+  },
+  {
+    "GID_2": "Cabo Delgado_Chiúre",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Chiúre",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,20354512415297",
+    "Irradiacao_media_kWh_m2_dia": "5,334318093344813",
+    "Irradiacao_minima_MJ_m2_dia": "1,6709120273590088",
+    "Irradiacao_maxima_MJ_m2_dia": "27,832752227783203",
+    "Desvio_padrao_MJ_m2_dia": "4,443927570341464",
+    "Irradiancia_media_24h_W_m2": "222,26325401973205"
+  },
+  {
+    "GID_2": "Cabo Delgado_Ibo",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Ibo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,688309195914556",
+    "Irradiacao_media_kWh_m2_dia": "5,468974773512512",
+    "Irradiacao_minima_MJ_m2_dia": "3,3854119777679443",
+    "Irradiacao_maxima_MJ_m2_dia": "27,524892807006836",
+    "Desvio_padrao_MJ_m2_dia": "4,658736280638622",
+    "Irradiancia_media_24h_W_m2": "227,87394859230582"
+  },
+  {
+    "GID_2": "Cabo Delgado_Macomia",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Macomia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,06028417094809",
+    "Irradiacao_media_kWh_m2_dia": "5,294523376584705",
+    "Irradiacao_minima_MJ_m2_dia": "3,3924219608306885",
+    "Irradiacao_maxima_MJ_m2_dia": "27,620637893676758",
+    "Desvio_padrao_MJ_m2_dia": "4,456628767065491",
+    "Irradiancia_media_24h_W_m2": "220,60514113420996"
+  },
+  {
+    "GID_2": "Cabo Delgado_Mecufi",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Mecufi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,28504701520576",
+    "Irradiacao_media_kWh_m2_dia": "5,634735287538643",
+    "Irradiacao_minima_MJ_m2_dia": "3,2437219619750977",
+    "Irradiacao_maxima_MJ_m2_dia": "28,011611938476562",
+    "Desvio_padrao_MJ_m2_dia": "4,659272923871716",
+    "Irradiancia_media_24h_W_m2": "234,78063712615133"
+  },
+  {
+    "GID_2": "Cabo Delgado_Meluco",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Meluco",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,04598680220015",
+    "Irradiacao_media_kWh_m2_dia": "5,290551892720936",
+    "Irradiacao_minima_MJ_m2_dia": "4,1071600914001465",
+    "Irradiacao_maxima_MJ_m2_dia": "28,60419464111328",
+    "Desvio_padrao_MJ_m2_dia": "4,482275260585706",
+    "Irradiancia_media_24h_W_m2": "220,43966239137077"
+  },
+  {
+    "GID_2": "Cabo Delgado_Metuge",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Metuge",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,594748153061165",
+    "Irradiacao_media_kWh_m2_dia": "5,442985593946905",
+    "Irradiacao_minima_MJ_m2_dia": "3,118259906768799",
+    "Irradiacao_maxima_MJ_m2_dia": "27,436267852783203",
+    "Desvio_padrao_MJ_m2_dia": "4,430752674612406",
+    "Irradiancia_media_24h_W_m2": "226,79106719637178"
+  },
+  {
+    "GID_2": "Cabo Delgado_Mocimboa da Praia",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Mocimboa da Praia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,075671167321545",
+    "Irradiacao_media_kWh_m2_dia": "5,298797543094458",
+    "Irradiacao_minima_MJ_m2_dia": "3,388482093811035",
+    "Irradiacao_maxima_MJ_m2_dia": "27,70064353942871",
+    "Desvio_padrao_MJ_m2_dia": "4,638296757949924",
+    "Irradiancia_media_24h_W_m2": "220,78323087014786"
+  },
+  {
+    "GID_2": "Cabo Delgado_Montepuez",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Montepuez",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,86402020688917",
+    "Irradiacao_media_kWh_m2_dia": "5,517783378642765",
+    "Irradiacao_minima_MJ_m2_dia": "2,8668129444122314",
+    "Irradiacao_maxima_MJ_m2_dia": "28,686630249023438",
+    "Desvio_padrao_MJ_m2_dia": "4,733309118011467",
+    "Irradiancia_media_24h_W_m2": "229,90764076983342"
+  },
+  {
+    "GID_2": "Cabo Delgado_Mueda",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Mueda",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,179832245482775",
+    "Irradiacao_media_kWh_m2_dia": "5,327731166706711",
+    "Irradiacao_minima_MJ_m2_dia": "3,927820920944214",
+    "Irradiacao_maxima_MJ_m2_dia": "27,56154441833496",
+    "Desvio_padrao_MJ_m2_dia": "4,620452487685308",
+    "Irradiancia_media_24h_W_m2": "221,98879837077823"
+  },
+  {
+    "GID_2": "Cabo Delgado_Muidumbe",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Muidumbe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,79549903296382",
+    "Irradiacao_media_kWh_m2_dia": "5,220971969958863",
+    "Irradiacao_minima_MJ_m2_dia": "3,995450019836426",
+    "Irradiacao_maxima_MJ_m2_dia": "27,74761962890625",
+    "Desvio_padrao_MJ_m2_dia": "4,453069356688688",
+    "Irradiancia_media_24h_W_m2": "217,54049839999507"
+  },
+  {
+    "GID_2": "Cabo Delgado_Namuno",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Namuno",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,93031993003491",
+    "Irradiacao_media_kWh_m2_dia": "5,53619997993193",
+    "Irradiacao_minima_MJ_m2_dia": "2,469640016555786",
+    "Irradiacao_maxima_MJ_m2_dia": "29,150907516479492",
+    "Desvio_padrao_MJ_m2_dia": "4,546652690427447",
+    "Irradiancia_media_24h_W_m2": "230,6749992005812"
+  },
+  {
+    "GID_2": "Cabo Delgado_Nangade",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Nangade",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,481703898294377",
+    "Irradiacao_media_kWh_m2_dia": "5,133806636424664",
+    "Irradiacao_minima_MJ_m2_dia": "3,343981981277466",
+    "Irradiacao_maxima_MJ_m2_dia": "26,877227783203125",
+    "Desvio_padrao_MJ_m2_dia": "4,472820982240018",
+    "Irradiancia_media_24h_W_m2": "213,90860961955752"
+  },
+  {
+    "GID_2": "Cabo Delgado_Palma",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Palma",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,989247757229",
+    "Irradiacao_media_kWh_m2_dia": "5,274791042498552",
+    "Irradiacao_minima_MJ_m2_dia": "3,120556116104126",
+    "Irradiacao_maxima_MJ_m2_dia": "26,53584861755371",
+    "Desvio_padrao_MJ_m2_dia": "4,673444831562008",
+    "Irradiancia_media_24h_W_m2": "219,78296049566217"
+  },
+  {
+    "GID_2": "Cabo Delgado_Pemba",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Pemba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,545282330017923",
+    "Irradiacao_media_kWh_m2_dia": "5,429245111395101",
+    "Irradiacao_minima_MJ_m2_dia": "2,7362639904022217",
+    "Irradiacao_maxima_MJ_m2_dia": "27,464637756347656",
+    "Desvio_padrao_MJ_m2_dia": "4,409437468597834",
+    "Irradiancia_media_24h_W_m2": "226,21854525185674"
+  },
+  {
+    "GID_2": "Cabo Delgado_Quissanga",
+    "Provincia": "Cabo Delgado",
+    "Distrito": "Quissanga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,376515935678952",
+    "Irradiacao_media_kWh_m2_dia": "5,38236552867733",
+    "Irradiacao_minima_MJ_m2_dia": "2,0958399772644043",
+    "Irradiacao_maxima_MJ_m2_dia": "27,651994705200195",
+    "Desvio_padrao_MJ_m2_dia": "4,399293306245801",
+    "Irradiancia_media_24h_W_m2": "224,26523060616248"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaMavota",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaMavota",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,859465243386442",
+    "Irradiacao_media_kWh_m2_dia": "4,960962563753128",
+    "Irradiacao_minima_MJ_m2_dia": "2,8782858848571777",
+    "Irradiacao_maxima_MJ_m2_dia": "30,664663314819336",
+    "Desvio_padrao_MJ_m2_dia": "6,341490836999561",
+    "Irradiancia_media_24h_W_m2": "206,7067739872333"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaMaxaquene",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaMaxaquene",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,836734220629832",
+    "Irradiacao_media_kWh_m2_dia": "4,954648401242136",
+    "Irradiacao_minima_MJ_m2_dia": "2,864109992980957",
+    "Irradiacao_maxima_MJ_m2_dia": "30,653032302856445",
+    "Desvio_padrao_MJ_m2_dia": "6,3241055862842",
+    "Irradiancia_media_24h_W_m2": "206,44368398906104"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaMpfumo",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaMpfumo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,740433921579456",
+    "Irradiacao_media_kWh_m2_dia": "4,927898320832539",
+    "Irradiacao_minima_MJ_m2_dia": "2,838236093521118",
+    "Irradiacao_maxima_MJ_m2_dia": "30,63450050354004",
+    "Desvio_padrao_MJ_m2_dia": "6,302463168555923",
+    "Irradiancia_media_24h_W_m2": "205,3290962260929"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaMubukwana",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaMubukwana",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,62847788542346",
+    "Irradiacao_media_kWh_m2_dia": "4,89679940802152",
+    "Irradiacao_minima_MJ_m2_dia": "2,7372679710388184",
+    "Irradiacao_maxima_MJ_m2_dia": "30,631160736083984",
+    "Desvio_padrao_MJ_m2_dia": "6,321943461143794",
+    "Irradiancia_media_24h_W_m2": "204,0333082063602"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaNyaka",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaNyaka",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,791965300268163",
+    "Irradiacao_media_kWh_m2_dia": "4,942212577563166",
+    "Irradiacao_minima_MJ_m2_dia": "2,892688035964966",
+    "Irradiacao_maxima_MJ_m2_dia": "30,584951400756836",
+    "Desvio_padrao_MJ_m2_dia": "6,2906673112477405",
+    "Irradiancia_media_24h_W_m2": "205,92552316384237"
+  },
+  {
+    "GID_2": "Cidade de Maputo_KaTembe",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "KaTembe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,584357336570655",
+    "Irradiacao_media_kWh_m2_dia": "4,884543691665097",
+    "Irradiacao_minima_MJ_m2_dia": "2,743391990661621",
+    "Irradiacao_maxima_MJ_m2_dia": "30,625959396362305",
+    "Desvio_padrao_MJ_m2_dia": "6,306808050726853",
+    "Irradiancia_media_24h_W_m2": "203,52265421028346"
+  },
+  {
+    "GID_2": "Cidade de Maputo_Nlhamankulu",
+    "Provincia": "Cidade de Maputo",
+    "Distrito": "Nlhamankulu",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,584357336570655",
+    "Irradiacao_media_kWh_m2_dia": "4,884543691665097",
+    "Irradiacao_minima_MJ_m2_dia": "2,743391990661621",
+    "Irradiacao_maxima_MJ_m2_dia": "30,625959396362305",
+    "Desvio_padrao_MJ_m2_dia": "6,306808050726853",
+    "Irradiancia_media_24h_W_m2": "203,52265421028346"
+  },
+  {
+    "GID_2": "Gaza_Bilene",
+    "Provincia": "Gaza",
+    "Distrito": "Bilene",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,01825528327233",
+    "Irradiacao_media_kWh_m2_dia": "5,005070915639075",
+    "Irradiacao_minima_MJ_m2_dia": "2,991107940673828",
+    "Irradiacao_maxima_MJ_m2_dia": "31,24334716796875",
+    "Desvio_padrao_MJ_m2_dia": "6,307766496528789",
+    "Irradiancia_media_24h_W_m2": "208,54462185844045"
+  },
+  {
+    "GID_2": "Gaza_Chibuto",
+    "Provincia": "Gaza",
+    "Distrito": "Chibuto",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,580620224358604",
+    "Irradiacao_media_kWh_m2_dia": "5,161283394026626",
+    "Irradiacao_minima_MJ_m2_dia": "2,1070120334625244",
+    "Irradiacao_maxima_MJ_m2_dia": "31,0786075592041",
+    "Desvio_padrao_MJ_m2_dia": "6,289609532382091",
+    "Irradiancia_media_24h_W_m2": "215,05347460866625"
+  },
+  {
+    "GID_2": "Gaza_Chicualacuala",
+    "Provincia": "Gaza",
+    "Distrito": "Chicualacuala",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,193463475977786",
+    "Irradiacao_media_kWh_m2_dia": "5,331517633030323",
+    "Irradiacao_minima_MJ_m2_dia": "2,590224027633667",
+    "Irradiacao_maxima_MJ_m2_dia": "31,272327423095703",
+    "Desvio_padrao_MJ_m2_dia": "6,267403780992819",
+    "Irradiancia_media_24h_W_m2": "222,14656822016983"
+  },
+  {
+    "GID_2": "Gaza_Chigubo",
+    "Provincia": "Gaza",
+    "Distrito": "Chigubo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,61598125214134",
+    "Irradiacao_media_kWh_m2_dia": "5,448883673532413",
+    "Irradiacao_minima_MJ_m2_dia": "1,7129780054092407",
+    "Irradiacao_maxima_MJ_m2_dia": "31,106143951416016",
+    "Desvio_padrao_MJ_m2_dia": "5,991351253383941",
+    "Irradiancia_media_24h_W_m2": "227,0368193225131"
+  },
+  {
+    "GID_2": "Gaza_Chongoene",
+    "Provincia": "Gaza",
+    "Distrito": "Chongoene",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,454840693968894",
+    "Irradiacao_media_kWh_m2_dia": "5,12634463746691",
+    "Irradiacao_minima_MJ_m2_dia": "2,143939971923828",
+    "Irradiacao_maxima_MJ_m2_dia": "31,214048385620117",
+    "Desvio_padrao_MJ_m2_dia": "6,291648790198977",
+    "Irradiancia_media_24h_W_m2": "213,597693375551"
+  },
+  {
+    "GID_2": "Gaza_Chókwè",
+    "Provincia": "Gaza",
+    "Distrito": "Chókwè",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,95503085297965",
+    "Irradiacao_media_kWh_m2_dia": "4,987508567467414",
+    "Irradiacao_minima_MJ_m2_dia": "2,7330169677734375",
+    "Irradiacao_maxima_MJ_m2_dia": "30,955528259277344",
+    "Desvio_padrao_MJ_m2_dia": "6,36165983907256",
+    "Irradiancia_media_24h_W_m2": "207,81285715363717"
+  },
+  {
+    "GID_2": "Gaza_Guijá",
+    "Provincia": "Gaza",
+    "Distrito": "Guijá",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,424087540699485",
+    "Irradiacao_media_kWh_m2_dia": "5,1178020926121155",
+    "Irradiacao_minima_MJ_m2_dia": "2,3958659172058105",
+    "Irradiacao_maxima_MJ_m2_dia": "31,013051986694336",
+    "Desvio_padrao_MJ_m2_dia": "6,379142519284723",
+    "Irradiancia_media_24h_W_m2": "213,24175337494395"
+  },
+  {
+    "GID_2": "Gaza_Limpopo",
+    "Provincia": "Gaza",
+    "Distrito": "Limpopo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,814718807981315",
+    "Irradiacao_media_kWh_m2_dia": "4,94853298699921",
+    "Irradiacao_minima_MJ_m2_dia": "2,8677139282226562",
+    "Irradiacao_maxima_MJ_m2_dia": "30,90944480895996",
+    "Desvio_padrao_MJ_m2_dia": "6,376076509997139",
+    "Irradiancia_media_24h_W_m2": "206,18887453131336"
+  },
+  {
+    "GID_2": "Gaza_Mabalane",
+    "Provincia": "Gaza",
+    "Distrito": "Mabalane",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,771410248318656",
+    "Irradiacao_media_kWh_m2_dia": "5,21428062567294",
+    "Irradiacao_minima_MJ_m2_dia": "2,2918128967285156",
+    "Irradiacao_maxima_MJ_m2_dia": "31,057371139526367",
+    "Desvio_padrao_MJ_m2_dia": "6,353352991965163",
+    "Irradiancia_media_24h_W_m2": "217,2616927089587"
+  },
+  {
+    "GID_2": "Gaza_Mandlakazi",
+    "Provincia": "Gaza",
+    "Distrito": "Mandlakazi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,780669448805636",
+    "Irradiacao_media_kWh_m2_dia": "5,216852620162599",
+    "Irradiacao_minima_MJ_m2_dia": "2,206629991531372",
+    "Irradiacao_maxima_MJ_m2_dia": "31,18985939025879",
+    "Desvio_padrao_MJ_m2_dia": "6,239419780156905",
+    "Irradiancia_media_24h_W_m2": "217,36885954643208"
+  },
+  {
+    "GID_2": "Gaza_Mapai",
+    "Provincia": "Gaza",
+    "Distrito": "Mapai",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,110639099866315",
+    "Irradiacao_media_kWh_m2_dia": "5,308510860784458",
+    "Irradiacao_minima_MJ_m2_dia": "2,587873935699463",
+    "Irradiacao_maxima_MJ_m2_dia": "31,228708267211914",
+    "Desvio_padrao_MJ_m2_dia": "6,276053815451842",
+    "Irradiancia_media_24h_W_m2": "221,18795224486806"
+  },
+  {
+    "GID_2": "Gaza_Massangena",
+    "Provincia": "Gaza",
+    "Distrito": "Massangena",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,976468751339315",
+    "Irradiacao_media_kWh_m2_dia": "5,549019090302004",
+    "Irradiacao_minima_MJ_m2_dia": "2,3725850582122803",
+    "Irradiacao_maxima_MJ_m2_dia": "31,427059173583984",
+    "Desvio_padrao_MJ_m2_dia": "6,131054023610218",
+    "Irradiancia_media_24h_W_m2": "231,20912884884194"
+  },
+  {
+    "GID_2": "Gaza_Massingir",
+    "Provincia": "Gaza",
+    "Distrito": "Massingir",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,230373475069555",
+    "Irradiacao_media_kWh_m2_dia": "5,063992622608695",
+    "Irradiacao_minima_MJ_m2_dia": "2,788472890853882",
+    "Irradiacao_maxima_MJ_m2_dia": "31,107959747314453",
+    "Desvio_padrao_MJ_m2_dia": "6,518094464060038",
+    "Irradiancia_media_24h_W_m2": "210,99969308363285"
+  },
+  {
+    "GID_2": "Gaza_Xai-Xai",
+    "Provincia": "Gaza",
+    "Distrito": "Xai-Xai",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,324981905072114",
+    "Irradiacao_media_kWh_m2_dia": "5,090272750033707",
+    "Irradiacao_minima_MJ_m2_dia": "2,153978109359741",
+    "Irradiacao_maxima_MJ_m2_dia": "31,22328758239746",
+    "Desvio_padrao_MJ_m2_dia": "6,2934899492445675",
+    "Irradiancia_media_24h_W_m2": "212,09469818156924"
+  },
+  {
+    "GID_2": "Inhambane_Funhalouro",
+    "Provincia": "Inhambane",
+    "Distrito": "Funhalouro",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,367653130833567",
+    "Irradiacao_media_kWh_m2_dia": "5,379903644811912",
+    "Irradiacao_minima_MJ_m2_dia": "1,8552839756011963",
+    "Irradiacao_maxima_MJ_m2_dia": "31,509319305419922",
+    "Desvio_padrao_MJ_m2_dia": "5,918683612770638",
+    "Irradiancia_media_24h_W_m2": "224,16265111412508"
+  },
+  {
+    "GID_2": "Inhambane_Govuro",
+    "Provincia": "Inhambane",
+    "Distrito": "Govuro",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,750208867052212",
+    "Irradiacao_media_kWh_m2_dia": "5,4861691217930595",
+    "Irradiacao_minima_MJ_m2_dia": "3,3618080615997314",
+    "Irradiacao_maxima_MJ_m2_dia": "30,71955680847168",
+    "Desvio_padrao_MJ_m2_dia": "5,439717338626357",
+    "Irradiancia_media_24h_W_m2": "228,59038041328472"
+  },
+  {
+    "GID_2": "Inhambane_Homoine",
+    "Provincia": "Inhambane",
+    "Distrito": "Homoine",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,296315135851582",
+    "Irradiacao_media_kWh_m2_dia": "5,360087545680218",
+    "Irradiacao_minima_MJ_m2_dia": "2,977962017059326",
+    "Irradiacao_maxima_MJ_m2_dia": "31,712604522705078",
+    "Desvio_padrao_MJ_m2_dia": "5,914146849381829",
+    "Irradiancia_media_24h_W_m2": "223,33698056955808"
+  },
+  {
+    "GID_2": "Inhambane_Inhambane",
+    "Provincia": "Inhambane",
+    "Distrito": "Inhambane",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,927407491402548",
+    "Irradiacao_media_kWh_m2_dia": "5,535390971462583",
+    "Irradiacao_minima_MJ_m2_dia": "4,272554874420166",
+    "Irradiacao_maxima_MJ_m2_dia": "31,66238021850586",
+    "Desvio_padrao_MJ_m2_dia": "6,0002168305774735",
+    "Irradiancia_media_24h_W_m2": "230,64129021649805"
+  },
+  {
+    "GID_2": "Inhambane_Inharrime",
+    "Provincia": "Inhambane",
+    "Distrito": "Inharrime",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,097736898015757",
+    "Irradiacao_media_kWh_m2_dia": "5,304926920132559",
+    "Irradiacao_minima_MJ_m2_dia": "3,2085061073303223",
+    "Irradiacao_maxima_MJ_m2_dia": "31,528675079345703",
+    "Desvio_padrao_MJ_m2_dia": "6,086788221398574",
+    "Irradiancia_media_24h_W_m2": "221,03862176697112"
+  },
+  {
+    "GID_2": "Inhambane_Inhassoro",
+    "Provincia": "Inhambane",
+    "Distrito": "Inhassoro",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,850591392464978",
+    "Irradiacao_media_kWh_m2_dia": "5,514053172752505",
+    "Irradiacao_minima_MJ_m2_dia": "3,3348350524902344",
+    "Irradiacao_maxima_MJ_m2_dia": "30,807632446289062",
+    "Desvio_padrao_MJ_m2_dia": "5,567901350591419",
+    "Irradiancia_media_24h_W_m2": "229,75221528642166"
+  },
+  {
+    "GID_2": "Inhambane_Jangamo",
+    "Provincia": "Inhambane",
+    "Distrito": "Jangamo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,780639525971125",
+    "Irradiacao_media_kWh_m2_dia": "5,49462208330957",
+    "Irradiacao_minima_MJ_m2_dia": "4,164958953857422",
+    "Irradiacao_maxima_MJ_m2_dia": "31,833147048950195",
+    "Desvio_padrao_MJ_m2_dia": "6,017247236826399",
+    "Irradiancia_media_24h_W_m2": "228,942586763309"
+  },
+  {
+    "GID_2": "Inhambane_Mabote",
+    "Provincia": "Inhambane",
+    "Distrito": "Mabote",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,963848607787668",
+    "Irradiacao_media_kWh_m2_dia": "5,54551349523289",
+    "Irradiacao_minima_MJ_m2_dia": "3,0870699882507324",
+    "Irradiacao_maxima_MJ_m2_dia": "31,166772842407227",
+    "Desvio_padrao_MJ_m2_dia": "5,683809696568693",
+    "Irradiancia_media_24h_W_m2": "231,0630621362905"
+  },
+  {
+    "GID_2": "Inhambane_Massinga",
+    "Provincia": "Inhambane",
+    "Distrito": "Massinga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,05368163742003",
+    "Irradiacao_media_kWh_m2_dia": "5,29268935534472",
+    "Irradiacao_minima_MJ_m2_dia": "1,9212620258331299",
+    "Irradiacao_maxima_MJ_m2_dia": "30,981884002685547",
+    "Desvio_padrao_MJ_m2_dia": "5,8047692688696255",
+    "Irradiancia_media_24h_W_m2": "220,52872311743232"
+  },
+  {
+    "GID_2": "Inhambane_Maxixe",
+    "Provincia": "Inhambane",
+    "Distrito": "Maxixe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,75296699935621",
+    "Irradiacao_media_kWh_m2_dia": "5,486935276477063",
+    "Irradiacao_minima_MJ_m2_dia": "3,838409900665283",
+    "Irradiacao_maxima_MJ_m2_dia": "31,607027053833008",
+    "Desvio_padrao_MJ_m2_dia": "5,952927644242463",
+    "Irradiancia_media_24h_W_m2": "228,62230350932137"
+  },
+  {
+    "GID_2": "Inhambane_Morrumbene",
+    "Provincia": "Inhambane",
+    "Distrito": "Morrumbene",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,36200769872613",
+    "Irradiacao_media_kWh_m2_dia": "5,3783354824358",
+    "Irradiacao_minima_MJ_m2_dia": "2,8271799087524414",
+    "Irradiacao_maxima_MJ_m2_dia": "31,58447265625",
+    "Desvio_padrao_MJ_m2_dia": "5,8232536407742845",
+    "Irradiancia_media_24h_W_m2": "224,09731168694836"
+  },
+  {
+    "GID_2": "Inhambane_Panda",
+    "Provincia": "Inhambane",
+    "Distrito": "Panda",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,694813934180253",
+    "Irradiacao_media_kWh_m2_dia": "5,193003876450283",
+    "Irradiacao_minima_MJ_m2_dia": "1,8057379722595215",
+    "Irradiacao_maxima_MJ_m2_dia": "31,460487365722656",
+    "Desvio_padrao_MJ_m2_dia": "6,037541035316501",
+    "Irradiancia_media_24h_W_m2": "216,37516126997483"
+  },
+  {
+    "GID_2": "Inhambane_Vilanculos",
+    "Provincia": "Inhambane",
+    "Distrito": "Vilanculos",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,258479875293585",
+    "Irradiacao_media_kWh_m2_dia": "5,349577736984837",
+    "Irradiacao_minima_MJ_m2_dia": "2,651731014251709",
+    "Irradiacao_maxima_MJ_m2_dia": "30,892803192138672",
+    "Desvio_padrao_MJ_m2_dia": "5,675597570747548",
+    "Irradiancia_media_24h_W_m2": "222,89907276695544"
+  },
+  {
+    "GID_2": "Inhambane_Zavala",
+    "Provincia": "Inhambane",
+    "Distrito": "Zavala",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,53177057459055",
+    "Irradiacao_media_kWh_m2_dia": "5,425491801050843",
+    "Irradiacao_minima_MJ_m2_dia": "3,0139999389648438",
+    "Irradiacao_maxima_MJ_m2_dia": "31,716819763183594",
+    "Desvio_padrao_MJ_m2_dia": "6,1405664950467544",
+    "Irradiancia_media_24h_W_m2": "226,0621583136053"
+  },
+  {
+    "GID_2": "Manica_Barue",
+    "Provincia": "Manica",
+    "Distrito": "Barue",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,605608903645166",
+    "Irradiacao_media_kWh_m2_dia": "5,723780239214663",
+    "Irradiacao_minima_MJ_m2_dia": "3,398102045059204",
+    "Irradiacao_maxima_MJ_m2_dia": "32,24677658081055",
+    "Desvio_padrao_MJ_m2_dia": "5,5302877068595935",
+    "Irradiancia_media_24h_W_m2": "238,49084375725417"
+  },
+  {
+    "GID_2": "Manica_Chimoio",
+    "Provincia": "Manica",
+    "Distrito": "Chimoio",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,37687680369518",
+    "Irradiacao_media_kWh_m2_dia": "5,660243555822007",
+    "Irradiacao_minima_MJ_m2_dia": "3,1485280990600586",
+    "Irradiacao_maxima_MJ_m2_dia": "32,195648193359375",
+    "Desvio_padrao_MJ_m2_dia": "5,898249956602787",
+    "Irradiancia_media_24h_W_m2": "235,84348111595614"
+  },
+  {
+    "GID_2": "Manica_Gondola",
+    "Provincia": "Manica",
+    "Distrito": "Gondola",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,226981188430162",
+    "Irradiacao_media_kWh_m2_dia": "5,618605890886379",
+    "Irradiacao_minima_MJ_m2_dia": "2,7859559059143066",
+    "Irradiacao_maxima_MJ_m2_dia": "32,089881896972656",
+    "Desvio_padrao_MJ_m2_dia": "5,879101915388219",
+    "Irradiancia_media_24h_W_m2": "234,10857829109568"
+  },
+  {
+    "GID_2": "Manica_Guro",
+    "Provincia": "Manica",
+    "Distrito": "Guro",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,870112852972063",
+    "Irradiacao_media_kWh_m2_dia": "5,797253575481352",
+    "Irradiacao_minima_MJ_m2_dia": "4,03671407699585",
+    "Irradiacao_maxima_MJ_m2_dia": "31,707839965820312",
+    "Desvio_padrao_MJ_m2_dia": "5,200022309103699",
+    "Irradiancia_media_24h_W_m2": "241,55223204399067"
+  },
+  {
+    "GID_2": "Manica_Macate",
+    "Provincia": "Manica",
+    "Distrito": "Macate",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,30725050233101",
+    "Irradiacao_media_kWh_m2_dia": "5,640902920010311",
+    "Irradiacao_minima_MJ_m2_dia": "3,0070600509643555",
+    "Irradiacao_maxima_MJ_m2_dia": "32,13614273071289",
+    "Desvio_padrao_MJ_m2_dia": "5,94429325475387",
+    "Irradiancia_media_24h_W_m2": "235,03762160754596"
+  },
+  {
+    "GID_2": "Manica_Machaze",
+    "Provincia": "Manica",
+    "Distrito": "Machaze",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,054193398340153",
+    "Irradiacao_media_kWh_m2_dia": "5,570609281460444",
+    "Irradiacao_minima_MJ_m2_dia": "3,0203349590301514",
+    "Irradiacao_maxima_MJ_m2_dia": "31,612939834594727",
+    "Desvio_padrao_MJ_m2_dia": "5,935645311946871",
+    "Irradiancia_media_24h_W_m2": "232,10871907010105"
+  },
+  {
+    "GID_2": "Manica_Macossa",
+    "Provincia": "Manica",
+    "Distrito": "Macossa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,072633859238337",
+    "Irradiacao_media_kWh_m2_dia": "5,575731639816461",
+    "Irradiacao_minima_MJ_m2_dia": "2,32928204536438",
+    "Irradiacao_maxima_MJ_m2_dia": "31,662723541259766",
+    "Desvio_padrao_MJ_m2_dia": "5,874712968118984",
+    "Irradiancia_media_24h_W_m2": "232,32215104858733"
+  },
+  {
+    "GID_2": "Manica_Manica",
+    "Provincia": "Manica",
+    "Distrito": "Manica",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,43318786321442",
+    "Irradiacao_media_kWh_m2_dia": "5,67588550845782",
+    "Irradiacao_minima_MJ_m2_dia": "3,056368112564087",
+    "Irradiacao_maxima_MJ_m2_dia": "32,271690368652344",
+    "Desvio_padrao_MJ_m2_dia": "5,9683201951770695",
+    "Irradiancia_media_24h_W_m2": "236,49522972106934"
+  },
+  {
+    "GID_2": "Manica_Mossurize",
+    "Provincia": "Manica",
+    "Distrito": "Mossurize",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,29556351672105",
+    "Irradiacao_media_kWh_m2_dia": "5,637656525835965",
+    "Irradiacao_minima_MJ_m2_dia": "4,206783771514893",
+    "Irradiacao_maxima_MJ_m2_dia": "32,00315475463867",
+    "Desvio_padrao_MJ_m2_dia": "6,177366727240886",
+    "Irradiancia_media_24h_W_m2": "234,9023552983185"
+  },
+  {
+    "GID_2": "Manica_Sussundenga",
+    "Provincia": "Manica",
+    "Distrito": "Sussundenga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,434461893279696",
+    "Irradiacao_media_kWh_m2_dia": "5,676239395727877",
+    "Irradiacao_minima_MJ_m2_dia": "3,940000057220459",
+    "Irradiacao_maxima_MJ_m2_dia": "32,27113342285156",
+    "Desvio_padrao_MJ_m2_dia": "5,926925204118955",
+    "Irradiancia_media_24h_W_m2": "236,50997533954558"
+  },
+  {
+    "GID_2": "Manica_Tambara",
+    "Provincia": "Manica",
+    "Distrito": "Tambara",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,451267646961526",
+    "Irradiacao_media_kWh_m2_dia": "5,680907685085724",
+    "Irradiacao_minima_MJ_m2_dia": "3,1679859161376953",
+    "Irradiacao_maxima_MJ_m2_dia": "31,58620834350586",
+    "Desvio_padrao_MJ_m2_dia": "5,375372651419585",
+    "Irradiancia_media_24h_W_m2": "236,70448665931576"
+  },
+  {
+    "GID_2": "Manica_Vanduzi",
+    "Provincia": "Manica",
+    "Distrito": "Vanduzi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,371674574789452",
+    "Irradiacao_media_kWh_m2_dia": "5,658798499999802",
+    "Irradiacao_minima_MJ_m2_dia": "3,1500439643859863",
+    "Irradiacao_maxima_MJ_m2_dia": "32,20237731933594",
+    "Desvio_padrao_MJ_m2_dia": "5,948491216501698",
+    "Irradiancia_media_24h_W_m2": "235,78327063263438"
+  },
+  {
+    "GID_2": "Maputo_Boane",
+    "Provincia": "Maputo",
+    "Distrito": "Boane",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,37636512094508",
+    "Irradiacao_media_kWh_m2_dia": "4,826768086907642",
+    "Irradiacao_minima_MJ_m2_dia": "2,622107982635498",
+    "Irradiacao_maxima_MJ_m2_dia": "30,69481658935547",
+    "Desvio_padrao_MJ_m2_dia": "6,328797208409682",
+    "Irradiancia_media_24h_W_m2": "201,11533708520275"
+  },
+  {
+    "GID_2": "Maputo_Magude",
+    "Provincia": "Maputo",
+    "Distrito": "Magude",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,696445955604805",
+    "Irradiacao_media_kWh_m2_dia": "4,915679432818147",
+    "Irradiacao_minima_MJ_m2_dia": "2,5504980087280273",
+    "Irradiacao_maxima_MJ_m2_dia": "31,108264923095703",
+    "Desvio_padrao_MJ_m2_dia": "6,536864900601717",
+    "Irradiancia_media_24h_W_m2": "204,81997661903256"
+  },
+  {
+    "GID_2": "Maputo_Manhiça",
+    "Provincia": "Maputo",
+    "Distrito": "Manhiça",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,02990110584947",
+    "Irradiacao_media_kWh_m2_dia": "5,0083058650702075",
+    "Irradiacao_minima_MJ_m2_dia": "3,042695999145508",
+    "Irradiacao_maxima_MJ_m2_dia": "30,917987823486328",
+    "Desvio_padrao_MJ_m2_dia": "6,344658520823171",
+    "Irradiancia_media_24h_W_m2": "208,67941075726284"
+  },
+  {
+    "GID_2": "Maputo_Maputo",
+    "Provincia": "Maputo",
+    "Distrito": "Maputo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,836734220629832",
+    "Irradiacao_media_kWh_m2_dia": "4,954648401242136",
+    "Irradiacao_minima_MJ_m2_dia": "2,864109992980957",
+    "Irradiacao_maxima_MJ_m2_dia": "30,653032302856445",
+    "Desvio_padrao_MJ_m2_dia": "6,3241055862842",
+    "Irradiancia_media_24h_W_m2": "206,44368398906104"
+  },
+  {
+    "GID_2": "Maputo_Marracuene",
+    "Provincia": "Maputo",
+    "Distrito": "Marracuene",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "18,06394120448274",
+    "Irradiacao_media_kWh_m2_dia": "5,0177614548818665",
+    "Irradiacao_minima_MJ_m2_dia": "3,0331358909606934",
+    "Irradiacao_maxima_MJ_m2_dia": "30,75501251220703",
+    "Desvio_padrao_MJ_m2_dia": "6,382665490570043",
+    "Irradiancia_media_24h_W_m2": "209,07339364974226"
+  },
+  {
+    "GID_2": "Maputo_Matola",
+    "Provincia": "Maputo",
+    "Distrito": "Matola",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,584357336570655",
+    "Irradiacao_media_kWh_m2_dia": "4,884543691665097",
+    "Irradiacao_minima_MJ_m2_dia": "2,743391990661621",
+    "Irradiacao_maxima_MJ_m2_dia": "30,625959396362305",
+    "Desvio_padrao_MJ_m2_dia": "6,306808050726853",
+    "Irradiancia_media_24h_W_m2": "203,52265421028346"
+  },
+  {
+    "GID_2": "Maputo_Matutuíne",
+    "Provincia": "Maputo",
+    "Distrito": "Matutuíne",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,884238183172673",
+    "Irradiacao_media_kWh_m2_dia": "4,9678439398606615",
+    "Irradiacao_minima_MJ_m2_dia": "3,1579179763793945",
+    "Irradiacao_maxima_MJ_m2_dia": "30,671085357666016",
+    "Desvio_padrao_MJ_m2_dia": "6,246870341463727",
+    "Irradiancia_media_24h_W_m2": "206,99349769217068"
+  },
+  {
+    "GID_2": "Maputo_Moamba",
+    "Provincia": "Maputo",
+    "Distrito": "Moamba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "17,38053141461044",
+    "Irradiacao_media_kWh_m2_dia": "4,827925392187359",
+    "Irradiacao_minima_MJ_m2_dia": "2,4238879680633545",
+    "Irradiacao_maxima_MJ_m2_dia": "30,84800148010254",
+    "Desvio_padrao_MJ_m2_dia": "6,432800660149464",
+    "Irradiancia_media_24h_W_m2": "201,16355810009065"
+  },
+  {
+    "GID_2": "Maputo_Namaacha",
+    "Provincia": "Maputo",
+    "Distrito": "Namaacha",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "16,96266253984691",
+    "Irradiacao_media_kWh_m2_dia": "4,711850711393877",
+    "Irradiacao_minima_MJ_m2_dia": "2,4240341186523438",
+    "Irradiacao_maxima_MJ_m2_dia": "31,101913452148438",
+    "Desvio_padrao_MJ_m2_dia": "6,363429952962468",
+    "Irradiancia_media_24h_W_m2": "196,3271123802727"
+  },
+  {
+    "GID_2": "Nampula_Angoche",
+    "Provincia": "Nampula",
+    "Distrito": "Angoche",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,4396206094919",
+    "Irradiacao_media_kWh_m2_dia": "5,67767240375769",
+    "Irradiacao_minima_MJ_m2_dia": "8,899027824401855",
+    "Irradiacao_maxima_MJ_m2_dia": "29,3018798828125",
+    "Desvio_padrao_MJ_m2_dia": "4,592208828150712",
+    "Irradiancia_media_24h_W_m2": "236,56968280396174"
+  },
+  {
+    "GID_2": "Nampula_Erati",
+    "Provincia": "Nampula",
+    "Distrito": "Erati",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,386087270382323",
+    "Irradiacao_media_kWh_m2_dia": "5,385024254439307",
+    "Irradiacao_minima_MJ_m2_dia": "2,834775924682617",
+    "Irradiacao_maxima_MJ_m2_dia": "29,239063262939453",
+    "Desvio_padrao_MJ_m2_dia": "4,2825194133901725",
+    "Irradiancia_media_24h_W_m2": "224,3760103319512"
+  },
+  {
+    "GID_2": "Nampula_Ilha de Moçambique",
+    "Provincia": "Nampula",
+    "Distrito": "Ilha de Moçambique",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "21,039673398752683",
+    "Irradiacao_media_kWh_m2_dia": "5,844353717207257",
+    "Irradiacao_minima_MJ_m2_dia": "4,117949962615967",
+    "Irradiacao_maxima_MJ_m2_dia": "29,121976852416992",
+    "Desvio_padrao_MJ_m2_dia": "4,614593868255827",
+    "Irradiancia_media_24h_W_m2": "243,51473777020564"
+  },
+  {
+    "GID_2": "Nampula_Lalaua",
+    "Provincia": "Nampula",
+    "Distrito": "Lalaua",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,259790017956593",
+    "Irradiacao_media_kWh_m2_dia": "5,6277194583350845",
+    "Irradiacao_minima_MJ_m2_dia": "7,494200229644775",
+    "Irradiacao_maxima_MJ_m2_dia": "29,83625602722168",
+    "Desvio_padrao_MJ_m2_dia": "4,31934926941389",
+    "Irradiancia_media_24h_W_m2": "234,48830991234286"
+  },
+  {
+    "GID_2": "Nampula_Larde",
+    "Provincia": "Nampula",
+    "Distrito": "Larde",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,891739995101762",
+    "Irradiacao_media_kWh_m2_dia": "5,80326111785701",
+    "Irradiacao_minima_MJ_m2_dia": "4,3267998695373535",
+    "Irradiacao_maxima_MJ_m2_dia": "29,038904190063477",
+    "Desvio_padrao_MJ_m2_dia": "4,553982982651678",
+    "Irradiancia_media_24h_W_m2": "241,80254682947378"
+  },
+  {
+    "GID_2": "Nampula_Liupo",
+    "Provincia": "Nampula",
+    "Distrito": "Liupo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,5495849131235",
+    "Irradiacao_media_kWh_m2_dia": "5,430440240218991",
+    "Irradiacao_minima_MJ_m2_dia": "3,445552110671997",
+    "Irradiacao_maxima_MJ_m2_dia": "28,51799201965332",
+    "Desvio_padrao_MJ_m2_dia": "4,343570773739458",
+    "Irradiancia_media_24h_W_m2": "226,26834312814182"
+  },
+  {
+    "GID_2": "Nampula_Malema",
+    "Provincia": "Nampula",
+    "Distrito": "Malema",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,301212469736736",
+    "Irradiacao_media_kWh_m2_dia": "5,6392256900912425",
+    "Irradiacao_minima_MJ_m2_dia": "6,800337791442871",
+    "Irradiacao_maxima_MJ_m2_dia": "31,335535049438477",
+    "Desvio_padrao_MJ_m2_dia": "4,352051536060318",
+    "Irradiancia_media_24h_W_m2": "234,9677369373092"
+  },
+  {
+    "GID_2": "Nampula_Meconta",
+    "Provincia": "Nampula",
+    "Distrito": "Meconta",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,509982129915166",
+    "Irradiacao_media_kWh_m2_dia": "5,419439483210037",
+    "Irradiacao_minima_MJ_m2_dia": "4,096928119659424",
+    "Irradiacao_maxima_MJ_m2_dia": "28,862951278686523",
+    "Desvio_padrao_MJ_m2_dia": "4,564538747387918",
+    "Irradiancia_media_24h_W_m2": "225,80997881863286"
+  },
+  {
+    "GID_2": "Nampula_Mecuburi",
+    "Provincia": "Nampula",
+    "Distrito": "Mecuburi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,195676120252557",
+    "Irradiacao_media_kWh_m2_dia": "5,609910026599801",
+    "Irradiacao_minima_MJ_m2_dia": "3,815563917160034",
+    "Irradiacao_maxima_MJ_m2_dia": "30,15471649169922",
+    "Desvio_padrao_MJ_m2_dia": "4,281755968738352",
+    "Irradiancia_media_24h_W_m2": "233,74625096555616"
+  },
+  {
+    "GID_2": "Nampula_Memba",
+    "Provincia": "Nampula",
+    "Distrito": "Memba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,31961475955984",
+    "Irradiacao_media_kWh_m2_dia": "5,644337439146198",
+    "Irradiacao_minima_MJ_m2_dia": "4,176509857177734",
+    "Irradiacao_maxima_MJ_m2_dia": "29,26173210144043",
+    "Desvio_padrao_MJ_m2_dia": "4,4354504990466115",
+    "Irradiancia_media_24h_W_m2": "235,18072669232478"
+  },
+  {
+    "GID_2": "Nampula_Mogovolas",
+    "Provincia": "Nampula",
+    "Distrito": "Mogovolas",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,641809902555956",
+    "Irradiacao_media_kWh_m2_dia": "5,4560583119835355",
+    "Irradiacao_minima_MJ_m2_dia": "4,6518120765686035",
+    "Irradiacao_maxima_MJ_m2_dia": "29,50374412536621",
+    "Desvio_padrao_MJ_m2_dia": "4,775251019868829",
+    "Irradiancia_media_24h_W_m2": "227,33576306619278"
+  },
+  {
+    "GID_2": "Nampula_Moma",
+    "Provincia": "Nampula",
+    "Distrito": "Moma",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,319884034453846",
+    "Irradiacao_media_kWh_m2_dia": "5,366634454232096",
+    "Irradiacao_minima_MJ_m2_dia": "9,211883544921875",
+    "Irradiacao_maxima_MJ_m2_dia": "29,60513687133789",
+    "Desvio_padrao_MJ_m2_dia": "4,66878894535622",
+    "Irradiancia_media_24h_W_m2": "223,60976833072516"
+  },
+  {
+    "GID_2": "Nampula_Monapo",
+    "Provincia": "Nampula",
+    "Distrito": "Monapo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,5684641671311",
+    "Irradiacao_media_kWh_m2_dia": "5,435684500821953",
+    "Irradiacao_minima_MJ_m2_dia": "3,4168519973754883",
+    "Irradiacao_maxima_MJ_m2_dia": "28,65399932861328",
+    "Desvio_padrao_MJ_m2_dia": "4,314868005245761",
+    "Irradiancia_media_24h_W_m2": "226,4868534275743"
+  },
+  {
+    "GID_2": "Nampula_Mongincual",
+    "Provincia": "Nampula",
+    "Distrito": "Mongincual",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,964711775545215",
+    "Irradiacao_media_kWh_m2_dia": "5,5457532640363345",
+    "Irradiacao_minima_MJ_m2_dia": "5,706399917602539",
+    "Irradiacao_maxima_MJ_m2_dia": "28,823780059814453",
+    "Desvio_padrao_MJ_m2_dia": "4,437066338305969",
+    "Irradiancia_media_24h_W_m2": "231,07305197377022"
+  },
+  {
+    "GID_2": "Nampula_Mossuril",
+    "Provincia": "Nampula",
+    "Distrito": "Mossuril",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,66446753798938",
+    "Irradiacao_media_kWh_m2_dia": "5,740129870143744",
+    "Irradiacao_minima_MJ_m2_dia": "5,031970024108887",
+    "Irradiacao_maxima_MJ_m2_dia": "28,837324142456055",
+    "Desvio_padrao_MJ_m2_dia": "4,502190001397122",
+    "Irradiancia_media_24h_W_m2": "239,1720773457178"
+  },
+  {
+    "GID_2": "Nampula_Muecate",
+    "Provincia": "Nampula",
+    "Distrito": "Muecate",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,668116614466808",
+    "Irradiacao_media_kWh_m2_dia": "5,463365722549417",
+    "Irradiacao_minima_MJ_m2_dia": "2,631903886795044",
+    "Irradiacao_maxima_MJ_m2_dia": "29,735992431640625",
+    "Desvio_padrao_MJ_m2_dia": "4,3091812596581835",
+    "Irradiancia_media_24h_W_m2": "227,64023887655122"
+  },
+  {
+    "GID_2": "Nampula_Murrupula",
+    "Provincia": "Nampula",
+    "Distrito": "Murrupula",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,742549965290426",
+    "Irradiacao_media_kWh_m2_dia": "5,4840416449015255",
+    "Irradiacao_minima_MJ_m2_dia": "6,1567559242248535",
+    "Irradiacao_maxima_MJ_m2_dia": "30,93360710144043",
+    "Desvio_padrao_MJ_m2_dia": "4,75833296673274",
+    "Irradiancia_media_24h_W_m2": "228,50173558302916"
+  },
+  {
+    "GID_2": "Nampula_Nacala Porto",
+    "Provincia": "Nampula",
+    "Distrito": "Nacala Porto",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "21,24257622585922",
+    "Irradiacao_media_kWh_m2_dia": "5,900715619325638",
+    "Irradiacao_minima_MJ_m2_dia": "2,8307740688323975",
+    "Irradiacao_maxima_MJ_m2_dia": "29,473247528076172",
+    "Desvio_padrao_MJ_m2_dia": "4,534972022045638",
+    "Irradiancia_media_24h_W_m2": "245,86315083112873"
+  },
+  {
+    "GID_2": "Nampula_Nacala Velha",
+    "Provincia": "Nampula",
+    "Distrito": "Nacala Velha",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,818357704767113",
+    "Irradiacao_media_kWh_m2_dia": "5,782877134820803",
+    "Irradiacao_minima_MJ_m2_dia": "4,032586097717285",
+    "Irradiacao_maxima_MJ_m2_dia": "29,38490867614746",
+    "Desvio_padrao_MJ_m2_dia": "4,410396685781112",
+    "Irradiancia_media_24h_W_m2": "240,95321402002554"
+  },
+  {
+    "GID_2": "Nampula_Namapa",
+    "Provincia": "Nampula",
+    "Distrito": "Namapa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,254268005246022",
+    "Irradiacao_media_kWh_m2_dia": "5,348407785912029",
+    "Irradiacao_minima_MJ_m2_dia": "2,1998119354248047",
+    "Irradiacao_maxima_MJ_m2_dia": "28,956012725830078",
+    "Desvio_padrao_MJ_m2_dia": "4,38899779682475",
+    "Irradiancia_media_24h_W_m2": "222,85032420861916"
+  },
+  {
+    "GID_2": "Nampula_Nampula",
+    "Provincia": "Nampula",
+    "Distrito": "Nampula",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,805436295889766",
+    "Irradiacao_media_kWh_m2_dia": "5,501510081395425",
+    "Irradiacao_minima_MJ_m2_dia": "4,694863796234131",
+    "Irradiacao_maxima_MJ_m2_dia": "30,425228118896484",
+    "Desvio_padrao_MJ_m2_dia": "4,59251772613536",
+    "Irradiancia_media_24h_W_m2": "229,22958696083944"
+  },
+  {
+    "GID_2": "Nampula_Rapale",
+    "Provincia": "Nampula",
+    "Distrito": "Rapale",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,803986077751617",
+    "Irradiacao_media_kWh_m2_dia": "5,5011072487779",
+    "Irradiacao_minima_MJ_m2_dia": "4,436140060424805",
+    "Irradiacao_maxima_MJ_m2_dia": "30,263587951660156",
+    "Desvio_padrao_MJ_m2_dia": "4,585709763827418",
+    "Irradiancia_media_24h_W_m2": "229,21280181342786"
+  },
+  {
+    "GID_2": "Nampula_Ribaue",
+    "Provincia": "Nampula",
+    "Distrito": "Ribaue",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,768161844034665",
+    "Irradiacao_media_kWh_m2_dia": "5,491156059536126",
+    "Irradiacao_minima_MJ_m2_dia": "6,327216148376465",
+    "Irradiacao_maxima_MJ_m2_dia": "31,09977149963379",
+    "Desvio_padrao_MJ_m2_dia": "4,592019900851364",
+    "Irradiancia_media_24h_W_m2": "228,79816930802141"
+  },
+  {
+    "GID_2": "Niassa_Chimbonila",
+    "Provincia": "Niassa",
+    "Distrito": "Chimbonila",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,41589775502356",
+    "Irradiacao_media_kWh_m2_dia": "5,393304938012785",
+    "Irradiacao_minima_MJ_m2_dia": "3,2786059379577637",
+    "Irradiacao_maxima_MJ_m2_dia": "28,89740753173828",
+    "Desvio_padrao_MJ_m2_dia": "4,884616189205756",
+    "Irradiancia_media_24h_W_m2": "224,7210392248435"
+  },
+  {
+    "GID_2": "Niassa_Cuamba",
+    "Provincia": "Niassa",
+    "Distrito": "Cuamba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,396602977169017",
+    "Irradiacao_media_kWh_m2_dia": "5,665723058369641",
+    "Irradiacao_minima_MJ_m2_dia": "6,167362213134766",
+    "Irradiacao_maxima_MJ_m2_dia": "31,24360466003418",
+    "Desvio_padrao_MJ_m2_dia": "4,667671370239371",
+    "Irradiancia_media_24h_W_m2": "236,07179424932093"
+  },
+  {
+    "GID_2": "Niassa_Lago",
+    "Provincia": "Niassa",
+    "Distrito": "Lago",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,631919079139585",
+    "Irradiacao_media_kWh_m2_dia": "5,731088629511536",
+    "Irradiacao_minima_MJ_m2_dia": "4,765944004058838",
+    "Irradiacao_maxima_MJ_m2_dia": "28,400711059570312",
+    "Desvio_padrao_MJ_m2_dia": "5,022558308057812",
+    "Irradiancia_media_24h_W_m2": "238,79535928319712"
+  },
+  {
+    "GID_2": "Niassa_Lichinga",
+    "Provincia": "Niassa",
+    "Distrito": "Lichinga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,39076286196057",
+    "Irradiacao_media_kWh_m2_dia": "5,386323022060707",
+    "Irradiacao_minima_MJ_m2_dia": "3,4336280822753906",
+    "Irradiacao_maxima_MJ_m2_dia": "29,188636779785156",
+    "Desvio_padrao_MJ_m2_dia": "4,88789227675896",
+    "Irradiancia_media_24h_W_m2": "224,43012539806261"
+  },
+  {
+    "GID_2": "Niassa_Majune",
+    "Provincia": "Niassa",
+    "Distrito": "Majune",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,24539717559606",
+    "Irradiacao_media_kWh_m2_dia": "5,345943676643684",
+    "Irradiacao_minima_MJ_m2_dia": "4,4216718673706055",
+    "Irradiacao_maxima_MJ_m2_dia": "28,39948844909668",
+    "Desvio_padrao_MJ_m2_dia": "4,921677380355523",
+    "Irradiancia_media_24h_W_m2": "222,7476528251106"
+  },
+  {
+    "GID_2": "Niassa_Mandimba",
+    "Provincia": "Niassa",
+    "Distrito": "Mandimba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,960654697783006",
+    "Irradiacao_media_kWh_m2_dia": "5,544626307617771",
+    "Irradiacao_minima_MJ_m2_dia": "4,564943790435791",
+    "Irradiacao_maxima_MJ_m2_dia": "28,852439880371094",
+    "Desvio_padrao_MJ_m2_dia": "4,826564522454865",
+    "Irradiancia_media_24h_W_m2": "231,02609598962334"
+  },
+  {
+    "GID_2": "Niassa_Marrupa",
+    "Provincia": "Niassa",
+    "Distrito": "Marrupa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,946515863059",
+    "Irradiacao_media_kWh_m2_dia": "5,540698861815239",
+    "Irradiacao_minima_MJ_m2_dia": "3,881645917892456",
+    "Irradiacao_maxima_MJ_m2_dia": "28,84158706665039",
+    "Desvio_padrao_MJ_m2_dia": "4,6533237649733445",
+    "Irradiancia_media_24h_W_m2": "230,8624527206838"
+  },
+  {
+    "GID_2": "Niassa_Mavago",
+    "Provincia": "Niassa",
+    "Distrito": "Mavago",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,136061099057642",
+    "Irradiacao_media_kWh_m2_dia": "5,315572516188595",
+    "Irradiacao_minima_MJ_m2_dia": "4,170380115509033",
+    "Irradiacao_maxima_MJ_m2_dia": "28,322668075561523",
+    "Desvio_padrao_MJ_m2_dia": "4,910653702507165",
+    "Irradiancia_media_24h_W_m2": "221,4821881987358"
+  },
+  {
+    "GID_2": "Niassa_Maúa",
+    "Provincia": "Niassa",
+    "Distrito": "Maúa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,560229249339287",
+    "Irradiacao_media_kWh_m2_dia": "5,433397011353018",
+    "Irradiacao_minima_MJ_m2_dia": "4,6999640464782715",
+    "Irradiacao_maxima_MJ_m2_dia": "28,719100952148438",
+    "Desvio_padrao_MJ_m2_dia": "4,646141461595807",
+    "Irradiancia_media_24h_W_m2": "226,39154248680575"
+  },
+  {
+    "GID_2": "Niassa_Mecanhelas",
+    "Provincia": "Niassa",
+    "Distrito": "Mecanhelas",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,516720001163378",
+    "Irradiacao_media_kWh_m2_dia": "5,6990888933015",
+    "Irradiacao_minima_MJ_m2_dia": "3,732342004776001",
+    "Irradiacao_maxima_MJ_m2_dia": "30,850919723510742",
+    "Desvio_padrao_MJ_m2_dia": "4,760229966019788",
+    "Irradiancia_media_24h_W_m2": "237,46203709169816"
+  },
+  {
+    "GID_2": "Niassa_Mecula",
+    "Provincia": "Niassa",
+    "Distrito": "Mecula",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,981667220918208",
+    "Irradiacao_media_kWh_m2_dia": "5,550463118351223",
+    "Irradiacao_minima_MJ_m2_dia": "3,209731101989746",
+    "Irradiacao_maxima_MJ_m2_dia": "28,409032821655273",
+    "Desvio_padrao_MJ_m2_dia": "4,781198503820414",
+    "Irradiancia_media_24h_W_m2": "231,2692967399222"
+  },
+  {
+    "GID_2": "Niassa_Metarica",
+    "Provincia": "Niassa",
+    "Distrito": "Metarica",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,0674234035888",
+    "Irradiacao_media_kWh_m2_dia": "5,574284282538409",
+    "Irradiacao_minima_MJ_m2_dia": "4,574059963226318",
+    "Irradiacao_maxima_MJ_m2_dia": "29,929092407226562",
+    "Desvio_padrao_MJ_m2_dia": "4,638292463528538",
+    "Irradiancia_media_24h_W_m2": "232,26184543755537"
+  },
+  {
+    "GID_2": "Niassa_Muembe",
+    "Provincia": "Niassa",
+    "Distrito": "Muembe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,12318914249295",
+    "Irradiacao_media_kWh_m2_dia": "5,311996978977339",
+    "Irradiacao_minima_MJ_m2_dia": "3,2157280445098877",
+    "Irradiacao_maxima_MJ_m2_dia": "28,094486236572266",
+    "Desvio_padrao_MJ_m2_dia": "5,143888851997273",
+    "Irradiancia_media_24h_W_m2": "221,33320774015834"
+  },
+  {
+    "GID_2": "Niassa_N'gauma",
+    "Provincia": "Niassa",
+    "Distrito": "N'gauma",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,827343802634484",
+    "Irradiacao_media_kWh_m2_dia": "5,507595505545048",
+    "Irradiacao_minima_MJ_m2_dia": "4,511072158813477",
+    "Irradiacao_maxima_MJ_m2_dia": "28,839719772338867",
+    "Desvio_padrao_MJ_m2_dia": "4,861272057117066",
+    "Irradiancia_media_24h_W_m2": "229,48314636522304"
+  },
+  {
+    "GID_2": "Niassa_Nipepe",
+    "Provincia": "Niassa",
+    "Distrito": "Nipepe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,062170109462215",
+    "Irradiacao_media_kWh_m2_dia": "5,572825029248097",
+    "Irradiacao_minima_MJ_m2_dia": "6,262832164764404",
+    "Irradiacao_maxima_MJ_m2_dia": "29,131540298461914",
+    "Desvio_padrao_MJ_m2_dia": "4,430338969817125",
+    "Irradiancia_media_24h_W_m2": "232,2010427589625"
+  },
+  {
+    "GID_2": "Niassa_Sanga",
+    "Provincia": "Niassa",
+    "Distrito": "Sanga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,332775812982863",
+    "Irradiacao_media_kWh_m2_dia": "5,370215486307613",
+    "Irradiacao_minima_MJ_m2_dia": "3,88729190826416",
+    "Irradiacao_maxima_MJ_m2_dia": "28,548860549926758",
+    "Desvio_padrao_MJ_m2_dia": "5,093682333262175",
+    "Irradiancia_media_24h_W_m2": "223,75897909904438"
+  },
+  {
+    "GID_2": "Sofala_Beira",
+    "Provincia": "Sofala",
+    "Distrito": "Beira",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,587355994135955",
+    "Irradiacao_media_kWh_m2_dia": "5,4409322289169815",
+    "Irradiacao_minima_MJ_m2_dia": "3,1549758911132812",
+    "Irradiacao_maxima_MJ_m2_dia": "30,24335289001465",
+    "Desvio_padrao_MJ_m2_dia": "5,427761609070213",
+    "Irradiancia_media_24h_W_m2": "226,70550902945095"
+  },
+  {
+    "GID_2": "Sofala_Buzi",
+    "Provincia": "Sofala",
+    "Distrito": "Buzi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,353461816662648",
+    "Irradiacao_media_kWh_m2_dia": "5,375961615088207",
+    "Irradiacao_minima_MJ_m2_dia": "4,351572036743164",
+    "Irradiacao_maxima_MJ_m2_dia": "30,632299423217773",
+    "Desvio_padrao_MJ_m2_dia": "5,510871177855911",
+    "Irradiancia_media_24h_W_m2": "223,99840032858927"
+  },
+  {
+    "GID_2": "Sofala_Caia",
+    "Provincia": "Sofala",
+    "Distrito": "Caia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,67830569236005",
+    "Irradiacao_media_kWh_m2_dia": "5,46619602028138",
+    "Irradiacao_minima_MJ_m2_dia": "2,5671238899230957",
+    "Irradiacao_maxima_MJ_m2_dia": "30,86981964111328",
+    "Desvio_padrao_MJ_m2_dia": "5,464645374729403",
+    "Irradiancia_media_24h_W_m2": "227,75816798079862"
+  },
+  {
+    "GID_2": "Sofala_Chemba",
+    "Provincia": "Sofala",
+    "Distrito": "Chemba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,179827600228982",
+    "Irradiacao_media_kWh_m2_dia": "5,6055076638531816",
+    "Irradiacao_minima_MJ_m2_dia": "2,9757978916168213",
+    "Irradiacao_maxima_MJ_m2_dia": "31,364971160888672",
+    "Desvio_padrao_MJ_m2_dia": "5,4186531642040565",
+    "Irradiancia_media_24h_W_m2": "233,56281962160205"
+  },
+  {
+    "GID_2": "Sofala_Cheringoma",
+    "Provincia": "Sofala",
+    "Distrito": "Cheringoma",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,271994087865444",
+    "Irradiacao_media_kWh_m2_dia": "5,3533316917432465",
+    "Irradiacao_minima_MJ_m2_dia": "2,3452401161193848",
+    "Irradiacao_maxima_MJ_m2_dia": "30,423995971679688",
+    "Desvio_padrao_MJ_m2_dia": "5,34415751625609",
+    "Irradiancia_media_24h_W_m2": "223,05548622047965"
+  },
+  {
+    "GID_2": "Sofala_Chibabava",
+    "Provincia": "Sofala",
+    "Distrito": "Chibabava",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,736779650703806",
+    "Irradiacao_media_kWh_m2_dia": "5,482438809884702",
+    "Irradiacao_minima_MJ_m2_dia": "4,525832176208496",
+    "Irradiacao_maxima_MJ_m2_dia": "31,197763442993164",
+    "Desvio_padrao_MJ_m2_dia": "5,6357098707242415",
+    "Irradiancia_media_24h_W_m2": "228,43495106306233"
+  },
+  {
+    "GID_2": "Sofala_Dondo",
+    "Provincia": "Sofala",
+    "Distrito": "Dondo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,3194843302659",
+    "Irradiacao_media_kWh_m2_dia": "5,366523442861161",
+    "Irradiacao_minima_MJ_m2_dia": "2,3801679611206055",
+    "Irradiacao_maxima_MJ_m2_dia": "30,29163932800293",
+    "Desvio_padrao_MJ_m2_dia": "5,42220037734844",
+    "Irradiancia_media_24h_W_m2": "223,60514392748556"
+  },
+  {
+    "GID_2": "Sofala_Gorongosa",
+    "Provincia": "Sofala",
+    "Distrito": "Gorongosa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,67832255233181",
+    "Irradiacao_media_kWh_m2_dia": "5,466200710971499",
+    "Irradiacao_minima_MJ_m2_dia": "2,171380043029785",
+    "Irradiacao_maxima_MJ_m2_dia": "31,239639282226562",
+    "Desvio_padrao_MJ_m2_dia": "5,705480841138427",
+    "Irradiancia_media_24h_W_m2": "227,75836371333222"
+  },
+  {
+    "GID_2": "Sofala_Machanga",
+    "Provincia": "Sofala",
+    "Distrito": "Machanga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,409833203247988",
+    "Irradiacao_media_kWh_m2_dia": "5,3916203324260605",
+    "Irradiacao_minima_MJ_m2_dia": "3,652340888977051",
+    "Irradiacao_maxima_MJ_m2_dia": "30,608179092407227",
+    "Desvio_padrao_MJ_m2_dia": "5,414838401650048",
+    "Irradiancia_media_24h_W_m2": "224,65084740894088"
+  },
+  {
+    "GID_2": "Sofala_Maringue",
+    "Provincia": "Sofala",
+    "Distrito": "Maringue",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,86950557609725",
+    "Irradiacao_media_kWh_m2_dia": "5,519307095007818",
+    "Irradiacao_minima_MJ_m2_dia": "2,144256114959717",
+    "Irradiacao_maxima_MJ_m2_dia": "31,112943649291992",
+    "Desvio_padrao_MJ_m2_dia": "5,5287764406439885",
+    "Irradiancia_media_24h_W_m2": "229,97112899008997"
+  },
+  {
+    "GID_2": "Sofala_Marromeu",
+    "Provincia": "Sofala",
+    "Distrito": "Marromeu",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,164631571274636",
+    "Irradiacao_media_kWh_m2_dia": "5,323508795167579",
+    "Irradiacao_minima_MJ_m2_dia": "3,0109190940856934",
+    "Irradiacao_maxima_MJ_m2_dia": "29,685867309570312",
+    "Desvio_padrao_MJ_m2_dia": "5,179280205930396",
+    "Irradiancia_media_24h_W_m2": "221,81286567938133"
+  },
+  {
+    "GID_2": "Sofala_Muanza",
+    "Provincia": "Sofala",
+    "Distrito": "Muanza",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,087498101380355",
+    "Irradiacao_media_kWh_m2_dia": "5,30208283662796",
+    "Irradiacao_minima_MJ_m2_dia": "2,176326036453247",
+    "Irradiacao_maxima_MJ_m2_dia": "30,14519691467285",
+    "Desvio_padrao_MJ_m2_dia": "5,381823800876251",
+    "Irradiancia_media_24h_W_m2": "220,92011843092453"
+  },
+  {
+    "GID_2": "Sofala_Nhamatanda",
+    "Provincia": "Sofala",
+    "Distrito": "Nhamatanda",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,566264004003806",
+    "Irradiacao_media_kWh_m2_dia": "5,435073332871244",
+    "Irradiacao_minima_MJ_m2_dia": "2,772387981414795",
+    "Irradiacao_maxima_MJ_m2_dia": "31,60166358947754",
+    "Desvio_padrao_MJ_m2_dia": "5,663624754896828",
+    "Irradiancia_media_24h_W_m2": "226,46138856189498"
+  },
+  {
+    "GID_2": "Tete_Angónia",
+    "Provincia": "Tete",
+    "Distrito": "Angónia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,219900512955878",
+    "Irradiacao_media_kWh_m2_dia": "5,616639023758674",
+    "Irradiacao_minima_MJ_m2_dia": "2,999919891357422",
+    "Irradiacao_maxima_MJ_m2_dia": "31,898752212524414",
+    "Desvio_padrao_MJ_m2_dia": "5,130020923366462",
+    "Irradiancia_media_24h_W_m2": "234,02662633677"
+  },
+  {
+    "GID_2": "Tete_Cahora Bassa",
+    "Provincia": "Tete",
+    "Distrito": "Cahora Bassa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "21,192098341352953",
+    "Irradiacao_media_kWh_m2_dia": "5,886693972381738",
+    "Irradiacao_minima_MJ_m2_dia": "6,322132110595703",
+    "Irradiacao_maxima_MJ_m2_dia": "31,148723602294922",
+    "Desvio_padrao_MJ_m2_dia": "5,1251064644060085",
+    "Irradiancia_media_24h_W_m2": "245,2789156971082"
+  },
+  {
+    "GID_2": "Tete_Changara",
+    "Provincia": "Tete",
+    "Distrito": "Changara",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,822109038712547",
+    "Irradiacao_media_kWh_m2_dia": "5,783919150874914",
+    "Irradiacao_minima_MJ_m2_dia": "2,942068099975586",
+    "Irradiacao_maxima_MJ_m2_dia": "31,503400802612305",
+    "Desvio_padrao_MJ_m2_dia": "5,47936699989831",
+    "Irradiancia_media_24h_W_m2": "240,9966318516132"
+  },
+  {
+    "GID_2": "Tete_Chifunde",
+    "Provincia": "Tete",
+    "Distrito": "Chifunde",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,279608310246076",
+    "Irradiacao_media_kWh_m2_dia": "5,633224516129885",
+    "Irradiacao_minima_MJ_m2_dia": "2,8217599391937256",
+    "Irradiacao_maxima_MJ_m2_dia": "31,589740753173828",
+    "Desvio_padrao_MJ_m2_dia": "5,409981842924133",
+    "Irradiancia_media_24h_W_m2": "234,717689013872"
+  },
+  {
+    "GID_2": "Tete_Chiuta",
+    "Provincia": "Tete",
+    "Distrito": "Chiuta",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,1404313936911",
+    "Irradiacao_media_kWh_m2_dia": "5,594564265240737",
+    "Irradiacao_minima_MJ_m2_dia": "4,250611782073975",
+    "Irradiacao_maxima_MJ_m2_dia": "31,513324737548828",
+    "Desvio_padrao_MJ_m2_dia": "5,5984456678912915",
+    "Irradiancia_media_24h_W_m2": "233,1068445945698"
+  },
+  {
+    "GID_2": "Tete_Doa",
+    "Provincia": "Tete",
+    "Distrito": "Doa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,885844895097076",
+    "Irradiacao_media_kWh_m2_dia": "5,801623587562738",
+    "Irradiacao_minima_MJ_m2_dia": "2,9155759811401367",
+    "Irradiacao_maxima_MJ_m2_dia": "31,576400756835938",
+    "Desvio_padrao_MJ_m2_dia": "5,410472775699873",
+    "Irradiancia_media_24h_W_m2": "241,73431619529515"
+  },
+  {
+    "GID_2": "Tete_Macanga",
+    "Provincia": "Tete",
+    "Distrito": "Macanga",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,06212646453107",
+    "Irradiacao_media_kWh_m2_dia": "5,572812925108144",
+    "Irradiacao_minima_MJ_m2_dia": "3,2325780391693115",
+    "Irradiacao_maxima_MJ_m2_dia": "31,681915283203125",
+    "Desvio_padrao_MJ_m2_dia": "5,357272358513217",
+    "Irradiancia_media_24h_W_m2": "232,20053885412997"
+  },
+  {
+    "GID_2": "Tete_Magoe",
+    "Provincia": "Tete",
+    "Distrito": "Magoe",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "21,49948667698219",
+    "Irradiacao_media_kWh_m2_dia": "5,972079597209972",
+    "Irradiacao_minima_MJ_m2_dia": "6,544392108917236",
+    "Irradiacao_maxima_MJ_m2_dia": "31,1501522064209",
+    "Desvio_padrao_MJ_m2_dia": "4,905231693527209",
+    "Irradiancia_media_24h_W_m2": "248,83665032725517"
+  },
+  {
+    "GID_2": "Tete_Marara",
+    "Provincia": "Tete",
+    "Distrito": "Marara",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,6613107496272",
+    "Irradiacao_media_kWh_m2_dia": "5,739252976706771",
+    "Irradiacao_minima_MJ_m2_dia": "4,840144157409668",
+    "Irradiacao_maxima_MJ_m2_dia": "31,204740524291992",
+    "Desvio_padrao_MJ_m2_dia": "5,54415090866383",
+    "Irradiancia_media_24h_W_m2": "239,1355415198321"
+  },
+  {
+    "GID_2": "Tete_Maravia",
+    "Provincia": "Tete",
+    "Distrito": "Maravia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,51473488182318",
+    "Irradiacao_media_kWh_m2_dia": "5,698537465001716",
+    "Irradiacao_minima_MJ_m2_dia": "4,0093278884887695",
+    "Irradiacao_maxima_MJ_m2_dia": "31,62895965576172",
+    "Desvio_padrao_MJ_m2_dia": "5,485202471943172",
+    "Irradiancia_media_24h_W_m2": "237,43906076358317"
+  },
+  {
+    "GID_2": "Tete_Moatize",
+    "Provincia": "Tete",
+    "Distrito": "Moatize",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,26096976650217",
+    "Irradiacao_media_kWh_m2_dia": "5,628047152946555",
+    "Irradiacao_minima_MJ_m2_dia": "4,277040004730225",
+    "Irradiacao_maxima_MJ_m2_dia": "31,236284255981445",
+    "Desvio_padrao_MJ_m2_dia": "5,693965304537418",
+    "Irradiancia_media_24h_W_m2": "234,5019649130399"
+  },
+  {
+    "GID_2": "Tete_Mutarara",
+    "Provincia": "Tete",
+    "Distrito": "Mutarara",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,024700498971782",
+    "Irradiacao_media_kWh_m2_dia": "5,562416773350512",
+    "Irradiacao_minima_MJ_m2_dia": "3,326993942260742",
+    "Irradiacao_maxima_MJ_m2_dia": "30,9616756439209",
+    "Desvio_padrao_MJ_m2_dia": "5,567846416918549",
+    "Irradiancia_media_24h_W_m2": "231,76736669071386"
+  },
+  {
+    "GID_2": "Tete_Tete",
+    "Provincia": "Tete",
+    "Distrito": "Tete",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,568092480383285",
+    "Irradiacao_media_kWh_m2_dia": "5,713359005138522",
+    "Irradiacao_minima_MJ_m2_dia": "3,2271718978881836",
+    "Irradiacao_maxima_MJ_m2_dia": "31,16752052307129",
+    "Desvio_padrao_MJ_m2_dia": "5,515530343643472",
+    "Irradiancia_media_24h_W_m2": "238,0566250326855"
+  },
+  {
+    "GID_2": "Tete_Tsangano",
+    "Provincia": "Tete",
+    "Distrito": "Tsangano",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,884137089135216",
+    "Irradiacao_media_kWh_m2_dia": "5,523371419945701",
+    "Irradiacao_minima_MJ_m2_dia": "2,897481918334961",
+    "Irradiacao_maxima_MJ_m2_dia": "32,015159606933594",
+    "Desvio_padrao_MJ_m2_dia": "5,300365137055343",
+    "Irradiancia_media_24h_W_m2": "230,1404755806011"
+  },
+  {
+    "GID_2": "Tete_Zumbu",
+    "Provincia": "Tete",
+    "Distrito": "Zumbu",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "21,049265280447372",
+    "Irradiacao_media_kWh_m2_dia": "5,84701813830704",
+    "Irradiacao_minima_MJ_m2_dia": "4,299764156341553",
+    "Irradiacao_maxima_MJ_m2_dia": "31,607271194458008",
+    "Desvio_padrao_MJ_m2_dia": "4,957779893386288",
+    "Irradiancia_media_24h_W_m2": "243,62575560189336"
+  },
+  {
+    "GID_2": "Zambezia_Alto Molocue",
+    "Provincia": "Zambezia",
+    "Distrito": "Alto Molocue",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,539494576349934",
+    "Irradiacao_media_kWh_m2_dia": "5,427637370232024",
+    "Irradiacao_minima_MJ_m2_dia": "3,950186014175415",
+    "Irradiacao_maxima_MJ_m2_dia": "31,763504028320312",
+    "Desvio_padrao_MJ_m2_dia": "4,821474596936501",
+    "Irradiancia_media_24h_W_m2": "226,15155766179652"
+  },
+  {
+    "GID_2": "Zambezia_Chinde",
+    "Provincia": "Zambezia",
+    "Distrito": "Chinde",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,906123170435755",
+    "Irradiacao_media_kWh_m2_dia": "5,529478678937818",
+    "Irradiacao_minima_MJ_m2_dia": "5,021222114562988",
+    "Irradiacao_maxima_MJ_m2_dia": "30,233356475830078",
+    "Desvio_padrao_MJ_m2_dia": "5,084154746278293",
+    "Irradiancia_media_24h_W_m2": "230,39494360209815"
+  },
+  {
+    "GID_2": "Zambezia_Derre",
+    "Provincia": "Zambezia",
+    "Distrito": "Derre",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,382481095569382",
+    "Irradiacao_media_kWh_m2_dia": "5,384022525750874",
+    "Irradiacao_minima_MJ_m2_dia": "5,8318681716918945",
+    "Irradiacao_maxima_MJ_m2_dia": "29,4528751373291",
+    "Desvio_padrao_MJ_m2_dia": "5,089351033236847",
+    "Irradiancia_media_24h_W_m2": "224,33427218661282"
+  },
+  {
+    "GID_2": "Zambezia_Gile",
+    "Provincia": "Zambezia",
+    "Distrito": "Gile",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,59544382720697",
+    "Irradiacao_media_kWh_m2_dia": "5,443178833182392",
+    "Irradiacao_minima_MJ_m2_dia": "4,397747993469238",
+    "Irradiacao_maxima_MJ_m2_dia": "29,650320053100586",
+    "Desvio_padrao_MJ_m2_dia": "4,892512432156791",
+    "Irradiancia_media_24h_W_m2": "226,7991185318577"
+  },
+  {
+    "GID_2": "Zambezia_Gurue",
+    "Provincia": "Zambezia",
+    "Distrito": "Gurue",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,112272625412444",
+    "Irradiacao_media_kWh_m2_dia": "5,586742389397543",
+    "Irradiacao_minima_MJ_m2_dia": "3,7801520824432373",
+    "Irradiacao_maxima_MJ_m2_dia": "31,88610076904297",
+    "Desvio_padrao_MJ_m2_dia": "4,52116770693379",
+    "Irradiancia_media_24h_W_m2": "232,78093251504532"
+  },
+  {
+    "GID_2": "Zambezia_Ile",
+    "Provincia": "Zambezia",
+    "Distrito": "Ile",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,345462207585737",
+    "Irradiacao_media_kWh_m2_dia": "5,373739491720668",
+    "Irradiacao_minima_MJ_m2_dia": "5,546209812164307",
+    "Irradiacao_maxima_MJ_m2_dia": "30,231647491455078",
+    "Desvio_padrao_MJ_m2_dia": "5,185603289995613",
+    "Irradiancia_media_24h_W_m2": "223,90581210193739"
+  },
+  {
+    "GID_2": "Zambezia_Inhassunge",
+    "Provincia": "Zambezia",
+    "Distrito": "Inhassunge",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,446097931575252",
+    "Irradiacao_media_kWh_m2_dia": "5,679471644547467",
+    "Irradiacao_minima_MJ_m2_dia": "6,348884105682373",
+    "Irradiacao_maxima_MJ_m2_dia": "30,529476165771484",
+    "Desvio_padrao_MJ_m2_dia": "5,104386954252846",
+    "Irradiancia_media_24h_W_m2": "236,6446519653654"
+  },
+  {
+    "GID_2": "Zambezia_Luabo",
+    "Provincia": "Zambezia",
+    "Distrito": "Luabo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,578038581733495",
+    "Irradiacao_media_kWh_m2_dia": "5,438344045089242",
+    "Irradiacao_minima_MJ_m2_dia": "4,739786148071289",
+    "Irradiacao_maxima_MJ_m2_dia": "30,361600875854492",
+    "Desvio_padrao_MJ_m2_dia": "5,078512914017296",
+    "Irradiancia_media_24h_W_m2": "226,59766881974016"
+  },
+  {
+    "GID_2": "Zambezia_Lugela",
+    "Provincia": "Zambezia",
+    "Distrito": "Lugela",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,45627812479363",
+    "Irradiacao_media_kWh_m2_dia": "5,404521693297423",
+    "Irradiacao_minima_MJ_m2_dia": "5,8188557624816895",
+    "Irradiacao_maxima_MJ_m2_dia": "31,250728607177734",
+    "Desvio_padrao_MJ_m2_dia": "5,194616267868931",
+    "Irradiancia_media_24h_W_m2": "225,18840437508672"
+  },
+  {
+    "GID_2": "Zambezia_Maganja da Costa",
+    "Provincia": "Zambezia",
+    "Distrito": "Maganja da Costa",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,326291439963168",
+    "Irradiacao_media_kWh_m2_dia": "5,368414291267187",
+    "Irradiacao_minima_MJ_m2_dia": "5,406898021697998",
+    "Irradiacao_maxima_MJ_m2_dia": "29,198692321777344",
+    "Desvio_padrao_MJ_m2_dia": "4,987819491019802",
+    "Irradiancia_media_24h_W_m2": "223,68392843236037"
+  },
+  {
+    "GID_2": "Zambezia_Milange",
+    "Provincia": "Zambezia",
+    "Distrito": "Milange",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,734391228097383",
+    "Irradiacao_media_kWh_m2_dia": "5,48177533950962",
+    "Irradiacao_minima_MJ_m2_dia": "6,107560157775879",
+    "Irradiacao_maxima_MJ_m2_dia": "32,10861587524414",
+    "Desvio_padrao_MJ_m2_dia": "4,964560814297017",
+    "Irradiancia_media_24h_W_m2": "228,40730577479295"
+  },
+  {
+    "GID_2": "Zambezia_Mocuba",
+    "Provincia": "Zambezia",
+    "Distrito": "Mocuba",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,146190761868418",
+    "Irradiacao_media_kWh_m2_dia": "5,318386340076155",
+    "Irradiacao_minima_MJ_m2_dia": "3,7501440048217773",
+    "Irradiacao_maxima_MJ_m2_dia": "28,79688262939453",
+    "Desvio_padrao_MJ_m2_dia": "5,085693538267514",
+    "Irradiancia_media_24h_W_m2": "221,59943036564061"
+  },
+  {
+    "GID_2": "Zambezia_Mocubela",
+    "Provincia": "Zambezia",
+    "Distrito": "Mocubela",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,421167785352697",
+    "Irradiacao_media_kWh_m2_dia": "5,394768834114075",
+    "Irradiacao_minima_MJ_m2_dia": "4,621004104614258",
+    "Irradiacao_maxima_MJ_m2_dia": "31,439067840576172",
+    "Desvio_padrao_MJ_m2_dia": "5,219139724989958",
+    "Irradiancia_media_24h_W_m2": "224,78203443099892"
+  },
+  {
+    "GID_2": "Zambezia_Molumbo",
+    "Provincia": "Zambezia",
+    "Distrito": "Molumbo",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,539494576349934",
+    "Irradiacao_media_kWh_m2_dia": "5,427637370232024",
+    "Irradiacao_minima_MJ_m2_dia": "3,950186014175415",
+    "Irradiacao_maxima_MJ_m2_dia": "31,763504028320312",
+    "Desvio_padrao_MJ_m2_dia": "4,821474596936501",
+    "Irradiancia_media_24h_W_m2": "226,15155766179652"
+  },
+  {
+    "GID_2": "Zambezia_Mopeia",
+    "Provincia": "Zambezia",
+    "Distrito": "Mopeia",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,26669807968244",
+    "Irradiacao_media_kWh_m2_dia": "5,351860597485402",
+    "Irradiacao_minima_MJ_m2_dia": "3,8278920650482178",
+    "Irradiacao_maxima_MJ_m2_dia": "29,932403564453125",
+    "Desvio_padrao_MJ_m2_dia": "5,194792634921174",
+    "Irradiancia_media_24h_W_m2": "222,99419084142465"
+  },
+  {
+    "GID_2": "Zambezia_Morrumbala",
+    "Provincia": "Zambezia",
+    "Distrito": "Morrumbala",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,616690210957344",
+    "Irradiacao_media_kWh_m2_dia": "5,449080596530372",
+    "Irradiacao_minima_MJ_m2_dia": "4,127655982971191",
+    "Irradiacao_maxima_MJ_m2_dia": "29,865747451782227",
+    "Desvio_padrao_MJ_m2_dia": "5,325481874090316",
+    "Irradiancia_media_24h_W_m2": "227,04502571606244"
+  },
+  {
+    "GID_2": "Zambezia_Mulevala",
+    "Provincia": "Zambezia",
+    "Distrito": "Mulevala",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,651081687114278",
+    "Irradiacao_media_kWh_m2_dia": "5,458633816633069",
+    "Irradiacao_minima_MJ_m2_dia": "5,026611804962158",
+    "Irradiacao_maxima_MJ_m2_dia": "31,967435836791992",
+    "Desvio_padrao_MJ_m2_dia": "4,933820324605368",
+    "Irradiancia_media_24h_W_m2": "227,443075075827"
+  },
+  {
+    "GID_2": "Zambezia_Namacurra",
+    "Provincia": "Zambezia",
+    "Distrito": "Namacurra",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,0773981959442",
+    "Irradiacao_media_kWh_m2_dia": "5,577055059821228",
+    "Irradiacao_minima_MJ_m2_dia": "4,611914157867432",
+    "Irradiacao_maxima_MJ_m2_dia": "29,860876083374023",
+    "Desvio_padrao_MJ_m2_dia": "4,918892778679073",
+    "Irradiancia_media_24h_W_m2": "232,37729399842644"
+  },
+  {
+    "GID_2": "Zambezia_Namarroi",
+    "Provincia": "Zambezia",
+    "Distrito": "Namarroi",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,478153949226837",
+    "Irradiacao_media_kWh_m2_dia": "5,4105983138735825",
+    "Irradiacao_minima_MJ_m2_dia": "4,748439788818359",
+    "Irradiacao_maxima_MJ_m2_dia": "31,889564514160156",
+    "Desvio_padrao_MJ_m2_dia": "5,115350303763471",
+    "Irradiancia_media_24h_W_m2": "225,44159641161642"
+  },
+  {
+    "GID_2": "Zambezia_Nicoadala",
+    "Provincia": "Zambezia",
+    "Distrito": "Nicoadala",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,410787663173153",
+    "Irradiacao_media_kWh_m2_dia": "5,391885473428528",
+    "Irradiacao_minima_MJ_m2_dia": "3,99862003326416",
+    "Irradiacao_maxima_MJ_m2_dia": "29,87804412841797",
+    "Desvio_padrao_MJ_m2_dia": "5,028298032539543",
+    "Irradiancia_media_24h_W_m2": "224,6618944074287"
+  },
+  {
+    "GID_2": "Zambezia_Pebane",
+    "Provincia": "Zambezia",
+    "Distrito": "Pebane",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "19,867835859131944",
+    "Irradiacao_media_kWh_m2_dia": "5,518843307195465",
+    "Irradiacao_minima_MJ_m2_dia": "6,817860126495361",
+    "Irradiacao_maxima_MJ_m2_dia": "29,793188095092773",
+    "Desvio_padrao_MJ_m2_dia": "4,782166817749703",
+    "Irradiancia_media_24h_W_m2": "229,9518040307884"
+  },
+  {
+    "GID_2": "Zambezia_Quelimane",
+    "Provincia": "Zambezia",
+    "Distrito": "Quelimane",
+    "Numero_dias": "366",
+    "Irradiacao_media_MJ_m2_dia": "20,41943839990376",
+    "Irradiacao_media_kWh_m2_dia": "5,672066239385657",
+    "Irradiacao_minima_MJ_m2_dia": "5,704793930053711",
+    "Irradiacao_maxima_MJ_m2_dia": "30,40140724182129",
+    "Desvio_padrao_MJ_m2_dia": "5,059583458039787",
+    "Irradiancia_media_24h_W_m2": "236,3360928603209"
   }
 ]
