@@ -26,18 +26,18 @@
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-19_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-20_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-19_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-20_00:00.png"
         ]
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-19_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-20_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-19_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-20_00:00.png"
         ]
     },
     {
@@ -50,28 +50,24 @@
     {
         "id": "ETAL",
         "name": "Albedo da Superfície de 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609150000.nc_2026-09-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609150000.nc_2026-09-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609150000.nc_2026-09-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609150000.nc_2026-09-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-20_09:15.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-21_11:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-20_09:15.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-21_11:30.png"
         ]
     },
     {
