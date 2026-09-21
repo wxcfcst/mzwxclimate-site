@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // =========================================================
 
     const productsURL =
-        "../assets/data/satellite/lsasaf/products.json";
+        "../../assets/data/satellite/lsasaf/products.json";
 
 
     // =========================================================
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                 <a
-                    href="../${image}"
+                    href="../../${image}"
                     target="_blank"
                     rel="noopener"
                     title="Abrir imagem original"
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                     <img
-                        src="../${image}"
+                        src="../../${image}"
                         alt="${name}"
                         class="map-image"
                     >
