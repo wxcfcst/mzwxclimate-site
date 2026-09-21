@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:29:08",
+  "generated": "2026-09-21T20:51:42",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -38,27 +38,27 @@
           "datetime": "2026-09-21T12:00:00"
         },
         {
-          "id": "lcc_mcc",
-          "name": "Nebulosidade Baixa e Média",
-          "description": "Produto NWP.",
-          "file": "gfs_lcc_mcc_2026-09-21_12:00.png",
-          "path": "assets/images/nwp/gfs/gfs_lcc_mcc_2026-09-21_12:00.png",
-          "datetime": "2026-09-21T12:00:00"
-        },
-        {
-          "id": "lcc_mcc_hcc",
-          "name": "Nebulosidade Baixa, Média e Alta",
-          "description": "Produto NWP.",
-          "file": "gfs_lcc_mcc_hcc_2026-09-21_12:00.png",
-          "path": "assets/images/nwp/gfs/gfs_lcc_mcc_hcc_2026-09-21_12:00.png",
-          "datetime": "2026-09-21T12:00:00"
-        },
-        {
           "id": "mcc",
           "name": "Nebulosidade Média",
           "description": "Cobertura de nuvens médias.",
           "file": "gfs_mcc_2026-09-21_12:00.png",
           "path": "assets/images/nwp/gfs/gfs_mcc_2026-09-21_12:00.png",
+          "datetime": "2026-09-21T12:00:00"
+        },
+        {
+          "id": "msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc",
+          "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa) + Ventos — Barbelas (500 hPa) + Nebulosidade Média",
+          "description": "Produto NWP.",
+          "file": "gfs_msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc_2026-09-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc_2026-09-21_12:00.png",
+          "datetime": "2026-09-21T12:00:00"
+        },
+        {
+          "id": "msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc_hcc",
+          "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa) + Ventos — Barbelas (500 hPa) + Nebulosidade Média + Nebulosidade Alta",
+          "description": "Produto NWP.",
+          "file": "gfs_msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc_hcc_2026-09-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_msl_thickness_1000-500hPa_winds_barbs_500hPa_mcc_hcc_2026-09-21_12:00.png",
           "datetime": "2026-09-21T12:00:00"
         }
       ]

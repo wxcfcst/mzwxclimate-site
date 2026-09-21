@@ -25,20 +25,16 @@
     {
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-20_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-20_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-20_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-20_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "ET",
@@ -64,11 +60,9 @@
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-21_11:30.png",
-        "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-21_11:30.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FVC",
@@ -115,11 +109,9 @@
     {
         "id": "NDVI",
         "name": "Vegetação - NDVI",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
-        "images": [
-            "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "SWI",
