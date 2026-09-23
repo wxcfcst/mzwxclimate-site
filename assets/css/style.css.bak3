@@ -836,7 +836,7 @@ a {
 .satellite-map img {
     display: block;
     width: 100%;
-    max-width: none;
+    max-width: 1400px;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -925,7 +925,7 @@ a {
 .satellite-map img {
     display: block;
     width: 100%;
-    max-width: none;
+    max-width: 1400px;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
