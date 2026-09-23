@@ -1,44 +1,35 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-22T08:40:23.529832-03:00",
+  "generated": "2026-09-23T10:32:14.427240-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 6,
+  "total": 5,
   "products": [
     {
-      "product": "FRP-PIXEL",
-      "id": "FRP",
-      "name": "Potência Radiativa do Fogo",
-      "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-09-22T10:45:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-09-22_10:45.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-22_10:45.png"
+      "product": "MIMIC_TPW",
+      "id": "MIMIC_TPW",
+      "name": "Água Total Precipitável - TPW",
+      "description": "Água Total Precipitável (TPW) derivada de observações de micro-ondas por satélite.",
+      "datetime": "2026-09-23T10:00:00",
+      "filename": "mimic_tpw_2026-09-23_10:00.png",
+      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-09-23_10:00.png"
     },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-09-21T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-21_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-21_00:00.png"
+      "datetime": "2026-09-22T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-22_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-22_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
       "id": "EDLST_NIGHT",
       "name": "Temperatura do Solo - Noite",
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-09-21T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-21_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-21_00:00.png"
-    },
-    {
-      "product": "ETAL",
-      "id": "ETAL",
-      "name": "Albedo da Superfície de 10 dias",
-      "description": "Albedo da superfície terrestre em um período de 10 dias.",
-      "datetime": "2026-09-15T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609150000.nc_2026-09-15_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609150000.nc_2026-09-15_00:00.png"
+      "datetime": "2026-09-22T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-22_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-22_00:00.png"
     },
     {
       "product": "DLST-MAX10D",
