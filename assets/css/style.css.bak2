@@ -884,7 +884,7 @@ a {
 
 .satellite-product {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 25px auto;
     background: white;
     border-radius: 16px;
