@@ -106,20 +106,16 @@
     {
         "id": "MIMIC_TPW",
         "name": "Água Total Precipitável - TPW",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-09-23_10:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/mimic_tpw_2026-09-23_10:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "NDVI",
         "name": "Vegetação - NDVI",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
-        "images": [
-            "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "SWI",

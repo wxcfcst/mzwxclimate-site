@@ -1,18 +1,9 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-23T10:32:14.427240-03:00",
+  "generated": "2026-09-23T18:46:25.210931-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 5,
+  "total": 3,
   "products": [
-    {
-      "product": "MIMIC_TPW",
-      "id": "MIMIC_TPW",
-      "name": "Água Total Precipitável - TPW",
-      "description": "Água Total Precipitável (TPW) derivada de observações de micro-ondas por satélite.",
-      "datetime": "2026-09-23T10:00:00",
-      "filename": "mimic_tpw_2026-09-23_10:00.png",
-      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-09-23_10:00.png"
-    },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
@@ -39,15 +30,6 @@
       "datetime": "2026-06-11T23:45:00",
       "filename": "LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png",
       "image": "assets/images/satellite/lsasaf/LSASAF_MSG_DLST-MAX10D_2026-06-11_23:45.png"
-    },
-    {
-      "product": "S10_AFR_NDV",
-      "id": "NDVI",
-      "name": "Vegetação - NDVI",
-      "description": "Índice de Vegetação por Diferença Normalizada (NDVI) derivado do sensor AVHRR.",
-      "datetime": "2026-06-11T23:45:00",
-      "filename": "METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png",
-      "image": "assets/images/satellite/lsasaf/METOP_AVHRR_S10_AFR_NDV_2026-06-11_23:45.png"
     }
   ]
 }
