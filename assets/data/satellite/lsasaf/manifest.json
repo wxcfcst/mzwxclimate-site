@@ -1,27 +1,9 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-24T14:23:10.405068-03:00",
+  "generated": "2026-09-24T19:50:41.540557-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 3,
+  "total": 1,
   "products": [
-    {
-      "product": "EDLST-DAY",
-      "id": "EDLST_DAY",
-      "name": "Temperatura do Solo - Dia",
-      "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-09-23T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-23_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-23_00:00.png"
-    },
-    {
-      "product": "EDLST-NIGHT",
-      "id": "EDLST_NIGHT",
-      "name": "Temperatura do Solo - Noite",
-      "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-09-23T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-23_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-23_00:00.png"
-    },
     {
       "product": "DLST-MAX10D",
       "id": "DLST_MAX10D",
