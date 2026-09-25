@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T19:50:41",
+  "generated": "2026-09-25T00:51:59",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -236,6 +236,14 @@
           "datetime": "2026-09-24T12:00:00"
         },
         {
+          "id": "thickness_1000-850hPa",
+          "name": "Espessura (1000–850 hPa)",
+          "description": "Produto NWP.",
+          "file": "ecmwf_thickness_1000-850hPa_2026-09-24_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_thickness_1000-850hPa_2026-09-24_12:00.png",
+          "datetime": "2026-09-24T12:00:00"
+        },
+        {
           "id": "tp",
           "name": "Precipitação Total",
           "description": "Precipitação total.",
@@ -337,6 +345,22 @@
           "description": "Produto NWP.",
           "file": "ecmwf_winds_streamlines_200hPa_2026-09-24_12:00.png",
           "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_200hPa_2026-09-24_12:00.png",
+          "datetime": "2026-09-24T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_500hPa",
+          "name": "Ventos — Linhas de corrente (500 hPa)",
+          "description": "Produto NWP.",
+          "file": "ecmwf_winds_streamlines_500hPa_2026-09-24_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_500hPa_2026-09-24_12:00.png",
+          "datetime": "2026-09-24T12:00:00"
+        },
+        {
+          "id": "winds_streamlines_700hPa",
+          "name": "Ventos — Linhas de corrente (700 hPa)",
+          "description": "Produto NWP.",
+          "file": "ecmwf_winds_streamlines_700hPa_2026-09-24_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_streamlines_700hPa_2026-09-24_12:00.png",
           "datetime": "2026-09-24T12:00:00"
         },
         {
