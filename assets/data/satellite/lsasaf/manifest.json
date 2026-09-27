@@ -1,26 +1,17 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-26T20:46:50.679279-03:00",
+  "generated": "2026-09-27T09:36:11.311802-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 3,
+  "total": 2,
   "products": [
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-09-25T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-25_00:00.png"
-    },
-    {
-      "product": "EDLST-NIGHT",
-      "id": "EDLST_NIGHT",
-      "name": "Temperatura do Solo - Noite",
-      "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-09-25T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-25_00:00.png"
+      "datetime": "2026-09-26T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-26_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-26_00:00.png"
     },
     {
       "product": "DLST-MAX10D",
