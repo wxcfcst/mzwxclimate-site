@@ -1,35 +1,35 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-09-30T08:34:11.821821-03:00",
+  "generated": "2026-10-01T09:03:20.656190-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 8,
+  "total": 6,
   "products": [
     {
       "product": "FRP-PIXEL",
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-09-30T09:00:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-09-30_09:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-09-30_09:00.png"
+      "datetime": "2026-10-01T09:30:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png"
     },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-09-29T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-29_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-29_00:00.png"
+      "datetime": "2026-09-30T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-30_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-09-30_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
       "id": "EDLST_NIGHT",
       "name": "Temperatura do Solo - Noite",
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-09-29T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-29_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-29_00:00.png"
+      "datetime": "2026-09-30T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-30_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-09-30_00:00.png"
     },
     {
       "product": "ETAL",
@@ -39,24 +39,6 @@
       "datetime": "2026-09-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609250000.nc_2026-09-25_00:00.png",
       "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609250000.nc_2026-09-25_00:00.png"
-    },
-    {
-      "product": "ETFAPAR",
-      "id": "FAPAR",
-      "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-      "description": "Fração da radiação fotossinteticamente ativa absorvida pela vegetação.",
-      "datetime": "2026-09-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png"
-    },
-    {
-      "product": "ETFVC",
-      "id": "FVC",
-      "name": "Fração de Cobertura Vegetal de 10 dias",
-      "description": "Fração de cobertura vegetal em um período de 10 dias.",
-      "datetime": "2026-09-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609250000.nc_2026-09-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202609250000.nc_2026-09-25_00:00.png"
     },
     {
       "product": "DLST-MAX10D",
