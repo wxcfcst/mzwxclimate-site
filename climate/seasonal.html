@@ -116,6 +116,11 @@
                     🛰️ Previsão SEAS5
                 </option>
 
+
+                <option value="cansips">
+                    🌎 Previsão CanSIPSIC4
+                </option>
+
             </select>
 
         </div>
@@ -243,6 +248,18 @@ function showForecast(product) {
 
         image.src =
             "../assets/images/seasonal/CCA_SEAS51c.PRCP_[determinstic-probabilistic]-Forecast.png";
+
+    }
+
+
+    /*
+     * Previsão CanSIPSIC4
+     */
+
+    else if (product === "cansips") {
+
+        image.src =
+            "../assets/images/seasonal/CCA_CanSIPSIC4.PRCP_[determinstic-probabilistic]-Forecast.png";
 
     }
 
