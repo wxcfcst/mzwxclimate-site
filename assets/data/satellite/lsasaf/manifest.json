@@ -1,17 +1,17 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-10-01T09:03:20.656190-03:00",
+  "generated": "2026-10-02T00:38:09.008995-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 6,
+  "total": 7,
   "products": [
     {
       "product": "FRP-PIXEL",
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-10-01T09:30:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png"
+      "datetime": "2026-10-02T00:15:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-10-02_00:15.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-02_00:15.png"
     },
     {
       "product": "EDLST-DAY",
@@ -39,6 +39,15 @@
       "datetime": "2026-09-25T00:00:00",
       "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609250000.nc_2026-09-25_00:00.png",
       "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202609250000.nc_2026-09-25_00:00.png"
+    },
+    {
+      "product": "ETFAPAR",
+      "id": "FAPAR",
+      "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
+      "description": "Fração da radiação fotossinteticamente ativa absorvida pela vegetação.",
+      "datetime": "2026-09-25T00:00:00",
+      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png"
     },
     {
       "product": "DLST-MAX10D",

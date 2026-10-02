@@ -59,17 +59,19 @@
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202609250000.nc_2026-09-25_00:00.png"
+        ]
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-02_00:15.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-01_09:30.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-02_00:15.png"
         ]
     },
     {
