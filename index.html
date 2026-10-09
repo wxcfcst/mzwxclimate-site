@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MZ WX & Climate - Início</title>
-    <!-- Caminho correto para o seu CSS, que está em assets/css/ -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,114 +15,93 @@
                 <h1>MZ WX & Climate</h1>
                 <span class="tagline">Meteorologia e Clima de Moçambique</span>
             </div>
+            
             <nav class="main-nav">
-                <ul>
+                <ul class="nav-menu">
                     <li><a href="index.html" class="active">Início</a></li>
                     <li><a href="climate/index.html">Clima</a></li>
                     
                     <!-- Previsão -->
-                    <li>
-                        <details>
-                            <summary>Previsão</summary>
-                            <ul>
-                                <li><a href="weather/index.html">Tempo</a></li>
-                                <li>
-                                    <details>
-                                        <summary>Climática</summary>
-                                        <ul>
-                                            <li><a href="climate/seasonal.html">Sazonal</a></li>
-                                            <li><a href="climate/subseasonal.html">Subsazonal</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                            </ul>
-                        </details>
+                    <li class="has-submenu">
+                        <a href="#">Previsão ▼</a>
+                        <ul class="submenu">
+                            <li><a href="weather/index.html">Tempo</a></li>
+                            <li class="has-submenu">
+                                <a href="#">Climática ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="climate/seasonal.html">Sazonal</a></li>
+                                    <li><a href="climate/subseasonal.html">Subsazonal</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
 
                     <!-- Astronomia -->
-                    <li>
-                        <details>
-                            <summary>Astronomia</summary>
-                            <ul>
-                                <li>
-                                    <details>
-                                        <summary>☀️ Sol</summary>
-                                        <ul>
-                                            <li><a href="astronomy/solar_zenith.html">Ângulo Solar Zenital</a></li>
-                                            <li><a href="astronomy/earth_sun_distance.html">Nascer & Pôr do Sol | Distância: Terra - Sol</a></li>
-                                            <li><a href="astronomy/solar_zenith_annual.html">Ângulo Solar Zenital Anual</a></li>
-                                            <li><a href="astronomy/solar_irradiance_toa.html">Irradiância Solar no TOA</a></li>
-                                            <li><a href="astronomy/solar_radiation_era5land.html">Irradição Solar: ERA5-Land</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li><a href="astronomy/sun.html">🌙 Lua</a></li>
-                            </ul>
-                        </details>
+                    <li class="has-submenu">
+                        <a href="#">Astronomia ▼</a>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <a href="#">☀️ Sol ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="astronomy/solar_zenith.html">Ângulo Solar Zenital</a></li>
+                                    <li><a href="astronomy/earth_sun_distance.html">Nascer & Pôr do Sol | Distância: Terra - Sol</a></li>
+                                    <li><a href="astronomy/solar_zenith_annual.html">Ângulo Solar Zenital Anual</a></li>
+                                    <li><a href="astronomy/solar_irradiance_toa.html">Irradiância Solar no TOA</a></li>
+                                    <li><a href="astronomy/solar_radiation_era5land.html">Irradição Solar: ERA5-Land</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="astronomy/sun.html">🌙 Lua</a></li>
+                        </ul>
                     </li>
 
                     <li><a href="contact/index.html">Contacto</a></li>
                     <li><a href="about/index.html">Sobre</a></li>
 
                     <!-- Observações -->
-                    <li>
-                        <details>
-                            <summary>Observações</summary>
-                            <ul>
-                                <li><a href="#">Estação</a></li> <!-- Link a definir -->
-                                <li><a href="#">Radar</a></li> <!-- Link a definir -->
-                                <li>
-                                    <details>
-                                        <summary>Sondagem</summary>
-                                        <ul>
-                                            <li><a href="#">uwyo</a></li> <!-- Link a definir -->
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li>
-                                    <details>
-                                        <summary>Códigos</summary>
-                                        <ul>
-                                            <li><a href="weather/metar.html">METAR</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li>
-                                    <details>
-                                        <summary>Satélite</summary>
-                                        <ul>
-                                            <li><a href="satellite/index.html">Produtos</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li><a href="nwp/index.html">NWP</a></li>
-                            </ul>
-                        </details>
+                    <li class="has-submenu">
+                        <a href="#">Observações ▼</a>
+                        <ul class="submenu">
+                            <li><a href="#">Estação</a></li>
+                            <li><a href="#">Radar</a></li>
+                            <li class="has-submenu">
+                                <a href="#">Sondagem ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="#">uwyo</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Códigos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="weather/metar.html">METAR</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Satélite ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="satellite/index.html">Produtos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="nwp/index.html">NWP</a></li>
+                        </ul>
                     </li>
 
                     <!-- Modelos -->
-                    <li>
-                        <details>
-                            <summary>Modelos</summary>
-                            <ul>
-                                <li>
-                                    <details>
-                                        <summary>Dinâmicos</summary>
-                                        <ul>
-                                            <li><a href="weather/eta.html">ETA</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li>
-                                    <details>
-                                        <summary>Estatísticos</summary>
-                                        <ul>
-                                            <li><a href="#">CPT</a></li> <!-- Link a definir -->
-                                        </ul>
-                                    </details>
-                                </li>
-                            </ul>
-                        </details>
+                    <li class="has-submenu">
+                        <a href="#">Modelos ▼</a>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <a href="#">Dinâmicos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="weather/eta.html">ETA</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Estatísticos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="#">CPT</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
@@ -142,22 +120,9 @@
                 </div>
             </div>
         </section>
-
-        <!-- Pode adicionar aqui as secções de features, highlights, METAR, etc. -->
-        <!-- Por exemplo, a secção METAR que o seu CSS já estiliza: -->
-        <!--
-        <section class="metar-section container">
-            <h2>METAR - Principais Aeroportos</h2>
-            <div id="metar-updated"></div>
-            <div class="metar-grid" id="metar-grid"></div>
-            <div class="metar-source">
-                Fonte: <a href="https://www.aviationweather.gov/metar" target="_blank">Aviation Weather Center</a>
-            </div>
-        </section>
-        -->
     </main>
 
-    <!-- Rodapé (opcional, mas o seu CSS tem estilos para ele) -->
+    <!-- Rodapé -->
     <footer class="site-footer">
         <div class="container footer-content">
             <div class="footer-section">
@@ -181,9 +146,6 @@
             <p>&copy; 2026 MZ WX & Climate. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-    <!-- Scripts (se necessário) -->
-    <!-- <script src="assets/js/main.js"></script> -->
 
 </body>
 </html>
