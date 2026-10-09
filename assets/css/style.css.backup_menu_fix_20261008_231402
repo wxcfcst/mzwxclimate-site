@@ -968,71 +968,24 @@ a {
 }
 
 
-/* ============================================
-   MENU PRINCIPAL HIERÁRQUICO MZ WX & Climate
-   ============================================ */
+
+/* MENU PRINCIPAL MZ WX & CLIMATE */
 .site-header .header-content {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.site-header .logo {
-    flex-shrink: 0;
-}
-
-.site-header .main-nav {
-    min-width: 0;
+    gap: 20px;
 }
 
 .site-header .main-nav > ul {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
     flex-wrap: wrap;
-    gap: 3px;
-    list-style: none;
+    align-items: center;
+    gap: 4px;
 }
 
 .site-header .main-nav li {
     position: relative;
-    list-style: none;
-}
-
-.site-header .main-nav a,
-.site-header .main-nav summary {
-    display: block;
-    padding: 9px 11px;
-    border-radius: 7px;
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
-    cursor: pointer;
-    overflow-wrap: anywhere;
-}
-
-.site-header .main-nav a:hover,
-.site-header .main-nav summary:hover,
-.site-header .main-nav a:focus-visible,
-.site-header .main-nav summary:focus-visible {
-    background: rgba(255,255,255,0.16);
-    outline-offset: 2px;
-}
-
-.site-header .main-nav summary {
-    list-style: none;
-}
-
-.site-header .main-nav summary::-webkit-details-marker {
-    display: none;
-}
-
-.site-header .main-nav summary::after {
-    content: " ▾";
-    font-size: 0.72em;
-}
-
-.site-header .main-nav details[open] > summary::after {
-    content: " ▴";
 }
 
 .site-header .main-nav li > ul {
@@ -1040,29 +993,21 @@ a {
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 220px;
-    max-width: min(320px, 85vw);
+    min-width: 190px;
+    flex-direction: column;
+    gap: 2px;
     padding: 6px;
-    background: #24364d;
-    border: 1px solid rgba(255,255,255,0.14);
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+    margin: 0;
+    list-style: none;
+    background: #1a365d;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     z-index: 1100;
 }
 
-.site-header .main-nav details[open] > ul {
-    display: block;
-}
-
-.site-header .main-nav li > ul li {
-    width: 100%;
-}
-
-.site-header .main-nav li > ul a,
-.site-header .main-nav li > ul summary {
-    width: 100%;
-    padding: 9px 11px;
-    text-align: left;
+.site-header .main-nav li:hover > ul,
+.site-header .main-nav li:focus-within > ul {
+    display: flex;
 }
 
 .site-header .main-nav li > ul li > ul {
@@ -1070,72 +1015,53 @@ a {
     left: 100%;
 }
 
-.site-header .main-nav .menu-placeholder {
-    opacity: 0.72;
+.site-header .main-nav a,
+.site-header .main-nav .menu-pending,
+.site-header .main-nav .menu-heading {
+    display: block;
+    padding: 9px 12px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.site-header .main-nav a:hover,
+.site-header .main-nav a:focus-visible {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.site-header .main-nav .menu-pending {
+    color: #cbd5e0;
     cursor: default;
+    opacity: 0.75;
 }
 
-.site-header .main-nav .menu-placeholder:hover {
-    background: transparent;
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .site-header .header-content {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .site-header .main-nav {
-        width: 100%;
-    }
-
-    .site-header .main-nav > ul {
-        justify-content: flex-start;
-    }
-}
-
-@media (max-width: 768px) {
-    .site-header .main-nav > ul {
-        display: flex;
         flex-direction: column;
         align-items: stretch;
-        flex-wrap: nowrap;
-        gap: 2px;
     }
 
-    .site-header .main-nav > ul > li {
-        width: 100%;
-    }
-
-    .site-header .main-nav a,
-    .site-header .main-nav summary {
-        padding: 10px 12px;
+    .site-header .main-nav > ul {
+        justify-content: center;
     }
 
     .site-header .main-nav li > ul,
     .site-header .main-nav li > ul li > ul {
         position: static;
         min-width: 0;
-        max-width: none;
-        width: 100%;
-        padding: 3px 0 3px 14px;
-        border: 0;
-        border-radius: 0;
         box-shadow: none;
-        background: rgba(0,0,0,0.12);
-    }
-
-    .site-header .main-nav li > ul a,
-    .site-header .main-nav li > ul summary {
-        white-space: normal;
+        margin-left: 12px;
+        background: rgba(0, 0, 0, 0.12);
     }
 }
 
-/* Imagem de fundo existente na pasta da página inicial. */
-.hero {
-    background:
-        linear-gradient(rgba(24, 43, 73, 0.58), rgba(24, 43, 73, 0.58)),
-        url("../images/home/thunderstorm.gif") center center / cover no-repeat;
-}
 
+/* Em ecrãs pequenos, mostrar os submenus para facilitar a navegação por toque. */
+@media (max-width: 900px) {
+    .site-header .main-nav li > ul {
+        display: flex;
+    }
+}
