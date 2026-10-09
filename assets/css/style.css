@@ -1059,9 +1059,3 @@ a {
 }
 
 
-/* Em ecrãs pequenos, mostrar os submenus para facilitar a navegação por toque. */
-@media (max-width: 900px) {
-    .site-header .main-nav li > ul {
-        display: flex;
-    }
-}
