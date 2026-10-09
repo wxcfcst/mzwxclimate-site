@@ -3,11 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ WX & Climate - Home</title>
+    <title>MZ WX & Climate - Início</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+        <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>🌤️ MZ WX &amp; Climate</h1>
+                <span class="tagline">Meteorologia, Clima e Previsões Sazonais</span>
+            </div>
+
+            <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="climate/index.html">Clima</a></li>
+
+                    <li class="has-submenu">
+                        <a href="weather/index.html">Previsão</a>
+                        <ul>
+                            <li><a href="weather/index.html">Tempo</a></li>
+                            <li class="has-submenu">
+                                <a href="climate/index.html">Climática</a>
+                                <ul>
+                                    <li><a href="climate/seasonal.html">Sazonal</a></li>
+                                    <li><a href="climate/subseasonal.html">Subsazonal</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu">
+                        <a href="astronomy/astronomy.html">Astronomia</a>
+                        <ul>
+                            <li><a href="astronomy/sun.html">☀️ Sol</a></li>
+                            <li><span class="menu-pending" aria-disabled="true">🌙 Lua</span></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="contact/index.html">Contacto</a></li>
+                    <li><a href="about/index.html">Sobre</a></li>
+
+                    <li class="has-submenu">
+                        <span class="menu-heading" aria-disabled="true">Observações</span>
+                        <ul>
+                            <li><span class="menu-pending" aria-disabled="true">Estação</span></li>
+                            <li><span class="menu-pending" aria-disabled="true">Radar</span></li>
+                            <li class="has-submenu">
+                                <span class="menu-pending" aria-disabled="true">Sondagem</span>
+                                <ul>
+                                    <li><span class="menu-pending" aria-disabled="true">UWYO</span></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="weather/metar.html">Códigos</a>
+                                <ul>
+                                    <li><a href="weather/metar.html">METAR</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="satellite/index.html">Satélite</a>
+                                <ul>
+                                    <li><a href="satellite/lsasaf/index.html">Produtos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="nwp/index.html">NWP</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu">
+                        <a href="weather/eta.html">Modelos</a>
+                        <ul>
+                            <li class="has-submenu">
+                                <a href="weather/eta.html">Dinâmicos</a>
+                                <ul>
+                                    <li><a href="weather/eta.html">ETA</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <span class="menu-heading" aria-disabled="true">Estatísticos</span>
+                                <ul>
+                                    <li><span class="menu-pending" aria-disabled="true">CPT</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <main>
         <section class="hero">
@@ -54,37 +140,37 @@
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">🌤️</div>
-                        <h3>Weather</h3>
+                        <h3>Tempo</h3>
                         <p>Condições atuais e previsões do tempo</p>
                         <a href="weather/" class="feature-link">Ver mais →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🌍</div>
-                        <h3>Climate</h3>
+                        <h3>Clima</h3>
                         <p>Análises climáticas e tendências</p>
                         <a href="climate/" class="feature-link">Ver mais →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📊</div>
-                        <h3>Forecasts</h3>
+                        <h3>Previsões</h3>
                         <p>Previsões de curto e longo prazo</p>
-                        <a href="forecasts/" class="feature-link">Ver mais →</a>
+                        <a href="climate/index.html" class="feature-link">Ver mais →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🗺️</div>
-                        <h3>Maps</h3>
+                        <h3>Mapas</h3>
                         <p>Mapas meteorológicos e satélite</p>
                         <a href="satellite/" class="feature-link">Ver mais →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📈</div>
-                        <h3>Data</h3>
+                        <h3>Dados</h3>
                         <p>Dados, tabelas e downloads</p>
                         <a href="data/" class="feature-link">Ver mais →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📚</div>
-                        <h3>Learning</h3>
+                        <h3>Aprendizagem</h3>
                         <p>Artigos educativos e glossário</p>
                         <a href="learning/" class="feature-link">Ver mais →</a>
                     </div>
@@ -112,7 +198,7 @@
                         <span class="highlight-icon">🌧️</span>
                         <h3>Previsão de Chuva</h3>
                         <p>Previsões de precipitação</p>
-                        <a href="forecasts/" class="highlight-link">Ver previsão →</a>
+                        <a href="climate/subseasonal.html" class="highlight-link">Ver previsão →</a>
                     </div>
                 </div>
             </div>
@@ -124,24 +210,24 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>MZ WX & Climate</h4>
-                    <p>Weather, Climate and Seasonal Forecasts for Mozambique and Southern Africa</p>
+                    <p>Meteorologia, clima e previsões sazonais para Moçambique e África Austral</p>
                 </div>
                 <div class="footer-section">
                     <h4>Categorias</h4>
                     <ul>
-                        <li><a href="weather/">Weather</a></li>
-                        <li><a href="climate/">Climate</a></li>
-                        <li><a href="forecasts/">Forecasts</a></li>
-                        <li><a href="satellite/lsasaf/">Satellite Products</a></li>
-                        <li><a href="satellite/">Maps</a></li>
-                        <li><a href="data/">Data</a></li>
+                        <li><a href="weather/">Tempo</a></li>
+                        <li><a href="climate/">Clima</a></li>
+                        <li><a href="climate/index.html">Previsões</a></li>
+                        <li><a href="satellite/lsasaf/">Produtos de Satélite</a></li>
+                        <li><a href="satellite/">Mapas</a></li>
+                        <li><a href="data/">Dados</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Links Rápidos</h4>
                     <ul>
-                        <li><a href="about/">About</a></li>
-                        <li><a href="contact/">Contact</a></li>
+                        <li><a href="about/">Sobre</a></li>
+                        <li><a href="contact/">Contacto</a></li>
                         <li><a href="astronomy/sun.html">☀️ Nascer/Pôr do Sol</a></li>
                     </ul>
                 </div>

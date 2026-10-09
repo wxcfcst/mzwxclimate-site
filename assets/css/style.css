@@ -967,3 +967,101 @@ a {
 
 }
 
+
+
+/* MENU PRINCIPAL MZ WX & CLIMATE */
+.site-header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-header .main-nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+
+.site-header .main-nav li {
+    position: relative;
+}
+
+.site-header .main-nav li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px;
+    margin: 0;
+    list-style: none;
+    background: #1a365d;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    z-index: 1100;
+}
+
+.site-header .main-nav li:hover > ul,
+.site-header .main-nav li:focus-within > ul {
+    display: flex;
+}
+
+.site-header .main-nav li > ul li > ul {
+    top: 0;
+    left: 100%;
+}
+
+.site-header .main-nav a,
+.site-header .main-nav .menu-pending,
+.site-header .main-nav .menu-heading {
+    display: block;
+    padding: 9px 12px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.site-header .main-nav a:hover,
+.site-header .main-nav a:focus-visible {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.site-header .main-nav .menu-pending {
+    color: #cbd5e0;
+    cursor: default;
+    opacity: 0.75;
+}
+
+@media (max-width: 900px) {
+    .site-header .header-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .site-header .main-nav > ul {
+        justify-content: center;
+    }
+
+    .site-header .main-nav li > ul,
+    .site-header .main-nav li > ul li > ul {
+        position: static;
+        min-width: 0;
+        box-shadow: none;
+        margin-left: 12px;
+        background: rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+/* Em ecrãs pequenos, mostrar os submenus para facilitar a navegação por toque. */
+@media (max-width: 900px) {
+    .site-header .main-nav li > ul {
+        display: flex;
+    }
+}
