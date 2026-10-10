@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZ WX & Climate - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="mz-home">
+<header id="mz-main-header" class="mz-header">
+  <a class="mz-brand" href="index.html">MZ WX &amp; Climate</a>
+  <button class="mz-mobile-toggle" type="button" aria-expanded="false" aria-controls="mz-site-navigation">☰ <span>Menu</span></button>
+  <nav class="mz-nav" id="mz-site-navigation" aria-label="Navegação principal">
+<ul class="mz-menu">
+  <li class="mz-item"><a href="index.html" aria-current="page">Início</a></li>
+  <li class="mz-item"><a href="climate/">Clima</a></li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Previsão<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Tempo</span></li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Climática<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><a href="forecasts/seasonal/">Sazonal</a></li>
+  <li class="mz-item"><a href="forecasts/subseasonal/">Subsazonal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Astronomia<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">☀️ Sol<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><a href="astronomy/solar-zenith-angle/">Ângulo Solar Zenital</a></li>
+  <li class="mz-item"><a href="astronomy/sun.html">Nascer &amp; Pôr do Sol | Distância: Terra - Sol</a></li>
+  <li class="mz-item"><a href="astronomy/annual-solar-zenith-angle/">Ângulo Solar Zenital Anual</a></li>
+  <li class="mz-item"><a href="astronomy/toa-solar-irradiance/">Irradiância Solar no TOA</a></li>
+  <li class="mz-item"><a href="astronomy/era5-land-solar-irradiation/">Irradiação Solar: ERA5-Land</a></li>
+</ul>
+</li>
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">🌙 Lua</span></li>
+</ul>
+</li>
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Contacto</span></li>
+  <li class="mz-item"><a href="about/">Sobre</a></li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Observações<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Estação</span></li>
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Radar</span></li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Sondagem<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><a href="observations/sounding/uwyo/">uwyo</a></li>
+</ul>
+</li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Códigos<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><a href="observations/codes/metar/">METAR</a></li>
+</ul>
+</li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Satélite<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item"><a href="satellite/lsasaf/">Produtos</a></li>
+</ul>
+</li>
+  <li class="mz-item"><a href="observations/nwp/">NWP</a></li>
+</ul>
+</li>
+  <li class="mz-item"><button type="button" class="mz-trigger" aria-expanded="false">Modelos<span class="mz-arrow" aria-hidden="true"></span></button><ul class="mz-submenu">
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Dinâmicos</span></li>
+  <li class="mz-item mz-disabled"><span class="mz-inactive" aria-disabled="true" title="Página indisponível">Estatísticos</span></li>
+</ul>
+</li>
+</ul>
+  </nav>
+</header>
+
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Previsões Meteorológicas para Moçambique</h2>
+                    <p>Dados atualizados de clima, previsões sazonais e produtos meteorológicos para África Austral</p>
+                    <div class="hero-buttons">
+                        <a href="weather/" class="btn-primary">Ver Clima Agora</a>
+                        <a href="astronomy/sun.html" class="btn-secondary">☀️ Nascer/Pôr do Sol</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="metar-section">
+
+            <h2>
+                ✈️ Tempo nos principais aeroportos de Moçambique
+            </h2>
+
+            <p id="metar-updated">
+                Carregando observações...
+            </p>
+
+            <div id="metar-container" class="metar-grid"></div>
+
+            <div class="metar-source">
+                Fonte:
+                <a
+                    href="https://aviationweather.gov/"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    AviationWeather.gov
+                </a>
+            </div>
+
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Explore Nossas Categorias</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌤️</div>
+                        <h3>Weather</h3>
+                        <p>Condições atuais e previsões do tempo</p>
+                        <a href="weather/" class="feature-link">Ver mais →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Climate</h3>
+                        <p>Análises climáticas e tendências</p>
+                        <a href="climate/" class="feature-link">Ver mais →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Forecasts</h3>
+                        <p>Previsões de curto e longo prazo</p>
+                        <a href="forecasts/" class="feature-link">Ver mais →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Maps</h3>
+                        <p>Mapas meteorológicos e satélite</p>
+                        <a href="satellite/" class="feature-link">Ver mais →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Data</h3>
+                        <p>Dados, tabelas e downloads</p>
+                        <a href="data/" class="feature-link">Ver mais →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Learning</h3>
+                        <p>Artigos educativos e glossário</p>
+                        <a href="learning/" class="feature-link">Ver mais →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="container">
+                <h2 class="section-title">Destaques</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <span class="highlight-icon">☀️</span>
+                        <h3>Nascer e Pôr do Sol</h3>
+                        <p>Horários diários para todas as capitais provinciais</p>
+                        <a href="astronomy/sun.html" class="highlight-link">Consultar →</a>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-icon">🛰️</span>
+                        <h3>Imagens de Satélite</h3>
+                        <p>Últimas imagens para monitoramento</p>
+                        <a href="satellite/" class="highlight-link">Ver imagens →</a>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-icon">🌧️</span>
+                        <h3>Previsão de Chuva</h3>
+                        <p>Previsões de precipitação</p>
+                        <a href="forecasts/" class="highlight-link">Ver previsão →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MZ WX & Climate</h4>
+                    <p>Weather, Climate and Seasonal Forecasts for Mozambique and Southern Africa</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="weather/">Weather</a></li>
+                        <li><a href="climate/">Climate</a></li>
+                        <li><a href="forecasts/">Forecasts</a></li>
+                        <li><a href="satellite/lsasaf/">Satellite Products</a></li>
+                        <li><a href="satellite/">Maps</a></li>
+                        <li><a href="data/">Data</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="about/">About</a></li>
+                        <li><a href="contact/">Contact</a></li>
+                        <li><a href="astronomy/sun.html">☀️ Nascer/Pôr do Sol</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MZ WX & Climate. Todos os direitos reservados.</p>
+                <p>Atualizado em: <span id="footer-update"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/metar.js"></script>
+
+</body>
+</html>

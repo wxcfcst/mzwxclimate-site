@@ -1,0 +1,250 @@
+body.mz-home{margin:0;color:#fff;font-family:Arial,sans-serif;background:#172638 url('../images/home/thunderstorm.gif') center/cover fixed no-repeat;min-height:100vh}body.mz-home::before{content:'';position:fixed;inset:0;background:rgba(9,20,32,.38);pointer-events:none}body.mz-home main,body.mz-home footer{position:relative}body.mz-home main{max-width:1040px;margin:auto;padding:clamp(70px,16vh,160px) 24px 60px}body.mz-home h1{font-size:24px;margin:0 0 18px} .mz-highlights{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.mz-highlight{display:block;background:rgba(18,34,50,.85);border:1px solid #ffffff30;border-radius:8px;padding:16px;color:white;text-decoration:none;font-size:15px}.mz-highlight:hover{background:#294157}body.mz-home footer{text-align:center;padding:20px;font-size:12px}.mz-header{position:relative;z-index:1000;background:#122a40;color:white;padding:16px 24px;font-family:Arial,sans-serif}.mz-brand{font-weight:bold;color:inherit;text-decoration:none;display:block;margin-bottom:14px}.mz-menu,.mz-menu ul{list-style:none;margin:0;padding:0}.mz-menu{display:flex;flex-wrap:wrap;gap:6px}.mz-menu li{position:relative}.mz-menu a,.mz-menu summary,.mz-disabled{display:block;padding:10px 12px;color:inherit;text-decoration:none;font-size:14px}.mz-menu summary{cursor:pointer}.mz-menu details>ul{position:absolute;top:100%;left:0;min-width:250px;max-width:340px;background:#18374f;border:1px solid #496174;border-radius:6px;padding:6px;box-shadow:0 6px 18px #0004}.mz-menu details details>ul{position:static;min-width:0;border:0;box-shadow:none;padding-left:12px;background:#21445d}.mz-menu a:hover,.mz-menu summary:hover{background:#ffffff15;border-radius:4px}.mz-disabled{opacity:.45;cursor:default}.mz-menu a:focus-visible,.mz-menu summary:focus-visible{outline:2px solid #fff}@media(max-width:650px){.mz-highlights{grid-template-columns:1fr}.mz-menu{display:block}.mz-menu details>ul{position:static;max-width:none;min-width:0}.mz-header{padding:14px}body.mz-home main{padding-top:45px}}
+/* Rodapé restaurado */
+body.mz-home footer.mz-footer {
+  background: rgba(12, 27, 41, .94);
+  padding: 28px 24px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.mz-footer-columns {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 28px;
+}
+.mz-footer h2 { font-size: 18px; margin: 0 0 10px; }
+.mz-footer h3 { font-size: 15px; margin: 0 0 10px; }
+.mz-footer ul { list-style: none; margin: 0; padding: 0; }
+.mz-footer li { margin: 6px 0; }
+.mz-footer a { color: #d8eaf7; text-decoration: none; }
+.mz-footer a:hover { text-decoration: underline; }
+.mz-contact-disabled { opacity: .45; }
+.mz-footer-bottom {
+  max-width: 1040px;
+  margin: 24px auto 0;
+  padding-top: 16px;
+  border-top: 1px solid #ffffff30;
+  text-align: center;
+  font-size: 12px;
+}
+.mz-disclaimer {
+  max-width: 1040px;
+  margin: 22px auto 0;
+  padding: 16px;
+  border: 1px solid #dcb659;
+  border-radius: 6px;
+  color: #ffe2a0;
+  font-size: 12px;
+  animation: mz-aviso-piscar 2.8s ease-in-out infinite;
+}
+.mz-disclaimer p { margin: 0 0 12px; }
+.mz-disclaimer p:last-child { margin-bottom: 0; }
+@keyframes mz-aviso-piscar {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .55; }
+}
+@media (max-width: 650px) {
+  .mz-footer-columns { grid-template-columns: 1fr; gap: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mz-disclaimer { animation: none; }
+}
+
+/* Página inicial compacta */
+body.mz-home {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+body.mz-home > .mz-header {
+    flex: 0 0 auto;
+    padding: 10px 24px;
+}
+body.mz-home .mz-brand {
+    margin-bottom: 6px;
+}
+body.mz-home .mz-menu a,
+body.mz-home .mz-menu summary,
+body.mz-home .mz-menu .mz-disabled {
+    padding: 7px 10px;
+}
+body.mz-home > main {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 22px 24px;
+    flex: 1 0 auto;
+}
+body.mz-home main h1 {
+    font-size: 21px;
+    margin: 0 0 12px;
+}
+body.mz-home .mz-highlights {
+    gap: 10px;
+}
+body.mz-home .mz-highlight {
+    padding: 12px 14px;
+    font-size: 14px;
+}
+body.mz-home footer.mz-footer {
+    padding: 16px 24px;
+    font-size: 13px;
+    line-height: 1.45;
+}
+body.mz-home .mz-footer-columns {
+    max-width: 1052px;
+    gap: 20px;
+}
+body.mz-home .mz-footer h2 {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+body.mz-home .mz-footer h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+body.mz-home .mz-footer-columns p {
+    margin: 0;
+}
+body.mz-home .mz-footer li {
+    margin: 3px 0;
+}
+body.mz-home .mz-footer-bottom {
+    margin-top: 12px;
+    padding-top: 8px;
+}
+body.mz-home .mz-footer-bottom p {
+    margin: 3px 0;
+}
+body.mz-home .mz-disclaimer {
+    margin-top: 12px;
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.45;
+}
+body.mz-home .mz-disclaimer p {
+    margin-bottom: 8px;
+}
+body.mz-home .mz-disclaimer p:last-child {
+    margin-bottom: 0;
+}
+@media (max-width: 650px) {
+    body.mz-home > main { padding: 18px 16px; }
+    body.mz-home footer.mz-footer { padding: 16px; }
+    body.mz-home .mz-footer-columns { gap: 12px; }
+}
+
+/* Destaques à esquerda */
+body.mz-home > main {
+    max-width: none;
+    padding: 20px clamp(16px, 3vw, 48px);
+}
+body.mz-home .mz-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: min(100%, 300px);
+    gap: 10px;
+}
+
+/* Relógios e amostragem solar na página inicial */
+body.mz-home > main.mz-home-content {
+    display: grid;
+    grid-template-columns: minmax(240px, 300px) minmax(320px, 440px);
+    justify-content: space-between;
+    align-items: start;
+    gap: 24px;
+    padding: 22px clamp(16px, 3vw, 48px);
+}
+.mz-home-highlights .mz-highlights {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+.mz-home-astronomy {
+    width: 100%;
+    min-width: 0;
+}
+.mz-clocks {
+    color: #ff3838;
+    text-align: right;
+    margin-bottom: 14px;
+}
+.mz-clock-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mz-clock-row strong {
+    font-size: clamp(21px, 2vw, 28px);
+    font-variant-numeric: tabular-nums;
+}
+.mz-clock-divider { color: #b8bec4; }
+.mz-clocks p { margin: 4px 0 0; font-size: 13px; }
+.mz-sun-card {
+    display: block;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: rgba(12, 24, 32, .85);
+    border: 1px solid #ffffff25;
+    color: #fff;
+    text-decoration: none;
+}
+.mz-sun-card h2 { margin: 0 0 5px; font-size: 20px; }
+.mz-sun-date { margin: 0 0 14px; color: #c2cbd2; font-size: 13px; }
+#mz-sun-province { margin: 0 0 3px; color: #c2cbd2; }
+#mz-sun-location { margin: 0 0 14px; font-size: 22px; }
+.mz-sun-times {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.mz-sun-times span { display: block; font-size: 13px; color: #d0d7dc; }
+.mz-sun-times strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 26px;
+    font-variant-numeric: tabular-nums;
+}
+.mz-sun-zone { margin: 14px 0 0; font-size: 12px; color: #c2cbd2; }
+.mz-sun-change { animation: mz-sun-transition .9s ease-in-out; }
+@keyframes mz-sun-transition {
+    0%, 100% { opacity: 1; }
+    30%, 65% { opacity: .25; }
+    48% { opacity: 1; }
+}
+@media (max-width: 760px) {
+    body.mz-home > main.mz-home-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .mz-home-highlights { max-width: 300px; }
+    .mz-home-astronomy { max-width: 440px; justify-self: end; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .mz-sun-change { animation: none; }
+}
+
+/* Animação do logo e texto do Sobre */
+.mz-header .mz-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.mz-brand-animation {
+    display: block;
+    width: 48px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.sobre-conteudo p {
+    text-align: justify;
+    hyphens: auto;
+}

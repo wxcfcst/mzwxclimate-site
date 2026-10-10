@@ -1,151 +1,79 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ WX & Climate - Início</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MZ WX & Climate — Início</title><link rel="stylesheet" href="assets/css/navigation.css"></head>
+<body class="mz-home">
+<main class="mz-home-content">
+  <section class="mz-home-highlights" aria-labelledby="titulo-destaques">
+    <h1 id="titulo-destaques">Destaques</h1>
+    <div class="mz-highlights">
+      <a class="mz-highlight" href="satellite/lsasaf/index.html">🛰️ Produtos de Satélite</a>
+      <a class="mz-highlight" href="climate/seasonal.html">Previsão Sazonal</a>
+    </div>
+  </section>
 
-    <!-- Cabeçalho e Navegação -->
-    <header class="site-header">
-        <div class="container header-content">
-            <div class="logo">
-                <h1>MZ WX & Climate</h1>
-                <span class="tagline">Meteorologia e Clima de Moçambique</span>
-            </div>
-            
-            <nav class="main-nav">
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Início</a></li>
-                    <li><a href="climate/index.html">Clima</a></li>
-                    
-                    <!-- Previsão -->
-                    <li class="has-submenu">
-                        <a href="#">Previsão ▼</a>
-                        <ul class="submenu">
-                            <li><a href="weather/index.html">Tempo</a></li>
-                            <li class="has-submenu">
-                                <a href="#">Climática ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="climate/seasonal.html">Sazonal</a></li>
-                                    <li><a href="climate/subseasonal.html">Subsazonal</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+  <section class="mz-home-astronomy" aria-label="Horas e informações solares">
+    <div class="mz-clocks">
+      <div class="mz-clock-row">
+        <span>UTC <strong id="mz-clock-utc">--:--:--</strong></span>
+        <span class="mz-clock-divider" aria-hidden="true">|</span>
+        <span>MZ <strong id="mz-clock-local">--:--:--</strong></span>
+      </div>
+      <p id="mz-clock-date"></p>
+    </div>
 
-                    <!-- Astronomia -->
-                    <li class="has-submenu">
-                        <a href="#">Astronomia ▼</a>
-                        <ul class="submenu">
-                            <li class="has-submenu">
-                                <a href="#">☀️ Sol ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="astronomy/solar_zenith.html">Ângulo Solar Zenital</a></li>
-                                    <li><a href="astronomy/earth_sun_distance.html">Nascer & Pôr do Sol | Distância: Terra - Sol</a></li>
-                                    <li><a href="astronomy/solar_zenith_annual.html">Ângulo Solar Zenital Anual</a></li>
-                                    <li><a href="astronomy/solar_irradiance_toa.html">Irradiância Solar no TOA</a></li>
-                                    <li><a href="astronomy/solar_radiation_era5land.html">Irradição Solar: ERA5-Land</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="astronomy/sun.html">🌙 Lua</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="contact/index.html">Contacto</a></li>
-                    <li><a href="about/index.html">Sobre</a></li>
-
-                    <!-- Observações -->
-                    <li class="has-submenu">
-                        <a href="#">Observações ▼</a>
-                        <ul class="submenu">
-                            <li><a href="#">Estação</a></li>
-                            <li><a href="#">Radar</a></li>
-                            <li class="has-submenu">
-                                <a href="#">Sondagem ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="#">uwyo</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu">
-                                <a href="#">Códigos ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="weather/metar.html">METAR</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu">
-                                <a href="#">Satélite ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="satellite/index.html">Produtos</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="nwp/index.html">NWP</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Modelos -->
-                    <li class="has-submenu">
-                        <a href="#">Modelos ▼</a>
-                        <ul class="submenu">
-                            <li class="has-submenu">
-                                <a href="#">Dinâmicos ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="weather/eta.html">ETA</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu">
-                                <a href="#">Estatísticos ▶</a>
-                                <ul class="submenu">
-                                    <li><a href="#">CPT</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+    <a class="mz-sun-card" href="astronomy/sun.html">
+      <h2>☀️ Nascer e Pôr do Sol</h2>
+      <p class="mz-sun-date" id="mz-sun-date"></p>
+      <div id="mz-sun-sample">
+        <p id="mz-sun-province"></p>
+        <h3 id="mz-sun-location">A carregar localidades…</h3>
+        <div class="mz-sun-times">
+          <div>
+            <span>🌅 Nascer do Sol</span>
+            <strong id="mz-sun-rise">--:--</strong>
+          </div>
+          <div>
+            <span>🌇 Pôr do Sol</span>
+            <strong id="mz-sun-set">--:--</strong>
+          </div>
         </div>
-    </header>
+      </div>
+      <p class="mz-sun-zone">Horas locais de Moçambique · UTC+2</p>
+    </a>
+  </section>
+</main>
 
-    <!-- Conteúdo Principal -->
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Bem-vindo ao MZ WX & Climate</h2>
-                <p>Informação meteorológica e climática para Moçambique e região.</p>
-                <div class="hero-buttons">
-                    <a href="weather/index.html" class="btn-primary">Ver Previsão</a>
-                    <a href="climate/index.html" class="btn-secondary">Ver Clima</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Rodapé -->
-    <footer class="site-footer">
-        <div class="container footer-content">
-            <div class="footer-section">
-                <h4>MZ WX & Climate</h4>
-                <p>Informação meteorológica para Moçambique.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Links Rápidos</h4>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="climate/index.html">Clima</a></li>
-                    <li><a href="weather/index.html">Tempo</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Contacto</h4>
-                <p>Email: info@mzwxclimate.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 MZ WX & Climate. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+<footer class="mz-footer">
+  <div class="mz-footer-columns">
+    <section>
+      <h2>MZ WX &amp; Climate</h2>
+      <p>Tempo, clima e previsões sazonais para Moçambique e África Austral</p>
+    </section>
+    <section>
+      <h3>Categorias</h3>
+      <ul>
+        <li><a href="climate/index.html">Clima</a></li>
+        <li><a href="climate/seasonal.html">Previsões Sazonais</a></li>
+        <li><a href="satellite/lsasaf/index.html">Produtos de Satélite</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Links Rápidos</h3>
+      <ul>
+        <li><a href="about/index.html">Sobre</a></li>
+        <li><span aria-disabled="true" class="mz-contact-disabled">Contacto</span></li>
+        <li><a href="astronomy/sun.html">☀️ Nascer/Pôr do Sol</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="mz-footer-bottom">
+    <p>© 2026 MZ WX &amp; Climate. Todos os direitos reservados.</p>
+    <p>Atualizado em: <time>09/10/2026, 20:00:14</time></p>
+  </div>
+  <div class="mz-disclaimer">
+    <p lang="pt"><strong>⚠️ Aviso: As informações disponibilizadas neste site têm caráter informativo e não constituem informação meteorológica oficial. O uso e a interpretação dos dados são de responsabilidade do usuário. O MZ WX &amp; Climate não se responsabiliza por perdas, danos ou decisões decorrentes do uso dessas informações. Para fins operacionais ou de segurança, consulte as fontes oficiais competentes.</strong></p>
+    <p lang="en"><strong>⚠️ Disclaimer: The information provided on this website is for informational purposes only and does not constitute official meteorological information. The use and interpretation of the data are the sole responsibility of the user. MZ WX &amp; Climate shall not be held responsible for any loss, damage, or decisions resulting from the use of this information. For operational or safety purposes, please consult the relevant official sources.</strong></p>
+  </div>
+</footer>
+<script src="assets/js/navigation.js"></script><script src="assets/js/astronomy.js"></script>
+<script src="assets/js/home-sun.js"></script>
+</body></html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ângulo Solar Zenital ao Meio-Dia Solar — 2026</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+select {
+    min-width: 240px;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background: white;
+}
+
+#status {
+    text-align: center;
+    color: #666;
+    margin: 20px 0;
+}
+
+#chart-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+#chart {
+    display: none;
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+}
+
+#location {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Ângulo Solar Zenital ao Meio-Dia Solar</h1>
+
+    <div class="subtitle">
+        Moçambique — 2026
+    </div>
+
+    <div class="controls">
+
+        <select id="province">
+            <option value="">Selecione a província</option>
+        </select>
+
+        <select id="district" disabled>
+            <option value="">Selecione o distrito</option>
+        </select>
+
+    </div>
+
+    <div id="status">
+        Selecione uma província e um distrito.
+    </div>
+
+    <div id="chart-container">
+
+        <div id="location"></div>
+
+        <img
+            id="chart"
+            alt="Ângulo Solar Zenital"
+        >
+
+    </div>
+
+</div>
+
+
+<script>
+
+const JSON_FILE =
+    "../assets/data/astronomy/radiation/solar_zenith_annual.json";
+
+const provinceSelect =
+    document.getElementById("province");
+
+const districtSelect =
+    document.getElementById("district");
+
+const chart =
+    document.getElementById("chart");
+
+const locationText =
+    document.getElementById("location");
+
+const status =
+    document.getElementById("status");
+
+
+let locations = [];
+
+
+fetch(JSON_FILE)
+    .then(response => {
+
+        if (!response.ok) {
+            throw new Error(
+                "Erro ao carregar o arquivo JSON."
+            );
+        }
+
+        return response.json();
+
+    })
+    .then(data => {
+
+        locations = data;
+
+        const provinces = [
+            ...new Set(
+                locations.map(
+                    item => item.province
+                )
+            )
+        ].sort(
+            (a, b) => a.localeCompare(
+                b,
+                "pt"
+            )
+        );
+
+        provinces.forEach(province => {
+
+            const option =
+                document.createElement("option");
+
+            option.value = province;
+            option.textContent = province;
+
+            provinceSelect.appendChild(option);
+
+        });
+
+    })
+    .catch(error => {
+
+        status.textContent =
+            "Não foi possível carregar os dados.";
+
+        console.error(error);
+
+    });
+
+
+provinceSelect.addEventListener(
+    "change",
+    function() {
+
+        const province =
+            this.value;
+
+        districtSelect.innerHTML =
+            '<option value="">Selecione o distrito</option>';
+
+        districtSelect.disabled =
+            !province;
+
+        chart.style.display =
+            "none";
+
+        locationText.textContent =
+            "";
+
+        if (!province) {
+
+            status.textContent =
+                "Selecione uma província e um distrito.";
+
+            return;
+        }
+
+        const districts =
+            locations
+                .filter(
+                    item =>
+                        item.province === province
+                )
+                .sort(
+                    (a, b) =>
+                        a.district.localeCompare(
+                            b.district,
+                            "pt"
+                        )
+                );
+
+        districts.forEach(item => {
+
+            const option =
+                document.createElement("option");
+
+            option.value =
+                item.district;
+
+            option.textContent =
+                item.district;
+
+            districtSelect.appendChild(
+                option
+            );
+
+        });
+
+        status.textContent =
+            "Agora selecione o distrito.";
+
+    }
+);
+
+
+districtSelect.addEventListener(
+    "change",
+    function() {
+
+        const province =
+            provinceSelect.value;
+
+        const district =
+            this.value;
+
+        if (!province || !district) {
+
+            chart.style.display =
+                "none";
+
+            return;
+        }
+
+        const item =
+            locations.find(
+                x =>
+                    x.province === province &&
+                    x.district === district
+            );
+
+        if (!item) {
+            return;
+        }
+
+        locationText.textContent =
+            `${item.province} — ${item.district}`;
+
+        chart.src =
+            "../" + item.image;
+
+        chart.style.display =
+            "block";
+
+        status.textContent =
+            `Latitude: ${item.lat.toFixed(5)}° | ` +
+            `Longitude: ${item.lon.toFixed(5)}°`;
+
+    }
+);
+
+</script>
+
+</body>
+</html>

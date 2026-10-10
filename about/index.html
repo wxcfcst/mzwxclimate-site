@@ -3,49 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ WX & Climate - About</title>
+    <title>Sobre — MZ WX &amp; Climate</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/navigation.css">
+    <style>
+        .sobre-conteudo {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 36px 24px 48px;
+            line-height: 1.8;
+        }
+        .sobre-conteudo h1 {
+            font-size: clamp(25px, 4vw, 34px);
+            line-height: 1.3;
+            margin: 0 0 24px;
+        }
+        .sobre-conteudo h2 {
+            font-size: 22px;
+            line-height: 1.4;
+            margin: 32px 0 12px;
+        }
+        .sobre-conteudo p {
+            margin: 0 0 16px;
+        }
+        .sobre-conteudo section {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <h1>🌤️ MZ WX & Climate</h1>
-                    <span class="tagline">Weather, Climate and Seasonal Forecasts</span>
-                </div>
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../weather/">Weather</a></li>
-                        <li><a href="../climate/">Climate</a></li>
-                        <li><a href="../forecasts/">Forecasts</a></li>
-                        <li><a href="../satellite/">Maps</a></li>
-                        <li><a href="../data/">Data</a></li>
-                        <li><a href="../learning/">Learning</a></li>
-                        <li><a href="../about/">About</a></li>
-                        <li><a href="../contact/">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="page-header">
-                <h1>About</h1>
-                <p>Conteúdo da categoria about</p>
-            </div>
-            <p style="text-align:center; padding:40px; color:#999;">Página em construção</p>
-        </div>
+    <main class="sobre-conteudo">
+        <article aria-labelledby="sobre-titulo">
+            <h1 id="sobre-titulo">Sobre o MZ WX &amp; Climate</h1>
+
+            <p>O <strong>MZ WX &amp; Climate</strong> é uma plataforma
+            dedicada à disponibilização e visualização de informações
+            <strong>meteorológicas, climáticas, ambientais e astronómicas</strong>,
+            com foco em Moçambique e na África Austral.</p>
+
+            <p>A plataforma reúne dados e produtos de diferentes fontes,
+            incluindo observações meteorológicas, imagens e produtos de
+            satélite, modelos numéricos de previsão do tempo, informações
+            astronómicas, dados climáticos e previsões sazonais.</p>
+
+            <section aria-labelledby="observacoes">
+                <h2 id="observacoes">Observações</h2>
+
+                <p>São disponibilizadas observações de estações meteorológicas,
+                incluindo <strong>METAR</strong>, bem como produtos de satélite
+                para a monitorização das condições atmosféricas e da superfície.</p>
+
+                <p>A componente de satélite inclui imagens <strong>Custom</strong>
+                e <strong>GeoRing</strong> para África, além de produtos da
+                <strong>LSASAF</strong>, como albedo, NDVI, TPW e outros produtos
+                de monitorização ambiental.</p>
+
+                <p>A plataforma disponibiliza também cartas de
+                <strong>modelos numéricos de previsão do tempo (NWP)</strong>,
+                incluindo <strong>GFS</strong> e <strong>ECMWF</strong>, para
+                diferentes horários de análise e previsão.</p>
+            </section>
+
+            <section aria-labelledby="astronomia">
+                <h2 id="astronomia">Astronomia e radiação solar</h2>
+
+                <p>A componente astronómica apresenta informações sobre o
+                <strong>nascer e pôr do Sol</strong>, a
+                <strong>distância Terra–Sol</strong> e o
+                <strong>ângulo solar zenital</strong>, incluindo a sua
+                variação ao longo do ano.</p>
+
+                <p>São disponibilizados produtos de
+                <strong>irradiância solar no topo da atmosfera (TOA)</strong>
+                e estimativas de <strong>radiação solar à superfície</strong>
+                em Moçambique, obtidas a partir de dados do
+                <strong>ERA5-Land</strong>, com informação espacial para
+                províncias e distritos.</p>
+            </section>
+
+            <section aria-labelledby="previsao">
+                <h2 id="previsao">Previsão meteorológica e climática</h2>
+
+                <p>O MZ WX &amp; Climate disponibiliza produtos de previsão
+                meteorológica provenientes de modelos numéricos e, quando
+                disponíveis, resultados de experiências de modelação regional
+                com o <strong>modelo Eta</strong>.</p>
+
+                <p>A plataforma disponibiliza também
+                <strong>previsões climáticas sazonais</strong> para Moçambique.
+                Estes produtos são elaborados com o
+                <strong>Climate Predictability Tool (CPT)</strong> do IRI,
+                utilizando métodos estatísticos baseados na
+                <strong>Análise de Correlação Canónica (CCA)</strong>.</p>
+
+                <p>As previsões sazonais apresentam as probabilidades de
+                ocorrência de condições de precipitação
+                <strong>abaixo do normal, próximas do normal ou acima do normal</strong>,
+                acompanhadas de informações sobre a destreza das previsões.</p>
+            </section>
+
+            <section aria-labelledby="investigacao">
+                <h2 id="investigacao">Investigação e desenvolvimento</h2>
+
+                <p>A plataforma reúne produtos de diferentes fontes e produtos
+                desenvolvidos no âmbito de atividades de
+                <strong>processamento, análise e investigação meteorológica
+                e climática</strong>.</p>
+
+                <p>Os produtos são processados e atualizados à medida que novos
+                dados ficam disponíveis e novos modelos e métodos de análise
+                são incorporados à plataforma.</p>
+            </section>
+        </article>
     </main>
+
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 MZ WX & Climate.</p>
+                <p>&copy; 2026 MZ WX &amp; Climate.
+                Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
-    <script src="../assets/js/main.js"></script>
+
+    <script src="../assets/js/navigation.js"></script>
 </body>
 </html>

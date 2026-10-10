@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MZ WX & Climate - Astronomia</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+    margin:0;
+    padding:20px;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:#eef3f8;
+
+    color:#1a202c;
+
+}
+
+.container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+.header{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.12);
+
+    margin-bottom:20px;
+
+}
+
+.header h1{
+
+    margin:0;
+
+    color:#0b4f9c;
+
+    font-size:26px;
+
+}
+
+.header p{
+
+    margin:6px 0 0;
+
+    color:#666;
+
+}
+
+.controls{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.12);
+
+    margin-bottom:20px;
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+label{
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-bottom:6px;
+
+}
+
+select,
+input{
+
+    width:100%;
+
+    padding:10px;
+
+    font-size:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    background:white;
+
+}
+
+.results{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.12);
+
+}
+
+.card h2{
+
+    margin-top:0;
+
+    color:#0b4f9c;
+
+    font-size:21px;
+
+}
+
+.subtitle{
+
+    color:#666;
+
+}
+
+.big{
+
+    font-size:34px;
+
+    color:#e67e22;
+
+    font-weight:bold;
+
+    margin:5px 0 15px;
+
+}
+
+.value{
+
+    font-size:30px;
+
+    color:#d35400;
+
+    font-weight:bold;
+
+}
+
+.info{
+
+    margin-top:15px;
+
+    padding:15px;
+
+    background:#f7fafc;
+
+    border-radius:8px;
+
+}
+
+.event{
+
+    margin-top:20px;
+
+    background:#eef8ff;
+
+    border-left:
+        5px solid #1565c0;
+
+    padding:15px;
+
+    border-radius:8px;
+
+}
+
+.event h3{
+
+    margin:0;
+
+    color:#0b4f9c;
+
+}
+
+.event p{
+
+    margin-bottom:0;
+
+}
+
+hr{
+
+    border:none;
+
+    border-top:
+        1px solid #ddd;
+
+    margin:20px 0;
+
+}
+
+.footer-info{
+
+    margin-top:20px;
+
+    background:white;
+
+    padding:15px 20px;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.10);
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+@media(max-width:700px){
+
+    .controls{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .results{
+
+        grid-template-columns:1fr;
+
+    }
+
+    body{
+
+        padding:10px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h1>☀️ Astronomia</h1>
+
+<p>
+
+Nascer e pôr do Sol e distância Terra–Sol
+
+</p>
+
+</div>
+
+
+<div class="controls">
+
+<div>
+
+<label for="province">
+
+Província
+
+</label>
+
+<select id="province">
+
+</select>
+
+</div>
+
+
+<div>
+
+<label for="district">
+
+Distrito
+
+</label>
+
+<select id="district">
+
+</select>
+
+</div>
+
+
+<div>
+
+<label for="date">
+
+Data
+
+</label>
+
+<input
+type="date"
+id="date">
+
+</div>
+
+</div>
+
+
+<div class="results">
+
+
+<div class="card">
+
+<h2>
+
+🌅 Nascer e Pôr do Sol
+
+</h2>
+
+<div id="sun-result">
+
+Seleccione uma província,
+um distrito e uma data.
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>
+
+☀️ Distância Terra–Sol
+
+</h2>
+
+<div id="distance-result">
+
+Seleccione uma data.
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<div class="footer-info">
+
+Os cálculos de nascer e pôr do Sol
+são realizados com base nas coordenadas
+geográficas do distrito seleccionado.
+
+</div>
+
+</div>
+
+
+<script src="../assets/js/astronomy.js"></script>
+
+
+<script>
+
+let locations=[];
+
+
+const province =
+    document.getElementById(
+        "province"
+    );
+
+
+const district =
+    document.getElementById(
+        "district"
+    );
+
+
+const date =
+    document.getElementById(
+        "date"
+    );
+
+
+const sunResult =
+    document.getElementById(
+        "sun-result"
+    );
+
+
+const distanceResult =
+    document.getElementById(
+        "distance-result"
+    );
+
+
+fetch("../data/locations.json")
+
+.then(response=>{
+
+    if(!response.ok){
+
+        throw new Error(
+            "Não foi possível carregar locations.json"
+        );
+
+    }
+
+    return response.json();
+
+})
+
+.then(json=>{
+
+    locations=json;
+
+    loadProvinces();
+
+})
+
+.catch(error=>{
+
+    sunResult.innerHTML=
+        "<p>Erro ao carregar os dados de localização.</p>";
+
+    console.error(error);
+
+});
+
+
+function loadProvinces(){
+
+    const provinces=[
+
+        ...new Set(
+
+            locations.map(
+                x=>x.province
+            )
+
+        )
+
+    ];
+
+    provinces.sort();
+
+    province.innerHTML="";
+
+    provinces.forEach(p=>{
+
+        const option=
+            document.createElement(
+                "option"
+            );
+
+        option.value=p;
+
+        option.textContent=p;
+
+        province.appendChild(option);
+
+    });
+
+    loadDistricts();
+
+}
+
+
+function loadDistricts(){
+
+    const prov=
+        province.value;
+
+    const districts=
+        locations
+
+        .filter(
+            x=>x.province==prov
+        )
+
+        .sort(
+            (a,b)=>
+                a.district.localeCompare(
+                    b.district
+                )
+        );
+
+
+    district.innerHTML="";
+
+
+    districts.forEach(d=>{
+
+        const option=
+            document.createElement(
+                "option"
+            );
+
+        option.value=
+            d.district;
+
+        option.textContent=
+            d.district;
+
+        district.appendChild(
+            option
+        );
+
+    });
+
+
+    calculate();
+
+}
+
+
+function calculateSun(){
+
+    if(date.value==""){
+
+        sunResult.innerHTML=
+            "<p>Seleccione uma data.</p>";
+
+        return;
+
+    }
+
+
+    const loc=
+        locations.find(
+
+            x=>
+
+            x.province==
+                province.value &&
+
+            x.district==
+                district.value
+
+        );
+
+
+    if(!loc){
+
+        return;
+
+    }
+
+
+    const p=
+        date.value.split("-");
+
+
+    const year=
+        parseInt(p[0]);
+
+
+    const month=
+        parseInt(p[1]);
+
+
+    const day=
+        parseInt(p[2]);
+
+
+    const sun=
+        calculateSunTimes(
+
+            loc.lat,
+
+            loc.lon,
+
+            year,
+
+            month,
+
+            day
+
+        );
+
+
+    sunResult.innerHTML=`
+
+<h2>
+
+${loc.district}
+
+</h2>
+
+<div class="subtitle">
+
+${loc.province}
+
+</div>
+
+<hr>
+
+<p>
+
+📅 <b>${date.value}</b>
+
+</p>
+
+<p>
+
+🌅 Nascer do Sol
+
+</p>
+
+<div class="big">
+
+${sun.sunrise}
+
+</div>
+
+<p>
+
+🌇 Pôr do Sol
+
+</p>
+
+<div class="big">
+
+${sun.sunset}
+
+</div>
+
+<div class="info">
+
+☀️ <b>Duração do dia</b>
+
+<br>
+
+${sun.day_length}
+
+</div>
+
+<hr>
+
+<p class="subtitle">
+
+Latitude:
+${loc.lat.toFixed(4)}
+
+<br>
+
+Longitude:
+${loc.lon.toFixed(4)}
+
+</p>
+
+`;
+
+}
+
+
+function calculateDistance(){
+
+    if(date.value==""){
+
+        distanceResult.innerHTML=
+            "<p>Seleccione uma data.</p>";
+
+        return;
+
+    }
+
+
+    const p=
+        date.value.split("-");
+
+
+    const year=
+        parseInt(p[0]);
+
+
+    const month=
+        parseInt(p[1]);
+
+
+    const day=
+        parseInt(p[2]);
+
+
+    const d=
+        earthSunDistance(
+
+            year,
+
+            month,
+
+            day
+
+        );
+
+
+    const event=
+        getAstronomicalEvent(
+
+            month,
+
+            day
+
+        );
+
+
+    let eventHTML="";
+
+
+    if(event){
+
+        eventHTML=`
+
+<div class="event">
+
+<h3>
+
+${event.title}
+
+</h3>
+
+<p>
+
+${event.description}
+
+</p>
+
+</div>
+
+`;
+
+    }
+
+
+    distanceResult.innerHTML=`
+
+<p>
+
+📅 <b>${date.value}</b>
+
+</p>
+
+<hr>
+
+<p>
+
+☀️ Distância Terra–Sol
+
+</p>
+
+<div class="value">
+
+${d.distance_km.toLocaleString(
+
+"pt-BR",
+
+{
+
+maximumFractionDigits:0
+
+}
+
+)} km
+
+</div>
+
+<p>
+
+🌍
+
+<b>${d.distance_au.toFixed(6)}</b>
+
+UA
+
+</p>
+
+<div class="info">
+
+📅 Dia do ano:
+
+<b>${d.day_of_year}</b>
+
+</div>
+
+${eventHTML}
+
+<hr>
+
+<p>
+
+<b>Distância média:</b>
+
+149,6 milhões km
+
+</p>
+
+<p>
+
+<b>Excentricidade orbital:</b>
+
+0,0167
+
+</p>
+
+`;
+
+}
+
+
+function calculate(){
+
+    calculateSun();
+
+    calculateDistance();
+
+}
+
+
+province.onchange=
+    loadDistricts;
+
+
+district.onchange=
+    calculate;
+
+
+date.onchange=
+    calculate;
+
+
+date.valueAsDate=
+    new Date();
+
+
+</script>
+
+</body>
+
+</html>

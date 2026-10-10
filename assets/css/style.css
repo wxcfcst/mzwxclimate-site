@@ -967,324 +967,37 @@ a {
 
 }
 
+/* ===== Navegação MZ WX & Climate (desktop e mobile) ===== */
+#mz-main-header.mz-header{position:relative;z-index:1000;background:#050505;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:60px;padding:0 clamp(16px,4vw,70px)}
+.mz-brand{font-size:clamp(1rem,1.5vw,1.25rem);white-space:nowrap;color:#fff;font-weight:500}
+.mz-nav{margin-left:auto;min-width:0}
+.mz-nav ul{padding:0;margin:0;list-style:none}
+.mz-nav .mz-menu{display:flex;align-items:center;justify-content:flex-end;gap:clamp(1px,.4vw,10px)}
+.mz-nav .mz-item{position:relative}
+.mz-nav a,.mz-nav .mz-trigger,.mz-nav .mz-inactive{display:flex;align-items:center;gap:7px;min-height:56px;padding:0 clamp(7px,.75vw,14px);font-family:inherit;font-size:clamp(.76rem,.85vw,.95rem);font-weight:600;white-space:nowrap;color:#fff;background:transparent;border:0;border-bottom:4px solid transparent;text-decoration:none}
+.mz-nav .mz-trigger{cursor:pointer}
+.mz-nav a:hover,.mz-nav .mz-trigger:hover,.mz-nav .mz-item.is-open>.mz-trigger{background:#202020}
+.mz-nav a[aria-current="page"]{border-bottom-color:#263cff}
+.mz-nav .mz-inactive{opacity:.4;cursor:not-allowed}
+.mz-arrow{display:inline-block;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
+.mz-nav .mz-submenu{display:none;position:absolute;top:100%;left:0;z-index:1200;min-width:245px;max-width:min(440px,95vw);padding:6px 0;background:#0a0b0e;border:1px solid #252525;box-shadow:0 14px 28px #0008}
+.mz-nav .mz-submenu .mz-submenu{top:-7px;left:100%}
+.mz-nav .mz-item.is-open>.mz-submenu{display:block}
+.mz-nav .mz-submenu a,.mz-nav .mz-submenu .mz-trigger,.mz-nav .mz-submenu .mz-inactive{min-height:40px;padding:8px 16px;font-size:.86rem;white-space:normal;border-bottom:0;line-height:1.35;justify-content:space-between}
+.mz-nav .mz-submenu .mz-arrow{transform:rotate(-45deg)}
+.mz-nav a:focus-visible,.mz-nav button:focus-visible,.mz-mobile-toggle:focus-visible{outline:2px solid #f7c948;outline-offset:2px}
+.mz-mobile-toggle{display:none;color:white;background:#181818;border:1px solid #444;border-radius:6px;padding:8px 12px;font:inherit;cursor:pointer}
+@media(max-width:1100px){#mz-main-header.mz-header{flex-wrap:wrap;padding:10px 18px}.mz-mobile-toggle{display:block;margin-left:auto}.mz-nav{display:none;width:100%;margin:0}.mz-nav.mobile-open{display:block}.mz-nav .mz-menu{display:block;max-height:70vh;overflow-y:auto}.mz-nav .mz-item{width:100%}.mz-nav a,.mz-nav .mz-trigger,.mz-nav .mz-inactive{width:100%;min-height:43px;justify-content:space-between;padding:10px 12px}.mz-nav .mz-submenu,.mz-nav .mz-submenu .mz-submenu{position:static;max-width:none;width:100%;min-width:0;box-shadow:none;border:0;border-left:2px solid #505050;padding:0 0 0 12px}.mz-nav .mz-submenu .mz-arrow{transform:rotate(45deg)}}
 
-/* ============================================
-   MENU PRINCIPAL HIERÁRQUICO MZ WX & Climate
-   ============================================ */
-.site-header .header-content {
-    align-items: center;
-}
-
-.site-header .logo {
-    flex-shrink: 0;
-}
-
-.site-header .main-nav {
-    min-width: 0;
-}
-
-.site-header .main-nav > ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 3px;
-    list-style: none;
-}
-
-.site-header .main-nav li {
-    position: relative;
-    list-style: none;
-}
-
-.site-header .main-nav a,
-.site-header .main-nav summary {
-    display: block;
-    padding: 9px 11px;
-    border-radius: 7px;
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
-    cursor: pointer;
-    overflow-wrap: anywhere;
-}
-
-.site-header .main-nav a:hover,
-.site-header .main-nav summary:hover,
-.site-header .main-nav a:focus-visible,
-.site-header .main-nav summary:focus-visible {
-    background: rgba(255,255,255,0.16);
-    outline-offset: 2px;
-}
-
-.site-header .main-nav summary {
-    list-style: none;
-}
-
-.site-header .main-nav summary::-webkit-details-marker {
-    display: none;
-}
-
-.site-header .main-nav summary::after {
-    content: " ▾";
-    font-size: 0.72em;
-}
-
-.site-header .main-nav details[open] > summary::after {
-    content: " ▴";
-}
-
-.site-header .main-nav li > ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 220px;
-    max-width: min(320px, 85vw);
-    padding: 6px;
-    background: #24364d;
-    border: 1px solid rgba(255,255,255,0.14);
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
-    z-index: 1100;
-}
-
-.site-header .main-nav details[open] > ul {
-    display: block;
-}
-
-.site-header .main-nav li > ul li {
-    width: 100%;
-}
-
-.site-header .main-nav li > ul a,
-.site-header .main-nav li > ul summary {
-    width: 100%;
-    padding: 9px 11px;
-    text-align: left;
-}
-
-.site-header .main-nav li > ul li > ul {
-    top: 0;
-    left: 100%;
-}
-
-.site-header .main-nav .menu-placeholder {
-    opacity: 0.72;
-    cursor: default;
-}
-
-.site-header .main-nav .menu-placeholder:hover {
-    background: transparent;
-}
-
-@media (max-width: 1000px) {
-    .site-header .header-content {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .site-header .main-nav {
-        width: 100%;
-    }
-
-    .site-header .main-nav > ul {
-        justify-content: flex-start;
-    }
-}
-
-@media (max-width: 768px) {
-    .site-header .main-nav > ul {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        flex-wrap: nowrap;
-        gap: 2px;
-    }
-
-    .site-header .main-nav > ul > li {
-        width: 100%;
-    }
-
-    .site-header .main-nav a,
-    .site-header .main-nav summary {
-        padding: 10px 12px;
-    }
-
-    .site-header .main-nav li > ul,
-    .site-header .main-nav li > ul li > ul {
-        position: static;
-        min-width: 0;
-        max-width: none;
-        width: 100%;
-        padding: 3px 0 3px 14px;
-        border: 0;
-        border-radius: 0;
-        box-shadow: none;
-        background: rgba(0,0,0,0.12);
-    }
-
-    .site-header .main-nav li > ul a,
-    .site-header .main-nav li > ul summary {
-        white-space: normal;
-    }
-}
-
-/* Imagem de fundo existente na pasta da página inicial. */
-.hero {
-    background:
-        linear-gradient(rgba(24, 43, 73, 0.58), rgba(24, 43, 73, 0.58)),
-        url("../images/home/thunderstorm.gif") center center / cover no-repeat;
-}
-
-
-/*=======================================================================================================================================*/
-/* DEEPSEEK*/
-
-/* ============================================================
-   MENU HORIZONTAL - CORREÇÃO FINAL
-   ============================================================ */
-
-/* Container principal do menu */
-.site-header .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* A lista principal do menu (horizontal) */
-.site-header .nav-menu {
-    display: flex;
-    list-style: none;
-    gap: 5px;
-    margin: 0;
-    padding: 0;
-}
-
-/* Cada item do menu */
-.site-header .nav-menu > li {
-    position: relative; /* Necessário para posicionar os submenus */
-}
-
-/* Links do menu principal */
-.site-header .nav-menu > li > a {
-    display: block;
-    padding: 10px 15px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
-    border-radius: 8px;
-    transition: background 0.3s ease;
-    white-space: nowrap; /* Impede quebra de linha nos itens principais */
-}
-
-/* Efeito ao passar o rato */
-.site-header .nav-menu > li > a:hover {
-    background: rgba(255, 255, 255, 0.15);
-}
-
-/* Link ativo */
-.site-header .nav-menu > li > a.active {
-    background: rgba(255, 255, 255, 0.2);
-    font-weight: 600;
-}
-
-/* Submenus (Nível 1) */
-.site-header .nav-menu .submenu {
-    display: none; /* Escondido por padrão */
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 220px;
-    background: #24364d;
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
-    list-style: none;
-    padding: 6px;
-    z-index: 1100;
-}
-
-/* Mostrar submenu ao passar o rato no item pai */
-.site-header .nav-menu > li:hover > .submenu {
-    display: block;
-}
-
-/* Itens dentro dos submenus */
-.site-header .nav-menu .submenu li {
-    position: relative; /* Para submenus de nível 2 */
-    width: 100%;
-}
-
-.site-header .nav-menu .submenu a {
-    display: block;
-    padding: 9px 12px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    border-radius: 6px;
-    transition: background 0.2s;
-    text-align: left;
-}
-
-.site-header .nav-menu .submenu a:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-/* Submenus de Nível 2 (abrem para a direita) */
-.site-header .nav-menu .submenu .submenu {
-    top: 0;
-    left: 100%; /* Posiciona à direita do menu pai */
-}
-
-/* Mostrar submenu de nível 2 ao passar o rato */
-.site-header .nav-menu .submenu li:hover > .submenu {
-    display: block;
-}
-
-/* Indicadores de seta */
-.site-header .nav-menu > li.has-submenu > a::after {
-    content: " ▼";
-    font-size: 0.7em;
-    margin-left: 4px;
-}
-
-.site-header .nav-menu .submenu li.has-submenu > a::after {
-    content: " ▶";
-    font-size: 0.7em;
-    float: right;
-    margin-left: 8px;
-}
-
-/* Responsividade para ecrãs pequenos */
-@media (max-width: 1000px) {
-    .site-header .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    .site-header .nav-menu {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-}
-
-@media (max-width: 768px) {
-    .site-header .nav-menu {
-        flex-direction: column;
-        width: 100%;
-        gap: 2px;
-    }
-    
-    .site-header .nav-menu .submenu {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        border: none;
-        background: rgba(0,0,0,0.15);
-        padding-left: 15px;
-    }
-}
+/* ===== Imagem animada apenas na página inicial ===== */
+body.mz-home{background:#101a25;color:#fff;isolation:isolate}
+body.mz-home::before{content:"";position:fixed;inset:0;z-index:-2;background:#101a25 url('../images/home/thunderstorm.gif') center center / cover no-repeat;pointer-events:none}
+body.mz-home::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(0,0,0,.47);pointer-events:none}
+body.mz-home .hero{background:rgba(5,14,24,.28);border-radius:0;margin-bottom:12px;padding:52px 20px}
+body.mz-home .features,body.mz-home .highlights{background:rgba(8,18,28,.66);border-radius:18px;margin:30px auto;max-width:1240px;padding:30px 14px}
+body.mz-home .section-title{color:#fff}
+body.mz-home .site-footer{background:rgba(5,10,15,.9)}
+body.mz-home .metar-section{background:rgba(0,0,0,.38)}
+body.mz-home .metar-card{animation:metarFadeIn .5s ease-out,metarBlink 4s ease-in-out infinite alternate;animation-delay:0s,.6s}
+@keyframes metarBlink{from{box-shadow:0 0 4px rgba(255,255,255,.05)}to{box-shadow:0 0 17px rgba(106,199,255,.5)}}
+@media(prefers-reduced-motion:reduce){body.mz-home .metar-card{animation:none}}

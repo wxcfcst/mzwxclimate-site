@@ -1,0 +1,111 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anomalias de precipitação sazonal — Nacional | MZ WX &amp; Climate</title>
+  <link rel="stylesheet" href="../../../../assets/css/style.css">
+  <style>
+    .climate-content { padding: 20px 0 32px; }
+    .climate-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .climate-card { background:#fff; padding:24px; border-radius:14px; box-shadow:0 2px 10px rgba(0,0,0,.06); }
+    .climate-card h2,.climate-card h3 { color:#2d3748; margin-bottom:10px; }
+    .climate-card p { color:#718096; margin-bottom:14px; }
+    .climate-link { color:#667eea; font-weight:600; }
+    .climate-map { background:#fff; max-width:860px; padding:14px; margin:18px auto; border-radius:14px; box-shadow:0 2px 10px rgba(0,0,0,.06); }
+    .climate-map img {
+      display: block;
+      width: 100%;
+      max-width: 840px;
+      height: 460px;
+      max-height: 65vh;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+    .climate-map h2 { margin-bottom:12px; color:#2d3748; }
+    .notice { padding:16px; background:#edf2f7; border-left:4px solid #667eea; border-radius:8px; }
+    .breadcrumbs { margin:18px 0; color:#718096; }
+    .breadcrumbs a { color:#667eea; }
+  
+    .map-selector {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .map-selector label {
+      font-weight: 600;
+      color: #2d3748;
+    }
+    .map-selector select {
+      flex: 1;
+      min-width: 200px;
+      max-width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e0;
+      border-radius: 8px;
+      background: #fff;
+      color: #2d3748;
+      font: inherit;
+    }
+      .page-header h1 {
+      margin: 0 !important;
+      padding: 0 !important;
+      line-height: 1.05;
+    }
+    .page-header p {
+      margin: 0 0 8px !important;
+      padding: 0 !important;
+      line-height: 1.1;
+    }
+  </style>
+</head>
+
+<body>
+<main class="container climate-content">
+  <div class="page-header">
+    <h1>Sazonal</h1>
+    <p>Anomalias de precipitação — Moçambique</p>
+  </div>
+
+  <div class="map-selector">
+    <label for="climate-product-select">Selecionar estação</label>
+    <select id="climate-product-select">
+      <option value="0">DJF — Dezembro–Fevereiro — 1999</option>
+      <option value="1">MAM — Março–Maio — 1999</option>
+      <option value="2">DJF — Dezembro–Fevereiro — 2000</option>
+      <option value="3">MAM — Março–Maio — 2000</option>
+      <option value="4">DJF — Dezembro–Fevereiro — 2024</option>
+    </select>
+  </div>
+
+  <section class="climate-map" aria-live="polite">
+    <h2 id="climate-map-title">DJF — Dezembro–Fevereiro — 1999</h2>
+    <img
+      id="climate-map-image"
+      src="../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_DJF.png"
+      alt="Anomalia sazonal de precipitação: imerg_anomaly_1999_DJF.png"
+      loading="lazy">
+  </section>
+</main>
+
+<script>
+  const climateMaps = [{"label": "DJF — Dezembro–Fevereiro — 1999", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_1999_DJF.png"}, {"label": "MAM — Março–Maio — 1999", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_MAM.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_1999_MAM.png"}, {"label": "DJF — Dezembro–Fevereiro — 2000", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2000_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2000_DJF.png"}, {"label": "MAM — Março–Maio — 2000", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2000_MAM.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2000_MAM.png"}, {"label": "DJF — Dezembro–Fevereiro — 2024", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2024_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2024_DJF.png"}];
+  const climateSelector =
+    document.getElementById("climate-product-select");
+  const climateTitle =
+    document.getElementById("climate-map-title");
+  const climateImage =
+    document.getElementById("climate-map-image");
+
+  climateSelector.addEventListener("change", function () {
+    const selectedMap = climateMaps[Number(this.value)];
+    climateTitle.textContent = selectedMap.label;
+    climateImage.src = selectedMap.src;
+    climateImage.alt = selectedMap.alt;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Satélite - MZ WX & Climate</title>
+
+<link rel="stylesheet" href="../assets/css/style.css">
+
+<style>
+
+/* ============================================================
+   PÁGINA PRINCIPAL DE SATÉLITE
+   ============================================================ */
+
+.satellite-page {
+
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* ============================================================
+   TÍTULO
+   ============================================================ */
+
+.satellite-title {
+
+    text-align: center;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    margin: 20px 0 40px 0;
+
+}
+
+
+/* ============================================================
+   OPÇÕES
+   ============================================================ */
+
+.satellite-options {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+
+    width: 100%;
+
+}
+
+
+/* ============================================================
+   CAIXAS
+   ============================================================ */
+
+.satellite-option {
+
+    display: block;
+
+    padding: 40px 30px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #222222;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+
+}
+
+
+/* ============================================================
+   EFEITO AO PASSAR O RATO
+   ============================================================ */
+
+.satellite-option:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
+
+}
+
+
+/* ============================================================
+   TÍTULO DAS OPÇÕES
+   ============================================================ */
+
+.satellite-option h2 {
+
+    margin: 0 0 15px 0;
+
+    font-size: 24px;
+
+}
+
+
+/* ============================================================
+   DESCRIÇÃO
+   ============================================================ */
+
+.satellite-option p {
+
+    margin: 0;
+
+    font-size: 17px;
+
+    line-height: 1.5;
+
+    color: #555555;
+
+}
+
+
+/* ============================================================
+   RESPONSIVIDADE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .satellite-page {
+
+        padding: 15px;
+
+    }
+
+
+    .satellite-title {
+
+        font-size: 25px;
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .satellite-options {
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+    }
+
+
+    .satellite-option {
+
+        padding: 30px 20px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="satellite-page">
+
+
+    <!-- ======================================================
+         TÍTULO
+         ====================================================== -->
+
+    <div class="satellite-title">
+
+        Satélite
+
+    </div>
+
+
+    <!-- ======================================================
+         OPÇÕES
+         ====================================================== -->
+
+    <div class="satellite-options">
+
+
+        <!-- ==================================================
+             CUSTOM
+             ================================================== -->
+
+        <a
+            class="satellite-option"
+            href="custom/"
+        >
+
+            <h2>
+
+                Custom
+
+            </h2>
+
+            <p>
+
+                Produtos de satélite MSG/SEVIRI
+                personalizados para análise meteorológica.
+
+            </p>
+
+        </a>
+
+
+        <!-- ==================================================
+             GEORING
+             ================================================== -->
+
+        <a
+            class="satellite-option"
+            href="georing/"
+        >
+
+            <h2>
+
+                GeoRing
+
+            </h2>
+
+            <p>
+
+                Produtos de satélite GeoRing
+                para monitorização meteorológica.
+
+            </p>
+
+        </a>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+
+</html>

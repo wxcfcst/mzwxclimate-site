@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZ WX & Climate - Início</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>MZ WX & Climate</h1>
+                <span class="tagline">Meteorologia e Clima de Moçambique</span>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="climate/index.html">Clima</a></li>
+                    
+                    <!-- Previsão -->
+                    <li class="has-submenu">
+                        <a href="#">Previsão ▼</a>
+                        <ul class="submenu">
+                            <li><a href="weather/index.html">Tempo</a></li>
+                            <li class="has-submenu">
+                                <a href="#">Climática ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="climate/seasonal.html">Sazonal</a></li>
+                                    <li><a href="climate/subseasonal.html">Subsazonal</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Astronomia -->
+                    <li class="has-submenu">
+                        <a href="#">Astronomia ▼</a>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <a href="#">☀️ Sol ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="astronomy/solar_zenith.html">Ângulo Solar Zenital</a></li>
+                                    <li><a href="astronomy/earth_sun_distance.html">Nascer & Pôr do Sol | Distância: Terra - Sol</a></li>
+                                    <li><a href="astronomy/solar_zenith_annual.html">Ângulo Solar Zenital Anual</a></li>
+                                    <li><a href="astronomy/solar_irradiance_toa.html">Irradiância Solar no TOA</a></li>
+                                    <li><a href="astronomy/solar_radiation_era5land.html">Irradição Solar: ERA5-Land</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="astronomy/sun.html">🌙 Lua</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="contact/index.html">Contacto</a></li>
+                    <li><a href="about/index.html">Sobre</a></li>
+
+                    <!-- Observações -->
+                    <li class="has-submenu">
+                        <a href="#">Observações ▼</a>
+                        <ul class="submenu">
+                            <li><a href="#">Estação</a></li>
+                            <li><a href="#">Radar</a></li>
+                            <li class="has-submenu">
+                                <a href="#">Sondagem ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="#">uwyo</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Códigos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="weather/metar.html">METAR</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Satélite ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="satellite/index.html">Produtos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="nwp/index.html">NWP</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Modelos -->
+                    <li class="has-submenu">
+                        <a href="#">Modelos ▼</a>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <a href="#">Dinâmicos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="weather/eta.html">ETA</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Estatísticos ▶</a>
+                                <ul class="submenu">
+                                    <li><a href="#">CPT</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Bem-vindo ao MZ WX & Climate</h2>
+                <p>Informação meteorológica e climática para Moçambique e região.</p>
+                <div class="hero-buttons">
+                    <a href="weather/index.html" class="btn-primary">Ver Previsão</a>
+                    <a href="climate/index.html" class="btn-secondary">Ver Clima</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>MZ WX & Climate</h4>
+                <p>Informação meteorológica para Moçambique.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="climate/index.html">Clima</a></li>
+                    <li><a href="weather/index.html">Tempo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: info@mzwxclimate.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MZ WX & Climate. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

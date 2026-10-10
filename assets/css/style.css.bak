@@ -836,7 +836,7 @@ a {
 .satellite-map img {
     display: block;
     width: 100%;
-    max-width: 1100px;
+    max-width: none;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -884,7 +884,7 @@ a {
 
 .satellite-product {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 25px auto;
     background: white;
     border-radius: 16px;
@@ -925,7 +925,7 @@ a {
 .satellite-map img {
     display: block;
     width: 100%;
-    max-width: 1100px;
+    max-width: none;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -967,3 +967,147 @@ a {
 
 }
 
+
+/* Cabeçalho principal MZ WX & Climate */
+#mz-main-header.mz-header {
+    min-height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background: #050505;
+    color: #fff;
+    position: relative;
+    z-index: 1000;
+}
+.mz-header .mz-brand {
+    color: #fff;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+.mz-header .mz-nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: none;
+}
+.mz-header .mz-nav li {
+    position: relative;
+    list-style: none;
+}
+.mz-header .mz-nav a,
+.mz-header .mz-nav summary {
+    display: block;
+    padding: 10px 9px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.mz-header .mz-nav summary::-webkit-details-marker {
+    display: none;
+}
+.mz-header .mz-nav summary::after {
+    content: "⌄";
+    margin-left: 5px;
+}
+.mz-header .mz-nav a:hover,
+.mz-header .mz-nav summary:hover,
+.mz-header .mz-nav a:focus-visible,
+.mz-header .mz-nav summary:focus-visible {
+    background: #292929;
+}
+.mz-header .mz-nav li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    max-width: 320px;
+    padding: 5px;
+    background: #080808;
+    box-shadow: 0 5px 16px rgba(0,0,0,.35);
+    list-style: none;
+    z-index: 1100;
+}
+.mz-header .mz-nav details[open] > ul {
+    display: block;
+}
+.mz-header .mz-nav li > ul li > ul {
+    top: 0;
+    left: 100%;
+}
+.mz-header .mz-nav li > ul a,
+.mz-header .mz-nav li > ul summary {
+    white-space: normal;
+}
+.mz-header .mz-nav .mz-empty {
+    opacity: .75;
+    cursor: default;
+}
+@media (max-width: 1000px) {
+    #mz-main-header.mz-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 6px;
+        padding: 12px 16px;
+    }
+    .mz-header .mz-nav > ul {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 700px) {
+    .mz-header .mz-nav > ul {
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .mz-header .mz-nav > ul > li {
+        width: 100%;
+    }
+    .mz-header .mz-nav li > ul,
+    .mz-header .mz-nav li > ul li > ul {
+        position: static;
+        min-width: 0;
+        max-width: none;
+        width: 100%;
+        padding-left: 14px;
+        box-shadow: none;
+        background: #151515;
+    }
+}
+
+/* Ajustes finais dos submenus MZ WX & Climate */
+.mz-header .mz-nav details > summary {
+    position: relative;
+}
+
+.mz-header .mz-nav details[open] > summary::after {
+    content: "⌃";
+}
+
+.mz-header .mz-nav li > ul li > ul {
+    background: #111;
+    border-left: 2px solid #444;
+}
+
+.mz-header .mz-nav a:focus-visible,
+.mz-header .mz-nav summary:focus-visible {
+    outline: 2px solid #ffd54f;
+    outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+    .mz-header .mz-nav,
+    .mz-header .mz-nav > ul {
+        width: 100%;
+    }
+
+    .mz-header .mz-nav li > ul li > ul {
+        border-left: 2px solid #555;
+    }
+}
