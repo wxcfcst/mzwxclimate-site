@@ -1,6 +1,6 @@
 {
     "source": "GeoRing",
-    "generated": "2026-10-11T09:22:07.932590-03:00",
+    "generated": "2026-10-11T10:44:44.153699-03:00",
     "latest": "2026-10-11T05:15:00",
     "total": 18,
     "images": [
@@ -22,7 +22,7 @@
         },
         {
             "id": "VIS006",
-            "name": "Visible 0.6 µm",
+            "name": "VIS006",
             "description": "Canal visível de 0.6 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_VIS006_2026-10-11_05:15.png",
@@ -30,7 +30,7 @@
         },
         {
             "id": "VIS008",
-            "name": "Visible 0.8 µm",
+            "name": "VIS008",
             "description": "Canal visível de 0.8 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_VIS008_2026-10-11_05:15.png",
@@ -38,7 +38,7 @@
         },
         {
             "id": "IR_016",
-            "name": "Infrared 1.6 µm",
+            "name": "IR 016",
             "description": "Canal infravermelho de 1.6 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_016_2026-10-11_05:15.png",
@@ -46,7 +46,7 @@
         },
         {
             "id": "IR_039",
-            "name": "Infrared 3.9 µm",
+            "name": "IR 039",
             "description": "Canal infravermelho de 3.9 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_039_2026-10-11_05:15.png",
@@ -54,7 +54,7 @@
         },
         {
             "id": "IR_087",
-            "name": "Infrared 8.7 µm",
+            "name": "IR 087",
             "description": "Canal infravermelho de 8.7 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_087_2026-10-11_05:15.png",
@@ -62,7 +62,7 @@
         },
         {
             "id": "IR_097",
-            "name": "Infrared 9.7 µm",
+            "name": "IR 097",
             "description": "Canal infravermelho de 9.7 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_097_2026-10-11_05:15.png",
@@ -70,7 +70,7 @@
         },
         {
             "id": "IR_108",
-            "name": "Infrared 10.8 µm",
+            "name": "IR 108",
             "description": "Canal infravermelho de 10.8 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_108_2026-10-11_05:15.png",
@@ -78,7 +78,7 @@
         },
         {
             "id": "IR_120",
-            "name": "Infrared 12.0 µm",
+            "name": "IR 120",
             "description": "Canal infravermelho de 12.0 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_120_2026-10-11_05:15.png",
@@ -86,7 +86,7 @@
         },
         {
             "id": "IR_134",
-            "name": "Infrared 13.4 µm",
+            "name": "IR 134",
             "description": "Canal infravermelho de 13.4 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_IR_134_2026-10-11_05:15.png",
@@ -94,7 +94,7 @@
         },
         {
             "id": "WV_062",
-            "name": "Water Vapour 6.2 µm",
+            "name": "WV 062",
             "description": "Canal de vapor de água de 6.2 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_WV_062_2026-10-11_05:15.png",
@@ -102,7 +102,7 @@
         },
         {
             "id": "WV_073",
-            "name": "Water Vapour 7.3 µm",
+            "name": "WV 073",
             "description": "Canal de vapor de água de 7.3 µm.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_WV_073_2026-10-11_05:15.png",
@@ -142,7 +142,7 @@
         },
         {
             "id": "airmass",
-            "name": "Air Mass",
+            "name": "Airmass",
             "description": "Produto de massas de ar.",
             "datetime": "2026-10-11T05:15:00",
             "filename": "msg45_airmass_2026-10-11_05:15.png",
