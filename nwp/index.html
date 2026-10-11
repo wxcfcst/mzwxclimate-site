@@ -334,6 +334,11 @@ select:focus {
 
 }
 
+
+/* NWP: quatro seletores responsivos */
+.selectors .selector { flex: 1 1 215px; max-width: 420px; min-width: 0; }
+@media (max-width: 700px) { .selectors .selector { flex-basis: 100%; max-width: none; } }
+
 </style>
 
 <link rel="stylesheet" href="../assets/css/navigation.css">
@@ -387,6 +392,20 @@ select:focus {
 
 
 
+                <div class="selector">
+            <label for="variable-select">Variável Meteorológica</label>
+            <select id="variable-select" disabled>
+                <option value="">Seleccione uma variável</option>
+            </select>
+        </div>
+
+        <div class="selector">
+            <label for="level-select">Nível Atmosférico</label>
+            <select id="level-select" disabled>
+                <option value="">Seleccione um nível</option>
+            </select>
+        </div>
+
         <div class="selector">
 
             <label for="product-select">
@@ -416,7 +435,7 @@ select:focus {
 
         <div class="message">
 
-            Seleccione um modelo e um produto
+            Seleccione um modelo, uma variável, um nível e um produto
             para visualizar a análise.
 
         </div>
