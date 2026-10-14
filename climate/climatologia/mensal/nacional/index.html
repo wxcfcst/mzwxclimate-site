@@ -190,6 +190,29 @@
 
 </style>
 
+<style id="ajuste-largura-selector">
+
+/* Ajustar largura da caixa Selecionar mês à largura da figura */
+.climate-content .map-selector {
+    width: 600px !important;
+    max-width: 100% !important;
+    margin: 4px auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Ajustar o seletor dentro da caixa */
+.climate-content .map-selector select {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 650px) {
+    .climate-content .map-selector {
+        width: 100% !important;
+    }
+}
+</style>
 </head>
 
 <body>

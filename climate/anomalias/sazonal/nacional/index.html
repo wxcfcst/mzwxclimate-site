@@ -62,13 +62,129 @@
     }
   </style>
 <link rel="stylesheet" href="../../../../assets/css/navigation.css">
+
+<style id="padrao-anomalias-sazonal-nacional">
+
+/* Área principal */
+.container.climate-content {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 0 24px !important;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho compacto */
+.climate-content .page-header {
+    margin: 0 0 4px !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+
+/* Título Sazonal */
+.climate-content .page-header h1 {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    line-height: 1.1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Caixa Selecionar estação */
+.climate-content .map-selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+
+    width: 600px !important;
+    max-width: 100% !important;
+
+    margin: 4px auto !important;
+    padding: 8px 12px !important;
+
+    background: #fff;
+    border-radius: 12px;
+    box-sizing: border-box !important;
+}
+
+/* Texto do seletor */
+.climate-content .map-selector label {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+/* Campo de seleção */
+.climate-content .map-selector select {
+    flex: 1;
+    min-width: 0;
+    max-width: 100%;
+
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #2d3748;
+    font: inherit;
+}
+
+/* Caixa da figura */
+.climate-content .climate-map {
+    background: #fff;
+
+    width: 600px !important;
+    max-width: 100% !important;
+
+    margin: 4px auto !important;
+    padding: 0 !important;
+
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.06);
+
+    box-sizing: border-box !important;
+}
+
+/* Figura */
+.climate-content .climate-map img {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 600px !important;
+
+    height: auto !important;
+    max-height: 700px !important;
+
+    object-fit: contain !important;
+    margin: 0 auto !important;
+}
+
+/* Responsividade */
+@media (max-width: 650px) {
+
+    .climate-content .map-selector {
+        width: 100% !important;
+    }
+
+    .climate-content .climate-map {
+        width: 100% !important;
+    }
+
+    .climate-content .climate-map img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+</style>
+
 </head>
 
 <body>
 <main class="container climate-content">
   <div class="page-header">
     <h1>Sazonal</h1>
-    <p>Anomalias de precipitação — Moçambique</p>
+    
   </div>
 
   <div class="map-selector">
@@ -83,7 +199,7 @@
   </div>
 
   <section class="climate-map" aria-live="polite">
-    <h2 id="climate-map-title">DJF — Dezembro–Fevereiro — 1999</h2>
+    
     <img
       id="climate-map-image"
       src="../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_DJF.png"
@@ -96,14 +212,11 @@
   const climateMaps = [{"label": "DJF — Dezembro–Fevereiro — 1999", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_1999_DJF.png"}, {"label": "MAM — Março–Maio — 1999", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_1999_MAM.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_1999_MAM.png"}, {"label": "DJF — Dezembro–Fevereiro — 2000", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2000_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2000_DJF.png"}, {"label": "MAM — Março–Maio — 2000", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2000_MAM.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2000_MAM.png"}, {"label": "DJF — Dezembro–Fevereiro — 2024", "src": "../../../../assets/images/climate/anomalias/sazonal/imerg_anomaly_2024_DJF.png", "alt": "Anomalia sazonal de precipitação: imerg_anomaly_2024_DJF.png"}];
   const climateSelector =
     document.getElementById("climate-product-select");
-  const climateTitle =
-    document.getElementById("climate-map-title");
   const climateImage =
     document.getElementById("climate-map-image");
 
   climateSelector.addEventListener("change", function () {
     const selectedMap = climateMaps[Number(this.value)];
-    climateTitle.textContent = selectedMap.label;
     climateImage.src = selectedMap.src;
     climateImage.alt = selectedMap.alt;
   });
