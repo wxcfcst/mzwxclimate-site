@@ -1,0 +1,259 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Precipitação mensal — Nacional | MZ WX &amp; Climate</title>
+  <link rel="stylesheet" href="../../../../assets/css/style.css">
+  <style>
+    .climate-content { padding: 0 0 24px; }
+    .climate-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .climate-card { background:#fff; padding:24px; border-radius:14px; box-shadow:0 2px 10px rgba(0,0,0,.06); }
+    .climate-card h2,.climate-card h3 { color:#2d3748; margin-bottom:10px; }
+    .climate-card p { color:#718096; margin-bottom:14px; }
+    .climate-link { color:#667eea; font-weight:600; }
+    
+    
+    
+    
+    .climate-map {
+      background: #fff;
+      width: 100%;
+      max-width: 950px;
+      padding: 14px;
+      margin: 10px auto;
+      border-radius: 14px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+      box-sizing: border-box;
+    }
+
+
+    
+    
+    
+    
+    .climate-map img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+
+
+    .notice { padding:16px; background:#edf2f7; border-left:4px solid #667eea; border-radius:8px; }
+    .breadcrumbs { margin:18px 0; color:#718096; }
+    .breadcrumbs a { color:#667eea; }
+  
+    .map-selector {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin: 4px 0 8px;
+      padding: 16px;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .map-selector label {
+      font-weight: 600;
+      color: #2d3748;
+    }
+    .map-selector select {
+      flex: 1;
+      min-width: 200px;
+      max-width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e0;
+      border-radius: 8px;
+      background: #fff;
+      color: #2d3748;
+      font: inherit;
+    }
+      .page-header h1 {
+      margin: 0 !important;
+      padding: 0 !important;
+      line-height: 1.05;
+    }
+    .page-header p {
+      margin: 0 0 8px !important;
+      padding: 0 !important;
+      line-height: 1.1;
+    }
+  
+
+    /* Compactar o cabeçalho desta página */
+    .climate-content .page-header {
+      margin: 0 0 12px !important;
+      padding: 8px 0 4px !important;
+      min-height: 0 !important;
+    }
+
+    .climate-content .page-header h1 {
+      margin: 0 0 3px !important;
+      padding: 0 !important;
+      line-height: 1.1;
+    }
+
+    .climate-content .page-header p {
+      margin: 0 !important;
+      padding: 0 !important;
+      line-height: 1.2;
+    }
+
+    /* Evitar espaço reservado para títulos extras */
+    .climate-content .climate-map {
+      margin-top: 10px;
+    }
+
+    /* Área principal da climatologia */
+    .container.climate-content {
+      width: 95%;
+      max-width: 1100px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+  </style>
+<link rel="stylesheet" href="../../../../assets/css/navigation.css">
+</head>
+
+<body>
+<main class="container climate-content">
+  <div class="page-header">
+    <h1>Mensal</h1>
+    <p>Precipitação — Moçambique</p>
+  </div>
+
+  <div class="map-selector">
+    <label for="climate-product-select">Selecionar mês</label>
+    <select id="climate-product-select">
+      <option value="0">Janeiro</option>
+      <option value="1">Fevereiro</option>
+      <option value="2">Março</option>
+      <option value="3">Abril</option>
+      <option value="4">Maio</option>
+      <option value="5">Junho</option>
+      <option value="6">Julho</option>
+      <option value="7">Agosto</option>
+      <option value="8">Setembro</option>
+      <option value="9">Outubro</option>
+      <option value="10">Novembro</option>
+      <option value="11">Dezembro</option>
+    </select>
+  </div>
+
+  <section class="climate-map" aria-live="polite">
+    <img
+      id="climate-map-image"
+      src="../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Jan.png"
+      alt="Climatologia de precipitação — Janeiro, 1999–2024"
+      loading="lazy">
+  </section>
+<!-- INICIO TESTE DIMENSOES -->
+<style>
+  .dimension-tester {max-width:1100px;margin:12px auto;padding:14px;background:#f7fafc;border:1px solid #cbd5e0;border-radius:12px;box-sizing:border-box}
+  .dimension-tester h2 {font-size:1.05rem;margin:0 0 8px;color:#2d3748}
+  .dimension-controls {display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .dimension-controls button,.dimension-controls select {padding:9px;border:1px solid #a0aec0;border-radius:8px;background:white;color:#2d3748;font:inherit;cursor:pointer}
+  .dimension-controls button:focus-visible,.dimension-controls select:focus-visible {outline:3px solid #667eea}
+  .dimension-meta {margin:10px 0 0;color:#4a5568;font-size:.9rem}
+  .dimension-tester .dimension-note {font-size:.84rem;color:#718096;margin:5px 0 0}
+  .climate-map.dimension-testing {width:100%;max-width:var(--test-container-width,950px);padding:var(--test-padding,14px)}
+  .climate-map.dimension-testing img {width:100%;max-width:100%;height:auto;max-height:var(--test-image-height,500px);object-fit:contain}
+</style>
+<section class="dimension-tester" aria-label="Comparador de dimensões">
+  <h2>Teste de dimensões da figura</h2>
+  <div class="dimension-controls">
+    <button type="button" id="dim-prev">← Anterior</button>
+    <select id="dim-choice" aria-label="Combinação de dimensões"></select>
+    <button type="button" id="dim-next">Próxima →</button>
+    <button type="button" id="dim-auto">▶ Automático</button>
+    <button type="button" id="dim-reset">Restaurar</button>
+  </div>
+  <p class="dimension-meta" id="dim-meta" aria-live="polite"></p>
+  <p class="dimension-note">Largura do quadro × altura máxima da imagem. As proporções da figura são preservadas; o tamanho visível depende também da largura da tela.</p>
+</section>
+<script>
+(function () {
+  'use strict';
+  const figure = document.querySelector('.climate-map');
+  const choices = document.getElementById('dim-choice');
+  const status = document.getElementById('dim-meta');
+  if (!figure || !choices) return;
+  const widths = [500, 600, 700, 800, 900, 950, 1000, 1100];
+  const heights = [250, 350, 450, 500, 600, 700, 800, 1000];
+  const combinations = [];
+  // FOR: percorre todas as combinações da grade de teste (8 × 8 = 64).
+  for (const width of widths) {
+    for (const height of heights) {
+      combinations.push({ width, height });
+    }
+  }
+  for (let i = 0; i < combinations.length; i++) {
+    const { width, height } = combinations[i];
+    const option = document.createElement('option');
+    option.value = String(i);
+    option.textContent = `${width}px × ${height}px`;
+    choices.appendChild(option);
+  }
+  let index = combinations.findIndex(x => x.width === 950 && x.height === 500);
+  let timer = null;
+  const storageKey = 'climate-monthly-dimension-choice';
+  try {
+    const stored = Number(localStorage.getItem(storageKey));
+    if (localStorage.getItem(storageKey) !== null && Number.isInteger(stored) && stored >= 0 && stored < combinations.length) index = stored;
+  } catch (_) {}
+  function show(i) {
+    index = (i + combinations.length) % combinations.length;
+    const { width, height } = combinations[index];
+    figure.classList.add('dimension-testing');
+    figure.style.setProperty('--test-container-width', width + 'px');
+    figure.style.setProperty('--test-image-height', height + 'px');
+    choices.value = String(index);
+    status.textContent = `Teste ${index + 1} de ${combinations.length} — quadro: ${width}px; altura máxima: ${height}px`;
+    try { localStorage.setItem(storageKey, String(index)); } catch (_) {}
+  }
+  function stop() {
+    if (timer !== null) clearInterval(timer);
+    timer = null;
+    document.getElementById('dim-auto').textContent = '▶ Automático';
+  }
+  document.getElementById('dim-prev').addEventListener('click', () => { stop(); show(index - 1); });
+  document.getElementById('dim-next').addEventListener('click', () => { stop(); show(index + 1); });
+  choices.addEventListener('change', () => { stop(); show(Number(choices.value)); });
+  document.getElementById('dim-auto').addEventListener('click', function () {
+    if (timer !== null) { stop(); return; }
+    this.textContent = '■ Parar';
+    timer = setInterval(() => show(index + 1), 2000);
+  });
+  document.getElementById('dim-reset').addEventListener('click', () => {
+    stop();
+    figure.classList.remove('dimension-testing');
+    figure.style.removeProperty('--test-container-width');
+    figure.style.removeProperty('--test-image-height');
+    status.textContent = 'Estilo original restaurado (950px / 500px).';
+    choices.value = String(combinations.findIndex(x => x.width === 950 && x.height === 500));
+    try { localStorage.removeItem(storageKey); } catch (_) {}
+  });
+  show(index);
+})();
+</script>
+<!-- FIM TESTE DIMENSOES -->
+</main>
+
+<script>
+  const climateMaps = [{"label": "Janeiro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Jan.png", "alt": "Climatologia de precipitação — Janeiro, 1999–2024"}, {"label": "Fevereiro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Feb.png", "alt": "Climatologia de precipitação — Fevereiro, 1999–2024"}, {"label": "Março", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Mar.png", "alt": "Climatologia de precipitação — Março, 1999–2024"}, {"label": "Abril", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Apr.png", "alt": "Climatologia de precipitação — Abril, 1999–2024"}, {"label": "Maio", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_May.png", "alt": "Climatologia de precipitação — Maio, 1999–2024"}, {"label": "Junho", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Jun.png", "alt": "Climatologia de precipitação — Junho, 1999–2024"}, {"label": "Julho", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Jul.png", "alt": "Climatologia de precipitação — Julho, 1999–2024"}, {"label": "Agosto", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Aug.png", "alt": "Climatologia de precipitação — Agosto, 1999–2024"}, {"label": "Setembro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Sep.png", "alt": "Climatologia de precipitação — Setembro, 1999–2024"}, {"label": "Outubro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Oct.png", "alt": "Climatologia de precipitação — Outubro, 1999–2024"}, {"label": "Novembro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Nov.png", "alt": "Climatologia de precipitação — Novembro, 1999–2024"}, {"label": "Dezembro", "src": "../../../../assets/images/climate/climatologia/mensal/imerg_climatology_1999-2024_Dec.png", "alt": "Climatologia de precipitação — Dezembro, 1999–2024"}];
+  const climateSelector =
+    document.getElementById("climate-product-select");
+  const climateImage =
+    document.getElementById("climate-map-image");
+
+  climateSelector.addEventListener("change", function () {
+    const selectedMap = climateMaps[Number(this.value)];
+    climateImage.src = selectedMap.src;
+    climateImage.alt = selectedMap.alt;
+  });
+</script>
+<script src="../../../../assets/js/navigation.js"></script>
+</body>
+</html>
