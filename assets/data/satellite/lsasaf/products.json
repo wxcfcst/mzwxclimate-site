@@ -43,47 +43,39 @@
     {
         "id": "ET",
         "name": "Evapotranspiração",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610190930.nc_2026-10-19_09:30.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610190930.nc_2026-10-19_09:30.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "ETAL",
         "name": "Albedo da Superfície de 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202610150000.nc_2026-10-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202610150000.nc_2026-10-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FAPAR",
         "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202610150000.nc_2026-10-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202610150000.nc_2026-10-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-19_10:30.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-19_20:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-19_10:30.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-19_20:30.png"
         ]
     },
     {
         "id": "FVC",
         "name": "Fração de Cobertura Vegetal de 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202610150000.nc_2026-10-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202610150000.nc_2026-10-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "H26",
@@ -102,11 +94,9 @@
     {
         "id": "LAI",
         "name": "Índice de Área Foliar de 10 dias",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202610150000.nc_2026-10-15_00:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202610150000.nc_2026-10-15_00:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "MDIDSSF",

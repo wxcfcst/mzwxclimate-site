@@ -1,152 +1,152 @@
 {
     "source": "GeoRing",
-    "generated": "2026-10-19T08:32:25.583536-03:00",
-    "latest": "2026-10-19T10:15:00",
+    "generated": "2026-10-19T18:27:17.027156-03:00",
+    "latest": "2026-10-19T20:30:00",
     "total": 18,
     "images": [
         {
             "id": "overview",
             "name": "Overview",
             "description": "Imagem geral do satélite GeoRing.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_overview_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_overview_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_overview_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_overview_2026-10-19_20:30.png"
         },
         {
             "id": "natural_color",
             "name": "Natural Color",
             "description": "Composição em cores naturais.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_natural_color_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_natural_color_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_natural_color_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_natural_color_2026-10-19_20:30.png"
         },
         {
             "id": "VIS006",
             "name": "VIS006",
             "description": "Canal visível de 0.6 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_VIS006_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_VIS006_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_VIS006_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_VIS006_2026-10-19_20:30.png"
         },
         {
             "id": "VIS008",
             "name": "VIS008",
             "description": "Canal visível de 0.8 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_VIS008_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_VIS008_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_VIS008_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_VIS008_2026-10-19_20:30.png"
         },
         {
             "id": "IR_016",
             "name": "IR 016",
             "description": "Canal infravermelho de 1.6 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_016_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_016_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_016_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_016_2026-10-19_20:30.png"
         },
         {
             "id": "IR_039",
             "name": "IR 039",
             "description": "Canal infravermelho de 3.9 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_039_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_039_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_039_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_039_2026-10-19_20:30.png"
         },
         {
             "id": "IR_087",
             "name": "IR 087",
             "description": "Canal infravermelho de 8.7 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_087_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_087_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_087_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_087_2026-10-19_20:30.png"
         },
         {
             "id": "IR_097",
             "name": "IR 097",
             "description": "Canal infravermelho de 9.7 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_097_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_097_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_097_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_097_2026-10-19_20:30.png"
         },
         {
             "id": "IR_108",
             "name": "IR 108",
             "description": "Canal infravermelho de 10.8 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_108_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_108_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_108_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_108_2026-10-19_20:30.png"
         },
         {
             "id": "IR_120",
             "name": "IR 120",
             "description": "Canal infravermelho de 12.0 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_120_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_120_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_120_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_120_2026-10-19_20:30.png"
         },
         {
             "id": "IR_134",
             "name": "IR 134",
             "description": "Canal infravermelho de 13.4 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_IR_134_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_IR_134_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_IR_134_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_IR_134_2026-10-19_20:30.png"
         },
         {
             "id": "WV_062",
             "name": "WV 062",
             "description": "Canal de vapor de água de 6.2 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_WV_062_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_WV_062_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_WV_062_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_WV_062_2026-10-19_20:30.png"
         },
         {
             "id": "WV_073",
             "name": "WV 073",
             "description": "Canal de vapor de água de 7.3 µm.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_WV_073_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_WV_073_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_WV_073_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_WV_073_2026-10-19_20:30.png"
         },
         {
             "id": "fog",
             "name": "Fog",
             "description": "Produto de detecção de nevoeiro.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_fog_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_fog_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_fog_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_fog_2026-10-19_20:30.png"
         },
         {
             "id": "night_fog",
             "name": "Night Fog",
             "description": "Produto de detecção de nevoeiro noturno.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_night_fog_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_night_fog_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_night_fog_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_night_fog_2026-10-19_20:30.png"
         },
         {
             "id": "dust",
             "name": "Dust",
             "description": "Produto de deteção de poeira.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_dust_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_dust_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_dust_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_dust_2026-10-19_20:30.png"
         },
         {
             "id": "cloudtop",
             "name": "Cloud Top",
             "description": "Produto de temperatura do topo das nuvens.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_cloudtop_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_cloudtop_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_cloudtop_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_cloudtop_2026-10-19_20:30.png"
         },
         {
             "id": "airmass",
             "name": "Airmass",
             "description": "Produto de massas de ar.",
-            "datetime": "2026-10-19T10:15:00",
-            "filename": "msg45_airmass_2026-10-19_10:15.png",
-            "image": "assets/images/satellite/georing/msg45_airmass_2026-10-19_10:15.png"
+            "datetime": "2026-10-19T20:30:00",
+            "filename": "msg45_airmass_2026-10-19_20:30.png",
+            "image": "assets/images/satellite/georing/msg45_airmass_2026-10-19_20:30.png"
         }
     ]
 }
