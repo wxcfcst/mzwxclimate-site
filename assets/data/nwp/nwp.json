@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T06:14:12",
+  "generated": "2026-10-21T06:44:20",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -20,14 +20,6 @@
       "description": "European Centre for Medium-Range Weather Forecasts",
       "products": [
         {
-          "id": "airmass_msl",
-          "name": "Pressão ao Nível Médio do Mar",
-          "description": "Produto NWP.",
-          "file": "ecmwf_airmass_msl_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_airmass_msl_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
           "id": "gh_500hPa",
           "name": "Altura Geopotencial (500 hPa)",
           "description": "Produto NWP.",
@@ -36,75 +28,11 @@
           "datetime": "2026-10-21T00:00:00"
         },
         {
-          "id": "gh_500hPa_vo_500hPa",
-          "name": "Altura Geopotencial (500 hPa) + Vorticidade (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_gh_500hPa_vo_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "gh_500hPa_vo_500hPa_winds_barbs_500hPa",
-          "name": "Altura Geopotencial (500 hPa) + Vorticidade (500 hPa) + Ventos — Barbelas (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "gh_500hPa_winds_barbs_500hPa",
-          "name": "Altura Geopotencial (500 hPa) + Ventos — Barbelas (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_gh_500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "ir108_msl",
-          "name": "Pressão ao Nível Médio do Mar",
-          "description": "Produto NWP.",
-          "file": "ecmwf_ir108_msl_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_ir108_msl_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
           "id": "msl",
           "name": "Pressão ao Nível Médio do Mar",
           "description": "Pressão atmosférica reduzida ao nível médio do mar.",
           "file": "ecmwf_msl_2026-10-21_00:00.png",
           "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "msl_thickness_1000-500hPa",
-          "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_msl_thickness_1000-500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "msl_thickness_1000-500hPa_winds_barbs_500hPa",
-          "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa) + Ventos — Barbelas (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_msl_thickness_1000-500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_winds_barbs_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "msl_thickness_1000-850hPa",
-          "name": "Pressão ao Nível Médio do Mar + Espessura (1000–850 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_msl_thickness_1000-850hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-850hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "msl_winds_barbs_1000hPa",
-          "name": "Pressão ao Nível Médio do Mar + Ventos — Barbelas (1000 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_msl_winds_barbs_1000hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_winds_barbs_1000hPa_2026-10-21_00:00.png",
           "datetime": "2026-10-21T00:00:00"
         },
         {
@@ -148,62 +76,6 @@
           "datetime": "2026-10-21T00:00:00"
         },
         {
-          "id": "t_1000hPa",
-          "name": "Temperatura (1000 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_1000hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_1000hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_250hPa",
-          "name": "Temperatura (250 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_250hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_250hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_300hPa",
-          "name": "Temperatura (300 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_300hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_300hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_500hPa",
-          "name": "Temperatura (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_600hPa",
-          "name": "Temperatura (600 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_600hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_600hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_700hPa",
-          "name": "Temperatura (700 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_700hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_700hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "t_925hPa",
-          "name": "Temperatura (925 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_t_925hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_t_925hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
           "id": "thickness_1000-850hPa",
           "name": "Espessura (1000–850 hPa)",
           "description": "Produto NWP.",
@@ -225,46 +97,6 @@
           "description": "Produto NWP.",
           "file": "ecmwf_vo_1000hPa_2026-10-21_00:00.png",
           "path": "assets/images/nwp/ecmwf/ecmwf_vo_1000hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "vo_200hPa",
-          "name": "Vorticidade (200 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_vo_200hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_200hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "vo_300hPa",
-          "name": "Vorticidade (300 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_vo_300hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_300hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "vo_500hPa",
-          "name": "Vorticidade (500 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_vo_500hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_500hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "vo_700hPa",
-          "name": "Vorticidade (700 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_vo_700hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_700hPa_2026-10-21_00:00.png",
-          "datetime": "2026-10-21T00:00:00"
-        },
-        {
-          "id": "vo_850hPa",
-          "name": "Vorticidade (850 hPa)",
-          "description": "Produto NWP.",
-          "file": "ecmwf_vo_850hPa_2026-10-21_00:00.png",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_850hPa_2026-10-21_00:00.png",
           "datetime": "2026-10-21T00:00:00"
         },
         {
