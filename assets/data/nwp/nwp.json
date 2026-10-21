@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T14:01:42",
+  "generated": "2026-10-21T16:41:21",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -19,6 +19,46 @@
           "description": "Água precipitável na coluna atmosférica.",
           "file": "gfs_PWAT_2026-10-21_12:00.png",
           "path": "assets/images/nwp/gfs/gfs_PWAT_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "hcc",
+          "name": "Nebulosidade Alta",
+          "description": "Cobertura de nuvens altas.",
+          "file": "gfs_hcc_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_hcc_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "lcc",
+          "name": "Nebulosidade Baixa",
+          "description": "Cobertura de nuvens baixas.",
+          "file": "gfs_lcc_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_lcc_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "lcc_mcc",
+          "name": "Nebulosidade Baixa e Média",
+          "description": "Produto NWP.",
+          "file": "gfs_lcc_mcc_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_lcc_mcc_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "lcc_mcc_hcc",
+          "name": "Nebulosidade Baixa, Média e Alta",
+          "description": "Produto NWP.",
+          "file": "gfs_lcc_mcc_hcc_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_lcc_mcc_hcc_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "mcc",
+          "name": "Nebulosidade Média",
+          "description": "Cobertura de nuvens médias.",
+          "file": "gfs_mcc_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/gfs/gfs_mcc_2026-10-21_12:00.png",
           "datetime": "2026-10-21T12:00:00"
         }
       ]
@@ -57,6 +97,14 @@
           "description": "Produto NWP.",
           "file": "ecmwf_gh_500hPa_winds_barbs_500hPa_2026-10-21_12:00.png",
           "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_winds_barbs_500hPa_2026-10-21_12:00.png",
+          "datetime": "2026-10-21T12:00:00"
+        },
+        {
+          "id": "ir108_msl",
+          "name": "Pressão ao Nível Médio do Mar",
+          "description": "Produto NWP.",
+          "file": "ecmwf_ir108_msl_2026-10-21_12:00.png",
+          "path": "assets/images/nwp/ecmwf/ecmwf_ir108_msl_2026-10-21_12:00.png",
           "datetime": "2026-10-21T12:00:00"
         },
         {
