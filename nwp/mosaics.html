@@ -15,33 +15,47 @@ figure img{width:100%;height:auto;display:block;cursor:zoom-in}figcaption{paddin
 small{display:block;font-weight:400;color:#486075;margin-top:.3rem}
 #status{margin:.75rem 0}dialog{width:min(96vw,1500px);max-height:95vh;border:0;border-radius:8px;padding:1rem}
 dialog img{max-width:100%;max-height:82vh;display:block;margin:auto}.close{float:right;padding:.35rem .75rem}
+/* NWP_MOSAICS_BRAND_V2 */
+figure .mosaic-brand{display:block;text-align:right;padding:.1rem .75rem .75rem;font-size:.78rem;font-weight:700;color:#145d9d;text-decoration:none;}
+figure .mosaic-brand:hover{text-decoration:underline}
 @media(max-width:750px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<p><a href="../">← Voltar</a></p>
+<p><a href="index.html">← Cartas NWP individuais</a></p>
 <h1>🌍 Mosaicos de análise sinótica</h1>
 <p class="note">Quatro cartas por mosaico, reunidas a partir dos produtos NWP já publicados. Clique numa carta para ampliá-la.</p>
-<div class="controls"><label for="choice">Mosaico:</label><select id="choice"></select><span id="valid"></span></div>
+<div class="controls"><label for="choice">Mosaico:</label><!-- NWP_MOSAIC_SELECT_PLACEHOLDER_V1 -->
+<select id="choice" required>
+  <option value="" selected disabled>Selecione o mosaico</option>
+</select><span id="valid"></span></div>
 <p id="status" role="status">Carregando produtos...</p>
 <main id="grid" class="grid"></main>
 <dialog id="zoom"><button class="close" id="close" type="button">Fechar ×</button><div id="zoomtitle"></div><img id="zoomimg" alt="Carta ampliada"></dialog>
 <script>
 'use strict';
-const siteRoot = '../../'; // página: /nwp/mosaics.html -> raiz do site
+const siteRoot = '../'; // /nwp/mosaics.html -> raiz do site
 const choice=document.querySelector('#choice'), grid=document.querySelector('#grid');
 const status=document.querySelector('#status'), valid=document.querySelector('#valid');
 const dlg=document.querySelector('#zoom');
 let items=[];
+function formatUTC(value){
+ const dt = new Date(value.endsWith('Z') ? value : value + 'Z');
+ if (Number.isNaN(dt.getTime())) return value;
+ return new Intl.DateTimeFormat('pt-BR', {
+   day:'2-digit',month:'2-digit',year:'numeric',
+   hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'UTC'
+ }).format(dt).replace(',', ' às ') + ' UTC';
+}
 function render(){
  const item=items.find(x=>x.id===choice.value);grid.replaceChildren();
- if(!item){status.textContent='Nenhum mosaico completo disponível.';valid.textContent='';return;}
- status.textContent='';valid.textContent='Horário indicado nos produtos: '+item.datetime;
+ if(!item){status.textContent=items.length ? 'Selecione um mosaico para visualizar as cartas.' : 'Nenhum mosaico completo disponível.';valid.textContent='';return;}
+ status.textContent='';valid.textContent='Horário indicado nos produtos: '+formatUTC(item.datetime);
  for(const p of item.panels){
    const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption'),sm=document.createElement('small');
    img.src=siteRoot+p.path;img.alt=p.name+' — '+p.model;img.loading='lazy';
    img.addEventListener('click',()=>{document.querySelector('#zoomimg').src=img.src;document.querySelector('#zoomtitle').textContent=p.name+' — '+p.model;dlg.showModal();});
-   cap.textContent=p.name;sm.textContent=p.model+' · '+p.datetime;cap.append(sm);fig.append(img,cap);grid.append(fig);
+   cap.textContent=p.name;sm.textContent=p.model+' · '+formatUTC(p.datetime);cap.append(sm);const brand=document.createElement('a');brand.className='mosaic-brand';brand.href='https://sites.google.com/view/mzwxclimate';brand.textContent='MZ WX & Climate';brand.target='_blank';brand.rel='noopener noreferrer';fig.append(img,cap,brand);grid.append(fig);
  }
 }
 choice.addEventListener('change',render);
@@ -52,5 +66,6 @@ fetch(siteRoot+'assets/data/nwp/mosaics.json',{cache:'no-store'}).then(r=>{if(!r
  render();
 }).catch(err=>{status.textContent='Não foi possível carregar mosaics.json: '+err.message;});
 </script>
+<!-- NWP_MOSAICS_BRAND_V2 -->
 </body>
 </html>
