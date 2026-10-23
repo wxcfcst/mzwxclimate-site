@@ -1,8 +1,8 @@
 {
     "source": "GeoRing",
-    "generated": "2026-10-22T22:16:57.704006-03:00",
-    "latest": "2026-10-22T23:00:00",
-    "total": 18,
+    "generated": "2026-10-22T23:55:02.592417-03:00",
+    "latest": "2026-10-23T02:15:00",
+    "total": 19,
     "images": [
         {
             "id": "overview",
@@ -147,6 +147,14 @@
             "datetime": "2026-10-22T23:00:00",
             "filename": "msg45_airmass_2026-10-22_23:00.png",
             "image": "assets/images/satellite/georing/msg45_airmass_2026-10-22_23:00.png"
+        },
+        {
+            "id": "toabt_ir108",
+            "name": "Temperatura de Brilho — IR 10,8 µm (Disco Completo)",
+            "description": "Temperatura de brilho no canal infravermelho 10,8 µm.",
+            "datetime": "2026-10-23T02:15:00",
+            "filename": "toabt_ir108_20261023_0215_fulldisk.png",
+            "image": "assets/images/satellite/georing/toabt_ir108_20261023_0215_fulldisk.png"
         }
     ]
 }
