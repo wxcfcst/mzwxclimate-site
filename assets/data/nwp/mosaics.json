@@ -1,38 +1,38 @@
 {
-  "generated": "2026-10-23T20:42:05",
+  "generated": "2026-10-24T08:12:55",
   "mosaics": [
     {
       "id": "synoptic",
       "title": "Análise da situação de grande escala",
-      "datetime": "2026-10-23T12:00:00",
+      "datetime": "2026-10-24T00:00:00",
       "panels": [
         {
           "model": "ECMWF",
           "id": "msl",
           "name": "Pressão ao Nível Médio do Mar",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "msl_thickness_1000-500hPa",
           "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "gh_500hPa",
           "name": "Altura Geopotencial (500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "gh_500hPa_vo_500hPa_winds_barbs_500hPa",
           "name": "Altura Geopotencial (500 hPa) + Vorticidade (500 hPa) + Ventos — Barbelas (500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         }
       ]
     },
@@ -74,35 +74,35 @@
     {
       "id": "low_levels",
       "title": "Análise dinâmica",
-      "datetime": "2026-10-23T12:00:00",
+      "datetime": "2026-10-24T00:00:00",
       "panels": [
         {
           "model": "ECMWF",
           "id": "winds_barbs_850hPa",
           "name": "Ventos — Barbelas (850 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_850hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_winds_barbs_850hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "vo_500hPa",
           "name": "Vorticidade (500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_vo_500hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_vo_500hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "windspeed_200hPa",
           "name": "Velocidade do Vento (200 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_windspeed_200hPa_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_windspeed_200hPa_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         },
         {
           "model": "ECMWF",
           "id": "tp",
           "name": "Precipitação Total",
-          "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-10-23_12:00.png",
-          "datetime": "2026-10-23T12:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-10-24_00:00.png",
+          "datetime": "2026-10-24T00:00:00"
         }
       ]
     }
