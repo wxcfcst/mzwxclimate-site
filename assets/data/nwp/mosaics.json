@@ -3,7 +3,7 @@
   "mosaics": [
     {
       "id": "synoptic",
-      "title": "Análise da situação de grande escala",
+      "title": "Grande escala",
       "datetime": "2026-10-26T00:00:00",
       "panels": [
         {
@@ -38,7 +38,7 @@
     },
     {
       "id": "moisture",
-      "title": "Análise termodinâmica",
+      "title": "Termodinâmica",
       "datetime": "2026-10-26T00:00:00",
       "panels": [
         {
@@ -73,7 +73,7 @@
     },
     {
       "id": "low_levels",
-      "title": "Análise dinâmica",
+      "title": "Dinâmica",
       "datetime": "2026-10-26T00:00:00",
       "panels": [
         {
@@ -103,6 +103,41 @@
           "name": "Precipitação Total",
           "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-10-26_00:00.png",
           "datetime": "2026-10-26T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "satellite_synoptic",
+      "title": "Satélite",
+      "datetime": "2026-10-26T16:00:00",
+      "panels": [
+        {
+          "model": "MSG",
+          "id": "wv_062",
+          "name": "Vapor de água — níveis superiores (6,2 µm)",
+          "path": "assets/images/satellite/custom/cu_msg45_WV_062_2026-10-26_16:00.png",
+          "datetime": "2026-10-26T16:00:00"
+        },
+        {
+          "model": "MSG",
+          "id": "wv_073",
+          "name": "Vapor de água — níveis médios (7,3 µm)",
+          "path": "assets/images/satellite/custom/cu_msg45_WV_073_2026-10-26_16:00.png",
+          "datetime": "2026-10-26T16:00:00"
+        },
+        {
+          "model": "MSG",
+          "id": "airmass",
+          "name": "RGB Massas de Ar (Airmass)",
+          "path": "assets/images/satellite/custom/cu_msg45_airmass_2026-10-26_16:00.png",
+          "datetime": "2026-10-26T16:00:00"
+        },
+        {
+          "model": "MSG",
+          "id": "ir_108",
+          "name": "Infravermelho térmico (10,8 µm)",
+          "path": "assets/images/satellite/custom/cu_msg45_IR_108_2026-10-26_16:00.png",
+          "datetime": "2026-10-26T16:00:00"
         }
       ]
     }
