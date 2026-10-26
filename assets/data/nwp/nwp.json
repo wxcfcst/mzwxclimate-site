@@ -100,9 +100,9 @@
           "datetime": "2026-10-26T00:00:00"
         },
         {
-          "id": "ir108_msl",
-          "name": "Pressão ao Nível Médio do Mar",
-          "description": "Produto NWP.",
+          "id": "ecmwf_ir108_msl_20261025_1200",
+          "name": "Satélite IR 10.8 µm + Pressão ao nível médio do mar",
+          "description": "Imagem combinada de satélite no canal infravermelho de 10,8 µm com o campo de pressão atmosférica reduzida ao nível médio do mar do modelo ECMWF.",
           "file": "ecmwf_ir108_msl_2026-10-25_12:00.png",
           "path": "assets/images/nwp/ecmwf/ecmwf_ir108_msl_2026-10-25_12:00.png",
           "datetime": "2026-10-25T12:00:00"
