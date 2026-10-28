@@ -1,0 +1,29 @@
+/* =====================================================
+   MZWXClimate — Destaques e cartão solar
+   Correção de cor e permuta dos espaçamentos
+   ===================================================== */
+
+/* Título Destaques em preto */
+body.mz-home .mz-home-highlights h1,
+body.mz-home #titulo-destaques {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
+/* Reduzir o espaço entre os três botões */
+body.mz-home .mz-highlights {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+}
+
+/* Eliminar margens adicionais entre os botões */
+body.mz-home .mz-highlights .mz-highlight {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Aumentar o espaço antes do cartão solar */
+body.mz-home .mz-sun-card {
+    margin-top: 12px !important;
+}
