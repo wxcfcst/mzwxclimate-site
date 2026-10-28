@@ -13,6 +13,41 @@ if(host){
 }
 const table=document.querySelector('[data-cyclone-history]');
 if(table){const summary=document.getElementById('cy-summary'),q=document.getElementById('cy-search');fetch(new URL('history.json', document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{const storms=Array.isArray(d.storms)?d.storms:[];
-function draw(){const term=(q.value||'').trim().toLowerCase();const found=storms.filter(s=>String(s.name+' '+s.season+' '+s.sid).toLowerCase().includes(term));table.replaceChildren();for(const s of found){let tr=document.createElement('tr');for(const val of [s.season,s.name,s.closest_time_utc,s.min_anchor_distance_km,s.wmo_wind_kt]){const td=document.createElement('td');td.textContent=val==null?'—':String(val);tr.append(td)}table.append(tr)}summary.textContent=`${found.length} trajetórias candidatas (triagem por proximidade; impactos não comprovados).`}
+function draw(){
+ const term=(q.value||'').trim().toLowerCase();
+ const wrapper=table.closest('.cy-table-wrap');
+
+ table.replaceChildren();
+
+ if(!term){
+  wrapper.hidden=true;
+  summary.textContent='Pesquise pelo nome, ano ou identificador (SID) de um ciclone.';
+  return;
+ }
+
+ const found=storms.filter(s=>
+  String((s.name||'')+' '+(s.season||'')+' '+(s.sid||''))
+  .toLowerCase().includes(term)
+ );
+
+ wrapper.hidden=found.length===0;
+
+ for(const s of found){
+  const tr=document.createElement('tr');
+  for(const val of [
+   s.season,s.name,s.closest_time_utc,
+   s.min_anchor_distance_km,s.wmo_wind_kt
+  ]){
+   const td=document.createElement('td');
+   td.textContent=val==null?'—':String(val);
+   tr.append(td);
+  }
+  table.append(tr);
+ }
+
+ summary.textContent=found.length
+  ? `${found.length} trajetórias encontradas (proximidade geográfica; impactos não comprovados).`
+  : 'Nenhum ciclone encontrado para esta pesquisa.';
+}
 q.addEventListener('input',draw);draw();}).catch(()=>summary.textContent='Histórico não disponível.');}
 })();
