@@ -1,0 +1,37 @@
+/* MZWXClimate — Correção dos relógios */
+
+/* Relógio independente do cartão solar */
+body.mz-home .mz-clocks {
+    position: relative !important;
+    width: 100% !important;
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    transform: none !important;
+}
+
+/* UTC e MZ na mesma linha */
+body.mz-home .mz-clock-row {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+    gap: 12px !important;
+}
+
+/* Cor preta para horas e identificadores */
+body.mz-home .mz-clock-row,
+body.mz-home .mz-clock-row span,
+body.mz-home .mz-clock-row strong,
+body.mz-home .mz-clock-divider,
+body.mz-home #mz-clock-date {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
+/* Data abaixo dos relógios */
+body.mz-home #mz-clock-date {
+    margin: 5px 0 0 0 !important;
+    text-align: left !important;
+}
