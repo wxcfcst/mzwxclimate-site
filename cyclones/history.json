@@ -1,0 +1,1461 @@
+{
+  "schema": 1,
+  "generated_at_utc": "2026-10-28T19:58:08+00:00",
+  "source": "NOAA IBTrACS SI v04r01",
+  "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.SI.list.v04r01.csv",
+  "count": 145,
+  "method": "Trajetórias com ponto a até 150 km de pontos de referência costeiros de Moçambique. NÃO são entradas em terra nem impactos confirmados.",
+  "limitations": "Triagem aproximada; pontos costeiros discretos podem omitir trajetórias. Validar com geometria costeira oficial e fontes documentais.",
+  "storms": [
+    {
+      "sid": "2026035S11065",
+      "name": "GEZANI",
+      "season": "2026",
+      "min_anchor_distance_km": 42,
+      "closest_time_utc": "2026-02-14 00:00:00",
+      "wmo_wind_kt": 85.0,
+      "wmo_pres_hpa": 967.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2026028S16043",
+      "name": "FYTIA",
+      "season": "2026",
+      "min_anchor_distance_km": 126,
+      "closest_time_utc": "2026-01-28 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2026020S25035",
+      "name": "EWETSE",
+      "season": "2026",
+      "min_anchor_distance_km": 134,
+      "closest_time_utc": "2026-01-19 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2025064S12067",
+      "name": "JUDE",
+      "season": "2025",
+      "min_anchor_distance_km": 5,
+      "closest_time_utc": "2025-03-10 00:00:00",
+      "wmo_wind_kt": 70.0,
+      "wmo_pres_hpa": 972.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2024364S13117",
+      "name": "DIKELEDI",
+      "season": "2025",
+      "min_anchor_distance_km": 7,
+      "closest_time_utc": "2025-01-13 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2024341S12086",
+      "name": "CHIDO",
+      "season": "2025",
+      "min_anchor_distance_km": 46,
+      "closest_time_utc": "2024-12-15 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2024061S11062",
+      "name": "FILIPO",
+      "season": "2024",
+      "min_anchor_distance_km": 42,
+      "closest_time_utc": "2024-03-13 06:00:00",
+      "wmo_wind_kt": 35.0,
+      "wmo_pres_hpa": 997.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2023364S19035",
+      "name": "ALVARO",
+      "season": "2024",
+      "min_anchor_distance_km": 73,
+      "closest_time_utc": "2023-12-29 12:00:00",
+      "wmo_wind_kt": 25.0,
+      "wmo_pres_hpa": 1007.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2023036S12117",
+      "name": "FREDDY",
+      "season": "2023",
+      "min_anchor_distance_km": 33,
+      "closest_time_utc": "2023-03-11 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2022110S12051",
+      "name": "JASMINE",
+      "season": "2022",
+      "min_anchor_distance_km": 9,
+      "closest_time_utc": "2022-04-23 06:00:00",
+      "wmo_wind_kt": 35.0,
+      "wmo_pres_hpa": 1003.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2022065S16055",
+      "name": "GOMBE",
+      "season": "2022",
+      "min_anchor_distance_km": 16,
+      "closest_time_utc": "2022-03-14 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2022042S12063",
+      "name": "DUMAKO",
+      "season": "2022",
+      "min_anchor_distance_km": 27,
+      "closest_time_utc": "2022-02-18 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2022020S13060",
+      "name": "ANA",
+      "season": "2022",
+      "min_anchor_distance_km": 143,
+      "closest_time_utc": "2022-01-24 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2021062S18040",
+      "name": "IMAN",
+      "season": "2021",
+      "min_anchor_distance_km": 119,
+      "closest_time_utc": "2021-03-03 06:00:00",
+      "wmo_wind_kt": 15.0,
+      "wmo_pres_hpa": 1006.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2021042S23040",
+      "name": "GUAMBE",
+      "season": "2021",
+      "min_anchor_distance_km": 33,
+      "closest_time_utc": "2021-02-16 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2021012S12086",
+      "name": "ELOISE",
+      "season": "2021",
+      "min_anchor_distance_km": 32,
+      "closest_time_utc": "2021-01-23 00:00:00",
+      "wmo_wind_kt": 80.0,
+      "wmo_pres_hpa": 965.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2020355S11065",
+      "name": "CHALANE",
+      "season": "2021",
+      "min_anchor_distance_km": 82,
+      "closest_time_utc": "2020-12-30 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2019112S10053",
+      "name": "KENNETH",
+      "season": "2019",
+      "min_anchor_distance_km": 86,
+      "closest_time_utc": "2019-04-25 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2019063S18038",
+      "name": "IDAI",
+      "season": "2019",
+      "min_anchor_distance_km": 17,
+      "closest_time_utc": "2019-03-15 00:00:00",
+      "wmo_wind_kt": 85.0,
+      "wmo_pres_hpa": 960.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2019018S24033",
+      "name": "DESMOND",
+      "season": "2019",
+      "min_anchor_distance_km": 53,
+      "closest_time_utc": "2019-01-18 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2017043S19040",
+      "name": "DINEO",
+      "season": "2017",
+      "min_anchor_distance_km": 52,
+      "closest_time_utc": "2017-02-15 18:00:00",
+      "wmo_wind_kt": 75.0,
+      "wmo_pres_hpa": 955.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2015063S14042",
+      "name": "UNNAMED",
+      "season": "2015",
+      "min_anchor_distance_km": 130,
+      "closest_time_utc": "2015-03-04 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2015013S18038",
+      "name": "CHEDZA",
+      "season": "2015",
+      "min_anchor_distance_km": 86,
+      "closest_time_utc": "2015-01-13 06:00:00",
+      "wmo_wind_kt": 20.0,
+      "wmo_pres_hpa": 1002.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2014086S10041",
+      "name": "HELLEN",
+      "season": "2014",
+      "min_anchor_distance_km": 40,
+      "closest_time_utc": "2014-03-26 18:00:00",
+      "wmo_wind_kt": 15.0,
+      "wmo_pres_hpa": 1007.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2014015S16043",
+      "name": "DELIWE",
+      "season": "2014",
+      "min_anchor_distance_km": 36,
+      "closest_time_utc": "2014-01-22 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2013046S20042",
+      "name": "HARUNA",
+      "season": "2013",
+      "min_anchor_distance_km": 107,
+      "closest_time_utc": "2013-02-16 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2012056S13057",
+      "name": "IRINA",
+      "season": "2012",
+      "min_anchor_distance_km": 11,
+      "closest_time_utc": "2012-03-11 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2012018S16041",
+      "name": "FUNSO",
+      "season": "2012",
+      "min_anchor_distance_km": 87,
+      "closest_time_utc": "2012-01-21 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2012010S24049",
+      "name": "DANDO",
+      "season": "2012",
+      "min_anchor_distance_km": 137,
+      "closest_time_utc": "2012-01-16 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2012006S15043",
+      "name": "CHANDA",
+      "season": "2012",
+      "min_anchor_distance_km": 131,
+      "closest_time_utc": "2012-01-06 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2010143S20035",
+      "name": "JOEL",
+      "season": "2010",
+      "min_anchor_distance_km": 67,
+      "closest_time_utc": "2010-05-22 12:00:00",
+      "wmo_wind_kt": 15.0,
+      "wmo_pres_hpa": 1015.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2009082S16039",
+      "name": "IZILDA",
+      "season": "2009",
+      "min_anchor_distance_km": 53,
+      "closest_time_utc": "2009-03-29 12:00:00",
+      "wmo_wind_kt": 20.0,
+      "wmo_pres_hpa": 1009.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2008062S10064",
+      "name": "JOKWE",
+      "season": "2008",
+      "min_anchor_distance_km": 34,
+      "closest_time_utc": "2008-03-08 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2007085S11085",
+      "name": "JAYA",
+      "season": "2007",
+      "min_anchor_distance_km": 67,
+      "closest_time_utc": "2007-04-05 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2007043S11071",
+      "name": "FAVIO",
+      "season": "2007",
+      "min_anchor_distance_km": 14,
+      "closest_time_utc": "2007-02-22 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2006330S06049",
+      "name": "ANITA",
+      "season": "2007",
+      "min_anchor_distance_km": 143,
+      "closest_time_utc": "2006-11-29 12:00:00",
+      "wmo_wind_kt": 25.0,
+      "wmo_pres_hpa": 1002.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2003056S21042",
+      "name": "JAPHET",
+      "season": "2003",
+      "min_anchor_distance_km": 8,
+      "closest_time_utc": "2003-03-02 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2002364S16045",
+      "name": "DELFINA",
+      "season": "2003",
+      "min_anchor_distance_km": 108,
+      "closest_time_utc": "2002-12-31 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2002307S07070",
+      "name": "ATANG",
+      "season": "2003",
+      "min_anchor_distance_km": 34,
+      "closest_time_utc": "2002-11-12 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2001364S19036",
+      "name": "CYPRIEN",
+      "season": "2002",
+      "min_anchor_distance_km": 118,
+      "closest_time_utc": "2001-12-30 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2001171S35037",
+      "name": "UNNAMED",
+      "season": "2001",
+      "min_anchor_distance_km": 117,
+      "closest_time_utc": "2001-06-21 00:00:00",
+      "wmo_wind_kt": 35.0,
+      "wmo_pres_hpa": 1007.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2001064S10052",
+      "name": "DERA",
+      "season": "2001",
+      "min_anchor_distance_km": 26,
+      "closest_time_utc": "2001-03-07 18:00:00",
+      "wmo_wind_kt": 25.0,
+      "wmo_pres_hpa": 1002.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2000099S28037",
+      "name": "UNNAMED",
+      "season": "2000",
+      "min_anchor_distance_km": 69,
+      "closest_time_utc": "2000-04-11 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2000058S14063",
+      "name": "GLORIA",
+      "season": "2000",
+      "min_anchor_distance_km": 20,
+      "closest_time_utc": "2000-03-09 00:00:00",
+      "wmo_wind_kt": 25.0,
+      "wmo_pres_hpa": 1000.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "2000032S11116",
+      "name": "ELINE:LEONE",
+      "season": "2000",
+      "min_anchor_distance_km": 81,
+      "closest_time_utc": "2000-02-22 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1999357S08076",
+      "name": "ASTRIDE",
+      "season": "2000",
+      "min_anchor_distance_km": 75,
+      "closest_time_utc": "2000-01-03 06:00:00",
+      "wmo_wind_kt": 30.0,
+      "wmo_pres_hpa": 998.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1999056S20035",
+      "name": "UNNAMED",
+      "season": "1999",
+      "min_anchor_distance_km": 85,
+      "closest_time_utc": "1999-02-24 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1999015S20036",
+      "name": "ALDA",
+      "season": "1999",
+      "min_anchor_distance_km": 137,
+      "closest_time_utc": "1999-01-14 12:00:00",
+      "wmo_wind_kt": 15.0,
+      "wmo_pres_hpa": 1002.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1998032S18036",
+      "name": "BELTANE",
+      "season": "1998",
+      "min_anchor_distance_km": 54,
+      "closest_time_utc": "1998-02-20 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": 1006.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1998016S12043",
+      "name": "UNNAMED",
+      "season": "1998",
+      "min_anchor_distance_km": 12,
+      "closest_time_utc": "1998-01-20 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1997056S15041",
+      "name": "LISETTE",
+      "season": "1997",
+      "min_anchor_distance_km": 74,
+      "closest_time_utc": "1997-03-02 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1996049S13042",
+      "name": "DOLORESSE",
+      "season": "1996",
+      "min_anchor_distance_km": 149,
+      "closest_time_utc": "1996-02-19 18:00:00",
+      "wmo_wind_kt": 28.0,
+      "wmo_pres_hpa": 998.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1996001S08075",
+      "name": "BONITA",
+      "season": "1996",
+      "min_anchor_distance_km": 24,
+      "closest_time_utc": "1996-01-13 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1995064S13042",
+      "name": "JOSTA",
+      "season": "1995",
+      "min_anchor_distance_km": 112,
+      "closest_time_utc": "1995-03-04 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1995020S20038",
+      "name": "FODAH",
+      "season": "1995",
+      "min_anchor_distance_km": 118,
+      "closest_time_utc": "1995-01-20 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1994076S14078",
+      "name": "NADIA",
+      "season": "1994",
+      "min_anchor_distance_km": 48,
+      "closest_time_utc": "1994-03-24 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1993061S14042",
+      "name": "IONIA",
+      "season": "1993",
+      "min_anchor_distance_km": 39,
+      "closest_time_utc": "1993-03-02 18:00:00",
+      "wmo_wind_kt": 27.0,
+      "wmo_pres_hpa": 998.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1991053S21040",
+      "name": "DEBRA",
+      "season": "1991",
+      "min_anchor_distance_km": 144,
+      "closest_time_utc": "1991-02-24 06:00:00",
+      "wmo_wind_kt": 27.0,
+      "wmo_pres_hpa": 1000.0,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1991047S16041",
+      "name": "CYNTHIA",
+      "season": "1991",
+      "min_anchor_distance_km": 109,
+      "closest_time_utc": "1991-02-16 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1989006S15044",
+      "name": "CALASANJY",
+      "season": "1989",
+      "min_anchor_distance_km": 104,
+      "closest_time_utc": "1989-01-09 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1988055S10051",
+      "name": "FILAO",
+      "season": "1988",
+      "min_anchor_distance_km": 48,
+      "closest_time_utc": "1988-03-01 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1987325S06050",
+      "name": "UNNAMED",
+      "season": "1988",
+      "min_anchor_distance_km": 38,
+      "closest_time_utc": "1987-11-25 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1986005S15043",
+      "name": "BEROBIA",
+      "season": "1986",
+      "min_anchor_distance_km": 111,
+      "closest_time_utc": "1986-01-10 00:00:00",
+      "wmo_wind_kt": 36.0,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1985043S16042",
+      "name": "FELIKSA",
+      "season": "1985",
+      "min_anchor_distance_km": 119,
+      "closest_time_utc": "1985-02-12 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1984325S15052",
+      "name": "ANETY",
+      "season": "1985",
+      "min_anchor_distance_km": 95,
+      "closest_time_utc": "1984-11-22 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1984041S17042",
+      "name": "IMBOA",
+      "season": "1984",
+      "min_anchor_distance_km": 86,
+      "closest_time_utc": "1984-02-17 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1984016S15073",
+      "name": "DOMOINA",
+      "season": "1984",
+      "min_anchor_distance_km": 20,
+      "closest_time_utc": "1984-01-29 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1983010S08049",
+      "name": "ELINAH",
+      "season": "1983",
+      "min_anchor_distance_km": 34,
+      "closest_time_utc": "1983-01-12 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1982054S23036",
+      "name": "UNNAMED",
+      "season": "1982",
+      "min_anchor_distance_km": 119,
+      "closest_time_utc": "1982-02-22 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1982030S15065",
+      "name": "ELECTRE",
+      "season": "1982",
+      "min_anchor_distance_km": 66,
+      "closest_time_utc": "1982-02-05 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1981351S12060",
+      "name": "BENEDICTE",
+      "season": "1982",
+      "min_anchor_distance_km": 16,
+      "closest_time_utc": "1981-12-24 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1980364S22036",
+      "name": "EDWIG",
+      "season": "1981",
+      "min_anchor_distance_km": 71,
+      "closest_time_utc": "1980-12-28 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1980327S09082",
+      "name": "BETTINA",
+      "season": "1981",
+      "min_anchor_distance_km": 119,
+      "closest_time_utc": "1980-12-01 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1978347S20041",
+      "name": "ANGELE",
+      "season": "1979",
+      "min_anchor_distance_km": 9,
+      "closest_time_utc": "1978-12-21 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1978038S06049",
+      "name": "IRENA",
+      "season": "1978",
+      "min_anchor_distance_km": 132,
+      "closest_time_utc": "1978-02-14 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1977025S11064",
+      "name": "EMILIE",
+      "season": "1977",
+      "min_anchor_distance_km": 11,
+      "closest_time_utc": "1977-02-05 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1976087S13057",
+      "name": "GLADYS",
+      "season": "1976",
+      "min_anchor_distance_km": 39,
+      "closest_time_utc": "1976-04-01 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1976010S12085",
+      "name": "DANAE:TERRY",
+      "season": "1976",
+      "min_anchor_distance_km": 12,
+      "closest_time_utc": "1976-01-28 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1975025S16052",
+      "name": "ELSA",
+      "season": "1975",
+      "min_anchor_distance_km": 27,
+      "closest_time_utc": "1975-01-28 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1975011S08055",
+      "name": "CAMILLE",
+      "season": "1975",
+      "min_anchor_distance_km": 131,
+      "closest_time_utc": "1975-01-16 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1972039S13068",
+      "name": "EUGENIE",
+      "season": "1972",
+      "min_anchor_distance_km": 63,
+      "closest_time_utc": "1972-02-21 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1972033S21036",
+      "name": "CAROLINE",
+      "season": "1972",
+      "min_anchor_distance_km": 42,
+      "closest_time_utc": "1972-02-04 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1971071S16039",
+      "name": "NELLY",
+      "season": "1971",
+      "min_anchor_distance_km": 86,
+      "closest_time_utc": "1971-03-14 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1971005S18039",
+      "name": "EDITH",
+      "season": "1971",
+      "min_anchor_distance_km": 136,
+      "closest_time_utc": "1971-01-06 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1969363S21042",
+      "name": "DELPHINE",
+      "season": "1970",
+      "min_anchor_distance_km": 122,
+      "closest_time_utc": "1970-01-01 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1969316S08074",
+      "name": "CORINNE:CORRINE",
+      "season": "1970",
+      "min_anchor_distance_km": 45,
+      "closest_time_utc": "1969-11-20 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1969029S26042",
+      "name": "EVE",
+      "season": "1969",
+      "min_anchor_distance_km": 24,
+      "closest_time_utc": "1969-02-01 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1968362S11091",
+      "name": "BERTHE:BETTINA",
+      "season": "1969",
+      "min_anchor_distance_km": 84,
+      "closest_time_utc": "1969-01-04 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1968009S13071",
+      "name": "GEORGETTE",
+      "season": "1968",
+      "min_anchor_distance_km": 107,
+      "closest_time_utc": "1968-01-20 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1968007S17042",
+      "name": "FLOSSIE",
+      "season": "1968",
+      "min_anchor_distance_km": 102,
+      "closest_time_utc": "1968-01-11 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1967052S20038",
+      "name": "IRMA",
+      "season": "1967",
+      "min_anchor_distance_km": 105,
+      "closest_time_utc": "1967-02-24 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1966362S18043",
+      "name": "UNNAMED",
+      "season": "1967",
+      "min_anchor_distance_km": 122,
+      "closest_time_utc": "1966-12-30 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1966045S15042",
+      "name": "GERMAINE",
+      "season": "1966",
+      "min_anchor_distance_km": 104,
+      "closest_time_utc": "1966-02-14 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1965358S11061",
+      "name": "CLAUDE",
+      "season": "1966",
+      "min_anchor_distance_km": 59,
+      "closest_time_utc": "1966-01-03 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1964353S23035",
+      "name": "CONNIE",
+      "season": "1965",
+      "min_anchor_distance_km": 95,
+      "closest_time_utc": "1964-12-17 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1964009S18035",
+      "name": "CHRISTINE",
+      "season": "1964",
+      "min_anchor_distance_km": 37,
+      "closest_time_utc": "1964-01-10 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1962068S13055",
+      "name": "KATE",
+      "season": "1962",
+      "min_anchor_distance_km": 23,
+      "closest_time_utc": "1962-03-15 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1962036S15064",
+      "name": "GINA",
+      "season": "1962",
+      "min_anchor_distance_km": 42,
+      "closest_time_utc": "1962-02-12 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1962015S12064",
+      "name": "DAISY",
+      "season": "1962",
+      "min_anchor_distance_km": 8,
+      "closest_time_utc": "1962-01-23 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1959335S12065",
+      "name": "UNNAMED",
+      "season": "1960",
+      "min_anchor_distance_km": 97,
+      "closest_time_utc": "1959-12-09 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1959024S10050",
+      "name": "UNNAMED",
+      "season": "1959",
+      "min_anchor_distance_km": 59,
+      "closest_time_utc": "1959-01-27 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1959010S19037",
+      "name": "UNNAMED",
+      "season": "1959",
+      "min_anchor_distance_km": 111,
+      "closest_time_utc": "1959-01-10 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1958052S19038",
+      "name": "UNNAMED",
+      "season": "1958",
+      "min_anchor_distance_km": 132,
+      "closest_time_utc": "1958-02-21 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1958023S21042",
+      "name": "UNNAMED",
+      "season": "1958",
+      "min_anchor_distance_km": 78,
+      "closest_time_utc": "1958-01-29 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1957358S13056",
+      "name": "UNNAMED",
+      "season": "1958",
+      "min_anchor_distance_km": 15,
+      "closest_time_utc": "1957-12-30 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1957033S16041",
+      "name": "UNNAMED",
+      "season": "1957",
+      "min_anchor_distance_km": 56,
+      "closest_time_utc": "1957-02-02 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1957013S18040",
+      "name": "UNNAMED",
+      "season": "1957",
+      "min_anchor_distance_km": 132,
+      "closest_time_utc": "1957-01-16 18:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1956086S09062",
+      "name": "UNNAMED",
+      "season": "1956",
+      "min_anchor_distance_km": 101,
+      "closest_time_utc": "1956-04-04 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1955083S11042",
+      "name": "UNNAMED",
+      "season": "1955",
+      "min_anchor_distance_km": 103,
+      "closest_time_utc": "1955-03-25 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1954059S14041",
+      "name": "UNNAMED",
+      "season": "1954",
+      "min_anchor_distance_km": 92,
+      "closest_time_utc": "1954-02-28 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1953049S20036",
+      "name": "UNNAMED",
+      "season": "1953",
+      "min_anchor_distance_km": 121,
+      "closest_time_utc": "1953-02-18 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1953014S19035",
+      "name": "UNNAMED",
+      "season": "1953",
+      "min_anchor_distance_km": 107,
+      "closest_time_utc": "1953-01-14 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1952011S14042",
+      "name": "UNNAMED",
+      "season": "1952",
+      "min_anchor_distance_km": 77,
+      "closest_time_utc": "1952-01-13 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1951321S06073",
+      "name": "UNNAMED",
+      "season": "1952",
+      "min_anchor_distance_km": 74,
+      "closest_time_utc": "1951-11-28 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1951011S13055",
+      "name": "UNNAMED",
+      "season": "1951",
+      "min_anchor_distance_km": 52,
+      "closest_time_utc": "1951-01-25 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1950352S09063",
+      "name": "UNNAMED",
+      "season": "1951",
+      "min_anchor_distance_km": 31,
+      "closest_time_utc": "1950-12-26 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1950040S12065",
+      "name": "UNNAMED",
+      "season": "1950",
+      "min_anchor_distance_km": 98,
+      "closest_time_utc": "1950-02-15 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1950033S10068",
+      "name": "UNNAMED",
+      "season": "1950",
+      "min_anchor_distance_km": 57,
+      "closest_time_utc": "1950-02-08 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1950030S21039",
+      "name": "UNNAMED",
+      "season": "1950",
+      "min_anchor_distance_km": 98,
+      "closest_time_utc": "1950-02-01 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1949087S16060",
+      "name": "UNNAMED",
+      "season": "1949",
+      "min_anchor_distance_km": 41,
+      "closest_time_utc": "1949-04-03 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1948076S15043",
+      "name": "UNNAMED",
+      "season": "1948",
+      "min_anchor_distance_km": 72,
+      "closest_time_utc": "1948-03-19 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1947036S15042",
+      "name": "UNNAMED",
+      "season": "1947",
+      "min_anchor_distance_km": 97,
+      "closest_time_utc": "1947-02-05 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1946340S06071",
+      "name": "UNNAMED",
+      "season": "1947",
+      "min_anchor_distance_km": 113,
+      "closest_time_utc": "1946-12-12 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1946335S06071",
+      "name": "UNNAMED",
+      "season": "1947",
+      "min_anchor_distance_km": 119,
+      "closest_time_utc": "1946-12-09 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1939042S06048",
+      "name": "UNNAMED",
+      "season": "1939",
+      "min_anchor_distance_km": 26,
+      "closest_time_utc": "1939-02-15 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1939036S06049",
+      "name": "UNNAMED",
+      "season": "1939",
+      "min_anchor_distance_km": 112,
+      "closest_time_utc": "1939-02-08 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1939019S16039",
+      "name": "UNNAMED",
+      "season": "1939",
+      "min_anchor_distance_km": 142,
+      "closest_time_utc": "1939-01-20 09:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1934048S11049",
+      "name": "UNNAMED",
+      "season": "1934",
+      "min_anchor_distance_km": 114,
+      "closest_time_utc": "1934-02-20 21:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1934001S13052",
+      "name": "UNNAMED",
+      "season": "1934",
+      "min_anchor_distance_km": 148,
+      "closest_time_utc": "1934-01-04 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1928048S16042",
+      "name": "UNNAMED",
+      "season": "1928",
+      "min_anchor_distance_km": 112,
+      "closest_time_utc": "1928-02-17 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1920004S16041",
+      "name": "UNNAMED",
+      "season": "1920",
+      "min_anchor_distance_km": 144,
+      "closest_time_utc": "1920-01-04 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1915045S19038",
+      "name": "UNNAMED",
+      "season": "1915",
+      "min_anchor_distance_km": 140,
+      "closest_time_utc": "1915-02-14 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1908102S07054",
+      "name": "UNNAMED",
+      "season": "1908",
+      "min_anchor_distance_km": 103,
+      "closest_time_utc": "1908-04-15 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1907345S11046",
+      "name": "UNNAMED",
+      "season": "1908",
+      "min_anchor_distance_km": 131,
+      "closest_time_utc": "1907-12-14 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1907344S12045",
+      "name": "UNNAMED",
+      "season": "1908",
+      "min_anchor_distance_km": 125,
+      "closest_time_utc": "1907-12-12 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1904346S08065",
+      "name": "UNNAMED",
+      "season": "1905",
+      "min_anchor_distance_km": 54,
+      "closest_time_utc": "1904-12-19 03:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1904346S08064",
+      "name": "UNNAMED",
+      "season": "1905",
+      "min_anchor_distance_km": 48,
+      "closest_time_utc": "1904-12-18 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1904345S08063",
+      "name": "UNNAMED",
+      "season": "1905",
+      "min_anchor_distance_km": 48,
+      "closest_time_utc": "1904-12-17 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1899345S10069",
+      "name": "UNNAMED",
+      "season": "1900",
+      "min_anchor_distance_km": 63,
+      "closest_time_utc": "1899-12-19 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1899345S10068",
+      "name": "UNNAMED",
+      "season": "1900",
+      "min_anchor_distance_km": 50,
+      "closest_time_utc": "1899-12-18 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1899344S10066",
+      "name": "UNNAMED",
+      "season": "1900",
+      "min_anchor_distance_km": 50,
+      "closest_time_utc": "1899-12-17 06:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1874070S13045",
+      "name": "UNNAMED",
+      "season": "1874",
+      "min_anchor_distance_km": 127,
+      "closest_time_utc": "1874-03-14 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1859335S14043",
+      "name": "UNNAMED",
+      "season": "1860",
+      "min_anchor_distance_km": 97,
+      "closest_time_utc": "1859-12-03 00:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1858091S12408",
+      "name": "UNNAMED",
+      "season": "1858",
+      "min_anchor_distance_km": 26,
+      "closest_time_utc": "1858-04-02 15:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    },
+    {
+      "sid": "1858091S12048",
+      "name": "UNNAMED",
+      "season": "1858",
+      "min_anchor_distance_km": 39,
+      "closest_time_utc": "1858-04-03 12:00:00",
+      "wmo_wind_kt": null,
+      "wmo_pres_hpa": null,
+      "classification": "candidato_por_proximidade_nao_validado"
+    }
+  ]
+}
