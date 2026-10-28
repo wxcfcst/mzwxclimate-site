@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T08:25:59",
+  "generated": "2026-10-28T15:20:28",
   "mosaics": [
     {
       "id": "synoptic",
@@ -109,35 +109,35 @@
     {
       "id": "satellite",
       "title": "Satélite",
-      "datetime": "2026-10-28T10:00",
+      "datetime": "2026-10-28T17:30",
       "panels": [
         {
           "model": "SATELLITE",
           "id": "WV_073",
           "name": "Vapor de água médio",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_073_2026-10-28_10:00.png",
-          "datetime": "2026-10-28T10:00"
+          "path": "assets/images/satellite/custom/cu_msg45_WV_073_2026-10-28_17:30.png",
+          "datetime": "2026-10-28T17:30"
         },
         {
           "model": "SATELLITE",
           "id": "WV_062",
           "name": "Vapor de água superior",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_062_2026-10-28_10:00.png",
-          "datetime": "2026-10-28T10:00"
+          "path": "assets/images/satellite/custom/cu_msg45_WV_062_2026-10-28_17:30.png",
+          "datetime": "2026-10-28T17:30"
         },
         {
           "model": "SATELLITE",
           "id": "airmass",
           "name": "Airmass",
-          "path": "assets/images/satellite/custom/cu_msg45_airmass_2026-10-28_10:00.png",
-          "datetime": "2026-10-28T10:00"
+          "path": "assets/images/satellite/custom/cu_msg45_airmass_2026-10-28_17:30.png",
+          "datetime": "2026-10-28T17:30"
         },
         {
           "model": "SATELLITE",
           "id": "IR_108",
           "name": "Infravermelho 10.8 µm",
-          "path": "assets/images/satellite/custom/cu_msg45_IR_108_2026-10-28_10:00.png",
-          "datetime": "2026-10-28T10:00"
+          "path": "assets/images/satellite/custom/cu_msg45_IR_108_2026-10-28_17:30.png",
+          "datetime": "2026-10-28T17:30"
         }
       ]
     }
