@@ -1,0 +1,49 @@
+/* MZWXClimate homepage V3 — pequenos ajustes ao layout V2. */
+/* Relógio alinhado com o título Destaques e os botões. */
+body.mz-home section.mz-home-highlights .mz-clocks {
+  width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  transform: none !important;
+}
+body.mz-home section.mz-home-highlights .mz-clock-row {
+  justify-content: flex-start !important;
+  gap: 8px !important;
+  flex-wrap: nowrap !important;
+}
+body.mz-home section.mz-home-highlights #mz-clock-date {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+/* Contraste legível sobre a fotografia; não altera a lógica dos relógios. */
+body.mz-home .mz-clock-row,
+body.mz-home .mz-clock-row span,
+body.mz-home .mz-clock-row strong,
+body.mz-home .mz-clock-divider,
+body.mz-home #mz-clock-date {
+  color: #e8f7ff !important;
+  text-shadow: 0 1px 4px rgba(0, 15, 30, .9) !important;
+}
+/* Escurece suavemente a imagem sem reduzir a opacidade do texto/cartões. */
+body.mz-home main.mz-home-content {
+  position: relative !important;
+  isolation: isolate;
+}
+body.mz-home main.mz-home-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 23, 36, .32);
+  pointer-events: none;
+  z-index: 0;
+}
+body.mz-home main.mz-home-content > * {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 550px) {
+  body.mz-home section.mz-home-highlights .mz-clock-row {gap: 5px !important;}
+  body.mz-home section.mz-home-highlights .mz-clock-row strong {font-size: clamp(15px, 4vw, 18px) !important;}
+}

@@ -1,0 +1,9 @@
+/* MZWXClimate — ajustes pontuais da página inicial, sem alterar astronomy.js. */
+.mz-home .mz-home-content {display: flex; flex-direction: column; gap: 0 !important;}
+.mz-home .mz-home-content > .mz-clocks {order: 0; margin: 8px 0 12px !important; align-self: flex-start;}
+.mz-home .mz-home-highlights {order: 1; margin: 0 0 10px !important; padding-top: 0 !important; padding-bottom: 0 !important;}
+.mz-home .mz-home-highlights h1 {margin: 0 0 8px !important;}
+.mz-home .mz-highlights {display: flex; flex-direction: column; gap: 5px !important; margin: 0 !important;}
+.mz-home .mz-highlight {margin: 0 !important;}
+.mz-home .mz-home-astronomy {order: 2; margin: 0 !important; padding-top: 0 !important; gap: 0 !important;}
+.mz-home .mz-sun-card {margin-top: 0 !important;}

@@ -1,6 +1,6 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-10-28T15:20:28.196703-03:00",
+  "generated": "2026-10-28T21:57:00.233093-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
   "total": 11,
   "products": [
@@ -9,18 +9,18 @@
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-10-28T17:30:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-10-28_17:30.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-28_17:30.png"
+      "datetime": "2026-10-28T23:15:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-10-28_23:15.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-28_23:15.png"
     },
     {
       "product": "ET",
       "id": "ET",
       "name": "Evapotranspiração",
       "description": "Evapotranspiração derivada de observações de satélite.",
-      "datetime": "2026-10-28T16:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610281630.nc_2026-10-28_16:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610281630.nc_2026-10-28_16:30.png"
+      "datetime": "2026-10-28T22:30:00",
+      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610282230.nc_2026-10-28_22:30.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610282230.nc_2026-10-28_22:30.png"
     },
     {
       "product": "EDLST-DAY",

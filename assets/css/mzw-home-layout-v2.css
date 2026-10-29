@@ -1,0 +1,73 @@
+/* MZWXClimate — home v2 | apenas posicionamento dos elementos iniciais */
+/* Uma coluna à esquerda. A largura mantém o fundo meteorológico visível. */
+body.mz-home main.mz-home-content {
+  display: block !important;
+  padding: 18px 32px 24px !important;
+  min-height: 0 !important;
+}
+body.mz-home section.mz-home-highlights {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  position: static !important;
+  width: min(100%, 370px) !important;
+  max-width: 370px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  float: none !important;
+}
+/* Os dois relógios na mesma linha, inclusive em ecrãs estreitos. */
+body.mz-home .mz-clocks {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 0 15px !important;
+  padding: 0 !important;
+  text-align: center !important;
+  align-self: auto !important;
+}
+body.mz-home .mz-clock-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: baseline !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  white-space: nowrap !important;
+}
+body.mz-home .mz-clock-row span {display: inline !important; flex: 0 0 auto !important;}
+body.mz-home .mz-clock-row strong {font-size: clamp(17px, 2.3vw, 27px) !important;}
+body.mz-home #mz-clock-date {margin: 3px 0 0 !important;}
+body.mz-home section.mz-home-highlights h1 {margin: 0 0 8px !important; padding: 0 !important;}
+body.mz-home .mz-highlights {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 5px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+body.mz-home .mz-highlights .mz-highlight {
+  display: block !important;
+  margin: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+body.mz-home .mz-sun-card {
+  display: block !important;
+  position: static !important;
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+  margin: 10px 0 0 !important;
+  float: none !important;
+}
+@media (max-width: 550px) {
+  body.mz-home main.mz-home-content {padding: 12px 14px 20px !important;}
+  body.mz-home section.mz-home-highlights {max-width: 100% !important;}
+  body.mz-home .mz-clock-row {gap: 5px !important;}
+  body.mz-home .mz-clock-row strong {font-size: 17px !important;}
+}

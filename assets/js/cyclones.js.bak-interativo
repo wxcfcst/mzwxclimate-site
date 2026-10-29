@@ -1,0 +1,18 @@
+/* MZWXClimate Cyclones - dados externos são texto, nunca HTML */
+(()=>{
+const cyclonesBase = new URL('../../cyclones/', document.currentScript.src);
+const host=document.getElementById('mzw-cyclone-monitor');
+if(host){
+ fetch(new URL('status.json', document.baseURI),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
+  host.replaceChildren();let h=document.createElement('h2');h.textContent='🌪️ Ciclones Tropicais';host.append(h);
+  let p=document.createElement('p');const messages={unavailable:'Dados operacionais do RSMC La Réunion indisponíveis. Não é possível confirmar a ausência de ciclones.',review_required:'Boletim disponível, mas requer verificação na fonte original.',none_confirmed:'O boletim identificado indica ausência de sistemas ativos; confirme a data.',off_season:'Fora da época de monitorização regular (setembro–março).'};
+  p.textContent=messages[d.status]||'Estado da monitorização não confirmado.';host.append(p);
+  let t=document.createElement('small');t.textContent=d.bulletin_date?'Data do boletim: '+d.bulletin_date:(d.checked_at_utc?'Última consulta: '+d.checked_at_utc:'Data não disponível');host.append(t);
+  let a=document.createElement('p'),link=document.createElement('a');link.href='alertas.html';link.textContent='Consultar monitorização e fontes →';a.append(link);host.append(a);
+ }).catch(()=>{host.textContent='🌪️ Monitorização ciclónica indisponível. Consulte a página de alertas para mais informações.';});
+}
+const table=document.querySelector('[data-cyclone-history]');
+if(table){const summary=document.getElementById('cy-summary'),q=document.getElementById('cy-search');fetch(new URL('history.json', document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{const storms=Array.isArray(d.storms)?d.storms:[];
+function draw(){const term=(q.value||'').trim().toLowerCase();const found=storms.filter(s=>String(s.name+' '+s.season+' '+s.sid).toLowerCase().includes(term));table.replaceChildren();for(const s of found){let tr=document.createElement('tr');for(const val of [s.season,s.name,s.closest_time_utc,s.min_anchor_distance_km,s.wmo_wind_kt]){const td=document.createElement('td');td.textContent=val==null?'—':String(val);tr.append(td)}table.append(tr)}summary.textContent=`${found.length} trajetórias candidatas (triagem por proximidade; impactos não comprovados).`}
+q.addEventListener('input',draw);draw();}).catch(()=>summary.textContent='Histórico não disponível.');}
+})();

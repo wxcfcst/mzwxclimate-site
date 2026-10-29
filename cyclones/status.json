@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-10-29T00:57:00+00:00",
+  "season_monitoring": true,
+  "authority": "RSMC La Réunion / Météo-France",
+  "source_url": "https://meteofrance.re/fr/cyclone",
+  "status": "unavailable",
+  "message": "Não foi possível confirmar um boletim operacional atualizado.",
+  "active_systems": null,
+  "cyclogenesis_risk_next_5_days": "unknown",
+  "bulletin_date": null,
+  "note": "Monitorização informativa; não é um aviso oficial para Moçambique."
+}
