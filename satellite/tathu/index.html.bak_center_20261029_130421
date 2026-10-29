@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TATHU — MZ WX &amp; Climate</title>
+  <link rel="stylesheet" href="../../assets/css/navigation.css">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f7fa;
+      color: #172b3a;
+      font-family: Arial, sans-serif;
+    }
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 { margin-top: 0; }
+    .tathu-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #cbd5df;
+      border-radius: 6px;
+      background: white;
+    }
+    .tathu-note {
+      font-size: 0.9rem;
+      color: #526575;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Rastreamento e Análise de Tempestades</h1>
+    <img
+      class="tathu-image"
+      src="../../assets/images/satellite/tathu/msg_ir_108_20190311_0000_ate_20190312_1530_deteccoes.gif"
+      alt="Animação de satélite TATHU"
+      loading="eager"
+    >
+    <p class="tathu-note">
+      Produto de satélite TATHU disponibilizado para consulta meteorológica.
+    </p>
+  </main>
+  <script src="../../assets/js/navigation.js"></script>
+</body>
+</html>
