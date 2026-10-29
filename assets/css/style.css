@@ -990,12 +990,12 @@ a {
 @media(max-width:1100px){#mz-main-header.mz-header{flex-wrap:wrap;padding:10px 18px}.mz-mobile-toggle{display:block;margin-left:auto}.mz-nav{display:none;width:100%;margin:0}.mz-nav.mobile-open{display:block}.mz-nav .mz-menu{display:block;max-height:70vh;overflow-y:auto}.mz-nav .mz-item{width:100%}.mz-nav a,.mz-nav .mz-trigger,.mz-nav .mz-inactive{width:100%;min-height:43px;justify-content:space-between;padding:10px 12px}.mz-nav .mz-submenu,.mz-nav .mz-submenu .mz-submenu{position:static;max-width:none;width:100%;min-width:0;box-shadow:none;border:0;border-left:2px solid #505050;padding:0 0 0 12px}.mz-nav .mz-submenu .mz-arrow{transform:rotate(45deg)}}
 
 /* ===== Imagem animada apenas na página inicial ===== */
-body.mz-home{background:#101a25;color:#fff;isolation:isolate}
-body.mz-home::before{content:"";position:fixed;inset:0;z-index:-2;background:#101a25 url('../images/home/thunderstorm.gif') center center / cover no-repeat;pointer-events:none}
-body.mz-home::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(0,0,0,.47);pointer-events:none}
-body.mz-home .hero{background:rgba(5,14,24,.28);border-radius:0;margin-bottom:12px;padding:52px 20px}
-body.mz-home .features,body.mz-home .highlights{background:rgba(8,18,28,.66);border-radius:18px;margin:30px auto;max-width:1240px;padding:30px 14px}
-body.mz-home .section-title{color:#fff}
+body.mz-home{background:#f4f7fa;color:#172b3a;isolation:isolate}
+body.mz-home::before{content:"";position:fixed;inset:0;z-index:-2;background:#f4f7fa url('../images/home/thunderstorm.gif') center center / cover no-repeat;pointer-events:none}
+body.mz-home::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(255,255,255,.84);pointer-events:none}
+body.mz-home .hero{background:rgba(255,255,255,.72);color:#172b3a;border-radius:0;margin-bottom:12px;padding:52px 20px}
+body.mz-home .features,body.mz-home .highlights{background:rgba(255,255,255,.86);color:#172b3a;border-radius:18px;margin:30px auto;max-width:1240px;padding:30px 14px}
+body.mz-home .section-title{color:#172b3a}
 body.mz-home .site-footer{background:rgba(5,10,15,.9)}
 body.mz-home .metar-section{background:rgba(0,0,0,.38)}
 body.mz-home .metar-card{animation:metarFadeIn .5s ease-out,metarBlink 4s ease-in-out infinite alternate;animation-delay:0s,.6s}
