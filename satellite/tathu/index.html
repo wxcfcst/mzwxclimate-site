@@ -35,16 +35,35 @@
 <body>
   <main>
     <h1 style="text-align: center;">Rastreamento e Análise de Tempestades</h1>
-    <img
-      class="tathu-image"
-      src="../../assets/images/satellite/tathu/msg_ir_108_20190311_0000_ate_20190312_1530_deteccoes.gif"
-      alt="Animação de satélite TATHU"
-      loading="eager"
-    >
-    <p class="tathu-note">
+    <img id="tathu-latest-image" class="tathu-image" alt="Animação de satélite TATHU" loading="eager" hidden>
+    <p id="tathu-status" class="tathu-note">
       Produto de satélite TATHU disponibilizado para consulta meteorológica.
     </p>
   </main>
+  <script>
+    // Resolve the latest TATHU image dynamically; dates are never hard-coded.
+    (async function updateTathuImage() {
+      const image = document.getElementById('tathu-latest-image');
+      const status = document.getElementById('tathu-status');
+      try {
+        const response = await fetch('../../assets/images/satellite/tathu/latest.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const manifest = await response.json();
+        // Use only a GIF basename from the manifest to avoid unsafe paths.
+        const filename = manifest.latest;
+        if (typeof filename !== 'string' || !/^msg_ir_108_[A-Za-z0-9_]+_deteccoes\.gif$/.test(filename)) {
+          throw new Error('Invalid GIF filename in TATHU manifest');
+        }
+        image.src = '../../assets/images/satellite/tathu/' + encodeURIComponent(filename);
+        image.hidden = false;
+        status.textContent = 'Latest available TATHU satellite animation.';
+      } catch (error) {
+        image.hidden = true;
+        status.textContent = 'TATHU animation is temporarily unavailable.';
+        console.error('[TATHU]', error);
+      }
+    })();
+  </script>
   <script src="../../assets/js/navigation.js"></script>
 </body>
 </html>
