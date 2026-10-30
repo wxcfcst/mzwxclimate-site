@@ -94,7 +94,8 @@
 
 .satellite-map {
 
-    width: 100%;
+    width: calc(100% + 40px);
+    margin-left: -20px;
     text-align: center;
 
 }
@@ -133,8 +134,24 @@
 
 }
 
+
+/* ==========================================================
+   BTOA IR 10.8 µm — Ajuste exclusivo de visualização
+   ========================================================== */
+
+.satellite-map img[src*="toabt_ir108_"] {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 650px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
 </style>
 
+<link rel="stylesheet" href="../../assets/css/navigation.css">
 </head>
 
 <body>
@@ -176,6 +193,7 @@
 
 <script src="../../assets/js/satellite-custom.js?v=1"></script>
 
+<script src="../../assets/js/navigation.js"></script>
 </body>
 
 </html>
