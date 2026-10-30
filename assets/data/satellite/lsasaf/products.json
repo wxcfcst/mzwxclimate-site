@@ -44,9 +44,9 @@
         "id": "ET",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610291830.nc_2026-10-29_18:30.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610292230.nc_2026-10-29_22:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610291830.nc_2026-10-29_18:30.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202610292230.nc_2026-10-29_22:30.png"
         ]
     },
     {
@@ -71,9 +71,9 @@
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-29_19:15.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-29_23:45.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-29_19:15.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-10-29_23:45.png"
         ]
     },
     {
@@ -116,18 +116,18 @@
         "id": "MDIDSSF",
         "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202610291915.nc_2026-10-29_19:15.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202610292345.nc_2026-10-29_23:45.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202610291915.nc_2026-10-29_19:15.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202610292345.nc_2026-10-29_23:45.png"
         ]
     },
     {
         "id": "MIMIC_TPW",
         "name": "Água Total Precipitável - TPW",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-10-29_17:00.png",
+        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-10-29_22:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/mimic_tpw_2026-10-29_17:00.png"
+            "assets/images/satellite/lsasaf/mimic_tpw_2026-10-29_22:00.png"
         ]
     },
     {
