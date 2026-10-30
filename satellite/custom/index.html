@@ -57,7 +57,9 @@
 .satellite-selector {
 
     width: 100%;
-    margin-bottom: 20px;
+    max-width: none;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
 
 }
 
@@ -70,6 +72,7 @@
     border-radius: 5px;
     background: #ffffff;
 
+    box-sizing: border-box;
 }
 
 #product-view {
@@ -135,6 +138,25 @@
 }
 
 
+
+/* AJUSTE DE DIMENSÕES DOS MAPAS — EXCETO BTOA */
+
+.satellite-map {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    text-align: center;
+}
+
+.satellite-map img:not([src*="toabt_ir108_"]) {
+    display: block;
+    width: calc(100% + 20px);
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    transform: translateX(-10px);
+    object-fit: contain;
+}
+
 /* ==========================================================
    BTOA IR 10.8 µm — Ajuste exclusivo de visualização
    ========================================================== */
@@ -148,6 +170,38 @@
     object-fit: contain;
     margin: 0 auto;
 }
+
+/* INICIO: LARGURA UNIFICADA SELETOR/MAPA */
+/* Altere somente este valor para aumentar ou diminuir ambos. */
+.satellite-box {
+    --largura-produto: 1250px;
+}
+
+.satellite-box .satellite-selector,
+.satellite-box .satellite-map {
+    width: min(100%, var(--largura-produto));
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.satellite-box .satellite-selector {
+    margin-bottom: 20px;
+}
+
+.satellite-box .satellite-map img:not([src*="toabt_ir108_"]) {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    transform: none;
+    object-fit: contain;
+}
+
+/* O BTOA mantém sua regra especial de altura máxima. */
+/* FIM: LARGURA UNIFICADA SELETOR/MAPA */
 
 </style>
 
