@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T20:22:42",
+  "generated": "2026-10-31T05:00:19",
   "mosaics": [
     {
       "id": "synoptic",
@@ -103,41 +103,6 @@
           "name": "Precipitação Total",
           "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-10-30_12:00.png",
           "datetime": "2026-10-30T12:00:00"
-        }
-      ]
-    },
-    {
-      "id": "satellite",
-      "title": "Satélite",
-      "datetime": "2026-10-30T22:00",
-      "panels": [
-        {
-          "model": "SATELLITE",
-          "id": "WV_073",
-          "name": "Vapor de água médio",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_073_2026-10-30_22:00.png",
-          "datetime": "2026-10-30T22:00"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "WV_062",
-          "name": "Vapor de água superior",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_062_2026-10-30_22:00.png",
-          "datetime": "2026-10-30T22:00"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "airmass",
-          "name": "Airmass",
-          "path": "assets/images/satellite/custom/cu_msg45_airmass_2026-10-30_22:00.png",
-          "datetime": "2026-10-30T22:00"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "IR_108",
-          "name": "Infravermelho 10.8 µm",
-          "path": "assets/images/satellite/custom/cu_msg45_IR_108_2026-10-30_22:00.png",
-          "datetime": "2026-10-30T22:00"
         }
       ]
     }
