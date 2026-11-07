@@ -41,3 +41,41 @@
         row-gap: 10px;
     }
 }
+
+/* ==================================================
+   MONITORIZAÇÃO — ESPAÇAMENTO COMPACTO
+   ================================================== */
+
+/* Reduzir distância entre títulos */
+#mzw-cyclone-monitor {
+    row-gap: 4px;
+    column-gap: 20px;
+}
+
+/* Títulos mais próximos */
+#mzw-cyclone-monitor h2,
+#mzw-cyclone-monitor h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 1.25;
+}
+
+/* Informações meteorológicas mais compactas */
+#mzw-cyclone-monitor > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.35;
+}
+
+/* Aproximar a informação da fonte */
+#mzw-cyclone-monitor > small {
+    margin-top: 6px;
+}
+
+/* Manter apresentação compacta em telemóveis */
+@media (max-width: 650px) {
+    #mzw-cyclone-monitor {
+        row-gap: 5px;
+    }
+}
+
