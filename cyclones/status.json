@@ -1,13 +1,33 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-06T15:46:45+00:00",
+  "checked_at_utc": "2026-11-07T11:07:49+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
-  "status": "unavailable",
-  "message": "Não foi possível confirmar um boletim operacional atualizado.",
-  "active_systems": null,
+  "bulletin_source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
+  "status": "active_confirmed",
+  "message": "Sistema em monitorização: Depressão tropical 2. Consulte o boletim do RSMC La Réunion.",
+  "active_systems": 1,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": null,
-  "note": "Monitorização informativa; não é um aviso oficial para Moçambique."
+  "bulletin_date": "2026-11-07",
+  "bulletin_issued_utc": "2026-11-07T06:00:00+00:00",
+  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
+  "system_name": "Depressão tropical 2",
+  "systems": [
+    {
+      "system_name": "Depressão tropical 2",
+      "classification": "depressão tropical",
+      "warning_number": "005/2",
+      "bulletin_issued_utc": "2026-11-07T06:00:00+00:00",
+      "position": {
+        "latitude": -13.5,
+        "longitude": 54.1
+      },
+      "pressure_hpa": 1008,
+      "movement": {
+        "direction": "oeste-sudoeste",
+        "speed_kt": 5
+      }
+    }
+  ]
 }
