@@ -60,3 +60,13 @@ body.mz-home .mz-cyclone-alert-badge { animation: mzw-alert-pulse 1.8s ease-in-o
     }
 }
 
+
+/* MZW_CYCLONE_LEVELS_STAGE_V1 */
+.cy-criteria{border-collapse:collapse;width:100%;min-width:620px;font-size:.93rem}
+.cy-criteria th,.cy-criteria td{border:1px solid #6d7883;padding:.7rem;text-align:left;vertical-align:top}
+.cy-criteria thead{background:rgba(80,110,140,.24)}
+#mz-cyclone-live-alert.mz-risk-yellow:not([hidden]){background:rgba(250,204,21,.16)!important;border-color:#eab308!important}
+#mz-cyclone-live-alert.mz-risk-orange:not([hidden]){background:rgba(249,115,22,.17)!important;border-color:#f97316!important}
+#mz-cyclone-live-alert.mz-risk-red:not([hidden]){background:rgba(239,68,68,.18)!important;border-color:#ef4444!important}
+#mz-cyclone-live-alert.mz-risk-grey:not([hidden]){background:rgba(148,163,184,.12)!important;border-color:#94a3b8!important}
+@media(prefers-reduced-motion:reduce){#mz-cyclone-live-alert *{animation:none!important}}
