@@ -1,26 +1,71 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-11-06T12:46:45.722095-03:00",
+  "generated": "2026-11-07T09:04:00.225168-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 9,
+  "total": 10,
   "products": [
+    {
+      "product": "FRP-PIXEL",
+      "id": "FRP",
+      "name": "Potência Radiativa do Fogo",
+      "description": "Potência Radiativa do Fogo (FRP) por pixel.",
+      "datetime": "2026-11-07T08:45:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-07_08:45.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-07_08:45.png"
+    },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-11-05T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-05_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-05_00:00.png"
+      "datetime": "2026-11-06T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-06_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-06_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
       "id": "EDLST_NIGHT",
       "name": "Temperatura do Solo - Noite",
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
+      "datetime": "2026-11-06T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-06_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-06_00:00.png"
+    },
+    {
+      "product": "ETAL",
+      "id": "ETAL",
+      "name": "Albedo da Superfície de 10 dias",
+      "description": "Albedo da superfície terrestre em um período de 10 dias.",
       "datetime": "2026-11-05T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-05_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-05_00:00.png"
+      "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202611050000.nc_2026-11-05_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202611050000.nc_2026-11-05_00:00.png"
+    },
+    {
+      "product": "ETFAPAR",
+      "id": "FAPAR",
+      "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
+      "description": "Fração da radiação fotossinteticamente ativa absorvida pela vegetação.",
+      "datetime": "2026-11-05T00:00:00",
+      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202611050000.nc_2026-11-05_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202611050000.nc_2026-11-05_00:00.png"
+    },
+    {
+      "product": "ETFVC",
+      "id": "FVC",
+      "name": "Fração de Cobertura Vegetal de 10 dias",
+      "description": "Fração de cobertura vegetal em um período de 10 dias.",
+      "datetime": "2026-11-05T00:00:00",
+      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202611050000.nc_2026-11-05_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202611050000.nc_2026-11-05_00:00.png"
+    },
+    {
+      "product": "ETLAI",
+      "id": "LAI",
+      "name": "Índice de Área Foliar de 10 dias",
+      "description": "Índice de Área Foliar (LAI) em um período de 10 dias.",
+      "datetime": "2026-11-05T00:00:00",
+      "filename": "NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202611050000.nc_2026-11-05_00:00.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202611050000.nc_2026-11-05_00:00.png"
     },
     {
       "product": "DIDSSF",
@@ -48,42 +93,6 @@
       "datetime": "2026-11-05T00:00:00",
       "filename": "h64_cur_mon_data_2026-11-05_00:00.png",
       "image": "assets/images/satellite/lsasaf/h64_cur_mon_data_2026-11-05_00:00.png"
-    },
-    {
-      "product": "ETAL",
-      "id": "ETAL",
-      "name": "Albedo da Superfície de 10 dias",
-      "description": "Albedo da superfície terrestre em um período de 10 dias.",
-      "datetime": "2026-10-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202610250000.nc_2026-10-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETAL_GLOBE_202610250000.nc_2026-10-25_00:00.png"
-    },
-    {
-      "product": "ETFAPAR",
-      "id": "FAPAR",
-      "name": "Fração de Radiação Fotossinteticamente Ativa Absorvida",
-      "description": "Fração da radiação fotossinteticamente ativa absorvida pela vegetação.",
-      "datetime": "2026-10-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202610250000.nc_2026-10-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFAPAR_GLOBE_202610250000.nc_2026-10-25_00:00.png"
-    },
-    {
-      "product": "ETFVC",
-      "id": "FVC",
-      "name": "Fração de Cobertura Vegetal de 10 dias",
-      "description": "Fração de cobertura vegetal em um período de 10 dias.",
-      "datetime": "2026-10-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202610250000.nc_2026-10-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETFVC_GLOBE_202610250000.nc_2026-10-25_00:00.png"
-    },
-    {
-      "product": "ETLAI",
-      "id": "LAI",
-      "name": "Índice de Área Foliar de 10 dias",
-      "description": "Índice de Área Foliar (LAI) em um período de 10 dias.",
-      "datetime": "2026-10-25T00:00:00",
-      "filename": "NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202610250000.nc_2026-10-25_00:00.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_M01-AVHR_ETLAI_GLOBE_202610250000.nc_2026-10-25_00:00.png"
     }
   ]
 }
