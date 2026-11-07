@@ -52,7 +52,7 @@ if(host){
    }
 
    add('p','Emissão: '+new Date(issued).toLocaleString(
-     'pt-PT',{timeZone:'UTC'})+' UTC');
+     'pt-PT',{timeZone:'Africa/Maputo'})+' (UTC+2)');
 
   }else if(d.status==='none_confirmed' && fresh){
    add('p','O boletim recente confirma ausência de sistemas ativos.');

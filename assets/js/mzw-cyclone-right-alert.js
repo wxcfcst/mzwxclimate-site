@@ -15,7 +15,7 @@
       const badge=document.createElement('span');badge.className='mz-cyclone-alert-badge';badge.textContent='⚠️';
       title.append(badge, document.createTextNode(' Ciclone em monitorização'));
       const message=document.createElement('p');message.className='mz-cyclone-alert-text';
-      message.textContent=`${name} — informação meteorológica de acompanhamento. Boletim: ${new Date(issued).toLocaleString('pt-PT',{timeZone:'UTC'})} UTC.`;
+      message.textContent=`${name} — informação meteorológica de acompanhamento. Boletim: ${new Date(issued).toLocaleString('pt-PT',{timeZone:'Africa/Maputo'})} (UTC+2).`;
       const link=document.createElement('a');link.href=new URL('cyclones/alertas.html',siteBase).href;
       link.textContent='Consultar informações detalhadas →';
       card.replaceChildren(title,message,link);card.hidden=false;
