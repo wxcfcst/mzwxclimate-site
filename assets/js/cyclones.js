@@ -3,16 +3,87 @@
 const cyclonesBase = new URL('../../cyclones/', document.currentScript.src);
 const host=document.getElementById('mzw-cyclone-monitor');
 if(host){
- fetch(new URL('status.json', document.baseURI),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
-  host.replaceChildren();let h=document.createElement('h2');h.textContent='🌪️ Ciclones Tropicais';host.append(h);
-  let p=document.createElement('p');const messages={unavailable:'Dados operacionais do RSMC La Réunion indisponíveis. Não é possível confirmar a ausência de ciclones.',review_required:'Boletim disponível, mas requer verificação na fonte original.',none_confirmed:'O boletim identificado indica ausência de sistemas ativos; confirme a data.',off_season:'Fora da época de monitorização regular (setembro–março).'};
-  p.textContent=messages[d.status]||'Estado da monitorização não confirmado.';host.append(p);
-  let t=document.createElement('small');t.textContent=d.bulletin_date?'Data do boletim: '+d.bulletin_date:(d.checked_at_utc?'Última consulta: '+d.checked_at_utc:'Data não disponível');host.append(t);
-  let a=document.createElement('p'),link=document.createElement('a');link.href='alertas.html';link.textContent='Consultar monitorização e fontes →';a.append(link);host.append(a);
- }).catch(()=>{host.textContent='🌪️ Monitorização ciclónica indisponível. Consulte a página de alertas para mais informações.';});
+ fetch(new URL('status.json',cyclonesBase),{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
+ .then(d=>{
+  host.replaceChildren();
+
+  const add=(tag,value)=>{
+   const e=document.createElement(tag);
+   e.textContent=value;
+   host.append(e);
+  };
+
+  add('h2','🌪️ Monitorização de Ciclones Tropicais');
+
+  const issued=Date.parse(d.bulletin_issued_utc||'');
+  const fresh=Number.isFinite(issued)&&
+              issued<=Date.now()+600000&&
+              Date.now()-issued<=18*3600000;
+
+  if(d.status==='active_confirmed' && fresh &&
+     Array.isArray(d.systems) && d.systems.length){
+
+   add('h3','⚠️ Sistema tropical em monitorização');
+
+   for(const s of d.systems){
+    add('h3',s.system_name||'Sistema tropical');
+    add('p','Classificação: '+(s.classification||'Não disponível'));
+
+    if(s.position){
+     const lat=Number(s.position.latitude);
+     const lon=Number(s.position.longitude);
+     if(Number.isFinite(lat)&&Number.isFinite(lon)){
+      add('p','Posição: '+Math.abs(lat)+'° '+(lat<0?'S':'N')+
+          ' / '+Math.abs(lon)+'° '+(lon<0?'W':'E'));
+     }
+    }
+
+    if(s.pressure_hpa!=null)
+     add('p','Pressão central: '+s.pressure_hpa+' hPa');
+
+    if(s.movement)
+     add('p','Movimento: '+(s.movement.direction||'Não disponível')+
+         (s.movement.speed_kt!=null?
+          ', '+s.movement.speed_kt+' nós':''));
+
+    if(s.warning_number)
+     add('p','Boletim: '+s.warning_number);
+   }
+
+   add('p','Emissão: '+new Date(issued).toLocaleString(
+     'pt-PT',{timeZone:'UTC'})+' UTC');
+
+  }else if(d.status==='none_confirmed' && fresh){
+   add('p','O boletim recente confirma ausência de sistemas ativos.');
+
+  }else if(d.status==='off_season'){
+   add('p','Fora da época de monitorização regular.');
+
+  }else if(d.status==='review_required'){
+   add('p','Boletim disponível. Consulte a fonte oficial.');
+
+  }else{
+   add('p','⚠️ Informação operacional indisponível ou desatualizada.');
+  }
+
+  const p=document.createElement('p');
+  const a=document.createElement('a');
+  a.href=d.bulletin_source_url||'https://meteofrance.re/fr/cyclone';
+  a.textContent='Consultar boletim meteorológico original ↗';
+  a.target='_blank';
+  a.rel='noopener noreferrer';
+  p.append(a);
+  host.append(p);
+
+  add('small','Fonte: RSMC La Réunion / Météo-France. Informação não constitui aviso oficial para Moçambique.');
+
+ }).catch(()=>{
+  host.textContent='🌪️ Monitorização indisponível. Consulte o RSMC La Réunion.';
+ });
 }
 const table=document.querySelector('[data-cyclone-history]');
-if(table){const summary=document.getElementById('cy-summary'),q=document.getElementById('cy-search');fetch(new URL('history.json', document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{const storms=Array.isArray(d.storms)?d.storms:[];
+if(table){const summary=document.getElementById('cy-summary'),q=document.getElementById('cy-search');fetch(new URL('history.json', cyclonesBase)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{const storms=Array.isArray(d.storms)?d.storms:[];
 function draw(){
  const term=(q.value||'').trim().toLowerCase();
  const wrapper=table.closest('.cy-table-wrap');
