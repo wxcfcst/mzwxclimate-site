@@ -14,3 +14,9 @@
 .cy-name-item[data-state="available"]{background:#e2f0ff;color:#114b90;border-color:#97c4f6}
 .cy-name-item[data-state="neutral"]{background:#fff;color:#536371}
 .cy-names-note{font-size:.93rem;line-height:1.5}
+
+
+.cy-names-grid[hidden],
+.cy-names-legend[hidden] {
+  display: none !important;
+}

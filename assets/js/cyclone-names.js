@@ -52,10 +52,40 @@ Promise.all([
 ]).then(([db,status])=>{
  if(!db||!db.seasons)throw Error('Base de nomes inválida');
  const seasons=Object.keys(db.seasons).sort().reverse();
- const current=seasonForUTC(new Date());
- for(const season of seasons){const option=document.createElement('option');option.value=season;option.textContent=season;select.append(option)}
- select.value=seasons.includes(current)?current:seasons[0];
- select.addEventListener('change',()=>draw(db,status));
- draw(db,status);
+ const placeholder=document.createElement('option');
+ placeholder.value='';
+ placeholder.textContent='Escolha uma época ciclónica...';
+ placeholder.disabled=true;
+ select.append(placeholder);
+
+ for(const season of seasons){
+   const option=document.createElement('option');
+   option.value=season;
+   option.textContent=season;
+   select.append(option);
+ }
+
+ // Nenhuma época selecionada inicialmente.
+ select.value='';
+
+ summary.textContent='Selecione uma época ciclónica para consultar os nomes.';
+ grid.hidden=true;
+
+ const legend=document.querySelector('.cy-names-legend');
+ if(legend)legend.hidden=true;
+
+ select.addEventListener('change',()=>{
+   if(!select.value){
+     grid.replaceChildren();
+     grid.hidden=true;
+     if(legend)legend.hidden=true;
+     summary.textContent='Selecione uma época ciclónica para consultar os nomes.';
+     return;
+   }
+
+   grid.hidden=false;
+   if(legend)legend.hidden=false;
+   draw(db,status);
+ });
 }).catch(err=>{console.error(err);summary.textContent='Não foi possível carregar a base de nomes. Tente novamente mais tarde.'});
 })();
