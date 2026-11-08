@@ -1,40 +1,139 @@
 (() => {
   const card = document.getElementById('mz-cyclone-live-alert');
   if (!card) return;
+
   const siteBase = new URL('../../', document.currentScript.src);
-  // Exibição estrita: só com estado explicitamente confirmado e boletim datado.
-  fetch(new URL('cyclones/status.json', siteBase), {cache:'no-store'})
-    .then(r => {if(!r.ok) throw Error('HTTP '+r.status); return r.json();})
-    .then(data => {
-      const active = data?.status === 'active_confirmed';
-      const name = typeof data?.system_name === 'string' ? data.system_name.trim() : '';
-      const issued = typeof data?.bulletin_issued_utc === 'string' ? Date.parse(data.bulletin_issued_utc) : NaN;
-      const fresh = Number.isFinite(issued) && issued <= Date.now() + 600000 && Date.now()-issued <= 18*3600000;
 
-    // Níveis experimentais: sem evidências oficiais, não elevar acima do amarelo.
-    const risk = data?.experimental_risk;
-    const proposed = risk?.experimental === true ? risk.level : 'yellow';
-    const supported = ['yellow','orange','red'].includes(proposed);
-    let level = (fresh && supported) ? proposed : 'grey';
-    // Vermelho exige indicação verificada por fonte oficial; na ausência, não elevamos.
-    if (level === 'red' && !(risk?.verified_official_warning === true &&
-        typeof risk?.official_warning_url === 'string' && /^https:\/\//.test(risk.official_warning_url))) {
-      level = 'orange';
+  const add = (tag, text, className = '') => {
+    const element = document.createElement(tag);
+    element.textContent = text;
+    if (className) element.className = className;
+    card.appendChild(element);
+    return element;
+  };
+
+  const setLevel = (level) => {
+    for (const name of ['yellow', 'orange', 'red', 'grey']) {
+      card.classList.remove('mz-risk-' + name);
     }
-    // Laranja exige evidência costeira validada. Sem ela, manter amarelo.
-    if (level === 'orange' && risk?.verified_coastal_impact_evidence !== true) level = 'yellow';
-    const supportedLevels = ['yellow','orange','red','grey'];
-    for (const l of supportedLevels) card.classList.remove('mz-risk-'+l);
-    card.classList.add('mz-risk-'+level);
+    card.classList.add('mz-risk-' + level);
+  };
 
-      if (!active || !name || !fresh) return;
-      const title=document.createElement('p');title.className='mz-cyclone-alert-title';
-      const badge=document.createElement('span');badge.className='mz-cyclone-alert-badge';badge.textContent='⚠️';
-      title.append(badge, document.createTextNode(' Ciclone em monitorização'));
-      const message=document.createElement('p');message.className='mz-cyclone-alert-text';
-      message.textContent=`${name} — informação meteorológica de acompanhamento. Boletim: ${new Date(issued).toLocaleString('pt-PT',{timeZone:'Africa/Maputo'})} (UTC+2).`;
-      const link=document.createElement('a');link.href=new URL('cyclones/alertas.html',siteBase).href;
-      link.textContent='Consultar informações detalhadas →';
-      card.replaceChildren(title,message,link);card.hidden=false;
-    }).catch(() => { card.hidden=true; });
+  const showUnavailable = (message) => {
+    setLevel('grey');
+    card.replaceChildren();
+
+    add('p', '🌪️ Monitorização de ciclones tropicais',
+        'mz-cyclone-alert-title');
+
+    add('p', '⚪ ' + message, 'mz-cyclone-alert-text');
+
+    const link = add('a', 'Consultar monitorização detalhada →');
+    link.href = new URL('cyclones/alertas.html', siteBase).href;
+
+    card.hidden = false;
+  };
+
+  fetch(new URL('cyclones/status.json', siteBase), {
+    cache: 'no-store'
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('HTTP ' + response.status);
+    }
+    return response.json();
+  })
+  .then(data => {
+
+    const issued = Date.parse(data.bulletin_issued_utc || '');
+
+    const fresh =
+      Number.isFinite(issued) &&
+      issued <= Date.now() + 600000 &&
+      Date.now() - issued <= 18 * 3600000;
+
+    const systems = Array.isArray(data.systems)
+      ? data.systems
+      : [];
+
+    const firstSystem = systems[0];
+
+    const name =
+      firstSystem?.system_name ||
+      data.system_name ||
+      '';
+
+    if (
+      data.status !== 'active_confirmed' ||
+      !fresh ||
+      !name
+    ) {
+      if (data.status === 'none_confirmed' && fresh) {
+        showUnavailable(
+          'Boletim atualizado: nenhum sistema tropical ativo confirmado.'
+        );
+      } else {
+        showUnavailable(
+          'Informação operacional indisponível ou desatualizada. ' +
+          'Consulte os boletins oficiais.'
+        );
+      }
+      return;
+    }
+
+    const risk = data.experimental_risk;
+
+    let level = 'yellow';
+
+    if (risk?.experimental === true) {
+      if (
+        risk.level === 'orange' &&
+        risk.verified_coastal_impact_evidence === true &&
+        risk.forecast_within_500km_72h === true
+      ) {
+        level = 'orange';
+      }
+
+      if (
+        risk.level === 'red' &&
+        risk.verified_official_warning === true &&
+        typeof risk.official_warning_url === 'string' &&
+        /^https:\/\//.test(risk.official_warning_url) &&
+        risk.forecast_severe_impacts_within_48h === true &&
+        risk.forecast_within_500km_48h === true
+      ) {
+        level = 'red';
+      }
+    }
+
+    setLevel(level);
+    card.replaceChildren();
+
+    add('p', '⚠️ Ciclone em monitorização',
+        'mz-cyclone-alert-title');
+
+    add(
+      'p',
+      name + ' — boletim emitido em ' +
+      new Date(issued).toLocaleString('pt-PT', {
+        timeZone: 'Africa/Maputo'
+      }) +
+      ' (UTC+2).',
+      'mz-cyclone-alert-text'
+    );
+
+    const link = add('a', 'Consultar informações detalhadas →');
+    link.href = new URL('cyclones/alertas.html', siteBase).href;
+
+    card.hidden = false;
+
+  })
+  .catch(error => {
+    console.error('Erro na monitorização de ciclones:', error);
+
+    showUnavailable(
+      'Não foi possível carregar os dados de monitorização.'
+    );
+  });
+
 })();

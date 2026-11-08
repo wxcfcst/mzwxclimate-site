@@ -67,6 +67,60 @@ if(host){
    add('p','⚠️ Informação operacional indisponível ou desatualizada.');
   }
 
+
+  // Observações meteorológicas complementares.
+  // Não constituem confirmação operacional do RSMC.
+  if (Array.isArray(d.maritime_observations)) {
+    for (const observation of d.maritime_observations) {
+
+      const issued = Date.parse(observation.issued_utc || '');
+      const valid = Number.isFinite(issued) &&
+                    issued <= Date.now() + 600000 &&
+                    Date.now() - issued <= 18 * 3600000;
+
+      if (!valid) continue;
+
+      add('h3', '🔵 Observação meteorológica complementar');
+
+      const classification = observation.classification || 'Sistema tropical';
+      add('p', 'Classificação: ' + classification);
+
+      if (observation.position) {
+        const lat = Number(observation.position.latitude);
+        const lon = Number(observation.position.longitude);
+
+        if (Number.isFinite(lat) && Number.isFinite(lon)) {
+          add('p', 'Posição: ' +
+              Math.abs(lat) + '° ' + (lat < 0 ? 'S' : 'N') +
+              ' / ' +
+              Math.abs(lon) + '° ' + (lon < 0 ? 'W' : 'E'));
+        }
+      }
+
+      if (observation.pressure_hpa != null) {
+        add('p', 'Pressão: ' + observation.pressure_hpa + ' hPa');
+      }
+
+      if (observation.movement) {
+        add('p', 'Movimento: ' +
+            (observation.movement.direction || 'Não disponível') +
+            (observation.movement.speed_kt != null
+              ? ', ' + observation.movement.speed_kt + ' nós'
+              : ''));
+      }
+
+      add('p', 'Boletim: ' +
+          new Date(issued).toLocaleString('pt-PT', {
+            timeZone: 'Africa/Maputo'
+          }) + ' (UTC+2)');
+
+      add('small',
+          'Fonte: Mauritius Meteorological Services. ' +
+          'Informação complementar, sem confirmação de alerta pelo RSMC. ' +
+          'Não constitui aviso oficial para Moçambique.');
+    }
+  }
+
   const p=document.createElement('p');
   const a=document.createElement('a');
   a.href=d.bulletin_source_url||'https://meteofrance.re/fr/cyclone';
