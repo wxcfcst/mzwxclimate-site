@@ -56,6 +56,70 @@
       ? data.systems
       : [];
 
+
+    // Observações marítimas complementares válidas.
+    const maritime = Array.isArray(data.maritime_observations)
+      ? data.maritime_observations.filter(obs => {
+          const t = Date.parse(obs.issued_utc || '');
+          return Number.isFinite(t) &&
+                 t <= Date.now() + 600000 &&
+                 Date.now() - t <= 18 * 3600000 &&
+                 obs.confirmed_by_rsmc === false;
+        })
+      : [];
+
+    // Quando não há confirmação operacional, apresentar
+    // a informação marítima separadamente.
+    if (data.status !== 'active_confirmed' && maritime.length) {
+      setLevel('grey');
+      card.replaceChildren();
+
+      add('p',
+          '🌪️ Monitorização de ciclones tropicais',
+          'mz-cyclone-alert-title');
+
+      add('p',
+          '⚪ Informação operacional não confirmada pelo RSMC.',
+          'mz-cyclone-alert-text');
+
+      for (const obs of maritime) {
+        const classification =
+          obs.classification === 'tropical depression'
+            ? 'Depressão tropical'
+            : obs.classification === 'tropical disturbance'
+              ? 'Perturbação tropical'
+              : 'Sistema tropical';
+
+        add('p',
+            '🔵 Observação complementar: ' + classification,
+            'mz-cyclone-alert-text');
+
+        if (obs.position) {
+          const lat = Number(obs.position.latitude);
+          const lon = Number(obs.position.longitude);
+
+          if (Number.isFinite(lat) && Number.isFinite(lon)) {
+            add('p',
+                'Posição: ' +
+                Math.abs(lat) + '° ' + (lat < 0 ? 'S' : 'N') +
+                ' / ' +
+                Math.abs(lon) + '° ' + (lon < 0 ? 'W' : 'E'),
+                'mz-cyclone-alert-text');
+          }
+        }
+      }
+
+      add('small',
+          'Fonte: Mauritius Meteorological Services. ' +
+          'Não constitui aviso oficial para Moçambique.');
+
+      const link = add('a', 'Consultar monitorização detalhada →');
+      link.href = new URL('cyclones/alertas.html', siteBase).href;
+
+      card.hidden = false;
+      return;
+    }
+
     const firstSystem = systems[0];
 
     const name =
