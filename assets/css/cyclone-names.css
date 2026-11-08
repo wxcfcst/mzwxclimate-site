@@ -1,0 +1,16 @@
+/* Nomes dos ciclones — extensão autónoma, sem alterar estilos globais. */
+.cy-names-select-label{display:block;font-weight:700;margin:1rem 0 .35rem}
+.cy-names-select{padding:.65rem .85rem;border:1px solid #96aabd;border-radius:8px;background:#fff;color:#102f49;font:inherit;max-width:100%;min-width:210px}
+.cy-names-legend{display:flex;gap:.7rem 1.1rem;flex-wrap:wrap;margin:1.2rem 0;font-size:.94rem}
+.cy-names-legend span{display:inline-flex;align-items:center;gap:.4rem}
+.cy-dot{display:inline-block;width:.75rem;height:.75rem;border-radius:50%;flex:0 0 auto}
+.cy-dot-used{background:#818c98}.cy-dot-active{background:#c62828}.cy-dot-available{background:#1466bc}.cy-dot-neutral{background:#fff;border:1px solid #8c9aa7}
+.cy-names-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:.65rem;margin:1rem 0}
+.cy-name-item{border:1px solid #bfd0dd;border-radius:10px;padding:.8rem .9rem;background:#fff;color:#102f49;min-width:0}
+.cy-name-item strong{display:block;font-size:1.06rem;overflow-wrap:anywhere}
+.cy-name-item small{display:block;margin-top:.25rem}
+.cy-name-item[data-state="used"]{background:#e3e7eb;color:#45515f;border-color:#b4c0ca}
+.cy-name-item[data-state="active"]{background:#ffe1e1;color:#8c1515;border:2px solid #c62828}
+.cy-name-item[data-state="available"]{background:#e2f0ff;color:#114b90;border-color:#97c4f6}
+.cy-name-item[data-state="neutral"]{background:#fff;color:#536371}
+.cy-names-note{font-size:.93rem;line-height:1.5}

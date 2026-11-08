@@ -1,0 +1,670 @@
+{
+  "schema": 1,
+  "basin": "Sudoeste do oceano Índico",
+  "source_names": "https://wmo.int/content/tropical-cyclone-naming/southwest-indian-ocean-names",
+  "source_2026": "https://metservice.intnet.mu/tropical-cyclone/cyclone-names.php",
+  "used_reference": "https://tropic.ssec.wisc.edu/storm_archive/indian.html",
+  "notes": "Listas oficiais; nomes usados verificados separadamente. Nomes disponíveis não são previsão de ocorrência.",
+  "seasons": {
+    "2023-2024": [
+      {
+        "name": "ALVARO",
+        "country": "Mozambique",
+        "used": true
+      },
+      {
+        "name": "BELAL",
+        "country": "Maurícias",
+        "used": true
+      },
+      {
+        "name": "CANDICE",
+        "country": "França",
+        "used": true
+      },
+      {
+        "name": "DJOUNGOU",
+        "country": "Comores",
+        "used": true
+      },
+      {
+        "name": "ELEANOR",
+        "country": "Zimbabwe",
+        "used": true
+      },
+      {
+        "name": "FILIPO",
+        "country": "Botswana",
+        "used": true
+      },
+      {
+        "name": "GAMANE",
+        "country": "Eswatini",
+        "used": true
+      },
+      {
+        "name": "HIDAYA",
+        "country": "Tanzânia",
+        "used": true
+      },
+      {
+        "name": "IALY",
+        "country": "Madagáscar",
+        "used": true
+      },
+      {
+        "name": "JEREMY",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "KANGA",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "LUDZI",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "MELINA",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "NOAH",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "ONIAS",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "PELAGIE",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "QUAMAR",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "RITA",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "SOLANI",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "TARIK",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "URILIA",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "VUYANE",
+        "country": "Lesoto",
+        "used": false
+      },
+      {
+        "name": "WAGNER",
+        "country": "Quénia",
+        "used": false
+      },
+      {
+        "name": "XUSA",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "YARONA",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "ZACARIAS",
+        "country": "Moçambique",
+        "used": false
+      }
+    ],
+    "2024-2025": [
+      {
+        "name": "ANCHA",
+        "country": "Comores",
+        "used": true
+      },
+      {
+        "name": "BHEKI",
+        "country": "Eswatini",
+        "used": true
+      },
+      {
+        "name": "CHIDO",
+        "country": "Zimbabwe",
+        "used": true
+      },
+      {
+        "name": "DIKELEDI",
+        "country": "África do Sul",
+        "used": true
+      },
+      {
+        "name": "ELVIS",
+        "country": "Seychelles",
+        "used": true
+      },
+      {
+        "name": "FAIDA",
+        "country": "Tanzânia",
+        "used": true
+      },
+      {
+        "name": "GARANCE",
+        "country": "França",
+        "used": true
+      },
+      {
+        "name": "HONDE",
+        "country": "Malawi",
+        "used": true
+      },
+      {
+        "name": "IVONE",
+        "country": "Moçambique",
+        "used": true
+      },
+      {
+        "name": "JUDE",
+        "country": "Seychelles",
+        "used": true
+      },
+      {
+        "name": "KANTO",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "LIRA",
+        "country": "Lesoto",
+        "used": false
+      },
+      {
+        "name": "MAIPELO",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "NJAZI",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "OSCAR",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "PAMELA",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "QUENTIN",
+        "country": "Quénia",
+        "used": false
+      },
+      {
+        "name": "RAJAB",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "SAVANA",
+        "country": "Moçambique",
+        "used": false
+      },
+      {
+        "name": "THEMBA",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "UYAPO",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "VIVIANE",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "WALTER",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "XANGY",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "YEMURAI",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "ZANELE",
+        "country": "Lesoto",
+        "used": false
+      }
+    ],
+    "2025-2026": [
+      {
+        "name": "AWO",
+        "country": "Malawi",
+        "used": true
+      },
+      {
+        "name": "BLOSSOM",
+        "country": "Seychelles",
+        "used": true
+      },
+      {
+        "name": "CHENGE",
+        "country": "Tanzânia",
+        "used": true
+      },
+      {
+        "name": "DUDZAI",
+        "country": "Zimbabwe",
+        "used": true
+      },
+      {
+        "name": "EWETSE",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "FYTIA",
+        "country": "Madagáscar",
+        "used": true
+      },
+      {
+        "name": "GEZANI",
+        "country": "África do Sul",
+        "used": true
+      },
+      {
+        "name": "HORACIO",
+        "country": "Moçambique",
+        "used": true
+      },
+      {
+        "name": "INDUSA",
+        "country": "Quénia",
+        "used": true
+      },
+      {
+        "name": "JULUKA",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "KUNDAI",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "LISEBO",
+        "country": "Lesoto",
+        "used": false
+      },
+      {
+        "name": "MICHEL",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "NOUSRA",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "OLIVIER",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "POKERA",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "QUINCY",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "REBAONE",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "SALAMA",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "TRISTAN",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "URSULA",
+        "country": "Quénia",
+        "used": false
+      },
+      {
+        "name": "VIOLET",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "WILSON",
+        "country": "Moçambique",
+        "used": false
+      },
+      {
+        "name": "XILA",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "YEKELA",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "ZAINA",
+        "country": "Tanzânia",
+        "used": false
+      }
+    ],
+    "2026-2027": [
+      {
+        "name": "AGUEDA",
+        "country": "Moçambique",
+        "used": true
+      },
+      {
+        "name": "BERTRAND",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "CELIWE",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "DIRA",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "EMMIE",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "FIKRI",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "GUMBO",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "HISNA",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "ISAURA",
+        "country": "Moçambique",
+        "used": false
+      },
+      {
+        "name": "JEREMY",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "KANGA",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "LUDZI",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "MELINA",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "NOAH",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "ONIAS",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "PITSANA",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "QUAMAR",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "RITA",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "SOLANI",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "TARIK",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "URILIA",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "VUYANE",
+        "country": "Lesoto",
+        "used": false
+      },
+      {
+        "name": "WAFULA",
+        "country": "Quénia",
+        "used": false
+      },
+      {
+        "name": "XUSA",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "YARONA",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "ZACARIAS",
+        "country": "Moçambique",
+        "used": false
+      }
+    ],
+    "2027-2028": [
+      {
+        "name": "AINGA",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "BASIL",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "CASSIA",
+        "country": "Moçambique",
+        "used": false
+      },
+      {
+        "name": "DEBA",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "ETIENNE",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "FATUMA",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "GORI",
+        "country": "Comores",
+        "used": false
+      },
+      {
+        "name": "HENNING",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "ITAI",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "JOSHA",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "KALULU",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "LETLAMA",
+        "country": "Lesoto",
+        "used": false
+      },
+      {
+        "name": "MAIPELO",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "NJAZI",
+        "country": "Malawi",
+        "used": false
+      },
+      {
+        "name": "OSCAR",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "PAMELA",
+        "country": "Tanzânia",
+        "used": false
+      },
+      {
+        "name": "QUENTIN",
+        "country": "Quénia",
+        "used": false
+      },
+      {
+        "name": "ROUMA",
+        "country": "Seychelles",
+        "used": false
+      },
+      {
+        "name": "SOARY",
+        "country": "Madagáscar",
+        "used": false
+      },
+      {
+        "name": "THEMBA",
+        "country": "Eswatini",
+        "used": false
+      },
+      {
+        "name": "UYAPO",
+        "country": "Botswana",
+        "used": false
+      },
+      {
+        "name": "VIVIANE",
+        "country": "Maurícias",
+        "used": false
+      },
+      {
+        "name": "WALTER",
+        "country": "África do Sul",
+        "used": false
+      },
+      {
+        "name": "XAVIER",
+        "country": "França",
+        "used": false
+      },
+      {
+        "name": "YEMURAI",
+        "country": "Zimbabwe",
+        "used": false
+      },
+      {
+        "name": "ZANELE",
+        "country": "Lesoto",
+        "used": false
+      }
+    ]
+  }
+}
