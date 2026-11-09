@@ -268,6 +268,65 @@
       return;
     }
 
+    // ==========================================================
+    // MZW_JTWC_FINAL_HOME_INTEGRATION_V2
+    // Exibir aviso FINAL recente, sem interpretá-lo como alerta ativo.
+    // ==========================================================
+    const jtwcFinal = Array.isArray(data.jtwc_final_warnings)
+      ? data.jtwc_final_warnings.filter(w => {
+          if (!w || w.authority !== 'JTWC' ||
+              w.advisory_status !== 'final' || w.active_warning !== false) {
+            return false;
+          }
+          const t = Date.parse(w.issued_utc || '');
+          return Number.isFinite(t) &&
+                 t <= Date.now() + 600000 &&
+                 Date.now() - t <= 48 * 3600000;
+        })
+      : [];
+
+    if (data.status === 'review_required' && jtwcFinal.length) {
+      setLevel('grey');
+      card.replaceChildren();
+      add('p', '🌪️ Monitorização de ciclones tropicais',
+          'mz-cyclone-alert-title');
+      for (const w of jtwcFinal) {
+        add('p', '🔵 ' + (w.system_name || 'Sistema tropical') +
+            ' — último aviso JTWC encerrado.', 'mz-cyclone-alert-text');
+        const issueDate = new Date(w.issued_utc);
+        add('p', 'Último boletim: ' + issueDate.toLocaleString('pt-PT', {
+          timeZone: 'Africa/Maputo',
+          day: '2-digit', month: '2-digit', year: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        }) + ' (hora de Moçambique)', 'mz-cyclone-alert-text');
+        if (w.position && Number.isFinite(Number(w.position.latitude)) &&
+            Number.isFinite(Number(w.position.longitude))) {
+          const lat = Number(w.position.latitude);
+          const lon = Number(w.position.longitude);
+          if (Math.abs(lat) <= 90 && Math.abs(lon) <= 180) {
+            add('p', 'Última posição: ' + Math.abs(lat) + '° ' +
+                (lat < 0 ? 'S' : 'N') + ' / ' + Math.abs(lon) + '° ' +
+                (lon < 0 ? 'W' : 'E'), 'mz-cyclone-alert-text');
+          }
+        }
+        if (typeof w.source_url === 'string' &&
+            /^https:\/\//i.test(w.source_url)) {
+          const source = add('a', 'Consultar último aviso do JTWC →');
+          source.href = w.source_url;
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+        }
+      }
+      add('small', 'Avisos JTWC encerrados. Esta informação não confirma ' +
+          'a ausência de outros sistemas tropicais e não constitui ' +
+          'aviso oficial para Moçambique.');
+      const link = add('a', 'Consultar monitorização detalhada →');
+      link.href = new URL('cyclones/alertas.html', siteBase).href;
+      card.hidden = false;
+      return;
+    }
+    // FIM MZW_JTWC_FINAL_HOME_INTEGRATION_V2
+
     // FIM MZW_JTWC_HOME_INTEGRATION_V1
 
     const firstSystem = systems[0];
