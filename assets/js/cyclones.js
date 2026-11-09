@@ -61,12 +61,282 @@ if(host){
    add('p','Fora da época de monitorização regular.');
 
   }else if(d.status==='review_required'){
-   add('p','Boletim disponível. Consulte a fonte oficial.');
+   const hasRecentJtwc = ['jtwc_warnings','formation_alerts']
+     .some(key =>
+       Array.isArray(d[key]) &&
+       d[key].some(item => {
+         const issued = Date.parse(item?.issued_utc || '');
+         return Number.isFinite(issued) &&
+                issued <= Date.now() + 600000 &&
+                Date.now() - issued <= 18 * 3600000;
+       })
+     );
+
+   add('p', hasRecentJtwc
+     ? 'Informação complementar do JTWC disponível abaixo. ' +
+       'Confirmação pelo RSMC La Réunion não estabelecida.'
+     : 'Informação operacional não confirmada ou desatualizada. ' +
+       'Consulte os centros meteorológicos oficiais.');
 
   }else{
    add('p','⚠️ Informação operacional indisponível ou desatualizada.');
   }
 
+
+
+  // ==========================================================
+  // JTWC — AVISOS OPERACIONAIS E ALERTAS DE FORMAÇÃO
+  // Fonte complementar; não constitui confirmação do RSMC.
+  // ==========================================================
+
+  const validJtwcDate = value => {
+    const timestamp = Date.parse(value || '');
+
+    return Number.isFinite(timestamp) &&
+           timestamp <= Date.now() + 600000 &&
+           Date.now() - timestamp <= 18 * 3600000;
+  };
+
+  const formatJtwcDate = value =>
+    new Date(value).toLocaleString('pt-PT', {
+      timeZone: 'Africa/Maputo'
+    }) + ' (UTC+2)';
+
+  const formatJtwcPosition = position => {
+    if (!position) return null;
+
+    const lat = Number(position.latitude);
+    const lon = Number(position.longitude);
+
+    if (!Number.isFinite(lat) ||
+        !Number.isFinite(lon) ||
+        Math.abs(lat) > 90 ||
+        Math.abs(lon) > 180) {
+      return null;
+    }
+
+    return Math.abs(lat).toLocaleString('pt-PT') +
+           '° ' + (lat < 0 ? 'S' : 'N') +
+           ' / ' +
+           Math.abs(lon).toLocaleString('pt-PT') +
+           '° ' + (lon < 0 ? 'W' : 'E');
+  };
+
+  const addJtwcLink = url => {
+    if (!url) return;
+
+    try {
+      const parsed = new URL(url);
+
+      if (parsed.protocol !== 'https:' ||
+          parsed.hostname !== 'www.metoc.navy.mil' ||
+          !parsed.pathname.startsWith('/jtwc/')) {
+        return;
+      }
+
+      const p = document.createElement('p');
+      const a = document.createElement('a');
+
+      a.href = parsed.href;
+      a.textContent = 'Consultar boletim original do JTWC ↗';
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+
+      p.append(a);
+      host.append(p);
+
+    } catch (_) {
+      // Endereço inválido: não criar link.
+    }
+  };
+
+  // ----------------------------------------------------------
+  // 2.1 AVISOS OPERACIONAIS DE CICLONES ATIVOS
+  // ----------------------------------------------------------
+
+  if (Array.isArray(d.jtwc_warnings)) {
+
+    const warnings = d.jtwc_warnings.filter(w =>
+      w &&
+      w.authority === 'JTWC' &&
+      validJtwcDate(w.issued_utc)
+    );
+
+    if (warnings.length) {
+
+      add('h3', '🌪️ Sistemas tropicais em acompanhamento — JTWC');
+
+      add(
+        'p',
+        'Foram identificados avisos operacionais recentes ' +
+        'emitidos pelo Joint Typhoon Warning Center (JTWC).'
+      );
+
+      for (const w of warnings) {
+
+        add(
+          'h3',
+          '🌀 ' + (w.system_name || 'Sistema tropical')
+        );
+
+        add(
+          'p',
+          'Classificação: ' +
+          (w.classification || 'Não disponível')
+        );
+
+        const position = formatJtwcPosition(w.position);
+
+        if (position) {
+          add('p', 'Posição: ' + position);
+        }
+
+        if (w.wind_kt != null &&
+            Number.isFinite(Number(w.wind_kt))) {
+
+          add(
+            'p',
+            'Vento máximo sustentado (JTWC, média de 1 minuto): ' +
+            Number(w.wind_kt) + ' nós'
+          );
+        }
+
+        if (w.pressure_hpa != null &&
+            Number.isFinite(Number(w.pressure_hpa))) {
+
+          add(
+            'p',
+            'Pressão central: ' +
+            Number(w.pressure_hpa) + ' hPa'
+          );
+        }
+
+        if (w.movement) {
+
+          const direction = Number(w.movement.direction_degrees);
+          const speed = Number(w.movement.speed_kt);
+
+          if (Number.isFinite(direction) &&
+              Number.isFinite(speed) &&
+              direction >= 0 &&
+              direction <= 360 &&
+              speed >= 0) {
+
+            add(
+              'p',
+              'Deslocamento: ' +
+              direction + '°, a ' +
+              speed + ' nós'
+            );
+          }
+        }
+
+        if (w.warning_number) {
+          add(
+            'p',
+            'Número do aviso JTWC: ' + w.warning_number
+          );
+        }
+
+        add(
+          'p',
+          'Emissão: ' + formatJtwcDate(w.issued_utc)
+        );
+
+        add(
+          'p',
+          'Fonte: Joint Typhoon Warning Center (JTWC).'
+        );
+
+        add(
+          'small',
+          'Informação operacional complementar. ' +
+          'Não constitui confirmação pelo RSMC La Réunion ' +
+          'nem aviso meteorológico oficial para Moçambique.'
+        );
+
+        addJtwcLink(w.source_url);
+      }
+    }
+  }
+
+  // ----------------------------------------------------------
+  // 2.2 ALERTAS DE POTENCIAL FORMAÇÃO (TCFA)
+  // ----------------------------------------------------------
+
+  if (Array.isArray(d.formation_alerts)) {
+
+    const alerts = d.formation_alerts.filter(a =>
+      a &&
+      a.authority === 'JTWC' &&
+      validJtwcDate(a.issued_utc)
+    );
+
+    if (alerts.length) {
+
+      add(
+        'h3',
+        '🟡 Alertas de potencial formação tropical — JTWC'
+      );
+
+      for (const a of alerts) {
+
+        add(
+          'h3',
+          a.system_name || 'Sistema sob investigação'
+        );
+
+        add(
+          'p',
+          'Potencial de desenvolvimento: ' +
+          (a.development_potential || 'Não determinado')
+        );
+
+        const position = formatJtwcPosition(a.position);
+
+        if (position) {
+          add('p', 'Posição: ' + position);
+        }
+
+        if (Array.isArray(a.wind_kt_range) &&
+            a.wind_kt_range.length === 2) {
+
+          const min = Number(a.wind_kt_range[0]);
+          const max = Number(a.wind_kt_range[1]);
+
+          if (Number.isFinite(min) &&
+              Number.isFinite(max) &&
+              min >= 0 &&
+              max >= min) {
+
+            add(
+              'p',
+              'Vento estimado: ' +
+              min + '–' + max + ' nós'
+            );
+          }
+        }
+
+        add(
+          'p',
+          'Emissão: ' + formatJtwcDate(a.issued_utc)
+        );
+
+        add(
+          'small',
+          'TCFA indica potencial formação. ' +
+          'Não confirma a existência de um ciclone tropical ativo. ' +
+          'Não constitui aviso oficial para Moçambique.'
+        );
+
+        addJtwcLink(a.source_url);
+      }
+    }
+  }
+
+  // ==========================================================
+  // FIM DA INTEGRAÇÃO JTWC
+  // ==========================================================
 
   // Observações meteorológicas complementares.
   // Não constituem confirmação operacional do RSMC.
