@@ -120,6 +120,156 @@
       return;
     }
 
+
+    // ==========================================================
+    // MZW_JTWC_HOME_INTEGRATION_V1
+    // JTWC: monitorização complementar na página inicial.
+    // Não atribuir níveis de risco a Moçambique sem
+    // confirmação e evidências oficiais verificáveis.
+    // ==========================================================
+
+    const validJtwcDate = value => {
+      const t = Date.parse(value || '');
+
+      return Number.isFinite(t) &&
+             t <= Date.now() + 600000 &&
+             Date.now() - t <= 18 * 3600000;
+    };
+
+    const jtwcWarnings = Array.isArray(data.jtwc_warnings)
+      ? data.jtwc_warnings.filter(w =>
+          w &&
+          w.authority === 'JTWC' &&
+          w.confirmed_by_rsmc === false &&
+          validJtwcDate(w.issued_utc)
+        )
+      : [];
+
+    const jtwcFormation = Array.isArray(data.formation_alerts)
+      ? data.formation_alerts.filter(a =>
+          a &&
+          a.authority === 'JTWC' &&
+          validJtwcDate(a.issued_utc)
+        )
+      : [];
+
+    // Apresentar JTWC apenas quando não existe confirmação
+    // operacional do RSMC e o estado exige revisão.
+    if (data.status === 'review_required' &&
+        (jtwcWarnings.length || jtwcFormation.length)) {
+
+      setLevel('grey');
+      card.replaceChildren();
+
+      add(
+        'p',
+        '🌪️ Monitorização de ciclones tropicais',
+        'mz-cyclone-alert-title'
+      );
+
+      if (jtwcWarnings.length) {
+
+        add(
+          'p',
+          '🔵 Sistema tropical identificado pelo JTWC',
+          'mz-cyclone-alert-text'
+        );
+
+        for (const w of jtwcWarnings) {
+
+          add(
+            'p',
+            'Sistema: ' + (w.system_name || 'Não identificado'),
+            'mz-cyclone-alert-text'
+          );
+
+          if (w.position) {
+            const lat = Number(w.position.latitude);
+            const lon = Number(w.position.longitude);
+
+            if (Number.isFinite(lat) &&
+                Number.isFinite(lon) &&
+                Math.abs(lat) <= 90 &&
+                Math.abs(lon) <= 180) {
+
+              add(
+                'p',
+                'Posição: ' +
+                Math.abs(lat) + '° ' + (lat < 0 ? 'S' : 'N') +
+                ' / ' +
+                Math.abs(lon) + '° ' + (lon < 0 ? 'W' : 'E'),
+                'mz-cyclone-alert-text'
+              );
+            }
+          }
+
+          if (w.wind_kt != null &&
+              Number.isFinite(Number(w.wind_kt))) {
+
+            add(
+              'p',
+              'Vento máximo sustentado: ' +
+              Number(w.wind_kt) + ' nós (média de 1 min)',
+              'mz-cyclone-alert-text'
+            );
+          }
+
+          const issued = new Date(w.issued_utc);
+
+          add(
+            'p',
+            'Boletim: ' +
+            issued.toLocaleString('pt-PT', {
+              timeZone: 'Africa/Maputo'
+            }) +
+            ' (UTC+2)',
+            'mz-cyclone-alert-text'
+          );
+        }
+      }
+
+      if (jtwcFormation.length) {
+
+        add(
+          'p',
+          '🟡 Potencial formação tropical — JTWC',
+          'mz-cyclone-alert-text'
+        );
+
+        for (const alert of jtwcFormation) {
+          add(
+            'p',
+            (alert.system_name || 'Sistema sob investigação') +
+            ' — potencial: ' +
+            (alert.development_potential || 'não determinado'),
+            'mz-cyclone-alert-text'
+          );
+        }
+      }
+
+      add(
+        'small',
+        'Fonte complementar: JTWC. ' +
+        'Confirmação pelo RSMC La Réunion não estabelecida. ' +
+        'Não constitui aviso oficial para Moçambique.'
+      );
+
+      const link = add(
+        'a',
+        'Consultar monitorização detalhada →'
+      );
+
+      link.href = new URL(
+        'cyclones/alertas.html',
+        siteBase
+      ).href;
+
+      card.hidden = false;
+      return;
+    }
+
+    // FIM MZW_JTWC_HOME_INTEGRATION_V1
+
     const firstSystem = systems[0];
 
     const name =
