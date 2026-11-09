@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-08T12:57:17+00:00",
+  "checked_at_utc": "2026-11-09T00:15:28+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
@@ -11,25 +11,5 @@
   "cyclogenesis_risk_next_5_days": "unknown",
   "bulletin_date": null,
   "bulletin_issued_utc": null,
-  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
-  "maritime_observations": [
-    {
-      "type": "maritime_synopsis",
-      "confirmed_by_rsmc": false,
-      "classification": "tropical depression",
-      "pressure_hpa": 1005,
-      "position": {
-        "latitude": -13.4,
-        "longitude": 52.1
-      },
-      "movement": {
-        "direction": "west-north-west",
-        "speed_kt": 7
-      },
-      "issued_utc": "2026-11-08T01:00:00+00:00",
-      "authority": "Mauritius Meteorological Services",
-      "source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
-      "message": "Sistema mencionado em sinopse marítima. Não constitui confirmação de alerta pelo RSMC nem aviso oficial para Moçambique."
-    }
-  ]
+  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique."
 }
