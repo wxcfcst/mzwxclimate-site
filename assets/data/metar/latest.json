@@ -6,20 +6,20 @@
     "product": "METAR",
     "search_hours": 48
   },
-  "updated": "2026-11-09T15:31:09.157991+00:00",
+  "updated": "2026-11-09T16:00:54.768768+00:00",
   "stations": [
     {
       "city": "Maputo",
       "icao": "FQMA",
       "iata": "MPM",
       "available": true,
-      "observation_time": "2026-11-09T15:00:00.000Z",
-      "observation_timestamp": 1794236400,
+      "observation_time": "2026-11-09T16:00:00.000Z",
+      "observation_timestamp": 1794240000,
       "temp_c": 24,
-      "dewpoint_c": 16,
+      "dewpoint_c": 18,
       "relative_humidity": null,
-      "wind_direction": 160,
-      "wind_speed_kt": 10,
+      "wind_direction": 170,
+      "wind_speed_kt": 8,
       "wind_gust_kt": null,
       "visibility": "≥ 10 km",
       "altimeter_hpa": 1024,
@@ -27,11 +27,11 @@
       "clouds": [
         {
           "cover": "FEW",
-          "base": 2000
+          "base": 2500
         }
       ],
       "flight_category": "VFR",
-      "raw_metar": "METAR FQMA 091500Z 16010KT 9999 FEW020 24/16 Q1024 NOSIG",
+      "raw_metar": "METAR FQMA 091600Z 17008KT 9999 FEW025 24/18 Q1024 NOSIG",
       "station_name": "Maputo Intl, MP, MZ",
       "latitude": -25.921,
       "longitude": 32.573,
@@ -42,13 +42,13 @@
       "icao": "FQBR",
       "iata": "BEW",
       "available": true,
-      "observation_time": "2026-11-09T15:00:00.000Z",
-      "observation_timestamp": 1794236400,
+      "observation_time": "2026-11-09T16:00:00.000Z",
+      "observation_timestamp": 1794240000,
       "temp_c": 27,
       "dewpoint_c": 22,
       "relative_humidity": null,
-      "wind_direction": 160,
-      "wind_speed_kt": 17,
+      "wind_direction": 170,
+      "wind_speed_kt": 15,
       "wind_gust_kt": null,
       "visibility": "≥ 10 km",
       "altimeter_hpa": 1019,
@@ -60,7 +60,7 @@
         },
         {
           "cover": "SCT",
-          "base": 1900
+          "base": 1800
         },
         {
           "cover": "BKN",
@@ -68,7 +68,7 @@
         }
       ],
       "flight_category": "MVFR",
-      "raw_metar": "METAR FQBR 091500Z 16017KT 9999 FEW010 SCT019 BKN030 27/22 Q1019",
+      "raw_metar": "METAR FQBR 091600Z 17015KT 9999 FEW010 SCT018 BKN030 27/22 Q1019",
       "station_name": "Beira Intl, SO, MZ",
       "latitude": -19.796,
       "longitude": 34.908,
@@ -282,25 +282,29 @@
       "icao": "FQQL",
       "iata": "UEL",
       "available": true,
-      "observation_time": "2026-11-09T15:00:00.000Z",
-      "observation_timestamp": 1794236400,
-      "temp_c": 29,
+      "observation_time": "2026-11-09T16:00:00.000Z",
+      "observation_timestamp": 1794240000,
+      "temp_c": 28,
       "dewpoint_c": 23,
       "relative_humidity": null,
-      "wind_direction": 170,
+      "wind_direction": 180,
       "wind_speed_kt": 13,
       "wind_gust_kt": null,
       "visibility": "≥ 10 km",
-      "altimeter_hpa": 1018,
+      "altimeter_hpa": 1019,
       "weather": null,
       "clouds": [
+        {
+          "cover": "FEW",
+          "base": 1600
+        },
         {
           "cover": "SCT",
           "base": 1800
         }
       ],
       "flight_category": "VFR",
-      "raw_metar": "METAR FQQL 091500Z 17013KT 9999 SCT018 BKN/// 29/23 Q1018",
+      "raw_metar": "METAR FQQL 091600Z 18013KT 9999 FEW016 SCT018 28/23 Q1019",
       "station_name": "Quelimane Arpt, ZA, MZ",
       "latitude": -17.858,
       "longitude": 36.869,
