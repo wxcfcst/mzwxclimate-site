@@ -61,22 +61,66 @@ if(host){
    add('p','Fora da época de monitorização regular.');
 
   }else if(d.status==='review_required'){
+   // Avisos finais JTWC: informativos por até 48 h, NUNCA alertas ativos.
+   const finalWarnings = Array.isArray(d.jtwc_final_warnings)
+     ? d.jtwc_final_warnings.filter(w => {
+         const t = Date.parse(w?.issued_utc || '');
+         return w?.authority === 'JTWC' &&
+                w?.advisory_status === 'final' &&
+                w?.active_warning === false &&
+                Number.isFinite(t) &&
+                t <= Date.now() + 600000 &&
+                Date.now() - t <= 48 * 3600000;
+       })
+     : [];
+
    const hasRecentJtwc = ['jtwc_warnings','formation_alerts']
      .some(key =>
        Array.isArray(d[key]) &&
        d[key].some(item => {
-         const issued = Date.parse(item?.issued_utc || '');
-         return Number.isFinite(issued) &&
-                issued <= Date.now() + 600000 &&
-                Date.now() - issued <= 18 * 3600000;
+         const t = Date.parse(item?.issued_utc || '');
+         return Number.isFinite(t) &&
+                t <= Date.now() + 600000 &&
+                Date.now() - t <= 18 * 3600000;
        })
      );
 
-   add('p', hasRecentJtwc
-     ? 'Informação complementar do JTWC disponível abaixo. ' +
-       'Confirmação pelo RSMC La Réunion não estabelecida.'
-     : 'Informação operacional não confirmada ou desatualizada. ' +
-       'Consulte os centros meteorológicos oficiais.');
+   if(finalWarnings.length){
+     for(const w of finalWarnings){
+       add('h3','🔵 '+(w.system_name || 'Sistema tropical')+' — último aviso JTWC encerrado');
+       const t = Date.parse(w.issued_utc);
+       add('p','Último boletim: '+new Date(t).toLocaleString('pt-PT',{
+         timeZone:'Africa/Maputo'
+       })+' (hora de Moçambique, UTC+2)');
+       if(w.position){
+         const lat = Number(w.position.latitude);
+         const lon = Number(w.position.longitude);
+         if(Number.isFinite(lat) && Number.isFinite(lon) &&
+            Math.abs(lat) <= 90 && Math.abs(lon) <= 180){
+           add('p','Última posição: '+Math.abs(lat)+'° '+(lat<0?'S':'N')+
+             ' / '+Math.abs(lon)+'° '+(lon<0?'W':'E'));
+         }
+       }
+       const p = document.createElement('p');
+       p.textContent = 'Fonte: JTWC. Avisos encerrados; este não é um alerta ativo. ' +
+         'Não confirma ausência de outros ciclones e não substitui avisos oficiais para Moçambique. ';
+       if(typeof w.source_url === 'string' && /^https:\/\//.test(w.source_url)){
+         const a = document.createElement('a');
+         a.href = w.source_url;
+         a.target = '_blank';
+         a.rel = 'noopener noreferrer';
+         a.textContent = 'Consultar último boletim JTWC ↗';
+         p.appendChild(a);
+       }
+       host.appendChild(p);
+     }
+   }else{
+     add('p', hasRecentJtwc
+       ? 'Informação complementar do JTWC disponível abaixo. ' +
+         'Confirmação pelo RSMC La Réunion não estabelecida.'
+       : 'Informação operacional não confirmada ou desatualizada. ' +
+         'Consulte os centros meteorológicos oficiais.');
+   }
 
   }else{
    add('p','⚠️ Informação operacional indisponível ou desatualizada.');
