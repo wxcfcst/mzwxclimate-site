@@ -1,15 +1,33 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-09T16:17:22+00:00",
+  "checked_at_utc": "2026-11-09T17:15:35+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
-  "bulletin_source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
-  "status": "unavailable",
-  "message": "Não foi possível confirmar um boletim operacional atualizado.",
+  "bulletin_source_url": "https://www.metoc.navy.mil/jtwc/products/sh0327web.txt",
+  "status": "review_required",
+  "message": "Último aviso do JTWC para 03S (THREE) emitido em 2026-11-08T21:00:00+00:00. Avisos encerrados; sem confirmação operacional atual pelo RSMC.",
   "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": null,
-  "bulletin_issued_utc": null,
-  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique."
+  "bulletin_date": "2026-11-08",
+  "bulletin_issued_utc": "2026-11-08T21:00:00+00:00",
+  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
+  "jtwc_final_warnings": [
+    {
+      "type": "jtwc_final_warning",
+      "authority": "JTWC",
+      "confirmed_by_rsmc": false,
+      "system_name": "03S (THREE)",
+      "warning_number": "003",
+      "issued_utc": "2026-11-08T21:00:00+00:00",
+      "source_url": "https://www.metoc.navy.mil/jtwc/products/sh0327web.txt",
+      "advisory_status": "final",
+      "active_warning": false,
+      "message": "Último aviso do JTWC para este sistema; não representa alerta ativo atual.",
+      "position": {
+        "latitude": -11.3,
+        "longitude": 50.5
+      }
+    }
+  ]
 }

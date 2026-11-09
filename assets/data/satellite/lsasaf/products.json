@@ -44,9 +44,9 @@
         "id": "ET",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611091430.nc_2026-11-09_14:30.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611091530.nc_2026-11-09_15:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611091430.nc_2026-11-09_14:30.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611091530.nc_2026-11-09_15:30.png"
         ]
     },
     {
@@ -71,9 +71,9 @@
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-09_15:30.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-09_16:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-09_15:30.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-09_16:30.png"
         ]
     },
     {
