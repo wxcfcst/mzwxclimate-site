@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-10T17:42:13+00:00",
+  "checked_at_utc": "2026-11-10T18:24:31+00:00",
   "season_monitoring": true,
-  "authority": "RSMC La Réunion / Météo-France",
+  "authority": "JTWC",
   "source_url": "https://meteofrance.re/fr/cyclone",
-  "bulletin_source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
-  "status": "unavailable",
-  "message": "Não foi possível confirmar um boletim operacional atualizado.",
+  "bulletin_source_url": "https://www.metoc.navy.mil/jtwc/rss/jtwc.rss",
+  "status": "no_warnings_confirmed",
+  "message": "O JTWC não apresenta avisos ativos de ciclones tropicais para o hemisfério sul. Esta informação não confirma ausência de sistemas tropicais.",
   "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": null,
-  "bulletin_issued_utc": null,
+  "bulletin_date": "2026-11-10",
+  "bulletin_issued_utc": "2026-11-10T18:24:02+00:00",
   "note": "Monitorização informativa; não constitui aviso oficial para Moçambique."
 }

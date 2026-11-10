@@ -57,6 +57,27 @@ if(host){
   }else if(d.status==='none_confirmed' && fresh){
    add('p','O boletim recente confirma ausência de sistemas ativos.');
 
+  }else if(d.status==='no_warnings_confirmed' && fresh){
+
+   add('h3','🔵 Sem avisos ativos de ciclones tropicais — JTWC');
+
+   add('p',
+     'O JTWC informa que não existem avisos ativos de ' +
+     'ciclones tropicais para o hemisfério sul.'
+   );
+
+   add('p',
+     'Esta informação não confirma ausência de sistemas ' +
+     'tropicais e não substitui os boletins oficiais.'
+   );
+
+   add('p',
+     'Atualização: ' +
+     new Date(issued).toLocaleString(
+       'pt-PT',{timeZone:'Africa/Maputo'}
+     ) + ' (hora de Moçambique, UTC+2)'
+   );
+
   }else if(d.status==='off_season'){
    add('p','Fora da época de monitorização regular.');
 
