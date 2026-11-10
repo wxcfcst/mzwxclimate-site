@@ -329,6 +329,64 @@
 
     // FIM MZW_JTWC_HOME_INTEGRATION_V1
 
+    // ==========================================================
+    // MZW_JTWC_NO_WARNINGS_HOME_V1
+    // Ausência de avisos ativos confirmada pelo JTWC.
+    // Não equivale à ausência de sistemas tropicais.
+    // ==========================================================
+
+    if (data.status === 'no_warnings_confirmed' && fresh) {
+
+      setLevel('grey');
+      card.replaceChildren();
+
+      add(
+        'p',
+        '🌪️ Monitorização de ciclones tropicais',
+        'mz-cyclone-alert-title'
+      );
+
+      add(
+        'p',
+        '🔵 Sem avisos ativos de ciclones tropicais — JTWC',
+        'mz-cyclone-alert-text'
+      );
+
+      add(
+        'p',
+        'O JTWC não apresenta avisos ativos de ciclones tropicais ' +
+        'para o hemisfério sul.',
+        'mz-cyclone-alert-text'
+      );
+
+      add(
+        'small',
+        'Atualizado: ' +
+        new Date(issued).toLocaleString('pt-PT', {
+          timeZone: 'Africa/Maputo',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        }) +
+        ' (hora de Moçambique).'
+      );
+
+      const link = add(
+        'a',
+        'Consultar monitorização detalhada →'
+      );
+
+      link.href = new URL(
+        'cyclones/alertas.html',
+        siteBase
+      ).href;
+
+      card.hidden = false;
+      return;
+    }
+
     const firstSystem = systems[0];
 
     const name =
