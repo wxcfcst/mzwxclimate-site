@@ -1,38 +1,38 @@
 {
-  "generated": "2026-11-10T21:09:22",
+  "generated": "2026-11-11T04:39:52",
   "mosaics": [
     {
       "id": "synoptic",
       "title": "Grande escala",
-      "datetime": "2026-11-10T00:00:00",
+      "datetime": "2026-11-10T12:00:00",
       "panels": [
         {
           "model": "ECMWF",
           "id": "msl",
           "name": "Pressão ao Nível Médio do Mar",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-11-10_00:00.png",
-          "datetime": "2026-11-10T00:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_msl_2026-11-10_12:00.png",
+          "datetime": "2026-11-10T12:00:00"
         },
         {
           "model": "ECMWF",
           "id": "msl_thickness_1000-500hPa",
           "name": "Pressão ao Nível Médio do Mar + Espessura (1000–500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_2026-11-10_00:00.png",
-          "datetime": "2026-11-10T00:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_msl_thickness_1000-500hPa_2026-11-10_12:00.png",
+          "datetime": "2026-11-10T12:00:00"
         },
         {
           "model": "ECMWF",
           "id": "gh_500hPa",
           "name": "Altura Geopotencial (500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_2026-11-10_00:00.png",
-          "datetime": "2026-11-10T00:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_2026-11-10_12:00.png",
+          "datetime": "2026-11-10T12:00:00"
         },
         {
           "model": "ECMWF",
           "id": "gh_500hPa_vo_500hPa_winds_barbs_500hPa",
           "name": "Altura Geopotencial (500 hPa) + Vorticidade (500 hPa) + Ventos — Barbelas (500 hPa)",
-          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-11-10_00:00.png",
-          "datetime": "2026-11-10T00:00:00"
+          "path": "assets/images/nwp/ecmwf/ecmwf_gh_500hPa_vo_500hPa_winds_barbs_500hPa_2026-11-10_12:00.png",
+          "datetime": "2026-11-10T12:00:00"
         }
       ]
     },
@@ -103,41 +103,6 @@
           "name": "Precipitação Total",
           "path": "assets/images/nwp/ecmwf/ecmwf_tp_2026-11-10_12:00.png",
           "datetime": "2026-11-10T12:00:00"
-        }
-      ]
-    },
-    {
-      "id": "satellite",
-      "title": "Satélite",
-      "datetime": "2026-11-10T23:30",
-      "panels": [
-        {
-          "model": "SATELLITE",
-          "id": "WV_073",
-          "name": "Vapor de água médio",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_073_2026-11-10_23:30.png",
-          "datetime": "2026-11-10T23:30"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "WV_062",
-          "name": "Vapor de água superior",
-          "path": "assets/images/satellite/custom/cu_msg45_WV_062_2026-11-10_23:30.png",
-          "datetime": "2026-11-10T23:30"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "airmass",
-          "name": "Airmass",
-          "path": "assets/images/satellite/custom/cu_msg45_airmass_2026-11-10_23:30.png",
-          "datetime": "2026-11-10T23:30"
-        },
-        {
-          "model": "SATELLITE",
-          "id": "IR_108",
-          "name": "Infravermelho 10.8 µm",
-          "path": "assets/images/satellite/custom/cu_msg45_IR_108_2026-11-10_23:30.png",
-          "datetime": "2026-11-10T23:30"
         }
       ]
     }
