@@ -26,26 +26,28 @@
         "id": "EDLST_DAY",
         "name": "Temperatura do Solo - Dia",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-09_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-10_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-09_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-10_00:00.png"
         ]
     },
     {
         "id": "EDLST_NIGHT",
         "name": "Temperatura do Solo - Noite",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-09_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-10_00:00.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-09_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-10_00:00.png"
         ]
     },
     {
         "id": "ET",
         "name": "Evapotranspiração",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611110930.nc_2026-11-11_09:30.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611110930.nc_2026-11-11_09:30.png"
+        ]
     },
     {
         "id": "ETAL",
@@ -68,9 +70,11 @@
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png"
+        ]
     },
     {
         "id": "FVC",
