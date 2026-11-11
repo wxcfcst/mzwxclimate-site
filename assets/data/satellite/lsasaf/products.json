@@ -71,9 +71,9 @@
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:45.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:45.png"
         ]
     },
     {

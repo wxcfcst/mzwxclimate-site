@@ -1,6 +1,6 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-11-11T07:58:24.895308-03:00",
+  "generated": "2026-11-11T08:25:56.599242-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
   "total": 11,
   "products": [
@@ -9,9 +9,9 @@
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-11-11T10:15:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:15.png"
+      "datetime": "2026-11-11T10:45:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-11_10:45.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-11_10:45.png"
     },
     {
       "product": "ET",
