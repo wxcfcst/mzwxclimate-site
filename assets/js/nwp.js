@@ -51,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
     function variableFor(product) {
         const n = String(product.name || "").toLowerCase();
         const id = String(product.id || "").toLowerCase();
+
+        // Priorizar grupos explicitamente definidos no manifesto.
+        if (product.group === "Combinados") return "Combinados";
+
+        // Classificar isoladamente as observações METAR.
+        if (id === "metar") return "Observações METAR";
+
+        // Manter a classificação automática das demais composições.
         if (n.includes(" + ")) return "Combinados";
         if (n.includes("vorticidade") || /^vo_/.test(id)) return "Vorticidade";
         if (n.includes("vent") || n.includes("vento") || n.includes("linhas de corrente")) return "Vento";
