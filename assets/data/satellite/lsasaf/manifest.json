@@ -1,44 +1,26 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-11-12T08:01:20.920840-03:00",
+  "generated": "2026-11-12T14:10:40.701330-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 13,
+  "total": 11,
   "products": [
     {
       "product": "FRP-PIXEL",
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-11-12T09:30:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-12_09:30.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-12_09:30.png"
-    },
-    {
-      "product": "MDSSFTD",
-      "id": "MDIDSSF",
-      "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
-      "description": "Fluxo diário descendente de radiação de onda curta na superfície.",
-      "datetime": "2026-11-12T09:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611120930.nc_2026-11-12_09:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611120930.nc_2026-11-12_09:30.png"
+      "datetime": "2026-11-12T16:30:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-12_16:30.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-12_16:30.png"
     },
     {
       "product": "ET",
       "id": "ET",
       "name": "Evapotranspiração",
       "description": "Evapotranspiração derivada de observações de satélite.",
-      "datetime": "2026-11-12T08:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611120830.nc_2026-11-12_08:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611120830.nc_2026-11-12_08:30.png"
-    },
-    {
-      "product": "MIMIC_TPW",
-      "id": "MIMIC_TPW",
-      "name": "Água Total Precipitável - TPW",
-      "description": "Água Total Precipitável (TPW) derivada de observações de micro-ondas por satélite.",
-      "datetime": "2026-11-12T08:00:00",
-      "filename": "mimic_tpw_2026-11-12_08:00.png",
-      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-11-12_08:00.png"
+      "datetime": "2026-11-12T15:30:00",
+      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611121530.nc_2026-11-12_15:30.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611121530.nc_2026-11-12_15:30.png"
     },
     {
       "product": "EDLST-DAY",
