@@ -1,27 +1,27 @@
-/* MZ WX & Climate — Background MSG 45.5° */
+/* MZ WX & Climate — Background original restaurado */
 
 body.mz-home main.mz-home-content {
     position: relative !important;
     isolation: isolate;
 
-    background-image: url("../images/home/mzw-home-msg45.png") !important;
+    background-image: url("../images/home/mzw-home-satellite.webp") !important;
     background-color: #f3f7fb;
     background-position: center center !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
-/* Camada branca com 60% de opacidade */
+/* Camada escura original: 24% */
 body.mz-home main.mz-home-content::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0) !important;
+    background: rgba(8, 23, 36, 0.24) !important;
     z-index: 0;
     pointer-events: none;
 }
 
-/* Conteúdo acima da imagem e da transparência */
+/* Preservar o conteúdo acima do background */
 body.mz-home main.mz-home-content > * {
     position: relative;
     z-index: 1;
