@@ -69,65 +69,88 @@
     }
     return items;
   }
+  // MZW_CYCLONE_MAP_TOGGLE_V1: só abre o mapa após clique explícito.
   const start = () => {
     const anchor = document.getElementById('mz-cyclone-detail-live');
     const main = document.querySelector('main');
     if (!main) return;
-    const section = document.createElement('section');
-    section.className = 'mz-cyclone-map-section';
-    section.id = 'mz-cyclone-position-map-section';
-    section.hidden = true;
-    const h = document.createElement('h2');
-    h.textContent = '🗺️ Localização dos sistemas tropicais';
-    const note = document.createElement('p');
-    note.className = 'mz-cyclone-map-note';
-    note.textContent = 'Posições reportadas nos boletins; não constituem localização em tempo real nem trajetória prevista.';
-    const mapEl = document.createElement('div');
-    mapEl.id = 'mz-cyclone-position-map';
-    mapEl.setAttribute('role', 'region');
-    mapEl.setAttribute('aria-label', 'Mapa das posições reportadas dos sistemas tropicais');
-    const summary = document.createElement('div');
-    summary.className = 'mz-cyclone-map-summary';
-    section.append(h, note, mapEl, summary);
-    if (anchor) anchor.after(section); else main.append(section);
     fetch(statusUrl.href + '?v=' + Date.now(), {cache: 'no-store'})
       .then(res => {if (!res.ok) throw new Error('HTTP ' + res.status); return res.json();})
       .then(data => {
         const systems = entries(data);
-        if (!systems.length) return; // Verde/cinzento/desatualizado: mapa oculto.
-        section.hidden = false;
-        if (!window.L) {
-          mapEl.textContent = 'O mapa não pôde ser carregado. As posições estão indicadas abaixo.';
-        } else {
-          const map = L.map(mapEl, {scrollWheelZoom: false}).setView([-18, 48], 5);
-          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors', maxZoom: 12
-          }).addTo(map);
-          const bounds = [];
-          for (const item of systems) {
-            const icon = L.divIcon({
-              className: 'mz-cyclone-map-icon', iconSize: [26, 26], iconAnchor: [13, 13],
-              html: `<span class="mz-cyclone-map-dot mz-map-${item.level}${item.active ? ' mz-map-flash' : ''}" aria-hidden="true"></span>`
-            });
-            const marker = L.marker(item.pos, {icon}).addTo(map);
-            const content = document.createElement('div');
-            const name = document.createElement('strong'); name.textContent = item.name;
-            const type = document.createElement('div'); type.textContent = item.kind;
-            const point = document.createElement('div'); point.textContent = formatPosition(item.pos);
-            const dated = document.createElement('div'); dated.textContent = 'Boletim: ' + time(item.issued);
-            content.append(name, type, point, dated);
-            marker.bindPopup(content);
-            bounds.push(item.pos);
+        if (!systems.length) return;
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'mz-cyclone-map-toggle';
+        button.setAttribute('aria-expanded', 'false');
+        button.setAttribute('aria-controls', 'mz-cyclone-position-map-section');
+        button.textContent = '🗺️ Ver localização no mapa';
+
+        const section = document.createElement('section');
+        section.className = 'mz-cyclone-map-section';
+        section.id = 'mz-cyclone-position-map-section';
+        section.hidden = true;
+        const h = document.createElement('h2');
+        h.textContent = '🗺️ Localização dos sistemas tropicais';
+        const note = document.createElement('p');
+        note.className = 'mz-cyclone-map-note';
+        note.textContent = 'Posições reportadas nos boletins; não constituem localização em tempo real nem trajetória prevista.';
+        const mapEl = document.createElement('div');
+        mapEl.id = 'mz-cyclone-position-map';
+        mapEl.setAttribute('role', 'region');
+        mapEl.setAttribute('aria-label', 'Mapa das posições reportadas dos sistemas tropicais');
+        const summary = document.createElement('div');
+        summary.className = 'mz-cyclone-map-summary';
+        section.append(h, note, mapEl, summary);
+        if (anchor) anchor.after(button, section);
+        else main.append(button, section);
+
+        let map = null;
+        function createMap() {
+          if (!window.L) {
+            mapEl.textContent = 'O mapa não pôde ser carregado. As posições estão indicadas abaixo.';
+          } else {
+            map = L.map(mapEl, {scrollWheelZoom: false}).setView([-18, 48], 5);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; OpenStreetMap contributors', maxZoom: 12
+            }).addTo(map);
+            const bounds = [];
+            for (const item of systems) {
+              const icon = L.divIcon({
+                className: 'mz-cyclone-map-icon', iconSize: [26, 26], iconAnchor: [13, 13],
+                html: `<span class="mz-cyclone-map-dot mz-map-${item.level}${item.active ? ' mz-map-flash' : ''}" aria-hidden="true"></span>`
+              });
+              const marker = L.marker(item.pos, {icon}).addTo(map);
+              const content = document.createElement('div');
+              const name = document.createElement('strong'); name.textContent = item.name;
+              const type = document.createElement('div'); type.textContent = item.kind;
+              const point = document.createElement('div'); point.textContent = formatPosition(item.pos);
+              const dated = document.createElement('div'); dated.textContent = 'Boletim: ' + time(item.issued);
+              content.append(name, type, point, dated);
+              marker.bindPopup(content);
+              bounds.push(item.pos);
+            }
+            if (bounds.length > 1) map.fitBounds(bounds, {padding: [40, 40], maxZoom: 7});
+            else map.setView(bounds[0], 6);
           }
-          if (bounds.length > 1) map.fitBounds(bounds, {padding: [40, 40], maxZoom: 7});
-          else map.setView(bounds[0], 6);
-          requestAnimationFrame(() => map.invalidateSize());
+          for (const item of systems) {
+            const p = document.createElement('p');
+            p.textContent = `${item.name} — ${item.kind}. Posição: ${formatPosition(item.pos)}. Boletim: ${time(item.issued)}.`;
+            summary.appendChild(p);
+          }
         }
-        for (const item of systems) {
-          const p = document.createElement('p');
-          p.textContent = `${item.name} — ${item.kind}. Posição: ${formatPosition(item.pos)}. Boletim: ${time(item.issued)}.`;
-          summary.appendChild(p);
-        }
+        button.addEventListener('click', () => {
+          const opening = section.hidden;
+          section.hidden = !opening;
+          button.setAttribute('aria-expanded', String(opening));
+          button.textContent = opening ? '🗺️ Ocultar mapa' : '🗺️ Ver localização no mapa';
+          button.classList.toggle('mz-cyclone-map-toggle-open', opening);
+          if (opening) {
+            if (!map && !summary.childElementCount) createMap();
+            if (map) requestAnimationFrame(() => map.invalidateSize());
+          }
+        });
       })
       .catch(err => console.warn('MZ Cyclone mapa: dados indisponíveis', err));
   };

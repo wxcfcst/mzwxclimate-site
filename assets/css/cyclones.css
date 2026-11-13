@@ -94,3 +94,14 @@
 .mz-map-flash{animation:mz-cyclone-pulse 1.5s ease-in-out infinite;transform-origin:center}
 @media(prefers-reduced-motion:reduce){.mz-map-flash{animation:none}}
 @media(max-width:600px){#mz-cyclone-position-map{height:290px}.mz-cyclone-map-section{padding:10px}}
+
+/* MZW_CYCLONE_MAP_TOGGLE_V1 — botão acessível com animação discreta. */
+.mz-cyclone-map-toggle{display:block;margin:16px 0 10px;padding:12px 18px;
+ border:1px solid #146b9a;border-radius:9px;background:#12476e;color:#fff;
+ font:600 1rem system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 9px #17374c30;
+ animation:mzw-map-button-glow 2.1s ease-in-out infinite}
+.mz-cyclone-map-toggle:focus-visible{outline:3px solid #f4a62a;outline-offset:3px}
+.mz-cyclone-map-toggle:hover{background:#08608a}
+.mz-cyclone-map-toggle-open{animation:none;background:#31546b}
+@keyframes mzw-map-button-glow{0%,100%{box-shadow:0 0 0 0 #1e87b84d}50%{box-shadow:0 0 0 7px #1e87b800}}
+@media(prefers-reduced-motion:reduce){.mz-cyclone-map-toggle{animation:none}}
