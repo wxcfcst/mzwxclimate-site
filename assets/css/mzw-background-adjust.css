@@ -26,3 +26,11 @@ body.mz-home main.mz-home-content > * {
     position: relative;
     z-index: 1;
 }
+
+/* MZW_FOOTER_CONTRAST_FIX — Textos de identificação no rodapé */
+body.mz-home .mz-footer-columns > section:first-child h2,
+body.mz-home .mz-footer-columns > section:first-child p {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
