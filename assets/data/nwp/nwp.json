@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T05:13:47",
+  "generated": "2026-11-13T07:57:18",
   "models": {
     "gfs": {
       "name": "GFS",
@@ -456,44 +456,7 @@
     "metar": {
       "name": "METAR e Composições",
       "description": "Observações METAR e composições com ECMWF e MSG.",
-      "products": [
-        {
-          "id": "metar",
-          "name": "Observações METAR",
-          "description": "Observações meteorológicas de superfície (METAR).",
-          "group": "METAR",
-          "file": "metar_2026-11-12_12:00.png",
-          "path": "assets/images/nwp/metar/metar_2026-11-12_12:00.png",
-          "datetime": "2026-11-12T12:00:00"
-        },
-        {
-          "id": "metar_ecmwf_msg_ir108_msl",
-          "name": "METAR + ECMWF MSL + Satélite MSG IR 10,8 µm",
-          "description": "Observações METAR, pressão ao nível médio do mar do ECMWF e imagem MSG IR 10,8 µm.",
-          "group": "Combinados",
-          "file": "metar_ecmwf_msg_ir108_msl_2026-11-12_12:00.png",
-          "path": "assets/images/nwp/metar/metar_ecmwf_msg_ir108_msl_2026-11-12_12:00.png",
-          "datetime": "2026-11-12T12:00:00"
-        },
-        {
-          "id": "metar_ecmwf_msl",
-          "name": "METAR + ECMWF MSL",
-          "description": "Observações METAR e pressão ao nível médio do mar do ECMWF.",
-          "group": "Combinados",
-          "file": "metar_ecmwf_msl_2026-11-12_12:00.png",
-          "path": "assets/images/nwp/metar/metar_ecmwf_msl_2026-11-12_12:00.png",
-          "datetime": "2026-11-12T12:00:00"
-        },
-        {
-          "id": "metar_msg_ir108",
-          "name": "METAR + Satélite MSG IR 10,8 µm",
-          "description": "Observações METAR e imagem MSG IR 10,8 µm.",
-          "group": "Combinados",
-          "file": "metar_msg_ir108_2026-11-12_12:00.png",
-          "path": "assets/images/nwp/metar/metar_msg_ir108_2026-11-12_12:00.png",
-          "datetime": "2026-11-12T12:00:00"
-        }
-      ]
+      "products": []
     }
   }
 }
