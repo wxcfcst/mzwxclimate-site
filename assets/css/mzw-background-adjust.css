@@ -1,38 +1,28 @@
+/* MZ WX & Climate — Background MSG 45.5° */
 
-/* MZWXClimate - Background mais discreto */
-
-body.mz-home .mz-home-content {
-    position: relative;
+body.mz-home main.mz-home-content {
+    position: relative !important;
     isolation: isolate;
+
+    background-image: url("../images/home/mzw-home-msg45.png") !important;
+    background-color: #f3f7fb;
+    background-position: center center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
 }
 
-/* Camada escura sobre a imagem de fundo */
-body.mz-home .mz-home-content::before {
+/* Camada branca com 60% de opacidade */
+body.mz-home main.mz-home-content::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0) !important;
     z-index: 0;
     pointer-events: none;
 }
 
-/* Manter todo o conteúdo acima da camada */
-body.mz-home .mz-home-content > * {
+/* Conteúdo acima da imagem e da transparência */
+body.mz-home main.mz-home-content > * {
     position: relative;
     z-index: 1;
 }
-
-/* MZW HOME SATELLITE BACKGROUND v1 START */
-/* Imagem ilustrativa, nao e imagem meteorologica em tempo real.
-   O overlay escuro mantem os relogios brancos legiveis. */
-body.mz-home main.mz-home-content {
-  background-image: url("../images/home/mzw-home-satellite.webp") !important;
-  background-position: center center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-}
-/* Sobrescreve as camadas anteriores: v3 escura e ajuste branco 60%. */
-body.mz-home main.mz-home-content::before {
-  background: rgba(8, 23, 36, 0.24) !important;
-}
-/* MZW HOME SATELLITE BACKGROUND v1 END */
