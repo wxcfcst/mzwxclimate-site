@@ -12,7 +12,9 @@
     const style = document.createElement('style');
     style.id = 'mz-cyclone-patch-colors';
     style.textContent = '#mz-cyclone-live-alert.mz-risk-green{border:2px solid #299653!important;background:#e9f8ee!important;color:#164c2c!important}' +
-      '#mz-cyclone-live-alert.mz-risk-blue{border:2px solid #247bb9!important;background:#edf6ff!important;color:#184c75!important}';
+      '#mz-cyclone-live-alert.mz-risk-blue{border:2px solid #247bb9!important;background:#edf6ff!important;color:#184c75!important}' +
+      /* MZW_CYCLONE_FINAL_PURPLE_V1 */
+      '#mz-cyclone-live-alert.mz-risk-purple{border:2px solid #8053b8!important;background:#f3ebfb!important;color:#44236f!important}';
     document.head.appendChild(style);
   }
 
@@ -28,7 +30,7 @@
     return el;
   };
   const display = (level, headline, description, stamp) => {
-    for (const levelName of ['green', 'blue', 'yellow', 'orange', 'red', 'grey']) {
+    for (const levelName of ['green', 'blue', 'yellow', 'orange', 'red', 'grey', 'purple']) {
       card.classList.remove('mz-risk-' + levelName);
     }
     card.classList.add('mz-risk-' + level);
@@ -93,7 +95,7 @@
       w => w && w.active_warning === false && w.advisory_status === 'final' &&
            validTime(w.issued_utc, 48)) : [];
     if (s === 'review_required' && finals.length) {
-      return ['grey', '⚪ Último aviso JTWC encerrado',
+      return ['purple', '🟣 Último aviso JTWC encerrado',
         (finals[0].system_name || 'Sistema') + ': este aviso não está ativo. Situação atual não confirmada.'];
     }
     if (s === 'off_season') {

@@ -37,7 +37,7 @@
         'Informação de boletim recente; não exclui sistemas fora da área ou sem aviso.'];
     if (data.status === 'review_required' && (data.jtwc_final_warnings || []).some(
       w => w.active_warning === false && valid(w.issued_utc, 48)))
-      return ['grey', '⚪ Aviso JTWC encerrado', 'O aviso final é histórico e não confirma a situação atual.'];
+      return ['purple', '🟣 Aviso JTWC encerrado', 'O aviso final é histórico e não confirma a situação atual.'];
     return ['grey', '⚪ Informação operacional indisponível ou desatualizada',
       'Consulte os boletins meteorológicos originais.'];
   };
@@ -74,7 +74,7 @@
     oldPanel.before(panel);
     oldPanel.hidden = true;
     oldPanel.style.display = 'none';
-    const colors = { green:'#269651', blue:'#2576bd', yellow:'#e3b323', orange:'#ed841c', red:'#d63e3e', grey:'#8798a8' };
+    const colors = { green:'#269651', blue:'#2576bd', yellow:'#e3b323', orange:'#ed841c', red:'#d63e3e', grey:'#8798a8', purple:'#8053b8' /* MZW_CYCLONE_FINAL_PURPLE_V1 */ };
     fetch(statusUrl.href + '?v=' + Date.now(), { cache: 'no-store' })
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(data => {
