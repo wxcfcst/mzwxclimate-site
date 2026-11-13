@@ -79,3 +79,18 @@
     }
 }
 
+/* MZW_CYCLONE_MAP_V1: mapa informativo de posições */
+.mz-cyclone-map-section{margin:22px 0;padding:18px;border:1px solid #c7d8e8;border-radius:12px;background:#f8fbfe}
+.mz-cyclone-map-section[hidden]{display:none!important}
+#mz-cyclone-position-map{height:370px;width:100%;border-radius:9px;background:#e4edf2}
+.mz-cyclone-map-note{font-size:.94rem;color:#344b61}
+.mz-cyclone-map-summary{font-size:.9rem;color:#24435c}
+.mz-cyclone-map-summary p{margin:.55em 0}
+.mz-cyclone-map-icon{background:transparent;border:0}
+.mz-cyclone-map-dot{display:block;width:22px;height:22px;border-radius:50%;border:3px solid white;box-shadow:0 0 0 2px rgba(0,0,0,.35),0 2px 7px #3338;background:#e2b523}
+.mz-map-blue{background:#247bb9}.mz-map-yellow{background:#e2b523}.mz-map-orange{background:#ed841c}
+.mz-map-red{background:#d63e3e}.mz-map-purple{background:#8053b8}
+@keyframes mz-cyclone-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.72)}}
+.mz-map-flash{animation:mz-cyclone-pulse 1.5s ease-in-out infinite;transform-origin:center}
+@media(prefers-reduced-motion:reduce){.mz-map-flash{animation:none}}
+@media(max-width:600px){#mz-cyclone-position-map{height:290px}.mz-cyclone-map-section{padding:10px}}
