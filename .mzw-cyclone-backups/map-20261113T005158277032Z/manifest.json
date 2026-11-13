@@ -1,0 +1,9 @@
+{
+  "site": "/home/alberto/mzwxclimate-site",
+  "files": [
+    "cyclones/alertas.html",
+    "assets/css/cyclones.css",
+    "assets/js/mzw-cyclone-map.js"
+  ],
+  "js_preexisting": false
+}

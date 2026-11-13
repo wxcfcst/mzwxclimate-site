@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-13T00:06:21+00:00",
+  "checked_at_utc": "2026-11-13T08:21:29+00:00",
   "season_monitoring": true,
   "authority": "Mauritius Meteorological Services / OMM (METAREA VIII(S))",
   "source_url": "https://meteofrance.re/fr/cyclone",
@@ -9,8 +9,8 @@
   "message": "Sem avisos marítimos ativos no boletim recente da METAREA VIII(S). Isto não confirma ausência de todos os sistemas tropicais na bacia.",
   "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": "2026-11-12",
-  "bulletin_issued_utc": "2026-11-12T12:45:00+00:00",
+  "bulletin_date": "2026-11-13",
+  "bulletin_issued_utc": "2026-11-13T01:00:00+00:00",
   "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
   "evidence_scope": "metarea_8s_maritime_warnings"
 }
