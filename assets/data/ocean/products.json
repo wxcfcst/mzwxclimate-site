@@ -1,13 +1,14 @@
 {
   "schema": 1,
-  "generated_at_utc": "2026-11-15T10:32:28+00:00",
+  "generated_at_utc": "2026-11-15T11:44:57+00:00",
   "products": [
     {
       "id": "sst_global",
       "variable": "sst",
       "region": "global",
-      "image": "../assets/images/ocean/coraltemp_sst_20261113_global.png",
+      "image": "../assets/images/ocean/coraltemp_sst_2026111312_global.png",
       "date_utc": "2026-11-13",
+      "cycle_utc": "12:00",
       "description": "Temperatura da superfície do mar. Produto de observação/estimativa; consulte a data da imagem.",
       "source": "CoralTemp SST (conforme nome do ficheiro)"
     },
@@ -15,8 +16,9 @@
       "id": "sst_regional",
       "variable": "sst",
       "region": "regional",
-      "image": "../assets/images/ocean/coraltemp_sst_20261113_southern_africa.png",
+      "image": "../assets/images/ocean/coraltemp_sst_2026111312_southern_africa.png",
       "date_utc": "2026-11-13",
+      "cycle_utc": "12:00",
       "description": "Temperatura da superfície do mar. Produto de observação/estimativa; consulte a data da imagem.",
       "source": "CoralTemp SST (conforme nome do ficheiro)"
     },
