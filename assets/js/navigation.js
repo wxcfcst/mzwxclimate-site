@@ -21,8 +21,8 @@ if (posicaoGuia >= 0) {
 }
 
 // MZW_OCEAN_NAV_V1 — link comum a todas as páginas do site.
-// Posicionar Oceanografia após Observações no menu superior.
-const oceanMenuIndex = items.findIndex(item => item[0] === 'Observações');
+// Posicionar Oceanografia após Clima no menu superior.
+const oceanMenuIndex = items.findIndex(item => item[0] === 'Clima');
 items.splice(oceanMenuIndex >= 0 ? oceanMenuIndex + 1 : items.length,
   0, ['Oceanografia', 'ocean/index.html']);
 
