@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Produtos de oceanografia: temperatura da superfície do mar e estado do mar em escala global e na África Austral.">
+  <title>Oceanografia — MZ WX &amp; Climate</title>
+  <link rel="stylesheet" href="../assets/css/navigation.css">
+  <link rel="stylesheet" href="../assets/css/ocean.css">
+</head>
+<body class="mz-ocean">
+  <main class="ocean-container">
+    <header class="ocean-hero">
+      <p class="ocean-eyebrow">MZ WX &amp; Climate · Produtos oceânicos</p>
+      <h1>🌊 Oceanografia</h1>
+      <p>Temperatura da superfície do mar, altura significativa das ondas e direção da ondulação em escala global e na África Austral, com destaque para Moçambique.</p>
+      <div class="ocean-actions"><a href="../index.html">← Página inicial</a><a href="#produtos">Ver produtos ↓</a></div>
+    </header>
+    <div id="ocean-status" class="ocean-status" role="status" aria-live="polite">A carregar produtos...</div>
+    <section id="produtos" aria-labelledby="ocean-products-title">
+      <h2 id="ocean-products-title">Produtos disponíveis</h2>
+      <p class="ocean-help">Selecione a variável e o domínio geográfico. A data corresponde ao produto disponível, não necessariamente à hora de publicação.</p>
+      <div class="ocean-filters" aria-label="Filtros dos produtos">
+        <label>Variável
+          <select id="ocean-variable">
+            <option value="sst">Temperatura da superfície do mar (TSM)</option>
+            <option value="waves">Altura significativa das ondas (Hs)</option>
+            <option value="direction">Direção da ondulação</option>
+          </select>
+        </label>
+        <label>Domínio
+          <select id="ocean-region">
+            <option value="global">Global</option>
+            <option value="regional">África Austral / Moçambique</option>
+          </select>
+        </label>
+      </div>
+      <article class="ocean-product" aria-labelledby="ocean-card-title">
+        <div class="ocean-card-head"><h3 id="ocean-card-title">Produto</h3><span id="ocean-date"></span></div>
+        <div id="ocean-figure" class="ocean-figure"></div>
+        <p id="ocean-description" class="ocean-description"></p>
+        <p id="ocean-source" class="ocean-source"></p>
+      </article>
+      <p class="ocean-footnote"><strong>Nota técnica:</strong> produtos com nome <code>hs_wind</code> mostram Hs e informação de vento. A direção do vento <strong>não</strong> deve ser interpretada como direção de propagação das ondas. Este último campo só será apresentado quando existir uma figura específica de direção da ondulação.</p>
+    </section>
+  </main>
+  <footer class="ocean-footer">
+    <p>© 2026 MZ WX &amp; Climate · <a href="../index.html">Início</a> · <a href="../satellite/index.html">Satélite</a></p>
+    <p>⚠️ Produtos informativos, não constituem avisos meteorológicos ou marítimos oficiais. Para navegação e segurança, consulte as autoridades competentes.</p>
+  </footer>
+  <script src="../assets/js/navigation.js" defer></script>
+  <script src="../assets/js/ocean.js" defer></script>
+</body>
+</html>
