@@ -20,6 +20,12 @@ if (posicaoGuia >= 0) {
   items.splice(posicaoInicio >= 0 ? posicaoInicio + 1 : 0, 0, guia);
 }
 
+// MZW_OCEAN_NAV_V1 — link comum a todas as páginas do site.
+// Posicionar Oceanografia após Observações no menu superior.
+const oceanMenuIndex = items.findIndex(item => item[0] === 'Observações');
+items.splice(oceanMenuIndex >= 0 ? oceanMenuIndex + 1 : items.length,
+  0, ['Oceanografia', 'ocean/index.html']);
+
 function render(rows){const ul=document.createElement('ul');for(const [label,target,children] of rows){const li=document.createElement('li');if(Array.isArray(target)||children){const d=document.createElement('details'),s=document.createElement('summary');s.textContent=label;d.append(s);let entries=children||target;if(children) entries=children;d.append(render(entries));li.append(d);}else if(target){const a=document.createElement('a');a.textContent=label;a.href=new URL(target,base);li.append(a);}else{const s=document.createElement('span');s.className='mz-disabled';s.setAttribute('aria-disabled','true');s.textContent=label;li.append(s);}ul.append(li);}return ul;}
 function mount(){document.querySelectorAll('header.site-header,header.mz-header,#mz-main-header').forEach(e=>e.remove());const header=document.createElement('header');header.className='mz-header';const brand=document.createElement('a');brand.className='mz-brand';brand.href=new URL('index.html',base);brand.textContent='MZ WX & Climate';
 const animacao=document.createElement('img');
