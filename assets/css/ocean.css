@@ -23,3 +23,33 @@ body.mz-ocean{margin:0;min-height:100vh;background:linear-gradient(145deg,#e8f5f
 .ocean-footer{padding:25px 16px;text-align:center;background:#073b56;color:#e3f4fa;font-size:.9rem}
 .ocean-footer a{color:#fff}.ocean-footer p{max-width:1000px;margin:8px auto}
 @media(max-width:540px){.ocean-container{width:min(100% - 20px,1120px);padding-top:12px}.ocean-figure{padding:5px;min-height:200px}.ocean-filters label{width:100%}}
+
+/* MZW_OCEAN_COMPACT_V1 — apresentação inicial sem mapa e menor altura */
+.ocean-product[hidden] { display: none !important; }
+.ocean-container { padding-top: 12px; padding-bottom: 18px; }
+.ocean-hero { padding: 16px 22px; border-radius: 12px; }
+.ocean-eyebrow { font-size: .7rem; }
+.ocean-hero h1 { font-size: clamp(1.65rem, 3vw, 2.3rem); margin: 3px 0 5px; }
+.ocean-hero p { margin: 5px 0; line-height: 1.35; }
+.ocean-actions { margin-top: 9px; gap: 8px; }
+.ocean-actions a { padding: 5px 10px; }
+.ocean-status { margin: 10px 0 8px; padding: 7px 12px; }
+#produtos h2 { margin: 8px 0 2px; font-size: 1.3rem; }
+.ocean-help { margin: 3px 0 6px; }
+.ocean-filters { margin: 7px 0 10px; gap: 12px; }
+.ocean-filters label { gap: 3px; }
+.ocean-filters select { padding: 7px 10px; }
+.ocean-card-head { padding: 10px 14px; }
+.ocean-figure { min-height: 0; padding: 8px; }
+.ocean-description, .ocean-source { padding: 0 14px; }
+.ocean-description { margin-top: 10px; }
+.ocean-source { margin-bottom: 10px; }
+.ocean-footnote { margin: 10px 0 0; padding: 9px 12px; line-height: 1.35; }
+.ocean-footer { padding: 12px; }
+.ocean-footer p { margin: 3px auto; }
+@media (max-width: 540px) {
+  .ocean-container { padding-top: 8px; padding-bottom: 12px; }
+  .ocean-hero { padding: 14px; }
+  .ocean-filters { gap: 8px; }
+  .ocean-figure { min-height: 0; }
+}

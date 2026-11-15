@@ -10,6 +10,13 @@
   const regions = {global: 'Global', regional: 'África Austral / Moçambique'};
   let products = [];
   function render() {
+    const card = document.querySelector('.ocean-product');
+    // Nenhum mapa é mostrado antes de o visitante escolher ambas as opções.
+    if (!variable.value || !region.value) {
+      card.hidden = true;
+      return;
+    }
+    card.hidden = false;
     const key = `${variable.value}_${region.value}`;
     const item = products.find(p => p.id === key);
     $('ocean-card-title').textContent = `${names[variable.value]} — ${regions[region.value]}`;

@@ -19,10 +19,11 @@
     <div id="ocean-status" class="ocean-status" role="status" aria-live="polite">A carregar produtos...</div>
     <section id="produtos" aria-labelledby="ocean-products-title">
       <h2 id="ocean-products-title">Produtos disponíveis</h2>
-      <p class="ocean-help">Selecione a variável e o domínio geográfico. A data corresponde ao produto disponível, não necessariamente à hora de publicação.</p>
+      <p class="ocean-help">Escolha o produto e a região para visualizar o mapa. A data apresentada corresponde ao produto disponível.</p>
       <div class="ocean-filters" aria-label="Filtros dos produtos">
         <label>Variável
           <select id="ocean-variable">
+            <option value="" selected disabled>Selecione o produto…</option>
             <option value="sst">Temperatura da superfície do mar (TSM)</option>
             <option value="waves">Altura significativa das ondas (Hs)</option>
             <option value="direction">Direção da ondulação</option>
@@ -30,12 +31,13 @@
         </label>
         <label>Domínio
           <select id="ocean-region">
+            <option value="" selected disabled>Selecione a região…</option>
             <option value="global">Global</option>
             <option value="regional">África Austral / Moçambique</option>
           </select>
         </label>
       </div>
-      <article class="ocean-product" aria-labelledby="ocean-card-title">
+      <article class="ocean-product" aria-labelledby="ocean-card-title" hidden>
         <div class="ocean-card-head"><h3 id="ocean-card-title">Produto</h3><span id="ocean-date"></span></div>
         <div id="ocean-figure" class="ocean-figure"></div>
         <p id="ocean-description" class="ocean-description"></p>
