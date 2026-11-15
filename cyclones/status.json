@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-15T17:57:26+00:00",
+  "checked_at_utc": "2026-11-15T23:01:57+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
@@ -18,19 +18,19 @@
       "authority": "JTWC",
       "confirmed_by_rsmc": false,
       "source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
-      "issued_utc": "2026-11-15T09:00:00+00:00",
-      "system_name": "04P (FOUR)",
+      "issued_utc": "2026-11-15T21:00:00+00:00",
+      "system_name": "04P (XAVIER)",
       "classification": "ciclone tropical (classificação JTWC)",
-      "warning_number": "001",
+      "warning_number": "002",
       "position": {
-        "latitude": -8.4,
-        "longitude": -158.9
+        "latitude": -8.1,
+        "longitude": -160.1
       },
       "message": "Aviso operacional recente do JTWC, sem confirmação do RSMC La Réunion; não constitui aviso oficial para Moçambique.",
-      "wind_kt": 35,
+      "wind_kt": 40,
       "movement": {
-        "direction_degrees": 275,
-        "speed_kt": 9
+        "direction_degrees": 270,
+        "speed_kt": 7
       }
     }
   ]
