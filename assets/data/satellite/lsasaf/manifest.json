@@ -1,6 +1,6 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-11-17T06:35:39.870031-03:00",
+  "generated": "2026-11-17T13:30:37.917041-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
   "total": 13,
   "products": [
@@ -9,36 +9,36 @@
       "id": "FRP",
       "name": "Potência Radiativa do Fogo",
       "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-11-17T08:45:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-17_08:45.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-17_08:45.png"
+      "datetime": "2026-11-17T15:45:00",
+      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-17_15:45.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-17_15:45.png"
     },
     {
       "product": "MDSSFTD",
       "id": "MDIDSSF",
       "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
       "description": "Fluxo diário descendente de radiação de onda curta na superfície.",
-      "datetime": "2026-11-17T08:45:00",
-      "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611170845.nc_2026-11-17_08:45.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611170845.nc_2026-11-17_08:45.png"
+      "datetime": "2026-11-17T15:45:00",
+      "filename": "NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611171545.nc_2026-11-17_15:45.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611171545.nc_2026-11-17_15:45.png"
     },
     {
       "product": "ET",
       "id": "ET",
       "name": "Evapotranspiração",
       "description": "Evapotranspiração derivada de observações de satélite.",
-      "datetime": "2026-11-17T07:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611170730.nc_2026-11-17_07:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611170730.nc_2026-11-17_07:30.png"
+      "datetime": "2026-11-17T14:30:00",
+      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611171430.nc_2026-11-17_14:30.png",
+      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611171430.nc_2026-11-17_14:30.png"
     },
     {
       "product": "MIMIC_TPW",
       "id": "MIMIC_TPW",
       "name": "Água Total Precipitável - TPW",
       "description": "Água Total Precipitável (TPW) derivada de observações de micro-ondas por satélite.",
-      "datetime": "2026-11-17T07:00:00",
-      "filename": "mimic_tpw_2026-11-17_07:00.png",
-      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-11-17_07:00.png"
+      "datetime": "2026-11-17T14:00:00",
+      "filename": "mimic_tpw_2026-11-17_14:00.png",
+      "image": "assets/images/satellite/lsasaf/mimic_tpw_2026-11-17_14:00.png"
     },
     {
       "product": "EDLST-DAY",

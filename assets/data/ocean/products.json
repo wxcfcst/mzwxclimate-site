@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generated_at_utc": "2026-11-17T09:25:36+00:00",
+  "generated_at_utc": "2026-11-17T16:24:26+00:00",
   "products": [
     {
       "id": "sst_global",
       "variable": "sst",
       "region": "global",
-      "image": "../assets/images/ocean/coraltemp_sst_2026111512_global.png",
-      "date_utc": "2026-11-15",
+      "image": "../assets/images/ocean/coraltemp_sst_2026111612_global.png",
+      "date_utc": "2026-11-16",
       "cycle_utc": "12:00",
       "description": "Temperatura da superfície do mar. Produto de observação/estimativa; consulte a data da imagem.",
       "source": "CoralTemp SST (conforme nome do ficheiro)"
@@ -16,8 +16,8 @@
       "id": "sst_regional",
       "variable": "sst",
       "region": "regional",
-      "image": "../assets/images/ocean/coraltemp_sst_2026111512_southern_africa.png",
-      "date_utc": "2026-11-15",
+      "image": "../assets/images/ocean/coraltemp_sst_2026111612_southern_africa.png",
+      "date_utc": "2026-11-16",
       "cycle_utc": "12:00",
       "description": "Temperatura da superfície do mar. Produto de observação/estimativa; consulte a data da imagem.",
       "source": "CoralTemp SST (conforme nome do ficheiro)"
@@ -26,9 +26,9 @@
       "id": "waves_global",
       "variable": "waves",
       "region": "global",
-      "image": "../assets/images/ocean/WW_2026111700_hs_wind_global.png",
+      "image": "../assets/images/ocean/WW_2026111712_hs_wind_global.png",
       "date_utc": "2026-11-17",
-      "cycle_utc": "00:00",
+      "cycle_utc": "12:00",
       "description": "Altura significativa das ondas (Hs) com campo de vento sobreposto. Vetores de vento não equivalem à direção das ondas.",
       "source": "WW / produto gerado pelo pipeline ocean"
     },
@@ -36,9 +36,9 @@
       "id": "waves_regional",
       "variable": "waves",
       "region": "regional",
-      "image": "../assets/images/ocean/WW_2026111700_hs_wind_mozambique.png",
+      "image": "../assets/images/ocean/WW_2026111712_hs_wind_mozambique.png",
       "date_utc": "2026-11-17",
-      "cycle_utc": "00:00",
+      "cycle_utc": "12:00",
       "description": "Altura significativa das ondas (Hs) com campo de vento sobreposto. Vetores de vento não equivalem à direção das ondas.",
       "source": "WW / produto gerado pelo pipeline ocean"
     }
