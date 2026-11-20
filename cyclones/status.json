@@ -1,15 +1,37 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-20T08:41:44+00:00",
+  "checked_at_utc": "2026-11-20T11:12:16+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
-  "bulletin_source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
-  "status": "unavailable",
-  "message": "Não foi possível confirmar um boletim operacional atualizado.",
+  "bulletin_source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
+  "status": "review_required",
+  "message": "O JTWC publicou aviso operacional recente de ciclone tropical. A confirmação pelo RSMC La Réunion não foi obtida.",
   "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
   "bulletin_date": null,
   "bulletin_issued_utc": null,
-  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique."
+  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
+  "jtwc_warnings": [
+    {
+      "type": "jtwc_operational_warning",
+      "authority": "JTWC",
+      "confirmed_by_rsmc": false,
+      "source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
+      "issued_utc": "2026-11-20T09:00:00+00:00",
+      "system_name": "04P (XAVIER)",
+      "classification": "ciclone tropical (classificação JTWC)",
+      "warning_number": "012",
+      "position": {
+        "latitude": -11.0,
+        "longitude": -162.8
+      },
+      "message": "Aviso operacional recente do JTWC, sem confirmação do RSMC La Réunion; não constitui aviso oficial para Moçambique.",
+      "wind_kt": 90,
+      "movement": {
+        "direction_degrees": 225,
+        "speed_kt": 3
+      }
+    }
+  ]
 }
