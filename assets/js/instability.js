@@ -1,6 +1,7 @@
 (() => {
   'use strict';
-  const manifestURL = '/assets/data/indices/instability/manifest.json';
+  const siteRoot = new URL('../../', document.currentScript.src);
+  const manifestURL = new URL('assets/data/indices/instability/manifest.json', siteRoot).href;
   const $ = (id) => document.getElementById(id);
   const runSelect = $('inst-run');
   const productSelect = $('inst-product');
@@ -50,7 +51,7 @@
     img.onload = () => {
       placeholder.hidden = true;
       img.hidden = false;
-      download.href = p.image;
+      download.href = new URL(p.image.replace(/^\/+/, ''), siteRoot).href;
       download.download = p.image.split('/').pop();
       download.hidden = false;
       setStatus('Mapa disponível.', 'ok');
@@ -60,7 +61,7 @@
       placeholder.hidden = false;
       setStatus('O mapa consta no catálogo, mas ainda não foi publicado em assets/images.', 'warning');
     };
-    img.src = p.image;
+    img.src = new URL(p.image.replace(/^\/+/, ''), siteRoot).href;
   }
   async function init() {
     setStatus('A carregar catálogo…');
