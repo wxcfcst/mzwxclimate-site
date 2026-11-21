@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "product": "atmospheric_instability",
+  "title": "Índices de Instabilidade Atmosférica",
+  "model": "GFS",
+  "region": "Moçambique",
+  "generated_at_utc": "2026-11-21T22:35:20Z",
+  "note": "As pastas GFS indicam ciclo e antecedência, mas não contêm a data de inicialização. Os horários de validade permanecem desconhecidos até integração com metadados do processamento.",
+  "products": [
+    {
+      "id": "shear06_ms",
+      "name": "0–6 km Wind Shear",
+      "unit": "m/s"
+    },
+    {
+      "id": "brn",
+      "name": "Bulk Richardson Number",
+      "unit": "adimensional"
+    },
+    {
+      "id": "ct",
+      "name": "Cross Totals",
+      "unit": "°C"
+    },
+    {
+      "id": "dcape",
+      "name": "Downdraft CAPE",
+      "unit": "J/kg"
+    },
+    {
+      "id": "el_hpa",
+      "name": "Equilibrium Level",
+      "unit": "hPa"
+    },
+    {
+      "id": "fawbush_miller",
+      "name": "Fawbush–Miller",
+      "unit": null
+    },
+    {
+      "id": "gdi",
+      "name": "Gálvez–Davison Index",
+      "unit": "adimensional"
+    },
+    {
+      "id": "k",
+      "name": "K Index",
+      "unit": "°C"
+    },
+    {
+      "id": "lfc_hpa",
+      "name": "Level of Free Convection",
+      "unit": "hPa"
+    },
+    {
+      "id": "lcl_hpa",
+      "name": "Lifted Condensation Level",
+      "unit": "hPa"
+    },
+    {
+      "id": "li",
+      "name": "Lifted Index",
+      "unit": "°C"
+    },
+    {
+      "id": "mucape",
+      "name": "Most-Unstable CAPE",
+      "unit": "J/kg"
+    },
+    {
+      "id": "mucin",
+      "name": "Most-Unstable CIN",
+      "unit": "J/kg"
+    },
+    {
+      "id": "showalter",
+      "name": "Showalter Index",
+      "unit": "°C"
+    },
+    {
+      "id": "ship",
+      "name": "Significant Hail Parameter",
+      "unit": "adimensional"
+    },
+    {
+      "id": "sbcape",
+      "name": "Surface-Based CAPE",
+      "unit": "J/kg"
+    },
+    {
+      "id": "sbcin",
+      "name": "Surface-Based CIN",
+      "unit": "J/kg"
+    },
+    {
+      "id": "sweat",
+      "name": "SWEAT Index",
+      "unit": "adimensional"
+    },
+    {
+      "id": "tt",
+      "name": "Total Totals Index",
+      "unit": "°C"
+    },
+    {
+      "id": "vt",
+      "name": "Vertical Totals",
+      "unit": "°C"
+    }
+  ],
+  "runs": [
+    {
+      "id": "gfs.t12z.pgrb2.0p50.f000",
+      "model": "GFS",
+      "cycle_utc": "12:00",
+      "lead_hours": 0,
+      "resolution": "0p50",
+      "initialization_utc": null,
+      "valid_time_utc": null,
+      "products": [
+        {
+          "id": "brn",
+          "name": "Bulk Richardson Number",
+          "unit": "adimensional",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/brn_mapa.png"
+        },
+        {
+          "id": "ct",
+          "name": "Cross Totals",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/ct_mapa.png"
+        },
+        {
+          "id": "dcape",
+          "name": "Downdraft CAPE",
+          "unit": "J/kg",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/dcape_mapa.png"
+        },
+        {
+          "id": "el_hpa",
+          "name": "Equilibrium Level",
+          "unit": "hPa",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/el_hpa_mapa.png"
+        },
+        {
+          "id": "fawbush_miller",
+          "name": "Fawbush–Miller",
+          "unit": null,
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/fawbush_miller_mapa.png"
+        },
+        {
+          "id": "gdi",
+          "name": "Gálvez–Davison Index",
+          "unit": "adimensional",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/gdi_mapa.png"
+        },
+        {
+          "id": "k",
+          "name": "K Index",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/k_mapa.png"
+        },
+        {
+          "id": "lcl_hpa",
+          "name": "Lifted Condensation Level",
+          "unit": "hPa",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/lcl_hpa_mapa.png"
+        },
+        {
+          "id": "lfc_hpa",
+          "name": "Level of Free Convection",
+          "unit": "hPa",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/lfc_hpa_mapa.png"
+        },
+        {
+          "id": "li",
+          "name": "Lifted Index",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/li_mapa.png"
+        },
+        {
+          "id": "mucape",
+          "name": "Most-Unstable CAPE",
+          "unit": "J/kg",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/mucape_mapa.png"
+        },
+        {
+          "id": "mucin",
+          "name": "Most-Unstable CIN",
+          "unit": "J/kg",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/mucin_mapa.png"
+        },
+        {
+          "id": "sbcape",
+          "name": "Surface-Based CAPE",
+          "unit": "J/kg",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/sbcape_mapa.png"
+        },
+        {
+          "id": "sbcin",
+          "name": "Surface-Based CIN",
+          "unit": "J/kg",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/sbcin_mapa.png"
+        },
+        {
+          "id": "shear06_ms",
+          "name": "0–6 km Wind Shear",
+          "unit": "m/s",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/shear06_ms_mapa.png"
+        },
+        {
+          "id": "ship",
+          "name": "Significant Hail Parameter",
+          "unit": "adimensional",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/ship_mapa.png"
+        },
+        {
+          "id": "showalter",
+          "name": "Showalter Index",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/showalter_mapa.png"
+        },
+        {
+          "id": "sweat",
+          "name": "SWEAT Index",
+          "unit": "adimensional",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/sweat_mapa.png"
+        },
+        {
+          "id": "tt",
+          "name": "Total Totals Index",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/tt_mapa.png"
+        },
+        {
+          "id": "vt",
+          "name": "Vertical Totals",
+          "unit": "°C",
+          "image": "/assets/images/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/vt_mapa.png"
+        }
+      ]
+    }
+  ]
+}
