@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at_utc": "2026-11-20T20:11:42+00:00",
+  "generated_at_utc": "2026-11-21T10:29:17+00:00",
   "products": [
     {
       "id": "sst_global",
@@ -26,9 +26,9 @@
       "id": "waves_global",
       "variable": "waves",
       "region": "global",
-      "image": "../assets/images/ocean/WW_2026112012_hs_wind_global.png",
-      "date_utc": "2026-11-20",
-      "cycle_utc": "12:00",
+      "image": "../assets/images/ocean/WW_2026112100_hs_wind_global.png",
+      "date_utc": "2026-11-21",
+      "cycle_utc": "00:00",
       "description": "Altura significativa das ondas (Hs) com campo de vento sobreposto. Vetores de vento não equivalem à direção das ondas.",
       "source": "WW / produto gerado pelo pipeline ocean"
     },
@@ -36,9 +36,9 @@
       "id": "waves_regional",
       "variable": "waves",
       "region": "regional",
-      "image": "../assets/images/ocean/WW_2026112012_hs_wind_mozambique.png",
-      "date_utc": "2026-11-20",
-      "cycle_utc": "12:00",
+      "image": "../assets/images/ocean/WW_2026112100_hs_wind_mozambique.png",
+      "date_utc": "2026-11-21",
+      "cycle_utc": "00:00",
       "description": "Altura significativa das ondas (Hs) com campo de vento sobreposto. Vetores de vento não equivalem à direção das ondas.",
       "source": "WW / produto gerado pelo pipeline ocean"
     }

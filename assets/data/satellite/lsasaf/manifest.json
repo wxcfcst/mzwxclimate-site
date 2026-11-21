@@ -1,44 +1,26 @@
 {
   "source": "LSASAF / H-SAF / MIMIC",
-  "generated": "2026-11-20T17:17:08.689260-03:00",
+  "generated": "2026-11-21T07:40:21.875892-03:00",
   "image_directory": "assets/images/satellite/lsasaf/",
-  "total": 11,
+  "total": 9,
   "products": [
-    {
-      "product": "FRP-PIXEL",
-      "id": "FRP",
-      "name": "Potência Radiativa do Fogo",
-      "description": "Potência Radiativa do Fogo (FRP) por pixel.",
-      "datetime": "2026-11-20T19:30:00",
-      "filename": "LSASAF_MSG_FRP-PIXEL_2026-11-20_19:30.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-20_19:30.png"
-    },
-    {
-      "product": "ET",
-      "id": "ET",
-      "name": "Evapotranspiração",
-      "description": "Evapotranspiração derivada de observações de satélite.",
-      "datetime": "2026-11-20T18:30:00",
-      "filename": "NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611201830.nc_2026-11-20_18:30.png",
-      "image": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611201830.nc_2026-11-20_18:30.png"
-    },
     {
       "product": "EDLST-DAY",
       "id": "EDLST_DAY",
       "name": "Temperatura do Solo - Dia",
       "description": "Temperatura da superfície terrestre (LST) durante o dia.",
-      "datetime": "2026-11-19T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-19_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-19_00:00.png"
+      "datetime": "2026-11-17T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-17_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-DAY_GLOBE_2026-11-17_00:00.png"
     },
     {
       "product": "EDLST-NIGHT",
       "id": "EDLST_NIGHT",
       "name": "Temperatura do Solo - Noite",
       "description": "Temperatura da superfície terrestre (LST) durante a noite.",
-      "datetime": "2026-11-19T00:00:00",
-      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-19_00:00.png",
-      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-19_00:00.png"
+      "datetime": "2026-11-17T00:00:00",
+      "filename": "LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-17_00:00.png",
+      "image": "assets/images/satellite/lsasaf/LSASAF_M01-AVHR_EDLST-NIGHT_GLOBE_2026-11-17_00:00.png"
     },
     {
       "product": "DIDSSF",
