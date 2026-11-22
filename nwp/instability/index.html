@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Índices de instabilidade atmosférica GFS sobre Moçambique no MZWXClimate.">
   <title>Índices de Instabilidade | Análises Atmosféricas | MZWXClimate</title>
-  <link rel="stylesheet" href="../../assets/css/instability.css?v=3">
-  <script src="../../assets/js/instability.js?v=2" defer></script>
+  <link rel="stylesheet" href="../../assets/css/instability.css?v=4">
+  <script src="../../assets/js/instability.js?v=3" defer></script>
 </head>
 <body>
   <main class="inst-shell">
@@ -17,24 +17,25 @@
     </nav>
     <header>
       <h1>🌩️ Índices de Instabilidade Atmosférica</h1>
-      <p class="inst-lead">Mapas de diagnóstico atmosférico derivados do modelo GFS, com foco em Moçambique. Selecione o ciclo e o índice para visualizar o produto disponível.</p>
+      <p class="inst-lead">Mapas de diagnóstico atmosférico derivados do modelo GFS, com foco em Moçambique. Escolha uma análise disponível e um índice para consultar o mapa.</p>
     </header>
     <section class="inst-panel" aria-label="Seleção do produto">
       <div class="inst-controls">
-        <div class="inst-field"><label for="inst-run">Ciclo GFS e prazo</label><select id="inst-run" disabled><option>A carregar…</option></select></div>
-        <div class="inst-field"><label for="inst-product">Índice de instabilidade</label><select id="inst-product" disabled><option>A carregar…</option></select></div>
+        <div class="inst-field"><label for="inst-run">Data e horário da análise</label><select id="inst-run" disabled><option>A carregar análises…</option></select></div>
+        <div class="inst-field"><label for="inst-product">Índice de instabilidade</label><select id="inst-product" disabled><option>Escolha primeiro uma análise</option></select></div>
       </div>
+      <button type="button" class="inst-button" id="inst-show" disabled>Visualizar análise</button>
       <p class="inst-meta" id="inst-details"></p>
     </section>
     <section class="inst-panel" aria-label="Mapa meteorológico">
       <div class="inst-viewer">
-        <div id="inst-placeholder" role="status">O mapa aparecerá aqui após carregar o catálogo.</div>
+        <div id="inst-placeholder" role="status">🌩️ Escolha a análise e o índice nos campos acima e clique em «Visualizar análise».</div>
         <img id="inst-map" hidden alt="">
       </div>
       <p id="inst-status" role="status" aria-live="polite"></p>
       <a id="inst-download" class="inst-button" href="#" hidden>Descarregar PNG</a>
     </section>
-    <p class="inst-help">Os índices fornecem informação de diagnóstico e não constituem, isoladamente, um aviso meteorológico. A data de inicialização e a validade são apresentadas apenas quando disponíveis nos metadados.</p>
+    <p class="inst-help">Os índices fornecem informação de diagnóstico e não constituem, isoladamente, um aviso meteorológico. A data e o horário são apresentados apenas quando constam dos metadados da análise.</p>
     <p class="inst-help" id="inst-generated"></p>
   </main>
 </body>
