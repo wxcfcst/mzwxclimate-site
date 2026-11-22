@@ -44,9 +44,9 @@
         "id": "ET",
         "name": "Evapotranspiração",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611212330.nc_2026-11-21_23:30.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611220030.nc_2026-11-22_00:30.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611212330.nc_2026-11-21_23:30.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611220030.nc_2026-11-22_00:30.png"
         ]
     },
     {
@@ -71,9 +71,9 @@
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_01:45.png",
         "images": [
-            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_00:00.png"
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_01:45.png"
         ]
     },
     {
@@ -116,19 +116,17 @@
         "id": "MDIDSSF",
         "name": "Fluxo Diário Descendente de Radiação de Onda Curta na Superfície",
         "available": true,
-        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611220000.nc_2026-11-22_00:00.png",
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611220145.nc_2026-11-22_01:45.png",
         "images": [
-            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611220000.nc_2026-11-22_00:00.png"
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_MDSSFTD_MSG-Disk_202611220145.nc_2026-11-22_01:45.png"
         ]
     },
     {
         "id": "MIMIC_TPW",
         "name": "Água Total Precipitável - TPW",
-        "available": true,
-        "latest": "assets/images/satellite/lsasaf/mimic_tpw_2026-11-21_22:00.png",
-        "images": [
-            "assets/images/satellite/lsasaf/mimic_tpw_2026-11-21_22:00.png"
-        ]
+        "available": false,
+        "latest": null,
+        "images": []
     },
     {
         "id": "NDVI",
