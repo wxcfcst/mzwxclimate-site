@@ -1,6 +1,7 @@
 (() => {
   'use strict';
-  const manifestURL = '/assets/data/indices/instability/manifest.json';
+  const siteRoot = new URL('../../', document.currentScript.src);
+  const manifestURL = new URL('assets/data/indices/instability/manifest.json', siteRoot).href;
   const $ = id => document.getElementById(id);
   const runSelect = $('inst-run');
   const productSelect = $('inst-product');
@@ -35,6 +36,12 @@
   function runLabel(run) {
     const time = dateLabel(run.valid_time_utc || run.initialization_utc);
     return time || `Análise GFS — ${run.cycle_utc || 'horário desconhecido'} UTC (data indisponível)`;
+  }
+  function assetURL(path) {
+    if (typeof path !== 'string' || !path.startsWith('/assets/images/nwp/indices/')) {
+      throw new Error('Caminho de imagem inválido no catálogo');
+    }
+    return new URL(path.replace(/^\/+/, ''), siteRoot).href;
   }
   function resetMap(message = initialHint) {
     img.hidden = true;
@@ -77,7 +84,7 @@
     img.onload = () => {
       placeholder.hidden = true;
       img.hidden = false;
-      download.href = product.image;
+      download.href = assetURL(product.image);
       download.download = product.image.split('/').pop();
       download.hidden = false;
       setStatus('Análise disponível.', 'ok');
@@ -86,7 +93,7 @@
       resetMap('Não foi possível carregar o mapa selecionado.');
       setStatus('O mapa consta no catálogo, mas a imagem não está disponível.', 'warning');
     };
-    img.src = product.image;
+    img.src = assetURL(product.image);
   }
   async function init() {
     resetMap();
