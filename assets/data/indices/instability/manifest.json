@@ -4,8 +4,8 @@
   "title": "Índices de Instabilidade Atmosférica",
   "model": "GFS",
   "region": "Moçambique",
-  "generated_at_utc": "2026-11-21T22:35:20Z",
-  "note": "As pastas GFS indicam ciclo e antecedência, mas não contêm a data de inicialização. Os horários de validade permanecem desconhecidos até integração com metadados do processamento.",
+  "generated_at_utc": "2026-11-22T00:10:45Z",
+  "note": "Datas obtidas dos nomes dos novos PNGs. Mapas antigos podem não conter informação temporal.",
   "products": [
     {
       "id": "shear06_ms",
