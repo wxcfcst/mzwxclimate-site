@@ -43,9 +43,11 @@
     {
         "id": "ET",
         "name": "Evapotranspiração",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611221830.nc_2026-11-22_18:30.png",
+        "images": [
+            "assets/images/satellite/lsasaf/NETCDF4_LSASAF_MSG_ETv3_MSG-Disk_202611221830.nc_2026-11-22_18:30.png"
+        ]
     },
     {
         "id": "ETAL",
@@ -68,9 +70,11 @@
     {
         "id": "FRP",
         "name": "Potência Radiativa do Fogo",
-        "available": false,
-        "latest": null,
-        "images": []
+        "available": true,
+        "latest": "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_19:15.png",
+        "images": [
+            "assets/images/satellite/lsasaf/LSASAF_MSG_FRP-PIXEL_2026-11-22_19:15.png"
+        ]
     },
     {
         "id": "FVC",
