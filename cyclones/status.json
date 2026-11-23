@@ -1,36 +1,32 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-22T23:33:10+00:00",
+  "checked_at_utc": "2026-11-23T07:28:35+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
   "bulletin_source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
   "status": "review_required",
-  "message": "O JTWC publicou aviso operacional recente de ciclone tropical. A confirmação pelo RSMC La Réunion não foi obtida.",
+  "message": "Último aviso do JTWC para 04P (XAVIER) emitido em 2026-11-23T03:00:00+00:00. Avisos encerrados; sem confirmação operacional atual pelo RSMC.",
   "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": null,
-  "bulletin_issued_utc": null,
+  "bulletin_date": "2026-11-23",
+  "bulletin_issued_utc": "2026-11-23T03:00:00+00:00",
   "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
-  "jtwc_warnings": [
+  "jtwc_final_warnings": [
     {
-      "type": "jtwc_operational_warning",
+      "type": "jtwc_final_warning",
       "authority": "JTWC",
       "confirmed_by_rsmc": false,
-      "source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
-      "issued_utc": "2026-11-22T21:00:00+00:00",
       "system_name": "04P (XAVIER)",
-      "classification": "ciclone tropical (classificação JTWC)",
-      "warning_number": "022",
+      "warning_number": "023",
+      "issued_utc": "2026-11-23T03:00:00+00:00",
+      "source_url": "https://www.metoc.navy.mil/jtwc/products/sh0427web.txt",
+      "advisory_status": "final",
+      "active_warning": false,
+      "message": "Último aviso do JTWC para este sistema; não representa alerta ativo atual.",
       "position": {
         "latitude": -11.8,
-        "longitude": -168.4
-      },
-      "message": "Aviso operacional recente do JTWC, sem confirmação do RSMC La Réunion; não constitui aviso oficial para Moçambique.",
-      "wind_kt": 35,
-      "movement": {
-        "direction_degrees": 245,
-        "speed_kt": 4
+        "longitude": -168.8
       }
     }
   ]
