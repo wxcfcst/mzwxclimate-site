@@ -1,48 +1,15 @@
 {
   "schema": 1,
-  "checked_at_utc": "2026-11-23T19:23:28+00:00",
+  "checked_at_utc": "2026-11-24T16:38:25+00:00",
   "season_monitoring": true,
   "authority": "RSMC La Réunion / Météo-France",
   "source_url": "https://meteofrance.re/fr/cyclone",
   "bulletin_source_url": "https://wwmiws.wmo.int/index.php/metareas/bulletinset/8S/html",
-  "status": "active_confirmed",
-  "message": "Sistema em monitorização: Perturbação tropical 3. Consulte o boletim do RSMC La Réunion.",
-  "active_systems": 2,
+  "status": "unavailable",
+  "message": "Não foi possível confirmar um boletim operacional atualizado.",
+  "active_systems": null,
   "cyclogenesis_risk_next_5_days": "unknown",
-  "bulletin_date": "2026-11-23",
-  "bulletin_issued_utc": "2026-11-23T18:00:00+00:00",
-  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique.",
-  "system_name": "Perturbação tropical 3",
-  "systems": [
-    {
-      "system_name": "Perturbação tropical 3",
-      "classification": "perturbação tropical",
-      "warning_number": "002/3",
-      "bulletin_issued_utc": "2026-11-23T18:00:00+00:00",
-      "position": {
-        "latitude": -8.7,
-        "longitude": 77.5
-      },
-      "pressure_hpa": 1005,
-      "movement": {
-        "direction": "sul-sudoeste",
-        "speed_kt": 7
-      }
-    },
-    {
-      "system_name": "Perturbação tropical 3",
-      "classification": "perturbação tropical",
-      "warning_number": "001/3",
-      "bulletin_issued_utc": "2026-11-23T12:00:00+00:00",
-      "position": {
-        "latitude": -8.6,
-        "longitude": 77.8
-      },
-      "pressure_hpa": 1005,
-      "movement": {
-        "direction": "sul",
-        "speed_kt": 7
-      }
-    }
-  ]
+  "bulletin_date": null,
+  "bulletin_issued_utc": null,
+  "note": "Monitorização informativa; não constitui aviso oficial para Moçambique."
 }

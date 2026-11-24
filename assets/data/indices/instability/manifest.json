@@ -4,7 +4,7 @@
   "title": "Índices de Instabilidade Atmosférica",
   "model": "GFS",
   "region": "Moçambique",
-  "generated_at_utc": "2026-11-23T19:14:23Z",
+  "generated_at_utc": "2026-11-24T16:24:25Z",
   "note": "Datas obtidas dos nomes dos novos PNGs. Mapas antigos podem não conter informação temporal.",
   "products": [
     {
@@ -115,128 +115,128 @@
       "cycle_utc": "12:00",
       "lead_hours": 0,
       "resolution": "0p50",
-      "initialization_utc": "2026-11-23T12:00:00Z",
-      "valid_time_utc": "2026-11-23T12:00:00Z",
+      "initialization_utc": "2026-11-24T12:00:00Z",
+      "valid_time_utc": "2026-11-24T12:00:00Z",
       "products": [
         {
           "id": "brn",
           "name": "Bulk Richardson Number",
           "unit": "adimensional",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_BRN_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_BRN_20261124_12UTC_F000.png"
         },
         {
           "id": "ct",
           "name": "Cross Totals",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_CT_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_CT_20261124_12UTC_F000.png"
         },
         {
           "id": "dcape",
           "name": "Downdraft CAPE",
           "unit": "J/kg",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_DCAPE_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_DCAPE_20261124_12UTC_F000.png"
         },
         {
           "id": "el_hpa",
           "name": "Equilibrium Level",
           "unit": "hPa",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_EL_HPA_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_EL_HPA_20261124_12UTC_F000.png"
         },
         {
           "id": "fawbush_miller",
           "name": "Fawbush–Miller",
           "unit": null,
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_FAWBUSH_MILLER_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_FAWBUSH_MILLER_20261124_12UTC_F000.png"
         },
         {
           "id": "gdi",
           "name": "Gálvez–Davison Index",
           "unit": "adimensional",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_GDI_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_GDI_20261124_12UTC_F000.png"
         },
         {
           "id": "k",
           "name": "K Index",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_K_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_K_20261124_12UTC_F000.png"
         },
         {
           "id": "lcl_hpa",
           "name": "Lifted Condensation Level",
           "unit": "hPa",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LCL_HPA_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LCL_HPA_20261124_12UTC_F000.png"
         },
         {
           "id": "lfc_hpa",
           "name": "Level of Free Convection",
           "unit": "hPa",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LFC_HPA_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LFC_HPA_20261124_12UTC_F000.png"
         },
         {
           "id": "li",
           "name": "Lifted Index",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LI_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_LI_20261124_12UTC_F000.png"
         },
         {
           "id": "mucape",
           "name": "Most-Unstable CAPE",
           "unit": "J/kg",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_MUCAPE_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_MUCAPE_20261124_12UTC_F000.png"
         },
         {
           "id": "mucin",
           "name": "Most-Unstable CIN",
           "unit": "J/kg",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_MUCIN_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_MUCIN_20261124_12UTC_F000.png"
         },
         {
           "id": "sbcape",
           "name": "Surface-Based CAPE",
           "unit": "J/kg",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SBCAPE_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SBCAPE_20261124_12UTC_F000.png"
         },
         {
           "id": "sbcin",
           "name": "Surface-Based CIN",
           "unit": "J/kg",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SBCIN_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SBCIN_20261124_12UTC_F000.png"
         },
         {
           "id": "shear06_ms",
           "name": "0–6 km Wind Shear",
           "unit": "m/s",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHEAR06_MS_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHEAR06_MS_20261124_12UTC_F000.png"
         },
         {
           "id": "ship",
           "name": "Significant Hail Parameter",
           "unit": "adimensional",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHIP_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHIP_20261124_12UTC_F000.png"
         },
         {
           "id": "showalter",
           "name": "Showalter Index",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHOWALTER_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SHOWALTER_20261124_12UTC_F000.png"
         },
         {
           "id": "sweat",
           "name": "SWEAT Index",
           "unit": "adimensional",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SWEAT_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_SWEAT_20261124_12UTC_F000.png"
         },
         {
           "id": "tt",
           "name": "Total Totals Index",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_TT_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_TT_20261124_12UTC_F000.png"
         },
         {
           "id": "vt",
           "name": "Vertical Totals",
           "unit": "°C",
-          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_VT_20261123_12UTC_F000.png"
+          "image": "/assets/images/nwp/indices/instability/maps/gfs.t12z.pgrb2.0p50.f000/GFS_VT_20261124_12UTC_F000.png"
         }
       ]
     }
